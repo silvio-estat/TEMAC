@@ -1,0 +1,2696 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Assuncao, Marcos D.
+   Calheiros, Rodrigo N.
+   Bianchi, Silvia
+   Netto, Marco A. S.
+   Buyya, Rajkumar
+TI Big Data computing and clouds: Trends and future directions
+SO JOURNAL OF PARALLEL AND DISTRIBUTED COMPUTING
+VL 79-80
+SI SI
+BP 3
+EP 15
+DI 10.1016/j.jpdc.2014.08.003
+DT Article
+PD MAY 2015
+PY 2015
+AB This paper discusses approaches and environments for carrying out
+   analytics on Clouds for Big Data applications. It revolves around four
+   important areas of analytics and Big Data, namely (i) data management
+   and supporting architectures; (ii) model development and scoring; (iii)
+   visualisation and user interaction; and (iv) business models. Through a
+   detailed survey, we identify possible gaps in technology and provide
+   recommendations for the research community on future directions on
+   Cloud-supported Big Data computing and analytics solutions. (C) 2014
+   Elsevier Inc. All rights reserved.
+RI Netto, Marco/GLT-9968-2022; Buyya, Rajkumar/C-3424-2009; Calheiros, Roigo/B-5155-2008; Dias de Assuncao, Marcos/
+OI Calheiros, Roigo/0000-0001-7435-2445; Dias de Assuncao,
+   Marcos/0000-0002-4218-0260
+ZB 9
+TC 436
+ZS 3
+ZR 0
+ZA 1
+Z8 7
+Z9 555
+U1 4
+U2 295
+SN 0743-7315
+EI 1096-0848
+DA 2015-05-01
+UT WOS:000356189400002
+ER
+
+PT C
+AU Wang, Lei
+   Zhan, Jianfeng
+   Luo, Chunjie
+   Zhu, Yuqing
+   Yang, Qiang
+   He, Yongqiang
+   Gao, Wanling
+   Jia, Zhen
+   Shi, Yingje
+   Zhang, Shuji
+   Zheng, Chen
+   Lu, Gang
+   Zhan, Kent
+   Li, Xiaona
+   Qiu, Bizhu
+GP IEEE
+TI BigDataBench: a Big Data Benchmark Suite from Internet Services
+SO 2014 20TH IEEE INTERNATIONAL SYMPOSIUM ON HIGH PERFORMANCE COMPUTER
+   ARCHITECTURE (HPCA-20)
+SE International Symposium on High-Performance Computer
+   Architecture-Proceedings
+BP 488
+EP 499
+DT Proceedings Paper
+PD 2014
+PY 2014
+AB As architecture, systems, and data management communities pay greater
+   attention to innovative big data systems and architecture, the pressure
+   of benchmarking and evaluating these systems rises. However, the
+   complexity, diversity, frequently changed workloads, and rapid evolution
+   of big data systems raise great challenges in big data benchmarking.
+   Considering the broad use of big data systems, for the sake of fairness,
+   big data benchmarks must include diversity of data and workloads, which
+   is the prerequisite for evaluating big data systems and architecture.
+   Most of the state-of-the-art big data benchmarking efforts target
+   evaluating specific types of applications or system software stacks, and
+   hence they are not qualified for serving the purposes mentioned above.
+   This paper presents our joint research efforts on this issue with
+   several industrial partners. Our big data benchmark suite-BigDataBench
+   not only covers broad application scenarios, but also includes diverse
+   and representative data sets. Currently, we choose 19 big data
+   benchmarks from dimensions of application scenarios, operations/
+   algorithms, data types, data sources, software stacks, and application
+   types, and they are comprehensive for fairly measuring and evaluating
+   big data systems and architecture. Big-DataBench is publicly available
+   from the project home page http://prof.ict.ac.cn/BigDataBench.
+   Also, we comprehensively characterize 19 big data workloads included in
+   BigDataBench with varying data inputs. On a typical state-of-practice
+   processor, Intel Xeon E5645, we have the following observations: First,
+   in comparison with the traditional benchmarks: including PARSEC. HPCC,
+   and SPECCPU, big data applications have very low operation intensity,
+   which measures the ratio of the total number of instructions divided by
+   the total byte number of memory accesses; Second, the volume of data
+   input has non-negligible impact on micro-architecture characteristics,
+   which may impose challenges for simulation-based big data architecture
+   research; Last but not least, corroborating the observations in
+   CloudSuite and DCBench (which use smaller data inputs), we find that the
+   numbers of Li instruction cache (LII) misses per 1000 instructions (in
+   short, MPKI) of the big data applications are higher than in the
+   traditional benchmarks; also, we find that L3 caches are effective for
+   the big data applications, corroborating the observation in DCBench.
+CT 20th IEEE International Symposium on High Performance Computer
+   Architecture (HPCA)
+CY FEB 15-19, 2013
+CL Orlando, FL
+SP IEEE; IEEE Comp Soc TC Comp Architecture; Intel; Nvidia; IBM; ARM;
+   Facebook; Microsoft Res; Qualcomm
+RI Zhu, Yuqing/KLZ-7450-2024
+OI Zhu, Yuqing/0000-0001-5431-8581
+TC 305
+ZB 0
+Z8 10
+ZR 0
+ZS 0
+ZA 0
+Z9 365
+U1 0
+U2 11
+SN 1530-0897
+BN 978-1-4799-3097-5
+DA 2014-01-01
+UT WOS:000357020300042
+ER
+
+PT J
+AU He, Xing
+   Ai, Qian
+   Qiu, Robert Caiming
+   Huang, Wentao
+   Piao, Longjian
+   Liu, Haichun
+TI A Big Data Architecture Design for Smart Grids Based on Random Matrix
+   Theory
+SO IEEE TRANSACTIONS ON SMART GRID
+VL 8
+IS 2
+BP 674
+EP 686
+DI 10.1109/TSG.2015.2445828
+DT Article
+PD MAR 2017
+PY 2017
+AB Model-based analysis tools, built on assumptions and simplifications,
+   are difficult to handle smart grids with data characterized by volume,
+   velocity, variety, and veracity (i.e., 4Vs data). This paper, using
+   random matrix theory (RMT), motivates data-driven tools to perceive the
+   complex grids in high-dimension; meanwhile, an architecture with
+   detailed procedures is proposed. In algorithm perspective, the
+   architecture performs a high-dimensional analysis and compares the
+   findings with RMT predictions to conduct anomaly detections. Mean
+   spectral radius (MSR), as a statistical indicator, is defined to reflect
+   the correlations of system data in different dimensions. In management
+   mode perspective, a group-work mode is discussed for smart grids
+   operation. This mode breaks through regional limitations for energy
+   flows and data flows, and makes advanced big data analyses possible. For
+   a specific large-scale zone-dividing system with multiple connected
+   utilities, each site, operating under the group-work mode, is able to
+   work out the regional MSR only with its own measured/simulated data. The
+   large-scale interconnected system, in this way, is naturally decoupled
+   from statistical parameters perspective, rather than from engineering
+   models perspective. Furthermore, a comparative analysis of these
+   distributed MSRs, even with imperceptible different raw data, will
+   produce a contour line to detect the event and locate the source. It
+   demonstrates that the architecture is compatible with the block
+   calculation only using the regional small database; beyond that, this
+   architecture, as a data-driven solution, is sensitive to system
+   situation awareness, and practical for real large-scale interconnected
+   systems. Five case studies and their visualizations validate the
+   designed architecture in various fields of power systems. To our best
+   knowledge, this paper is the first attempt to apply big data technology
+   into smart grids.
+RI He, Xing/AGX-8002-2022; HUANG, WENTAO/AAA-9948-2022
+OI He, Xing/0000-0002-2527-7423; 
+ZR 0
+Z8 53
+TC 222
+ZB 2
+ZA 0
+ZS 0
+Z9 291
+U1 5
+U2 190
+SN 1949-3053
+EI 1949-3061
+DA 2017-03-29
+UT WOS:000395831200016
+ER
+
+PT J
+AU Cui, Laizhong
+   Yu, F. Richard
+   Yan, Qiao
+TI When Big Data Meets Software-Defined Networking: SDN for Big Data and
+   Big Data for SDN
+SO IEEE NETWORK
+VL 30
+IS 1
+BP 58
+EP 65
+DT Article
+PD JAN-FEB 2016
+PY 2016
+AB Both big data and software-defined networking (SDN) have attracted great
+   interests from both academia and industry. These two important areas
+   have traditionally been addressed separately in the most of previous
+   works. However, on the one hand, the good features of SDN can greatly
+   facilitate big data acquisition, transmission, storage, and processing.
+   On the other hand, big data will have profound impacts on the design and
+   operation of SDN. In this paper, we present the good features of SDN in
+   solving several issues prevailing with big data applications, including
+   big data processing in cloud data centers, data delivery, joint
+   optimization, scientific big data architectures and scheduling issues.
+   We show that SDN can manage the network efficiently for improving the
+   performance of big data applications. In addition, we show that big data
+   can benefit SDN as well, including traffic engineering, cross-layer
+   design, defeating security attacks, and SDN-based intra and inter data
+   center networks. Moreover, we discuss a number of open issues that need
+   to be addressed to jointly consider big data and SDN in future research.
+RI Cui, Laizhong/AAX-9571-2020; YAN, QIAO/AAN-2319-2020; Yu, F Richard/B-3182-2018
+OI Yu, F Richard/0000-0003-1006-7594
+ZA 0
+TC 219
+ZS 0
+ZB 1
+ZR 0
+Z8 7
+Z9 252
+U1 0
+U2 87
+SN 0890-8044
+EI 1558-156X
+DA 2016-02-17
+UT WOS:000368832500011
+ER
+
+PT C
+AU Demchenko, Yuri
+   de Laat, Cees
+   Membrey, Peter
+BE Smari, WW
+   Fox, GC
+   Nygard, M
+TI Defining Architecture Components of the Big Data Ecosystem
+SO PROCEEDINGS OF THE 2014 INTERNATIONAL CONFERENCE ON COLLABORATION
+   TECHNOLOGIES AND SYSTEMS (CTS)
+BP 104
+EP 112
+DT Proceedings Paper
+PD 2014
+PY 2014
+AB Big Data are becoming a new technology focus both in science and in
+   industry and motivate technology shift to data centric architecture and
+   operational models. There is a vital need to define the basic
+   information/semantic models, architecture components and operational
+   models that together comprise a so-called Big Data Ecosystem. This paper
+   discusses a nature of Big Data that may originate from different
+   scientific, industry and social activity domains and proposes improved
+   Big Data definition that includes the following parts: Big Data
+   properties (also called Big Data 5V: Volume, Velocity, Variety, Value
+   and Veracity), data models and structures, data analytics,
+   infrastructure and security. The paper discusses paradigm change from
+   traditional host or service based to data centric architecture and
+   operational models in Big Data. The Big Data Architecture Framework
+   (BDAF) is proposed to address all aspects of the Big Data Ecosystem and
+   includes the following components: Big Data Infrastructure, Big Data
+   Analytics, Data structures and models, Big Data Lifecycle Management,
+   Big Data Security. The paper analyses requirements to and provides
+   suggestions how the mentioned above components can address the main Big
+   Data challenges. The presented work intends to provide a consolidated
+   view of the Big Data phenomena and related challenges to modern
+   technologies, and initiate wide discussion.
+CT International Conference on Collaboration Technologies and Systems (CTS)
+CY MAY 19-23, 2014
+CL Minneapolis, MN
+SP Intelligence Adv Res Projects Activ, Off Director Natl Intelligence;
+   Honeywell Int Inc; Adventium Labs; Intelligent Automat Inc; Knowledge
+   Based Syst Inc; LexisNexis Corp; Ball Aerosp & Technologies Corp; Intel
+   Corp; MEI Res Ltd; Microsoft Res; Springer Verlag; IEEE
+OI Membrey, Peter/0000-0002-6034-3799; Demchenko, Yuri/0000-0001-7474-9506
+ZA 0
+ZS 0
+TC 179
+Z8 1
+ZR 0
+ZB 3
+Z9 232
+U1 15
+U2 463
+BN 978-1-4799-5158-1
+DA 2015-01-07
+UT WOS:000345833000016
+ER
+
+PT J
+AU Emani, Cheikh Kacfah
+   Cullot, Nadine
+   Nicolle, Christophe
+TI Understandable Big Data: A survey
+SO COMPUTER SCIENCE REVIEW
+VL 17
+BP 70
+EP 81
+DI 10.1016/j.cosrev.2015.05.002
+DT Article
+PD AUG 2015
+PY 2015
+AB This survey presents the concept of Big Data. Firstly, a definition and
+   the features of Big Data are given. Secondly, the different steps for
+   Big Data data processing and the main problems encountered in big data
+   management are described. Next, a general overview of an architecture
+   for handling it is depicted. Then, the problem of merging Big Data
+   architecture in an already existing information system is discussed.
+   Finally this survey tackles semantics (reasoning, coreference
+   resolution, entity linking, information extraction, consolidation,
+   paraphrase resolution, ontology alignment) in the Big Data context. (C)
+   2015 Elsevier Inc. All rights reserved.
+RI Nicolle, Christophe/ABE-5885-2021
+OI Nicolle, Christophe/0000-0002-8118-5005
+Z8 5
+ZR 0
+ZA 0
+ZB 7
+ZS 0
+TC 174
+Z9 214
+U1 0
+U2 51
+SN 1574-0137
+EI 1876-7745
+DA 2015-10-19
+UT WOS:000361964800004
+ER
+
+PT J
+AU Sundarakani, Balan
+   Ajaykumar, Aneesh
+   Gunasekaran, Angappa
+TI Big data driven supply chain design and applications for blockchain: An
+   action research using case study approach
+SO OMEGA-INTERNATIONAL JOURNAL OF MANAGEMENT SCIENCE
+VL 102
+AR 102452
+DI 10.1016/j.omega.2021.102452
+EA APR 2021
+DT Article
+PD JUL 2021
+PY 2021
+AB Blockchain appears to still be nascent in its growth and a relatively
+   untapped asset. This research investigates the need of blockchain in
+   Industry 4.0 environment from Big Data perspective in supply chain
+   management. The research method used in this study involves a
+   combination of an Action Research method and Case Study research. More
+   specifically, the action research method was applied in two industry
+   case studies that implemented and tested the designed architecture in a
+   global logistics environment. Case Study A examined the blockchain
+   application in cross-border cargo movements whereas Case Study B
+   investigated the application in a liquid chemical logistics company
+   serving to petroleum industries. Our research analysis has identified
+   that the Case A subject had disconnected systems and services for
+   blockchain wherein the big data interactions had failed (failure case).
+   Whereas in Case B, the company has achieved nearly 25% increase in
+   revenue through its customer service after the blockchain implementation
+   and thereby reduction in paperwork and carbon emissions (success case).
+   This research contributes to the advancement of the body of knowledge to
+   big data and blockchain by identifying key implementation guideline and
+   issues for blockchain in supply chain management. Further, action-based
+   research coupled with a case study approach has been used to evaluate
+   the application aspects of the architecture's scalability and
+   functionality of bigdata and blockchain in supply chain management.
+   (c) 2021 Elsevier Ltd. All rights reserved.
+RI Sundarakani, Balan/C-2368-2019; Gunasekaran, Angappa/AEZ-0121-2022
+OI Sundarakani, Balan/0000-0002-3510-8746; 
+ZA 0
+ZB 3
+ZR 0
+Z8 3
+ZS 2
+TC 151
+Z9 178
+U1 24
+U2 398
+SN 0305-0483
+EI 1873-5274
+DA 2021-05-19
+UT WOS:000641439200017
+ER
+
+PT C
+AU Hai, Rihan
+   Geisler, Sandra
+   Quix, Christoph
+GP ACM SIGMOD
+TI Constance: An Intelligent Data Lake System
+SO SIGMOD'16: PROCEEDINGS OF THE 2016 INTERNATIONAL CONFERENCE ON
+   MANAGEMENT OF DATA
+BP 2097
+EP 2100
+DI 10.1145/2882903.2899389
+DT Proceedings Paper
+PD 2016
+PY 2016
+AB As the challenge of our time, Big Data still has many research hassles,
+   especially the variety of data. The high diversity of data sources often
+   results in information silos, a collection of non-integrated data
+   management systems with heterogeneous schemas, query languages, and
+   APIs. Data Lake systems have been proposed as a solution to this
+   problem, by providing a schema-less repository for raw data with a
+   common access interface. However, just dumping all data into a data lake
+   without any metadata management, would only lead to a 'data swamp'. To
+   avoid this, we propose Constance', a Data Lake system with sophisticated
+   metadata management over raw data extracted from heterogeneous data
+   sources. Constance discovers, extracts, and summarizes the structural
+   metadata from the data sources, and annotates data and metadata with
+   semantic information to avoid ambiguities. With embedded query rewriting
+   engines supporting structured data and semi-structured data, Constance
+   provides users a unified interface for query processing and data
+   exploration. During the demo, we will walk through each functional
+   component of Constance. Constance will be applied to two real-life use
+   cases in order to show attendees the importance and usefulness of our
+   generic and extensible data lake system.
+CT ACM SIGMOD International Conference on Management of Data
+CY JUN 26-JUL 01, 2016
+CL San Francisco, CA
+SP ACM SIGMOD; Assoc Comp Machinery; Microsoft; Oracle; Tableau; Alibaba
+   com; AT & T; Facebook; Google; IBM Res; Infosys; Platfora; Recruit;
+   Salesforce; SAP; Snowflake; Amazon Web Serv; Cloudera; Esgyn; HP; Intel;
+   LinkedIn; LogicBlox; Memsql; Splice Machine; Visa Res; Natl Sci Fdn
+RI Hai, Rihan/AAO-3865-2020; Quix, Christoph/
+OI Quix, Christoph/0000-0002-1698-4345
+ZR 0
+Z8 6
+ZA 0
+ZB 6
+TC 141
+ZS 0
+Z9 172
+U1 1
+U2 16
+BN 978-1-4503-3531-7
+DA 2016-01-01
+UT WOS:000452538600145
+ER
+
+PT J
+AU Santos, Maribel Yasmina
+   Oliveira e Sa, Jorge
+   Andrade, Carina
+   Lima, Francisca Vale
+   Costa, Eduarda
+   Costa, Carlos
+   Martinho, Bruno
+   Galvao, Joao
+TI A Big Data system supporting Bosch Braga Industry 4.0 strategy
+SO INTERNATIONAL JOURNAL OF INFORMATION MANAGEMENT
+VL 37
+IS 6
+BP 750
+EP 760
+DI 10.1016/j.ijinfomgt.2017.07.012
+DT Article
+PD DEC 2017
+PY 2017
+AB People, devices, infrastructures and sensors can constantly communicate
+   exchanging data and generating new data that trace many of these
+   exchanges. This leads to vast volumes of data collected at ever
+   increasing velocities and of different variety, a phenomenon currently
+   known as Big Data. In particular, recent developments in Information and
+   Communications Technologies are pushing the fourth industrial
+   revolution, Industry 4.0, being data generated by several sources like
+   machine controllers, sensors, manufacturing systems, among others.
+   Joining volume, variety and velocity of data, with Industry 4.0, makes
+   the opportunity to enhance sustainable innovation in the Factories of
+   the Future. In this, the collection, integration, storage, processing
+   and analysis of data is a key challenge, being Big Data systems needed
+   to link all the entities and data needs of the factory. Thereby, this
+   paper addresses this key challenge, proposing and implementing a Big
+   Data Analytics architecture, using a multinational organisation (Bosch
+   Car Multimedia - Braga) as a case study. In this work, all the data
+   lifecycle, from collection to analysis, is handled, taking into
+   consideration the different data processing speeds that can exist in the
+   real environment of a factory (batch or stream).
+RI Oliveira e Sá, Jorge/B-7176-2012; Anade, Carina/K-6539-2016; Galvão, João/N-8673-2015; Costa, Carlos/P-3314-2019; Santos, Maribel Yasmina/M-5214-2013
+OI Oliveira e Sá, Jorge/0000-0003-4095-3431; Anade,
+   Carina/0000-0001-8783-9412; Costa, Carlos/0000-0003-0011-6030; Santos,
+   Maribel Yasmina/0000-0002-3249-6229
+ZA 0
+TC 123
+ZB 3
+ZR 0
+ZS 2
+Z8 0
+Z9 166
+U1 1
+U2 161
+SN 0268-4012
+EI 1873-4707
+DA 2017-11-19
+UT WOS:000413649100027
+ER
+
+PT J
+AU Yu, Wenjin
+   Dillon, Tharam
+   Mostafa, Fahed
+   Rahayu, Wenny
+   Liu, Yuehua
+TI A Global Manufacturing Big Data Ecosystem for Fault Detection in
+   Predictive Maintenance
+SO IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS
+VL 16
+IS 1
+BP 183
+EP 192
+DI 10.1109/TII.2019.2915846
+DT Article
+PD JAN 2020
+PY 2020
+AB Artificial intelligence, big data, machine learning, cloud computing,
+   and Internet of Things (IoT) are terms which have driven the fourth
+   industrial revolution. The digital revolution has transformed the
+   manufacturing industry into smart manufacturing through the development
+   of intelligent systems. In this paper, a big data ecosystem is presented
+   for the implementation of fault detection and diagnosis in predictive
+   maintenance with real industrial big data gathered directly from
+   large-scale global manufacturing plants, aiming to provide a complete
+   architecture which could be used in industrial IoT-based smart
+   manufacturing in an industrial 4.0 system. The proposed architecture
+   overcomes multiple challenges including big data ingestion, integration,
+   transformation, storage, analytics, and visualization in a real-time
+   environment using various technologies such as the data lake, NoSQL
+   database, Apache Spark, Apache Drill, Apache Hive, OPC Collector, and
+   other techniques. Transformation protocols, authentication, and data
+   encryption methods are also utilized to address data and network
+   security issues. A MapReduce-based distributed PCA model is designed for
+   fault detection and diagnosis. In a large-scale manufacturing system,
+   not all kinds of failure data are accessible, and the absence of labels
+   precludes all the supervised methods in the predictive phase.
+   Furthermore, the proposed framework takes advantage of some of the
+   characteristics of PCA such as its ease of implementation on Spark, its
+   simple algorithmic structure, and its real-time processing ability. All
+   these elements are essential for smart manufacturing in the evolution to
+   Industry 4.0. The proposed detection system has been implemented into
+   the real-time industrial production system in a cooperated company,
+   running for several years, and the results successfully provide an alarm
+   warning several days before the fault happens. A test case involving
+   several outages in 2014 is reported and analyzed in detail during the
+   experiment section.
+RI Rahayu, Wenny/ABA-5515-2020; Dillon, Tharam/; Yu, Wenjin/ABA-5516-2020
+OI Dillon, Tharam/0000-0002-7527-129X; Yu, Wenjin/0000-0002-1101-5588
+Z8 2
+ZS 0
+ZA 0
+ZR 0
+TC 144
+ZB 0
+Z9 163
+U1 8
+U2 160
+SN 1551-3203
+EI 1941-0050
+DA 2020-01-30
+UT WOS:000508428900017
+ER
+
+PT J
+AU Chong, Alain Yee Loong
+   Ch'ng, Eugene
+   Liu, Martin J.
+   Li, Boying
+TI Predicting consumer product demands via Big Data: the roles of online
+   promotional marketing and online reviews
+SO INTERNATIONAL JOURNAL OF PRODUCTION RESEARCH
+VL 55
+IS 17
+BP 5142
+EP 5156
+DI 10.1080/00207543.2015.1066519
+DT Article
+PD 2017
+PY 2017
+AB This study aims to investigate the contributions of online promotional
+   marketing and online reviews as predictors of consumer product demands.
+   Using electronic data from Amazon. com, we attempt to predict if online
+   review variables such as valence and volume of reviews, the number of
+   positive and negative reviews, and online promotional marketing
+   variables such as discounts and free deliveries, can influence the
+   demand of electronic products in Amazon. com. A Big Data architecture
+   was developed and Node. JS agents were deployed for scraping the Amazon.
+   com pages using asynchronous Input/Output calls. The completed Web
+   crawling and scraping data-sets were then preprocessed for Neural
+   Network analysis. Our results showed that variables from both online
+   reviews and promotional marketing strategies are important predictors of
+   product demands. Variables in online reviews in general were better
+   predictors as compared to online marketing promotional variables. This
+   study provides important implications for practitioners as they can
+   better understand how online reviews and online promotional marketing
+   can influence product demands. Our empirical contributions include the
+   design of a Big Data architecture that incorporate Neural Network
+   analysis which can used as a platform for future researchers to
+   investigate how Big Data can be used to understand and predict online
+   consumer product demands.
+RI Ch'ng, Eugene/Q-8277-2019; Liu, Martin J/; Chong, Alain/ABD-6916-2021; Li, Boying/ACX-4757-2022
+OI Ch'ng, Eugene/0000-0003-3992-8335; Liu, Martin J/0000-0001-7873-0554;
+   Chong, Alain/0000-0002-0881-1612; 
+ZR 0
+TC 126
+ZB 2
+ZA 0
+ZS 2
+Z8 4
+Z9 163
+U1 12
+U2 241
+SN 0020-7543
+EI 1366-588X
+DA 2018-12-28
+UT WOS:000404671500022
+ER
+
+PT J
+AU Sawadogo, Pegdwende
+   Darmont, Jerome
+TI On data lake architectures and metadata management
+SO JOURNAL OF INTELLIGENT INFORMATION SYSTEMS
+VL 56
+IS 1
+BP 97
+EP 120
+DI 10.1007/s10844-020-00608-7
+EA JUN 2020
+DT Article
+PD FEB 2021
+PY 2021
+AB Over the past two decades, we have witnessed an exponential increase of
+   data production in the world. So-called big data generally come from
+   transactional systems, and even more so from the Internet of Things and
+   social media. They are mainly characterized by volume, velocity, variety
+   and veracity issues. Big data-related issues strongly challenge
+   traditional data management and analysis systems. The concept of data
+   lake was introduced to address them. A data lake is a large, raw data
+   repository that stores and manages all company data bearing any format.
+   However, the data lake concept remains ambiguous or fuzzy for many
+   researchers and practitioners, who often confuse it with the Hadoop
+   technology. Thus, we provide in this paper a comprehensive state of the
+   art of the different approaches to data lake design. We particularly
+   focus on data lake architectures and metadata management, which are key
+   issues in successful data lakes. We also discuss the pros and cons of
+   data lakes and their design alternatives.
+OI Sawadogo, Pegdwendé N/0000-0001-6180-5476
+ZA 0
+ZR 0
+Z8 4
+ZB 6
+ZS 0
+TC 122
+Z9 162
+U1 4
+U2 119
+SN 0925-9902
+EI 1573-7675
+DA 2020-07-08
+UT WOS:000543267800001
+ER
+
+PT C
+AU Miloslavskaya, Natalia
+   Tolstoy, Alexander
+BE Samsonovich, AV
+   Klimov, VV
+TI Big Data, Fast Data and Data Lake Concepts
+SO 7TH ANNUAL INTERNATIONAL CONFERENCE ON BIOLOGICALLY INSPIRED COGNITIVE
+   ARCHITECTURES, (BICA 2016)
+SE Procedia Computer Science
+VL 88
+BP 300
+EP 305
+DI 10.1016/j.procs.2016.07.439
+DT Proceedings Paper
+PD 2016
+PY 2016
+AB Today we witness the appearance of two additional to Big Data concepts:
+   data lakes and fast data. Are they simply the new marketing labels for
+   the old Big Data IT or really new ones? Thus the key goal of the paper
+   is to identify the relationship between these three concepts.
+CT 7th Annual International Conference on Biologically Inspired Cognitive
+   Architectures (BICA)
+CY JUL 16-19, 2016
+CL New York City, NY
+RI Tolstoy, Alexander/; Miloslavskaya, Natalia/F-7562-2011
+OI Tolstoy, Alexander/0000-0001-9265-1510; Miloslavskaya,
+   Natalia/0000-0002-1231-1805
+ZB 4
+ZA 0
+ZS 1
+Z8 0
+TC 119
+ZR 0
+Z9 162
+U1 2
+U2 42
+SN 1877-0509
+BN *****************
+DA 2017-02-08
+UT WOS:000391723200042
+ER
+
+PT J
+AU Chong, Alain Yee Loong
+   Li, Boying
+   Ngai, Eric W. T.
+   Ch'ng, Eugene
+   Lee, Filbert
+TI Predicting online product sales via online reviews, sentiments, and
+   promotion strategies A big data architecture and neural network approach
+SO INTERNATIONAL JOURNAL OF OPERATIONS & PRODUCTION MANAGEMENT
+VL 36
+IS 4
+BP 358
+EP +
+DI 10.1108/IJOPM-03-2015-0151
+DT Article
+PD 2016
+PY 2016
+AB Purpose - The purpose of this paper is to investigate if online reviews
+   (e.g. valence and volume), online promotional strategies (e.g. free
+   delivery and discounts) and sentiments from user reviews can help
+   predict product sales.
+   Design/methodology/approach - The authors designed a big data
+   architecture and deployed Node. js agents for scraping the Amazon.com
+   pages using asynchronous input/output calls. The completed web crawling
+   and scraping data sets were then preprocessed for sentimental and neural
+   network analysis. The neural network was employed to examine which
+   variables in the study are important predictors of product sales.
+   Findings - This study found that although online reviews, online
+   promotional strategies and online sentiments can all predict product
+   sales, some variables are more important predictors than others. The
+   authors found that the interplay effects of these variables become more
+   important variables than the individual variables themselves. For
+   example, online volume interactions with sentiments and discounts are
+   more important than the individual predictors of discounts, sentiments
+   or online volume.
+   Originality/value - This study designed big data architecture, in
+   combination with sentimental and neural network analysis that can
+   facilitate future business research for predicting product sales in an
+   online environment. This study also employed a predictive analytic
+   approach (e.g. neural network) to examine the variables, and this
+   approach is useful for future data analysis in a big data environment
+   where prediction can have more practical implications than significance
+   testing. This study also examined the interplay between online reviews,
+   sentiments and promotional strategies, which up to now have mostly been
+   examined individually in previous studies.
+RI Ngai, Eric WT/ABC-2167-2020; NGAI, WT Eric/ABC-2167-2020; Li, Boying/ACX-4757-2022; Ch'ng, Eugene/Q-8277-2019; Chong, Alain/ABD-6916-2021
+OI Ngai, Eric WT/0000-0002-7278-7434; NGAI, WT Eric/0000-0001-6891-6750;
+   Ch'ng, Eugene/0000-0003-3992-8335; Chong, Alain/0000-0002-0881-1612
+Z8 4
+ZB 0
+ZR 0
+TC 118
+ZS 0
+ZA 0
+Z9 149
+U1 4
+U2 188
+SN 0144-3577
+EI 1758-6593
+DA 2016-01-01
+UT WOS:000379677500001
+ER
+
+PT C
+AU Fang, Huang
+GP IEEE
+TI Managing Data Lakes in Big Data Era What's a data lake and why has it
+   became popular in data management ecosystem
+SO 2015 IEEE INTERNATIONAL CONFERENCE ON CYBER TECHNOLOGY IN AUTOMATION,
+   CONTROL, AND INTELLIGENT SYSTEMS (CYBER)
+SE IEEE Annual International Conference on Cyber Technology in Automation
+   Control and Intelligent Systems
+BP 820
+EP 824
+DT Proceedings Paper
+PD 2015
+PY 2015
+AB the concept of a data lake is emerging as a popular way to organize and
+   build the next generation of systems to master new big data challenges,
+   but there are lots of concerns and questions for large enterprises to
+   implement data lakes. The paper discusses the concept of data lakes and
+   shares the author's thoughts and practices of data lakes.
+CT IEEE International Conference on Cyber Technology in Automation,
+   Control, and Intelligent Systems (CYBER)
+CY JUN 09-12, 2015
+CL Shenyang, PEOPLES R CHINA
+SP IEEE
+ZB 4
+Z8 2
+ZS 1
+ZR 0
+ZA 0
+TC 117
+Z9 148
+U1 0
+U2 32
+SN 2379-7711
+BN 978-1-4799-8730-6
+DA 2016-09-13
+UT WOS:000380502300156
+ER
+
+PT J
+AU Bilal, Muhammad
+   Oyedele, Lukumon O.
+   Akinade, Olugbenga O.
+   Ajayi, Saheed O.
+   Alaka, Hafiz A.
+   Owolabi, Hakeem A.
+   Qadir, Junaid
+   Pasha, Maruf
+   Bello, Sururah A.
+TI Big data architecture for construction waste analytics (CWA): A
+   conceptual framework
+SO JOURNAL OF BUILDING ENGINEERING
+VL 6
+BP 144
+EP 156
+DI 10.1016/j.jobe.2016.03.002
+DT Article
+PD JUN 2016
+PY 2016
+AB In recent times, construction industry is enduring pressure to take
+   drastic steps to minimise waste. Waste intelligence advocates
+   retrospective measures to manage waste after it is produced. Existing
+   waste intelligence based waste management software are fundamentally
+   limited and cannot facilitate stakeholders in controlling wasteful
+   activities. Paradoxically, despite a great amount of effort, the waste
+   being produced by the construction industry is escalating. This
+   undesirable situation motivates a radical change from waste intelligence
+   to waste analytics (in which waste is propose to be tackle proactively
+   right at design through sophisticated big data technologies). This paper
+   highlight that waste minimisation at design (a.k.a. designing-out waste)
+   is data-driven and computationally intensive challenge.
+   The aim of this paper is to propose a Big Data architecture for
+   construction waste analytics. To this end, existing literature on big
+   data technologies is reviewed to identify the critical components of the
+   proposed Big Data based waste analytics architecture. At the crux,
+   graph-based components are used: in particular, a graph database (Neo41)
+   is adopted to store highly voluminous and diverse datasets. To
+   complement, Spark, a highly resilient graph processing system, is
+   employed. Provision for extensions through Building Information
+   Modelling (BIM) are also considered for synergy and greater adoption.
+   This symbiotic integration of technologies enables a vibrant environment
+   for design exploration and optimisation to tackle construction waste.
+   The main contribution of this paper is that it presents, to the best of
+   our knowledge, the first Big Data based architecture for construction
+   waste analytics. The architecture is validated for exploratory analytics
+   of 200,000 waste disposal records from 900 completed projects. It is
+   revealed that existing waste management software classify the bulk of
+   construction waste as mixed waste, which exposes poor waste data
+   management. The findings of this paper will be of interest, more
+   generally to researchers, who are seeking to develop big data based
+   simulation tools in similar non-trivial applications. (C) 2016 Elsevier
+   Ltd. All rights reserved.
+RI Qadir, Junaid/Q-6329-2019; Akinade, Olugbenga/; Ajayi, Saheed/AAV-4209-2021; Pasha, Maruf/S-6758-2016
+OI Qadir, Junaid/0000-0001-9466-2475; Akinade,
+   Olugbenga/0000-0003-3950-3775; 
+ZR 0
+ZS 0
+Z8 2
+ZB 10
+TC 119
+ZA 0
+Z9 141
+U1 5
+U2 147
+SN 2352-7102
+DA 2016-06-01
+UT WOS:000397385700015
+ER
+
+PT J
+AU Yi, Xiaomeng
+   Liu, Fangming
+   Liu, Jiangchuan
+   Jin, Hai
+TI Building a Network Highway for Big Data: Architecture and Challenges
+SO IEEE NETWORK
+VL 28
+IS 4
+SI SI
+BP 5
+EP 13
+DI 10.1109/MNET.2014.6863125
+DT Article
+PD JUL-AUG 2014
+PY 2014
+AB Big data, with their promise to discover valuable insights for better
+   decision making, have recently attracted significant interest from both
+   academia and industry. Voluminous data are generated from a variety of
+   users and devices, and are to be stored and processed in powerful data
+   centers. As such, there is a strong demand for building an unimpeded
+   network infrastructure to gather geologically distributed and rapidly
+   generated data, and move them to data centers for effective knowledge
+   discovery. The express network should also be seamlessly extended to
+   interconnect multiple data centers as well as interconnect the server
+   nodes within a data center. In this article, we take a close look at the
+   unique challenges in building such a network infrastructure for big
+   data. Our study covers each and every segment in this network highway:
+   the access networks that connect data sources, the Internet backbone
+   that bridges them to remote data centers, as well as the dedicated
+   network among data centers and within a data center. We also present two
+   case studies of real-world big data applications that are empowered by
+   networking, highlighting interesting and promising future research
+   directions.
+RI Liu, Fangming/HLG-2050-2023
+ZR 0
+Z8 3
+ZA 0
+ZB 1
+TC 119
+ZS 0
+Z9 137
+U1 1
+U2 51
+SN 0890-8044
+EI 1558-156X
+DA 2014-07-01
+UT WOS:000345579100003
+ER
+
+PT C
+AU Bakshi, Kapil
+GP IEEE
+TI Considerations for Big Data: Architecture and Approach
+SO 2012 IEEE AEROSPACE CONFERENCE
+SE IEEE Aerospace Conference Proceedings
+DT Proceedings Paper
+PD 2012
+PY 2012
+AB The amount of data in our industry and the world is exploding. Data is
+   being collected and stored at unprecedented rates. The challenge is not
+   only to store and manage the vast volume of data ("big data"), but also
+   to analyze and extract meaningful value from it. There are several
+   approaches to collecting, storing, processing, and analyzing big data.
+   The main focus of the paper is on unstructured data analysis.
+   Unstructured data refers to information that either does not have a
+   pre-defined data model or does not fit well into relational tables.
+   Unstructured data is the fastest growing type of data, some example
+   could be imagery, sensors, telemetry, video, documents, log files, and
+   e-mail data files. There are several techniques to address this problem
+   space of unstructured analytics. The techniques share a common character
+   tics of scale-out, elasticity and high availability. MapReduce, in
+   conjunction with the Hadoop Distributed File System (HDFS) and HBase
+   database, as part of the Apache Hadoop project is a modern approach to
+   analyze unstructured data. Hadoop clusters are an effective means of
+   processing massive volumes of data, and can be improved with the right
+   architectural approach.
+CT IEEE Aerospace Conference
+CY MAR 03-10, 2012
+CL Big Sky, MT
+SP IEEE; AIAA; Phmsoc; AESS
+TC 96
+ZR 0
+ZS 1
+ZA 0
+Z8 0
+ZB 3
+Z9 121
+U1 0
+U2 14
+SN 1095-323X
+BN 978-1-4577-0557-1
+DA 2012-11-28
+UT WOS:000309105303077
+ER
+
+PT C
+AU Su, Fei
+   Peng, Yi
+   Mao, Xu
+   Cheng, Xinzhou
+   Chen, Weiwei
+GP IEEE
+TI The Research of Big Data Architecture on Telecom Industry
+SO 2016 16TH INTERNATIONAL SYMPOSIUM ON COMMUNICATIONS AND INFORMATION
+   TECHNOLOGIES (ISCIT)
+BP 280
+EP 284
+DT Proceedings Paper
+PD 2016
+PY 2016
+AB In Big Data era, telecom operators have massive data resources, such as
+   user call data, user online data, user location data, network
+   performance data, and so on. These data reaches PB level and is
+   distributed in the NEs and interfaces. How to effectively carry out the
+   collection, parsing, analysis for the amount of data to support the
+   network construction, maintenance and optimization is a major
+   opportunities and challenges that the telecom operators face. This paper
+   proposes a big data platform (BDP) to solve the above problem for
+   telecom industries. Through the collection of telecom network data, the
+   BDP can realize data parsing, storage and analysis for MR(Measure
+   Report), CDR(Call Detail Record), OMC(Operation and Maintenance Centre)
+   data and etc. It can achieve a unified storage and management of all
+   types of data. Based on BDP, operators can carry out big data analysis
+   and data mining to realize the value of data. Finally, this paper builds
+   a testing platform for BDP to test the performance of big data loading
+   and big data analysis. The results of experiment show that the
+   performance of data loading and analysis of BDP is better than
+   traditional data warehouse. It can be applied by the telecom operators
+   to be the foundational infrastructure to carry on the future application
+   of big data.
+CT 16th International Symposium on Communications and Information
+   Technologies (ISCIT)
+CY SEP 26-28, 2016
+CL Qingdao, PEOPLES R CHINA
+SP IEEE Circuits & Syst Soc; Chinese Assoc Artificial Intelligence; Engn
+   Sci Soc; Inst Elect Informat & Commun Engineers; Engn Elect Comp
+   Telecommunicat & Informat Technol Assoc; IEEE, CAS Soc; IEICE, ES Soc
+RI Chen, Wanjing/GZL-2801-2022
+ZB 3
+ZR 0
+TC 115
+ZS 0
+ZA 0
+Z8 6
+Z9 115
+U1 0
+U2 2
+BN 978-1-5090-4099-5
+DA 2017-02-08
+UT WOS:000391872600057
+ER
+
+PT J
+AU Bellini, Pierfrancesco
+   Benigni, Monica
+   Billero, Riccardo
+   Nesi, Paolo
+   Rauch, Nadia
+TI Km4City ontology building vs data harvesting and cleaning for smart-city
+   services
+SO JOURNAL OF VISUAL LANGUAGES AND COMPUTING
+VL 25
+IS 6
+SI SI
+BP 827
+EP 839
+DI 10.1016/j.jvlc.2014.10.023
+DT Article
+PD DEC 2014
+PY 2014
+AB Presently, a very large number of public and private data sets are
+   available from local governments. In most cases, they are not
+   semantically interoperable and a huge human effort would be needed to
+   create integrated ontologies and knowledge base for smart city. Smart
+   City ontology is not yet standardized, and a lot of research work is
+   needed to identify models that can easily support the data
+   reconciliation, the management of the complexity, to allow the data
+   reasoning. In this paper, a system for data ingestion and reconciliation
+   of smart cities related aspects as road graph, services available on the
+   roads, traffic sensors etc., is proposed. The system allows managing a
+   big data volume of data coming from a variety of sources considering
+   both static and dynamic data. These data are mapped to a smart-city
+   ontology, called KM4City (Knowledge Model for City), and stored into an
+   RDF-Store where they are available for applications via SPARQL queries
+   to provide new services to the users via specific applications of public
+   administration and enterprises. The paper presents the process adopted
+   to produce the ontology and the big data architecture for the knowledge
+   base feeding on the basis of open and private data, and the mechanisms
+   adopted for the data verification, reconciliation and validation. Some
+   examples about the possible usage of the coherent big data knowledge
+   base produced are also offered and are accessible from the RDF-store and
+   related services. The article also presented the work performed about
+   reconciliation algorithms and their comparative assessment and
+   selection. (C) 2014 The Authors. Published by Elsevier Ltd.
+RI BILLERO, RICCARDO/; Bellini, Pierfrancesco/D-5923-2015
+OI BILLERO, RICCARDO/0000-0002-6099-222X; Bellini,
+   Pierfrancesco/0000-0002-8167-1003
+ZS 0
+Z8 1
+ZA 0
+ZR 0
+TC 98
+ZB 1
+Z9 106
+U1 0
+U2 70
+SN 1045-926X
+EI 1095-8533
+DA 2014-12-01
+UT WOS:000346818000023
+ER
+
+PT C
+AU Ramakrishnan, Raghu
+   Sridharan, Baskar
+   Douceur, John R.
+   Kasturi, Pavan
+   Krishnamachari-Sampath, Balaji
+   Krishnamoorthy, Karthick
+   Li, Peng
+   Manu, Mitica
+   Michaylov, Spiro
+   Ramos, Rogerio
+   Sharman, Neil
+   Xu, Zee
+   Barakat, Youssef
+   Douglas, Chris
+   Draves, Richard
+   Naidu, Shrikant S.
+   Shastry, Shankar
+   Sikaria, Atul
+   Sun, Simon
+   Venkatesan, Ramarathnam
+GP ACM SIGMOD
+TI Azure Data Lake Store: A Hyperscale Distributed File Service for Big
+   Data Analytics
+SO SIGMOD'17: PROCEEDINGS OF THE 2017 ACM INTERNATIONAL CONFERENCE ON
+   MANAGEMENT OF DATA
+BP 51
+EP 63
+DI 10.1145/3035918.3056100
+DT Proceedings Paper
+PD 2017
+PY 2017
+AB Azure Data Lake Store (ADLS) is a fully-managed, elastic, scalable, and
+   secure file system that supports Hadoop distributed file system (HDFS)
+   and Cosmos semantics. It is specifically designed and optimized for a
+   broad spectrum of Big Data analytics that depend on a very high degree
+   of parallel reads and writes, as well as collocation of compute and data
+   for high bandwidth and low-latency access. It brings together key
+   components and features of Microsoft's Cosmos file system-long used
+   internally at Microsoft as the warehouse for data and analytics-and
+   HDFS, and is a unified file storage solution for analytics on Azure.
+   Internal and external workloads run on this unified platform.
+   Distinguishing aspects of ADLS include its support for multiple storage
+   tiers, exabyte scale, and comprehensive security and data sharing. We
+   discuss ADLS architecture, design points, and performance.
+CT ACM International Conference on Management of Data
+CY MAY 14-19, 2017
+CL Chicago, IL
+SP Assoc Comp Machinery; ACM SIGMOD; Oracle; Microsoft; Amazon; Facebook;
+   Google; Huawei; IBM; MongoDB; Recruit; SAP; Vertica; Northwestern Univ,
+   McCormick Sch Engn & Appl Sci; Cloudera; Intel; LogicBlox; MemSQL;
+   Snowflake; Workday
+RI Manu, Mohammed/GVT-8064-2022
+OI Manu, Mohammed/0000-0002-8889-295X
+ZA 0
+ZB 0
+ZR 0
+TC 75
+Z8 2
+ZS 0
+Z9 103
+U1 0
+U2 17
+BN 978-1-4503-4197-4
+DA 2018-12-28
+UT WOS:000452550000006
+ER
+
+PT J
+AU Nambiar, Athira
+   Mundra, Divyansh
+TI An Overview of Data Warehouse and Data Lake in Modern Enterprise Data
+   Management
+SO BIG DATA AND COGNITIVE COMPUTING
+VL 6
+IS 4
+AR 132
+DI 10.3390/bdcc6040132
+DT Review
+PD DEC 2022
+PY 2022
+AB Data is the lifeblood of any organization. In today's world,
+   organizations recognize the vital role of data in modern business
+   intelligence systems for making meaningful decisions and staying
+   competitive in the field. Efficient and optimal data analytics provides
+   a competitive edge to its performance and services. Major organizations
+   generate, collect and process vast amounts of data, falling under the
+   category of big data. Managing and analyzing the sheer volume and
+   variety of big data is a cumbersome process. At the same time, proper
+   utilization of the vast collection of an organization's information can
+   generate meaningful insights into business tactics. In this regard, two
+   of the popular data management systems in the area of big data analytics
+   (i.e., data warehouse and data lake) act as platforms to accumulate the
+   big data generated and used by organizations. Although seemingly
+   similar, both of them differ in terms of their characteristics and
+   applications. This article presents a detailed overview of the roles of
+   data warehouses and data lakes in modern enterprise data management. We
+   detail the definitions, characteristics and related works for the
+   respective data management frameworks. Furthermore, we explain the
+   architecture and design considerations of the current state of the art.
+   Finally, we provide a perspective on the challenges and promising
+   research directions for the future.
+RI Nambiar, Athira/S-6243-2017
+OI Nambiar, Athira/0000-0002-4957-5804
+ZB 3
+TC 55
+ZR 0
+ZA 0
+ZS 1
+Z8 0
+Z9 90
+U1 9
+U2 66
+EI 2504-2289
+DA 2023-01-04
+UT WOS:000900337700001
+ER
+
+PT J
+AU Immonen, Anne
+   Paakkonen, Pekka
+   Ovaska, Eila
+TI Evaluating the Quality of Social Media Data in Big Data Architecture
+SO IEEE ACCESS
+VL 3
+BP 2028
+EP 2043
+DI 10.1109/ACCESS.2015.2490723
+DT Article
+PD 2015
+PY 2015
+AB The use of freely available online data is rapidly increasing, as
+   companies have detected the possibilities and the value of these data in
+   their businesses. In particular, data from social media are seen as
+   interesting as they can, when properly treated, assist in achieving
+   customer insight into business decision making. However, the
+   unstructured and uncertain nature of this kind of big data presents a
+   new kind of challenge: how to evaluate the quality of data and manage
+   the value of data within a big data architecture? This paper contributes
+   to addressing this challenge by introducing a new architectural solution
+   to evaluate and manage the quality of social media data in each
+   processing phase of the big data pipeline. The proposed solution
+   improves business decision making by providing real-time, validated data
+   for the user. The solution is validated with an industrial case example,
+   in which the customer insight is extracted from social media data in
+   order to determine the customer satisfaction regarding the quality of a
+   product.
+ZR 0
+Z8 3
+TC 62
+ZA 0
+ZB 1
+ZS 2
+Z9 81
+U1 0
+U2 52
+SN 2169-3536
+DA 2016-03-23
+UT WOS:000371388200155
+ER
+
+PT J
+AU Barbierato, Enrico
+   Gribaudo, Marco
+   Iacono, Mauro
+TI Performance evaluation of NoSQL big-data applications using
+   multi-formalism models
+SO FUTURE GENERATION COMPUTER SYSTEMS-THE INTERNATIONAL JOURNAL OF ESCIENCE
+VL 37
+BP 345
+EP 353
+DI 10.1016/j.future.2013.12.036
+DT Article
+PD JUL 2014
+PY 2014
+AB Starting with the birth of Web 2.0, the quantity of data managed by
+   large-scale web services has grown exponentially, posing new challenges
+   and infrastructure requirements. This has led to new programming
+   paradigms and architectural choices, such as map-reduce and NoSQL
+   databases, which constitute two of the main peculiarities of the
+   specialized massively distributed systems referred to as Big Data
+   architectures. The underlying computer infrastructures usually face
+   complexity requirements, resulting from the need for efficiency and
+   speed in computing over huge evolving data sets. This is achieved by
+   taking advantage from the features of new technologies, such as the
+   automatic scaling and replica provisioning of Cloud environments.
+   Although performances are a key issue for the considered applications,
+   few performance evaluation results are currently available in this
+   field. In this work we focus on investigating how a Big Data application
+   designer can evaluate the performances of applications exploiting the
+   Apache Hive query language for NoSQL databases, built over a Apache
+   Hadoop map-reduce infrastructure.
+   This paper presents a dedicated modeling language and an application,
+   showing first how it is possible to ease the modeling process and second
+   how the semantic gap between modeling logic and the domain can be
+   reduced, by means of vertical multiformalism modeling. (C) 2014 Elsevier
+   B.V. All rights reserved.
+RI GRIBAUDO, MARCO/AAI-5402-2021; Iacono, Mauro/G-2772-2011; Barbierato, Enrico/AAC-6349-2021
+OI GRIBAUDO, MARCO/0000-0002-1415-5287; Iacono, Mauro/0000-0002-2089-975X; 
+ZR 0
+ZS 0
+Z8 3
+TC 68
+ZA 0
+ZB 5
+Z9 81
+U1 0
+U2 109
+SN 0167-739X
+EI 1872-7115
+DA 2014-07-01
+UT WOS:000337931200033
+ER
+
+PT C
+AU Manogaran, Gunasekaran
+   Thota, Chandu
+   Kumar, M. Vijay
+BE Devi, SP
+   Manivannan, S
+   Jeyaseelan, R
+   Arivudainambi, D
+TI MetaCloudDataStorage Architecture for Big Data Security in Cloud
+   Computing
+SO FOURTH INTERNATIONAL CONFERENCE ON RECENT TRENDS IN COMPUTER SCIENCE &
+   ENGINEERING (ICRTCSE 2016)
+SE Procedia Computer Science
+VL 87
+BP 128
+EP 133
+DI 10.1016/j.procs.2016.05.138
+DT Proceedings Paper
+PD 2016
+PY 2016
+AB The cloud is increasingly being used to store and process the big data.
+   Many researchers have been trying to protect big data in cloud computing
+   environment. Traditional security mechanisms using encryption are
+   neither efficient nor suited to the task of protecting big data in the
+   Cloud. In this paper, we first discuss about challenges and potential
+   solutions for protecting big data in cloud computing. Second, we propose
+   MetaCloudDataStorage Architecture for protecting Big Data in Cloud
+   Computing Environment. This framework ensures efficient processing of
+   big data in cloud computing environment and gains more business
+   insights.
+CT 4th International Conference on Recent Trends in Computer Science and
+   Engineering (ICRTCSE)
+CY APR 29-30, 2016
+CL Apollo Engn Coll, Dept Comp Sci & Engn, Chennai, INDIA
+HO Apollo Engn Coll, Dept Comp Sci & Engn
+RI Manogaran, Gunasekaran/K-7621-2017; Thota, Chandu/GXW-1156-2022
+OI Thota, Chandu/0009-0008-1757-420X
+TC 65
+ZR 0
+ZB 0
+ZS 0
+Z8 4
+ZA 0
+Z9 79
+U1 0
+U2 30
+SN 1877-0509
+BN *****************
+DA 2016-09-22
+UT WOS:000381937700021
+ER
+
+PT J
+AU O'Leary, Daniel E.
+TI Embedding AI and Crowdsourcing in the Big Data Lake
+SO IEEE INTELLIGENT SYSTEMS
+VL 29
+IS 5
+BP 70
+EP 73
+DI 10.1109/MIS.2014.82
+DT Editorial Material
+PD SEP-OCT 2014
+PY 2014
+RI O'Leary, Daniel Edmund/B-6469-2008
+OI O'Leary, Daniel Edmund/0000-0002-5240-9516
+Z8 2
+ZS 0
+ZB 4
+ZA 0
+TC 67
+ZR 0
+Z9 76
+U1 1
+U2 43
+SN 1541-1672
+EI 1941-1294
+DA 2014-09-01
+UT WOS:000345088300010
+ER
+
+PT C
+AU Marchal, Samuel
+   Jiang, Xiuyan
+   State, Radu
+   Engel, Thomas
+BE Kesselman, C
+   Chen, P
+   Jain, H
+TI A Big Data Architecture for Large Scale Security Monitoring
+SO 2014 IEEE INTERNATIONAL CONGRESS ON BIG DATA (BIGDATA CONGRESS)
+SE IEEE International Congress on Big Data
+BP 56
+EP 63
+DI 10.1109/BigData.Congress.2014.18
+DT Proceedings Paper
+PD 2014
+PY 2014
+AB Network traffic is a rich source of information for security monitoring.
+   However the increasing volume of data to treat raises issues, rendering
+   holistic analysis of network traffic difficult. In this paper we propose
+   a solution to cope with the tremendous amount of data to analyse for
+   security monitoring perspectives. We introduce an architecture dedicated
+   to security monitoring of local enterprise networks. The application
+   domain of such a system is mainly network intrusion detection and
+   prevention, but can be used as well for forensic analysis. This
+   architecture integrates two systems, one dedicated to scalable
+   distributed data storage and management and the other dedicated to data
+   exploitation. DNS data, NetFlow records, HTTP traffic and honeypot data
+   are mined and correlated in a distributed system that leverages state of
+   the art big data solution. Data correlation schemes are proposed and
+   their performance are evaluated against several well-known big data
+   framework including Hadoop and Spark.
+CT 3rd IEEE International Congress on Big Data
+CY JUN 27-JUL 02, 2014
+CL Anchorage, AK
+SP IEEE; IEEE Comp Soc; Serv Comp; Serv Soc; Cloud Comp; BIG DATA; HP; IBM;
+   SAP; IBM Res; HUAWEI; Object Management Grp; Business Proc Integrat &
+   Management; IT Profess; Int Journal Web Serv Res; Computing Now; IEEE
+   Transact Serv Comp
+OI Marchal, Samuel/0000-0002-8522-2707; State, Radu/0000-0002-4751-9577;
+   Engel, Thomas/0000-0002-7374-3927
+ZR 0
+ZA 0
+Z8 2
+TC 68
+ZB 1
+ZS 0
+Z9 75
+U1 0
+U2 33
+SN 2379-7703
+BN 978-1-4799-5057-7
+DA 2015-03-25
+UT WOS:000350154200008
+ER
+
+PT C
+AU Ciavotta, Michele
+   Alge, Marino
+   Menato, Silvia
+   Rovere, Diego
+   Pedrazzoli, Paolo
+BE Pellicciari, M
+   Peruzzini, M
+TI A microservice-based middleware for the digital factory
+SO 27TH INTERNATIONAL CONFERENCE ON FLEXIBLE AUTOMATION AND INTELLIGENT
+   MANUFACTURING, FAIM2017
+SE Procedia Manufacturing
+VL 11
+BP 931
+EP 938
+DI 10.1016/j.promfg.2017.07.197
+DT Proceedings Paper
+PD 2017
+PY 2017
+AB In recent years a considerable effort has been spent by research and
+   industrial communities in the digitalization of production environments
+   with the main objective of achieving a new automation paradigm, more
+   flexible, responsive to changes, and safe. This paper presents the
+   architecture, and discusses the benefits, of a distributed middleware
+   prototype supporting a new generation of smart-factory-enabled
+   applications with special attention paid to simulation tools. Devised
+   within the scope of MAYA EU project, the proposed platform aims at being
+   the first solution capable of empowering shop-floor
+   Cyber-Physical-Systems (CPSs), providing an environment for their
+   Digital Twin along the whole plant life-cycle. The platform implements a
+   microservice IoT-Big Data architecture supporting the distributed
+   publication of multidisciplinary simulation models, managing in an
+   optimized way streams of data coming from the shop-floor for
+   real-digital synchronization, ensuring security and confidentiality of
+   sensible data. (C) 2017 The Authors. Published by Elsevier B.V.
+CT 27th International Conference on Flexible Automation and Intelligent
+   Manufacturing (FAIM)
+CY JUN 27-30, 2017
+CL Modena, ITALY
+RI Rovere, Diego/; Menato, Silvia/JEF-2464-2023; Ciavotta, Michele/AAH-5411-2021; Peazzoli, Paolo/HSF-7009-2023
+OI Rovere, Diego/0000-0002-3028-1929; Menato, Silvia/0000-0002-5440-0726;
+   Ciavotta, Michele/0000-0002-2480-966X; Peazzoli,
+   Paolo/0000-0001-5353-9251
+ZA 0
+ZB 0
+Z8 0
+ZS 0
+ZR 0
+TC 59
+Z9 69
+U1 0
+U2 27
+SN 2351-9789
+BN *****************
+DA 2018-03-06
+UT WOS:000419072100108
+ER
+
+PT J
+AU Mezghani, Emna
+   Exposito, Ernesto
+   Drira, Khalil
+   Da Silveira, Marcos
+   Pruski, Cedric
+TI A Semantic Big Data Platform for Integrating Heterogeneous Wearable Data
+   in Healthcare
+SO JOURNAL OF MEDICAL SYSTEMS
+VL 39
+IS 12
+AR 185
+DI 10.1007/s10916-015-0344-x
+DT Article
+PD DEC 2015
+PY 2015
+AB Advances supported by emerging wearable technologies in healthcare
+   promise patients a provision of high quality of care. Wearable computing
+   systems represent one of the most thrust areas used to transform
+   traditional healthcare systems into active systems able to continuously
+   monitor and control the patients' health in order to manage their care
+   at an early stage. However, their proliferation creates challenges
+   related to data management and integration. The diversity and variety of
+   wearable data related to healthcare, their huge volume and their
+   distribution make data processing and analytics more difficult. In this
+   paper, we propose a generic semantic big data architecture based on the
+   "Knowledge as a Service" approach to cope with heterogeneity and
+   scalability challenges. Our main contribution focuses on enriching the
+   NIST Big Data model with semantics in order to smartly understand the
+   collected data, and generate more accurate and valuable information by
+   correlating scattered medical data stemming from multiple wearable
+   devices or/and from other distributed data sources. We have implemented
+   and evaluated a Wearable KaaS platform to smartly manage heterogeneous
+   data coming from wearable devices in order to assist the physicians in
+   supervising the patient health evolution and keep the patient up-to-date
+   about his/her status.
+RI Pruski, Ceic/; Exposito, Ernesto/T-2513-2019; Da Silveira, Marcos/; Drira, Khalil/R-9913-2018
+OI Pruski, Ceic/0000-0002-2103-0431; Exposito, Ernesto/0000-0002-3543-2909;
+   Da Silveira, Marcos/0000-0002-2604-3645; 
+Z8 1
+ZR 0
+ZB 6
+TC 57
+ZS 0
+ZA 0
+Z9 67
+U1 1
+U2 91
+SN 0148-5598
+EI 1573-689X
+DA 2015-12-02
+UT WOS:000364527200009
+PM 26490143
+ER
+
+PT J
+AU Yu, Wenjin
+   Liu, Yuehua
+   Dillon, Tharam
+   Rahayu, Wenny
+   Mostafa, Fahed
+TI An Integrated Framework for Health State Monitoring in a Smart Factory
+   Employing IoT and Big Data Techniques
+SO IEEE INTERNET OF THINGS JOURNAL
+VL 9
+IS 3
+BP 2443
+EP 2454
+DI 10.1109/JIOT.2021.3096637
+DT Article
+PD FEB 1 2022
+PY 2022
+AB With the rapid growth in the use of various smart digital sensors, the
+   Internet of Things (IoT) is a swiftly growing technology, which has
+   contributed significantly to Industry 4.0 and the promotion of IoT-based
+   smart factories, which gives rise to the new challenges of big data
+   analytics and the implementation of machine learning techniques. This
+   article proposes a practical framework that combines IoT techniques, a
+   data lake, data analysis, and cloud computing for manufacturing
+   equipment health-state monitoring and diagnostics in smart
+   manufacturing. It addresses all the required aspects in the realization
+   of such a system and allows the seamless interchange of data and
+   functionality. Due to the specific characteristics of IoT sensor data
+   (low quality, redundant multisources, partial labeling), we not only
+   provide a promising framework but also give detailed insights and pay
+   considerable attention to data quality issues. In the proposed
+   framework, an ingestion procedure is designed to manage data collection,
+   data security, data transformation and data storage issues. To improve
+   the quality of IoT big data, a high-noise feature filter is proposed for
+   automated preliminary sensor selection to suppress noisy features,
+   followed by a noisy data cleaning module to provide good quality data
+   for unbiased diagnosis modeling. The proposed framework can achieve
+   seamless integration between IoT big data ingestion from the physical
+   factory and machine learning-based data analytics in the virtual
+   systems. It is built on top of the Apache Spark processing engine, being
+   capable of working in both big data and real-time environments. One case
+   study has been conducted based on a four-stage syngas compressor from
+   real industries, which won the Best Industry Application of IoT at the
+   BigInsights Data & AI Innovation Awards. The experimental results
+   demonstrate the effectiveness of both the proposed IoT-architecture and
+   techniques to address the data quality issues.
+RI Dillon, Tharam/; Yu, Wenjin/ABA-5516-2020; Rahayu, Wenny/ABA-5515-2020
+OI Dillon, Tharam/0000-0002-7527-129X; Yu, Wenjin/0000-0002-1101-5588; 
+ZA 0
+Z8 2
+ZR 0
+ZS 1
+ZB 1
+TC 55
+Z9 66
+U1 6
+U2 53
+SN 2327-4662
+DA 2022-02-06
+UT WOS:000747462100066
+ER
+
+PT J
+AU Debauche, Olivier
+   Mahmoudi, Said
+   Manneback, Pierre
+   Lebeau, Frederic
+TI Cloud and distributed architectures for data management in agriculture
+   4.0: Review and future trends
+SO JOURNAL OF KING SAUD UNIVERSITY COMPUTER AND INFORMATION SCIENCES
+VL 34
+IS 9
+BP 7494
+EP 7514
+DI 10.1016/j.jksuci.2021.09.015
+DT Article
+PD OCT 2022
+PY 2022
+AB The Agriculture 4.0, also called Smart Agriculture or Smart Farming, is
+   at the origin of the production of huge amount of data that must be
+   collected, stored, and processed in a very short time. Processing this
+   massive quantity of data needs to use specific infrastructure that use
+   adapted IoT architectures. Our review offers a comparative panorama of
+   Central Cloud, Distributed Cloud Architectures, Collaborative Computing
+   Strategies, and new trends used in the context of Agriculture 4.0. In
+   this review, we try to answer 4 research questions: (1) Which storage
+   and processing architectures are best suited to Agriculture 4.0
+   applications and respond to its peculiarities? (2) Can generic
+   architectures meet the needs of Agriculture 4.0 application cases? (3)
+   What are the horizontal development possibilities that allow the
+   transition from research to industrialization? (4) What are the vertical
+   valuations possibilities to move from algorithms trained in the cloud to
+   embedded or stand-alone products? For this, we compare archi-tectures
+   with 8 criteria (User Proximity, Latency & Jitter, Network stability,
+   high throughput, Reliability, Scalability, Cost Effectiveness,
+   Maintainability), and analyze the advantages and disadvantages of each
+   of them.(c) 2021 The Authors. Published by Elsevier B.V. on behalf of
+   King Saud University. This is an open access article under the CC
+   BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).
+RI Debauche, Olivier/AAE-9242-2019; Mahmoudi, Saïd/AAC-3834-2020; Manneback, Pierre/AAC-6680-2020
+OI Debauche, Olivier/0000-0003-4711-2694; Mahmoudi,
+   Saïd/0000-0001-8272-9425; 
+ZS 0
+ZR 0
+ZB 8
+ZA 0
+TC 51
+Z8 3
+Z9 64
+U1 5
+U2 40
+SN 1319-1578
+EI 2213-1248
+DA 2022-11-02
+UT WOS:000870513100012
+ER
+
+PT C
+AU Alrehamy, Hassan
+   Walker, Coral
+BE Li, KQ
+   Gaudiot, JL
+   Kishigami, J
+   Wu, HY
+   Li, KC
+   Wu, YW
+TI Personal Data Lake With Data Gravity Pull
+SO PROCEEDINGS 2015 IEEE FIFTH INTERNATIONAL CONFERENCE ON BIG DATA AND
+   CLOUD COMPUTING BDCLOUD 2015
+BP 160
+EP 167
+DT Proceedings Paper
+PD 2015
+PY 2015
+AB This paper presents Personal Data Lake, a unified storage facility for
+   storing, analyzing and querying personal data. A data lake stores data
+   regardless of format and thus provides an intuitive way to store
+   personal data fragments of any type. Metadata management is a central
+   part of the lake architecture. For structured/semi-structured data
+   fragments, metadata may contain information about the schema of the data
+   so that the data can be transformed into queryable data objects when
+   required. For unstructured data, enabling gravity pull means allowing
+   third-party plugins so that the unstructured data can be analyzed and
+   queried.
+CT IEEE 5th International Conference on Big Data and Cloud Computing
+   (BDCloud)
+CY AUG 26-28, 2015
+CL Dalian, PEOPLES R CHINA
+SP IEEE; Dalian Univ Technol; IEEE Comp Soc; IEEE TCSC
+RI alrehamy, hassan/I-1338-2018
+OI alrehamy, hassan/0000-0002-2962-8892
+ZS 0
+Z8 3
+ZA 0
+ZB 1
+TC 46
+ZR 0
+Z9 63
+U1 0
+U2 14
+BN 978-1-4673-7183-4
+DA 2016-09-20
+UT WOS:000380444200026
+ER
+
+PT J
+AU Abbas, Khizar
+   Tawalbeh, Lo'Ai A.
+   Rafiq, Ahsan
+   Muthanna, Ammar
+   Elgendy, Ibrahim A.
+   Abd El-Latif, Ahmed A.
+TI Convergence of Blockchain and IoT for Secure Transportation Systems in
+   Smart Cities
+SO SECURITY AND COMMUNICATION NETWORKS
+VL 2021
+DI 10.1155/2021/5597679
+DT Article
+PD APR 27 2021
+PY 2021
+AB Smart cities provide citizens with smart and advanced services to
+   improve their quality of life. However, it has been observed that the
+   collection, storage, processing, and analysis of heterogeneous data that
+   are usually borne by citizens will bear certain difficulties. The
+   development of the Internet of Things, cloud computing, social media,
+   and other Industry 4.0 influencers pushed technology into a smart
+   society's framework, bringing potential vulnerabilities to sensor data,
+   services, and smart city applications. These vulnerabilities lead to
+   data security problems. We propose a decentralized data management
+   system for smart and secure transportation that uses blockchain and the
+   Internet of Things in a sustainable smart city environment to solve the
+   data vulnerability problem. A smart transportation mobility system
+   demands creating an interconnected transit system to ensure flexibility
+   and efficiency. This article introduces prior knowledge and then
+   provides a Hyperledger Fabric-based data architecture that supports a
+   secure, trusted, smart transportation system. The simulation results
+   show the balance between the blockchain mining time and the number of
+   blocks created. We also use the average transaction delay evaluation
+   model to evaluate the model and to test the proposed system's
+   performance. The system will address residents' and authorities'
+   security challenges of the transportation system in smart, sustainable
+   cities and lead to better governance.
+RI Muthanna, Ammar/N-8984-2015; Abd El-Latif, Ahmed/GRO-1613-2022; Abbas, Khizar/AHA-6327-2022; Rafiq, Ahsan/LZE-6257-2025; Elgendy, Ibrahim A/J-7263-2018
+OI Abd El-Latif, Ahmed/0000-0002-5068-2033; Abbas,
+   Khizar/0000-0002-2432-1357; Rafiq, Ahsan/0000-0001-9526-1032; Elgendy,
+   Ibrahim A/0000-0001-7154-2307
+ZR 0
+TC 57
+ZB 1
+ZA 0
+Z8 0
+ZS 0
+Z9 61
+U1 0
+U2 23
+SN 1939-0114
+EI 1939-0122
+DA 2021-07-09
+UT WOS:000663349500003
+ER
+
+PT C
+AU Farid, Mina
+   Roatis, Alexandra
+   Ilyas, Ihab F.
+   Hoffmann, Hella-Franziska
+   Chu, Xu
+GP ACM SIGMOD
+TI CLAMS: Bringing Quality to Data Lakes
+SO SIGMOD'16: PROCEEDINGS OF THE 2016 INTERNATIONAL CONFERENCE ON
+   MANAGEMENT OF DATA
+BP 2089
+EP 2092
+DI 10.1145/2882903.2899391
+DT Proceedings Paper
+PD 2016
+PY 2016
+AB With the increasing incentive of enterprises to ingest as much data as
+   they can in what is commonly referred to as "data lakes", and with the
+   recent development of multiple technologies to support this "load-first"
+   paradigm, the new environment presents serious data management
+   challenges. Among them, the assessment of data quality and cleaning
+   large volumes of heterogeneous data sources become essential tasks in
+   unveiling the value of big data.
+   The coveted use of unstructured and semi-structured data in large
+   volumes makes current data cleaning tools (primarily designed for
+   relational data) not directly adoptable.
+   We present CLAMS, a system to discover and enforce expressive integrity
+   constraints from large amounts of lake data with very limited schema
+   information (e.g., represented as RDF triples). This demonstration shows
+   how CLAMS is able to discover the constraints and the schemas they are
+   defined on simultaneously. CLAMS also introduces a scale-out solution to
+   efficiently detect errors in the raw data. CLAMS interacts with human
+   experts to both validate the discovered constraints and to suggest data
+   repairs.
+   CLAMS has been deployed in a real large-scale enterprise data lake and
+   was experimented with a real data set of 1.2 billion triples. It has
+   been able to spot multiple obscure data inconsistencies and errors early
+   in the data processing stack, providing huge value to the enterprise.
+CT ACM SIGMOD International Conference on Management of Data
+CY JUN 26-JUL 01, 2016
+CL San Francisco, CA
+SP ACM SIGMOD; Assoc Comp Machinery; Microsoft; Oracle; Tableau; Alibaba
+   com; AT & T; Facebook; Google; IBM Res; Infosys; Platfora; Recruit;
+   Salesforce; SAP; Snowflake; Amazon Web Serv; Cloudera; Esgyn; HP; Intel;
+   LinkedIn; LogicBlox; Memsql; Splice Machine; Visa Res; Natl Sci Fdn
+ZA 0
+Z8 1
+ZR 0
+ZB 3
+ZS 0
+TC 46
+Z9 61
+U1 0
+U2 1
+BN 978-1-4503-3531-7
+DA 2016-01-01
+UT WOS:000452538600143
+ER
+
+PT J
+AU Hai, Rihan
+   Koutras, Christos
+   Quix, Christoph
+   Jarke, Matthias
+TI Data Lakes: A Survey of Functions and Systems
+SO IEEE TRANSACTIONS ON KNOWLEDGE AND DATA ENGINEERING
+VL 35
+IS 12
+BP 12571
+EP 12590
+DI 10.1109/TKDE.2023.3270101
+DT Article
+PD DEC 1 2023
+PY 2023
+AB Data lakes are becoming increasingly prevalent for Big Data management
+   and data analytics. In contrast to traditional 'schema-on-write'
+   approaches such as data warehouses, data lakes are repositories storing
+   raw data in its original formats and providing a common access
+   interface. Despite the strong interest raised from both academia and
+   industry, there is a large body of ambiguity regarding the definition,
+   functions and available technologies for data lakes. A complete,
+   coherent picture of data lake challenges and solutions is still missing.
+   This survey reviews the development, architectures, and systems of data
+   lakes. We provide a comprehensive overview of research questions for
+   designing and building data lakes. We classify the existing approaches
+   and systems based on their provided functions for data lakes, which
+   makes this survey a useful technical reference for designing,
+   implementing and deploying data lakes. We hope that the thorough
+   comparison of existing solutions and the discussion of open research
+   challenges in this survey will motivate the future development of data
+   lake research and practice.
+OI Quix, Christoph/0000-0002-1698-4345; Jarke,
+   Matthias/0000-0001-6169-2942; Hai, Rihan/0000-0002-3720-6585; Koutras,
+   Christos/0000-0003-3015-154X
+TC 47
+ZA 0
+ZS 0
+Z8 0
+ZB 0
+ZR 0
+Z9 59
+U1 9
+U2 38
+SN 1041-4347
+EI 1558-2191
+DA 2024-03-13
+UT WOS:001105152100023
+ER
+
+PT J
+AU Imran, Sohail
+   Mahmood, Tariq
+   Morshed, Ahsan
+   Sellis, Timos
+TI Big Data Analytics in Healthcare - A Systematic Literature Review and
+   Roadmap for Practical Implementation
+SO IEEE-CAA JOURNAL OF AUTOMATICA SINICA
+VL 8
+IS 1
+BP 1
+EP 22
+DI 10.1109/JAS.2020.1003384
+DT Review
+PD JAN 2021
+PY 2021
+AB The advent of healthcare information management systems (HIMSs)
+   continues to produce large volumes of healthcare data for patient care
+   and compliance and regulatory requirements at a global scale. Analysis
+   of this big data allows for boundless potential outcomes for discovering
+   knowledge. Big data analytics (BDA) in healthcare can, for instance,
+   help determine causes of diseases, generate effective diagnoses, enhance
+   QoS guarantees by increasing efficiency of the healthcare delivery and
+   effectiveness and viability of treatments, generate accurate predictions
+   of readmissions, enhance clinical care, and pinpoint opportunities for
+   cost savings. However, BDA implementations in any domain are generally
+   complicated and resource-intensive with a high failure rate and no
+   roadmap or success strategies to guide the practitioners. In this paper,
+   we present a comprehensive roadmap to derive insights from BDA in the
+   healthcare (patient care) domain, based on the results of a systematic
+   literature review. We initially determine big data characteristics for
+   healthcare and then review BDA applications to healthcare in academic
+   research focusing particularly on NoSQL databases. We also identify the
+   limitations and challenges of these applications and justify the
+   potential of NoSQL databases to address these challenges and further
+   enhance BDA healthcare research. We then propose and describe a
+   state-of-the-art BDA architecture called Med-BDA for healthcare domain
+   which solves all current BDA challenges and is based on the latest zeta
+   big data paradigm. We also present success strategies to ensure the
+   working of Med-BDA along with outlining the major benefits of BDA
+   applications to healthcare. Finally, we compare our work with other
+   related literature reviews across twelve hallmark features to justify
+   the novelty and importance of our work. The aforementioned contributions
+   of our work are collectively unique and clearly present a roadmap for
+   clinical administrators, practitioners and professionals to successfully
+   implement BDA initiatives in their organizations.
+RI Morshed, Ahsan/AAK-2685-2021; Sellis, Timos/A-8731-2016; IMRAN, Sohail/AGP-2583-2022
+OI Sellis, Timos/0000-0002-9067-5639; IMRAN, Sohail/0000-0002-8569-5838
+Z8 4
+ZR 0
+ZS 1
+TC 37
+ZA 0
+ZB 0
+Z9 59
+U1 1
+U2 72
+SN 2329-9266
+EI 2329-9274
+DA 2020-12-29
+UT WOS:000594739100001
+ER
+
+PT J
+AU Shi, Qiang
+   Chen, Weiya
+   Huang, Siqi
+   Wang, Yan
+   Xue, Zhidong
+TI Deep learning for mining protein data
+SO BRIEFINGS IN BIOINFORMATICS
+VL 22
+IS 1
+SI SI
+BP 194
+EP 218
+DI 10.1093/bib/bbz156
+DT Review
+PD JAN 2021
+PY 2021
+AB The recent emergence of deep learning to characterize complex patterns
+   of protein big data reveals its potential to address the classic
+   challenges in the field of protein data mining. Much research has
+   revealed the promise of deep learning as a powerful tool to transform
+   protein big data into valuable knowledge, leading to scientific
+   discoveries and practical solutions. In this review, we summarize recent
+   publications on deep learning predictive approaches in the field of
+   mining protein data. The application architectures of these methods
+   include multilayer perceptrons, stacked autoencoders, deep belief
+   networks, two- or three-dimensional convolutional neural networks,
+   recurrent neural networks, graph neural networks, and complex neural
+   networks and are described from five perspectives: residue-level
+   prediction, sequence-level prediction, three-dimensional structural
+   analysis, interaction prediction, and mass spectrometry data mining. The
+   advantages and deficiencies of these architectures are presented in
+   relation to various tasks in protein data mining. Additionally, some
+   practical issues and their future directions are discussed, such as
+   robust deep learning for protein noisy data, architecture optimization
+   for specific tasks, efficient deep learning for limited protein data,
+   multimodal deep learning for heterogeneous protein data, and
+   interpretable deep learning for protein understanding. This review
+   provides comprehensive perspectives on general deep learning techniques
+   for protein data analysis.
+RI Huang, Siqi/JUF-3769-2023; Xue, Zhidong/; Shi, Qiang/
+OI Xue, Zhidong/0000-0003-3559-0867; Shi, Qiang/0000-0001-6655-3116
+Z8 3
+ZR 0
+ZA 0
+TC 48
+ZB 26
+ZS 0
+Z9 57
+U1 6
+U2 145
+SN 1467-5463
+EI 1477-4054
+DA 2021-05-11
+UT WOS:000634950200017
+PM 31867611
+ER
+
+PT J
+AU Fagherazzi, Guy
+TI Deep Digital Phenotyping and Digital Twins for Precision Health: Time to
+   Dig Deeper
+SO JOURNAL OF MEDICAL INTERNET RESEARCH
+VL 22
+IS 3
+AR e16770
+DI 10.2196/16770
+DT Article
+PD MAR 3 2020
+PY 2020
+AB This viewpoint describes the urgent need for more large-scale, deep
+   digital phenotyping to advance toward precision health. It describes why
+   and how to combine real-world digital data with clinical data and omics
+   features to identify someone's digital twin, and how to finally enter
+   the era of patient-centered care and modify the way we view disease
+   management and prevention.
+RI Fagherazzi, Guy/ABB-2555-2020
+OI Fagherazzi, Guy/0000-0001-5033-5966
+ZB 11
+ZR 0
+Z8 0
+ZA 0
+ZS 0
+TC 47
+Z9 55
+U1 3
+U2 98
+SN 1438-8871
+DA 2020-03-12
+UT WOS:000517925500001
+PM 32130138
+ER
+
+PT J
+AU Tchito Tchapga, Christian
+   Mih, Thomas Attia
+   Tchagna Kouanou, Aurelle
+   Fozin Fonzin, Theophile
+   Kuetche Fogang, Platini
+   Mezatio, Brice Anicet
+   Tchiotsop, Daniel
+TI Biomedical Image Classification in a Big Data Architecture Using Machine
+   Learning Algorithms
+SO JOURNAL OF HEALTHCARE ENGINEERING
+VL 2021
+AR 9998819
+DI 10.1155/2021/9998819
+DT Review
+PD MAY 31 2021
+PY 2021
+AB In modern-day medicine, medical imaging has undergone immense
+   advancements and can capture several biomedical images from patients. In
+   the wake of this, to assist medical specialists, these images can be
+   used and trained in an intelligent system in order to aid the
+   determination of the different diseases that can be identified from
+   analyzing these images. Classification plays an important role in this
+   regard; it enhances the grouping of these images into categories of
+   diseases and optimizes the next step of a computer-aided diagnosis
+   system. 'the concept of classification in machine learning deals with
+   the problem of identifying to which set of categories a new population
+   belongs. When category membership is known, the classification is done
+   on the basis of a training set of data containing observations. The goal
+   of this paper is to perform a survey of classification algorithms for
+   biomedical images. The paper then describes how these algorithms can be
+   applied to a big data architecture by using the Spark framework. This
+   paper further proposes the classification workflow based on the observed
+   optimal algorithms, Support Vector Machine and Deep Learning as drawn
+   from the literature. The algorithm for the feature extraction step
+   during the classification process is presented and can be customized in
+   all other steps of the proposed classification workflow.
+RI TCHAGNA KOUANOU, Aurelle/ACL-9091-2022; Theophile, FOZIN FONZIN/
+OI TCHAGNA KOUANOU, Aurelle/0000-0002-9735-6016; Theophile, FOZIN
+   FONZIN/0000-0001-7385-5462
+ZA 0
+TC 43
+ZS 0
+ZB 7
+Z8 0
+ZR 0
+Z9 52
+U1 0
+U2 23
+SN 2040-2295
+EI 2040-2309
+DA 2021-07-01
+UT WOS:000664097300001
+PM 34122785
+ER
+
+PT C
+AU Santos, Maribel Yasmina
+   Oliveira e Sa, Jorge
+   Costa, Carlos
+   Galvao, Joao
+   Andrade, Carina
+   Martinho, Bruno
+   Lima, Francisca Vale
+   Costa, Eduarda
+BE Rocha, A
+   Correia, AM
+   Adeli, H
+   Reis, LP
+   Costanzo, S
+TI A Big Data Analytics Architecture for Industry 4.0
+SO RECENT ADVANCES IN INFORMATION SYSTEMS AND TECHNOLOGIES, VOL 2
+SE Advances in Intelligent Systems and Computing
+VL 570
+BP 175
+EP 184
+DI 10.1007/978-3-319-56538-5_19
+DT Proceedings Paper
+PD 2017
+PY 2017
+AB In an era in which people, devices, infrastructures and sensors can
+   constantly communicate exchanging data and, also, generating new data
+   that traces many of these exchanges, vast volumes of data is generated
+   giving the context for the emergence of the Big Data concept. In
+   particular, recent developments in Information and Communications
+   Technology (ICT) are pushing the fourth industrial revolution, Industry
+   4.0, being data generated by several sources like machine controllers,
+   sensors, manufacturing systems, among others. Joining the volume and
+   variety of data, arriving at high velocity, with Industry 4.0, makes the
+   opportunity to enhance sustainable innovation in the Factories of the
+   future. In this, the collection, integration, storage, processing and
+   analysis of data is a key challenge, being Big Data systems needed to
+   link all the entities and data needs of the factory. In this context,
+   this paper proposes a Big Data Analytics architecture that includes
+   layers dedicated to deal with all data needs, from collection to
+   analysis and distribution.
+CT World Conference on Information Systems and Technologies (WorldCIST)
+CY APR 11-13, 2017
+CL Madeira, PORTUGAL
+RI Costa, Carlos/P-3314-2019; Galvão, João/N-8673-2015; Santos, Maribel Yasmina/M-5214-2013; Anade, Carina/K-6539-2016; Oliveira e Sá, Jorge/B-7176-2012
+OI Costa, Carlos/0000-0003-0011-6030; Galvão, João/0000-0003-4263-8726;
+   Santos, Maribel Yasmina/0000-0002-3249-6229; Anade,
+   Carina/0000-0001-8783-9412; Oliveira e Sá, Jorge/0000-0003-4095-3431
+ZB 0
+ZA 0
+ZS 0
+ZR 0
+Z8 0
+TC 44
+Z9 48
+U1 0
+U2 36
+SN 2194-5357
+EI 2194-5365
+BN 978-3-319-56538-5; 978-3-319-56537-8
+DA 2018-03-09
+UT WOS:000425541200019
+ER
+
+PT J
+AU Ouafiq, El Mehdi
+   Saadane, Rachid
+   Chehri, Abdellah
+   Jeon, Seunggil
+TI AI-based modeling and data-driven evaluation for smart farming-oriented
+   big data architecture using IoT with energy harvesting capabilities
+SO SUSTAINABLE ENERGY TECHNOLOGIES AND ASSESSMENTS
+VL 52
+AR 102093
+DI 10.1016/j.seta.2022.102093
+EA FEB 2022
+PN A
+DT Article
+PD AUG 2022
+PY 2022
+AB The use of Internet of Things (IoT) networks offers great advantages
+   over wired networks, especially due to their simple installation, low
+   maintenance costs, and automatic configuration. IoT facilitates the
+   integration of sensing and communication for various industries,
+   including smart farming and precision agriculture. For several years,
+   many researchers have strived to find new sources of energy that are
+   always "cleaner" and more environmentally friendly. Energy harvesting
+   technology is one of the most promising environment-friendly solutions
+   that extend the lifetime of these IoT devices. In this paper, the
+   state-of-art of IoT energy harvesting capabilities and communication
+   technologies in smart agriculture is presented. In addition, this work
+   proposes a comprehensive architecture that includes big data
+   technologies, IoT components, and knowledge-based systems for innovative
+   farm architecture. The solution answers some of the biggest challenges
+   the agriculture industry faces, especially when handling small files in
+   a big data environment without impacting the computation performance.
+   The so-lution is built on top of a pre-defined big data architecture
+   that includes an abstraction layer of the data lake that handles data
+   quality following a data migration strategy to ensure the data's
+   insights. Furthermore, in this paper, we compared several machine
+   learning algorithms to find the most suitable smart farming analytics
+   tools in terms of forecasting and predictions.
+RI rachid, saadane/J-4558-2019; Chehri, Abdellah/X-9516-2019; OUAFIQ, El Mehdi/
+OI rachid, saadane/0000-0002-0197-8313; Chehri,
+   Abdellah/0000-0002-4193-6062; OUAFIQ, El Mehdi/0000-0001-8205-5002
+TC 36
+Z8 1
+ZA 0
+ZS 0
+ZR 0
+ZB 3
+Z9 47
+U1 5
+U2 44
+SN 2213-1388
+EI 2213-1396
+DA 2022-05-29
+UT WOS:000789644900002
+ER
+
+PT J
+AU Anthony, Bokolo, Jr.
+   Petersen, Sobah Abbas
+   Ahlers, Dirk
+   Krogstie, John
+TI Big data driven multi-tier architecture for electric mobility as a
+   service in smart cities A design science approach
+SO INTERNATIONAL JOURNAL OF ENERGY SECTOR MANAGEMENT
+VL 14
+IS 5
+BP 1023
+EP 1047
+DI 10.1108/IJESM-08-2019-0001
+EA MAR 2020
+DT Article
+PD AUG 19 2020
+PY 2020
+AB Purpose
+   Electric mobility as a service (eMaaS) is suggested as a possible
+   solution to ease transportation and lessen environmental issues by
+   providing a collaborative transport sharing infrastructure that is based
+   on electric vehicles (EVs) such as electric cars, electric bicycles and
+   so on. Accordingly, this study aims to propose a multi-tier architecture
+   to support the collection, processing, analytics and usage of mobility
+   data in providing eMaaS within smart cities. The architecture uses
+   application programming interfaces to enable interoperability between
+   different infrastructures required for eMaaS and allow multiple partners
+   to exchange and share data for making decision regarding electric
+   mobility services.
+   Design/methodology/approach
+   Design science methodology based on a case study by interview was used
+   to collect data from an infrastructure company in Norway to verify the
+   applicability of the proposed multi-tier architecture.
+   Findings
+   Findings suggest that the architecture offers an approach for
+   collecting, aggregating, processing and provisioning of data originating
+   from sources to improve electric mobility in smart cities. More
+   importantly, findings from this study provide guidance for
+   municipalities and policymakers in improving electric mobility services.
+   Moreover, the author's findings provide a practical data-driven mobility
+   use case that can be used by transport companies in deploying eMaaS in
+   smart cities.
+   Social implications
+   This study proposes the deployment of electric mobility to address
+   increased usage of vehicles, which contributes to pollution of the
+   environment that has a serious effect on citizen's quality of life.
+   Originality/value
+   This study proposes a multi-tier architecture that stores, processes,
+   analyze and provides data and related services to improve electric
+   mobility within smart cities. The multi-tier architecture aims to
+   support and increase eMaaS operation of EVs toward improving
+   transportation services for city transport operators and citizens for
+   sustainable transport and mobility system.
+RI Krogstie, John/NBX-4350-2025; Bokolo, Anthony Jnr/K-9280-2016
+OI Krogstie, John/0000-0003-4830-1876; 
+ZS 0
+TC 44
+ZB 3
+Z8 0
+ZR 0
+ZA 0
+Z9 47
+U1 0
+U2 48
+SN 1750-6220
+EI 1750-6239
+DA 2020-04-08
+UT WOS:000521756000001
+ER
+
+PT C
+AU Howard, Daniel Anthony
+   Ma, Zheng
+   Aaslyng, Jesper Mazanti
+   Jorgensen, Bo Norregaard
+GP IEEE
+TI Data Architecture for Digital Twin of Commercial Greenhouse Production
+SO 2020 RIVF INTERNATIONAL CONFERENCE ON COMPUTING & COMMUNICATION
+   TECHNOLOGIES (RIVF 2020)
+SE IEEE RIVF International Conference on Computing and Communication
+   Technologies Research Innovation and Vision for the Future
+BP 130
+EP 136
+DI 10.1109/rivf48685.2020.9140726
+DT Proceedings Paper
+PD 2020
+PY 2020
+AB There is an increasing demand for industry-specific solutions for
+   optimizing production processes with the transitions towards Industry
+   4.0. The commercial greenhouse sector relies heavily on optimal use of
+   energy with multiple new concepts introduced in recent years e.g.
+   vertical farming and urban agriculture. Digital twins allow utilizing
+   the Internet of Things and big data to simulate the alternative
+   operation strategies without compromising current operation. This paper
+   aims to present the development of a digital twin of the commercial
+   greenhouse production process as a part of the recently launched EUDP
+   funded project Greenhouse Industry 4.0 in Denmark This digital twin
+   allows using big data and the Internet of Things to optimize the
+   greenhouse production process and communicate with other digital twins
+   representing essential areas in the greenhouse (climate and energy).
+   This digital twin can estimate future states of the greenhouse by using
+   past and real-time data inputs from databases, sensors, and spot
+   markets. This paper also introduces a Smart Industry Architecture Model
+   Framework for the discussion of the required data architecture of the
+   digital twin for the greenhouse production flow which ensures a correct
+   data architecture for the data exchange across all entities in the
+   system.
+CT RIVF International Conference on Computing and Communication
+   Technologies (RIVF)
+CY OCT 14-15, 2020
+CL RMIT University, Ho Chi Minh City, VIETNAM
+HO RMIT University
+SP IEEE Vietnam Sect
+RI Jørgensen, Bo Nørregaard/O-9785-2018; Ma, Zheng Grace/O-9674-2018; Howard, Daniel Anthony/AAE-5271-2019
+OI Jørgensen, Bo Nørregaard/0000-0001-5678-6602; Ma, Zheng
+   Grace/0000-0002-9134-1032; Howard, Daniel Anthony/0000-0003-4556-0602
+ZR 0
+ZB 7
+ZS 0
+TC 38
+Z8 1
+ZA 0
+Z9 47
+U1 5
+U2 36
+SN 2162-786X
+BN 978-1-7281-5377-3
+DA 2021-06-04
+UT WOS:000648838400023
+ER
+
+PT J
+AU Hou, Fangfang
+   Li, Boying
+   Chong, Alain Yee-Loong
+   Yannopoulou, Natalia
+   Liu, Martin J.
+TI Understanding and predicting what influence online product sales? A
+   neural network approach
+SO PRODUCTION PLANNING & CONTROL
+VL 28
+IS 11-12
+SI SI
+BP 964
+EP 975
+DI 10.1080/09537287.2017.1336791
+DT Article
+PD 2017
+PY 2017
+AB Understanding the factors that influence sales is important for online
+   sellers to manage their supply chains. This study aims to examine the
+   roles of online reviews and reviewer characteristics in predicting
+   product sales. With Amazon.com data captured using our big data
+   architecture, this study performs sentiment analysis to measure the
+   sentiment strength and polarity of review content. The predicting powers
+   of sentiment together with other variables are then examined using
+   neural network analysis. The results indicate that all the proposed
+   variables are important predictors of online sales, and among them
+   helpful votes of reviewer and picture of reviewer are the most
+   influential ones. The findings of this study can be helpful for online
+   sellers to manage their businesses, and the big data architecture and
+   methodology can be generalised into other research contexts.
+RI Yannopoulou, Natalia/; Liu, Martin J/; HOU, FANGFANG/AAW-2306-2021; Chong, Alain/ABD-6916-2021; Li, Boying/ACX-4757-2022
+OI Yannopoulou, Natalia/0000-0002-4243-0119; Liu, Martin
+   J/0000-0001-7873-0554; HOU, FANGFANG/0000-0001-9647-6166; Chong,
+   Alain/0000-0002-0881-1612; 
+ZS 0
+ZB 0
+ZA 0
+Z8 2
+TC 42
+ZR 0
+Z9 46
+U1 1
+U2 83
+SN 0953-7287
+EI 1366-5871
+DA 2017-07-25
+UT WOS:000405416500008
+ER
+
+PT C
+AU Michalik, Peter
+   Stofa, Jan
+   Zolotova, Iveta
+GP IEEE
+TI Concept Definition for Big Data Architecture in the Education System
+SO 2014 IEEE 12TH INTERNATIONAL SYMPOSIUM ON APPLIED MACHINE INTELLIGENCE
+   AND INFORMATICS (SAMI)
+BP 331
+EP 334
+DT Proceedings Paper
+PD 2014
+PY 2014
+AB Big Data is a huge phenomenon of last days. Number of applications using
+   this concept is still increasing and area of implementation is still
+   wider and wider. There are different examples such as transport,
+   health-care, industry or education. This work covers just the field of
+   education or university's environment. Purpose of this work is to
+   identify Big Data sources from university's environment and also design
+   of procedure how to work with them. Paper also shows possible using
+   concept of Big Data, but does not show what types of analyses should be
+   performed to improve education process. It means that the main benefit
+   of this work is design of architecture for this problem from the
+   technical perspective. In addition, there are some specific software
+   applications that can be deployed to solve this problem.
+CT IEEE 12th International Symposium on Applied Machine Intelligence and
+   Informatics (SAMI)
+CY JAN 23-25, 2014
+CL Herlany, SLOVAKIA
+SP IEEE
+RI Zolotova, Iveta/B-2875-2014; Michalik, Peter/F-5517-2013
+OI Zolotova, Iveta/0000-0002-2816-2306; Michalik, Peter/0000-0001-8431-6050
+ZR 0
+Z8 0
+TC 41
+ZB 0
+ZA 0
+ZS 0
+Z9 46
+U1 0
+U2 21
+BN 978-1-4799-3442-3
+DA 2015-07-05
+UT WOS:000355915900063
+ER
+
+PT J
+AU Manogaran, Gunasekaran
+   Lopez, Daphne
+TI Disease Surveillance System for Big Climate Data Processing and Dengue
+   Transmission
+SO INTERNATIONAL JOURNAL OF AMBIENT COMPUTING AND INTELLIGENCE
+VL 8
+IS 2
+BP 88
+EP 105
+DI 10.4018/IJACI.2017040106
+DT Article
+PD APR-JUN 2017
+PY 2017
+AB Ambient intelligence is an emerging platform that provides advances in
+   sensors and sensor networks, pervasive computing, and artificial
+   intelligence to capture the real time climate data. This result
+   continuously generates several exabytes of unstructured sensor data and
+   so it is often called big climate data. Nowadays, researchers are trying
+   to use big climate data to monitor and predict the climate change and
+   possible diseases. Traditional data processing techniques and tools are
+   not capable of handling such huge amount of climate data. Hence, there
+   is a need to develop advanced big data architecture for processing the
+   real time climate data. The purpose of this paper is to propose a big
+   data based surveillance system that analyzes spatial climate big data
+   and performs continuous monitoring of correlation between climate change
+   and Dengue. Proposed disease surveillance system has been implemented
+   with the help of Apache Hadoop MapReduce and its supporting tools.
+RI Lopez, Daphne/K-7407-2017; Manogaran, Gunasekaran/K-7621-2017
+OI Lopez, Daphne/0000-0003-1452-2144; 
+ZA 0
+TC 40
+ZR 0
+ZS 0
+ZB 1
+Z8 0
+Z9 43
+U1 0
+U2 40
+SN 1941-6237
+EI 1941-6245
+DA 2017-04-01
+UT WOS:000396727500006
+ER
+
+PT J
+AU Li, Boying
+   Ch'ng, Eugene
+   Chong, Alain Yee-Loong
+   Bao, Haijun
+TI Predicting online e-marketplace sales performances: A big data approach
+SO COMPUTERS & INDUSTRIAL ENGINEERING
+VL 101
+BP 565
+EP 571
+DI 10.1016/j.cie.2016.08.009
+DT Article
+PD NOV 2016
+PY 2016
+AB To manage supply chain efficiently, e-business organizations need to
+   understand their sales effectively. Previous research has shown that
+   product review plays an important role in influencing sales performance,
+   especially review volume and rating. However, limited attention has been
+   paid to understand how other factors moderate the effect of product
+   review on online sales. This study aims to confirm the importance of
+   review volume and rating on improving sales performance, and further
+   examine the moderating roles of product category, answered questions,
+   discount and review usefulness in such relationships. By analyzing 2939
+   records of data extracted from Amazon.com using a big data architecture,
+   it is found that review volume and rating have stronger influence on
+   sales rank for search product than for experience product. Also, review
+   usefulness significantly moderates the effects of review volume and
+   rating on product sales rank. In addition, the relationship between
+   review volume and sales rank is significantly moderated by both answered
+   questions and discount. However, answered questions and discount do not
+   have significant moderation effect on the relationship between review
+   rating and sales rank. The findings expand previous literature by
+   confirming important interactions between customer review features and
+   other factors, and the findings provide practical guidelines to manage
+   e-businesses. This study also explains a big data architecture and
+   illustrates the use of big data technologies in testing theoretical
+   framework. (C) 2016 Elsevier Ltd. All rights reserved.
+RI Chong, Alain/ABD-6916-2021; Li, Boying/ACX-4757-2022; Ch'ng, Eugene/Q-8277-2019
+OI Chong, Alain/0000-0002-0881-1612; Ch'ng, Eugene/0000-0003-3992-8335
+TC 35
+ZB 0
+ZA 0
+ZS 1
+ZR 0
+Z8 0
+Z9 42
+U1 1
+U2 90
+SN 0360-8352
+EI 1879-0550
+DA 2017-01-18
+UT WOS:000390497900046
+ER
+
+PT C
+AU Ramaswamy, Lakshmish
+   Lawson, Victor
+   Gogineni, Siva Venkat
+GP IEEE
+TI Towards A Quality-Centric Big Data Architecture for Federated Sensor
+   Services
+SO 2013 IEEE INTERNATIONAL CONGRESS ON BIG DATA
+SE IEEE International Congress on Big Data
+BP 86
+EP 93
+DI 10.1109/BigData.Congress.2013.21
+DT Proceedings Paper
+PD 2013
+PY 2013
+AB As the Internet of Things (IoT) paradigm gains popularity, the next few
+   years will likely witness 'servitization' of domain sensing
+   functionalities. We envision a cloud-based eco-system in which high
+   quality data from large numbers of independently-managed sensors is
+   shared or even traded in real-time. Such an eco-system will necessarily
+   have multiple stakeholders such as sensor data providers, domain
+   applications that utilize sensor data (data consumers), and cloud
+   infrastructure providers who may collaborate as well as compete. While
+   there has been considerable research on wireless sensor networks, the
+   challenges involved in building cloud-based platforms for hosting sensor
+   services are largely unexplored.
+   In this paper, we present our vision for data quality (DQ)-centric big
+   data infrastructure for federated sensor service clouds. We first
+   motivate our work by providing real-world examples. We outline the key
+   features that federated sensor service clouds need to possess. This
+   paper proposes a big data architecture in which DQ is pervasive
+   throughout the platform. Our architecture includes a markup language
+   called SDQ-ML for describing sensor services as well as for domain
+   applications to express their sensor feed requirements. The paper
+   explores the advantages and limitations of current big data technologies
+   in building various components of the platform. We also outline our
+   initial ideas towards addressing the limitations.
+CT IEEE International Congress on Big Data
+CY JUN 27-JUL 02, 2013
+CL Santa Clara, CA
+SP IEEE; IEEE Comp Soc
+ZR 0
+ZB 0
+TC 39
+ZA 0
+Z8 0
+ZS 0
+Z9 41
+U1 0
+U2 17
+SN 2379-7703
+BN 978-0-7695-5006-0
+DA 2013-01-01
+UT WOS:000332528300012
+ER
+
+PT J
+AU Santos, Maribel Yasmina
+   Martinho, Bruno
+   Costa, Carlos
+TI Modelling and implementing big data warehouses for decision support
+SO JOURNAL OF MANAGEMENT ANALYTICS
+VL 4
+IS 2
+BP 111
+EP 129
+DI 10.1080/23270012.2017.1304292
+DT Article
+PD 2017
+PY 2017
+AB In the era of Big Data, many NoSQL databases emerged for the storage and
+   later processing of vast volumes of data, using data structures that can
+   follow columnar, key-value, document or graph formats. For analytical
+   contexts, requiring a Big Data Warehouse, Hive is used as the driving
+   force, allowing the analysis of vast amounts of data. Data models in
+   Hive are usually defined taking into consideration the queries that need
+   to be answered. In this work, a set of rules is presented for the
+   transformation of multidimensional data models into Hive tables, making
+   available data at different levels of detail. These several levels are
+   suited for answering different queries, depending on the analytical
+   needs. After the identification of the Hive tables, this paper
+   summarizes a demonstration case in which the implementation of a
+   specific Big Data architecture shows how the evolution from a
+   traditional Data Warehouse to a Big Data Warehouse is possible.
+RI Costa, Carlos/P-3314-2019; Santos, Maribel Yasmina/M-5214-2013
+OI Costa, Carlos/0000-0003-0011-6030; Santos, Maribel
+   Yasmina/0000-0002-3249-6229
+ZR 0
+Z8 1
+ZB 1
+TC 31
+ZS 0
+ZA 0
+Z9 39
+U1 0
+U2 14
+SN 2327-0012
+EI 2327-0039
+DA 2017-09-14
+UT WOS:000408859700001
+ER
+
+PT J
+AU Brennan, Niall
+   Oelschlaeger, Allison
+   Cox, Christine
+   Tavenner, Marilyn
+TI Leveraging The Big-Data Revolution: CMS Is Expanding Capabilities To
+   Spur Health System Transformation
+SO HEALTH AFFAIRS
+VL 33
+IS 7
+BP 1195
+EP 1202
+DI 10.1377/hlthaff.2014.0130
+DT Article
+PD JUL 2014
+PY 2014
+AB As the largest single payer for health care in the United States, the
+   Centers for Medicare and Medicaid Services (CMS) generates enormous
+   amounts of data. Historically, CMS has faced technological challenges in
+   storing, analyzing, and disseminating this information because of its
+   volume and privacy concerns. However, rapid progress in the fields of
+   data architecture, storage, and analysis-the big-data revolution-over
+   the past several years has given CMS the capabilities to use data in new
+   and innovative ways. We describe the different types of CMS data being
+   used both internally and externally, and we highlight a selection of
+   innovative ways in which big-data techniques are being used to generate
+   actionable information from CMS data more effectively. These include the
+   use of real-time analytics for program monitoring and detecting fraud
+   and abuse and the increased provision of data to providers, researchers,
+   beneficiaries, and other stakeholders.
+ZA 0
+ZS 0
+ZR 0
+Z8 0
+ZB 5
+TC 27
+Z9 36
+U1 0
+U2 34
+SN 0278-2715
+DA 2014-09-10
+UT WOS:000340469700013
+PM 25006146
+ER
+
+EF

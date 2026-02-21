@@ -1,0 +1,931 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Ionescu, Sergiu-Alexandru
+   Diaconita, Vlad
+   Radu, Andreea-Oana
+TI Engineering Sustainable Data Architectures for Modern Financial
+   Institutions
+SO ELECTRONICS
+VL 14
+IS 8
+AR 1650
+DI 10.3390/electronics14081650
+DT Article
+PD APR 19 2025
+PY 2025
+AB Modern financial institutions now manage increasingly advanced
+   data-related activities and place a growing emphasis on environmental
+   and energy impacts. In financial modeling, relational databases, big
+   data systems, and the cloud are integrated, taking into consideration
+   resource optimization and sustainable computing. We suggest a four-layer
+   architecture to address financial data processing issues. The layers of
+   our design are for data sources, data integration, processing, and
+   storage. Data ingestion processes market feeds, transaction records, and
+   customer data. Real-time data are captured by Kafka and transformed by
+   Extract-Transform-Load (ETL) pipelines. The processing layer is composed
+   of Apache Spark for real-time data analysis, Hadoop for batch
+   processing, and an Machine Learning (ML) infrastructure that supports
+   predictive modeling. In order to optimize access patterns, the storage
+   layer includes various data layer components. The test results indicate
+   that the processing of market data in real-time, compliance reporting,
+   risk evaluations, and customer analyses can be conducted in fulfillment
+   of environmental sustainability goals. The metrics from the test
+   deployment support the implementation strategies and technical
+   specifications of the architectural components. We also looked at
+   integration models and data flow improvements, with applications in
+   finance. This study aims to enhance enterprise data architecture in the
+   financial context and includes guidance on modernizing data
+   infrastructure.
+RI IONESCU, Sergiu Alexanu/; Diaconita, Vlad/D-6882-2015; RADU, ANEEA-OANA/
+OI IONESCU, Sergiu Alexanu/0009-0005-9021-3716; Diaconita,
+   Vlad/0000-0002-5169-9232; RADU, ANEEA-OANA/0009-0001-5858-4999
+TC 5
+Z8 0
+ZB 0
+ZS 0
+ZA 0
+ZR 0
+Z9 7
+U1 1
+U2 6
+SN 2079-9292
+DA 2025-04-29
+UT WOS:001474864100001
+ER
+
+PT C
+AU Ghane, Kamran
+GP IEEE
+TI Big Data Pipeline with ML-based and Crowd Sourced Dynamically Created
+   and Maintained Columnar Data Warehouse for Structured and Unstructured
+   Big Data
+SO 2020 3RD INTERNATIONAL CONFERENCE ON INFORMATION AND COMPUTER
+   TECHNOLOGIES (ICICT 2020)
+BP 60
+EP 67
+DI 10.1109/ICICT50521.2020.00018
+DT Proceedings Paper
+PD 2020
+PY 2020
+AB The existing big data platforms take data through distributed processing
+   platforms and store them in a data lake. The architectures such as
+   Lambda and Kappa address the real-time and batch processing of data.
+   Such systems provide real time analytics on the raw data and delayed
+   analytics on the curated data. The data denormalization, creation and
+   maintenance of a columnar dimensional data warehouse is usually time
+   consuming with no or limited support for unstructured data. The system
+   introduced in this paper automatically creates and dynamically maintains
+   its data warehouse as a part of its big data pipeline in addition to its
+   data lake. It creates its data warehouse on structured, semi-structured
+   and unstructured data. It uses Machine Learning to identify and create
+   dimensions. It also establishes relations among data from different data
+   sources and creates the corresponding dimensions. It dynamically
+   optimizes the dimensions based on the crowd sourced data provided by end
+   users and also based on query analysis.
+CT 3rd International Conference on Information and Computer Technologies
+   (ICICT)
+CY MAR 09-12, 2020
+CL San Jose, CA
+ZS 0
+Z8 0
+ZA 0
+ZB 0
+ZR 0
+TC 5
+Z9 6
+U1 2
+U2 7
+BN 978-1-7281-7283-5
+DA 2020-11-24
+UT WOS:000582696300011
+ER
+
+PT C
+AU Cha, Ji-hyun
+   Jeong, Heung-gyun
+   Han, Seung-woo
+   Kim, Dong-chul
+   Oh, Jung-hun
+   Hwang, Seok-hee
+   Park, Byeong-ju
+BE Kurosu, M
+   Hashizume, A
+TI Development of MLOps Platform Based on Power Source Analysis for
+   Considering Manufacturing Environment Changes in Real-Time Processes
+SO HUMAN-COMPUTER INTERACTION, HCI 2023, PT IV
+SE Lecture Notes in Computer Science
+VL 14014
+BP 224
+EP 236
+DI 10.1007/978-3-031-35572-1_15
+DT Proceedings Paper
+PD 2023
+PY 2023
+AB Smart factories have led to the introduction of automated facilities in
+   manufacturing lines and the increase in productivity using
+   semi-automatic equipment or work auxiliary tools that use power sources
+   in parallel with the existing pure manual manufacturing method. The
+   productivity and quality of manual manufacturing work heavily depend on
+   the skill level of the operators. Therefore, changes in manufacturing
+   input factors can be determined by analyzing the pattern change of power
+   sources such as electricity and pneumatic energy consumed in work-aid
+   tools or semi-automatic facilities used by skilled operators. The manual
+   workflow can be optimized by modeling this pattern and the image
+   information of the operator and analyzing it in real time. Machine
+   learning operations (MLOps) technology is required to respond to rapid
+   changes in production systems and facilities and work patterns that
+   frequently occur in small-batch production methods. MLOps can
+   selectively configure Kubeflow, the MLOps solution, and the data lake
+   based on Kubernetes for the entire process, from collecting and
+   analyzing data to learning and deploying ML models, enabling the
+   provision of fast and differentiated services from model development to
+   distribution by the scale and construction stage of the manufacturing
+   site. In this study, the manual work patterns of operators, which are
+   unstructured data, were formulated into power source consumption
+   patterns and analyzed along with image information to develop a
+   manufacturing management platform applicable to manual-based,
+   multi-variety, small-volume production methods and eventually for
+   operator training in connection with three-dimensional visualization
+   technology.
+CT Human-Computer Interaction Thematic Area Conference (HCI) Held as Part
+   of the 25th International Conference on Human-Computer Interaction
+   (HCII)
+CY JUL 23-28, 2023
+CL Copenhagen, DENMARK
+OI cha, jihyun/0000-0001-7041-5453
+Z8 0
+ZA 0
+ZR 0
+TC 2
+ZB 0
+ZS 0
+Z9 3
+U1 1
+U2 1
+SN 0302-9743
+EI 1611-3349
+BN 978-3-031-35571-4; 978-3-031-35572-1
+DA 2024-09-19
+UT WOS:001289343000015
+ER
+
+PT J
+AU Zouari, Firas
+   Ghedira-Guegan, Chirine
+   Boukadi, Khouloud
+   Kabachi, Nadia
+TI A semantic and service-based approach for adaptive mutli-structured data
+   curation in data lakehouses
+SO WORLD WIDE WEB-INTERNET AND WEB INFORMATION SYSTEMS
+VL 26
+IS 6
+BP 4001
+EP 4023
+DI 10.1007/s11280-023-01218-3
+EA NOV 2023
+DT Article
+PD NOV 2023
+PY 2023
+AB Recently, we noticed the emergence of several data management
+   architectures to cope with the challenges imposed by big data. Among
+   them, data lakehouses are receiving much interest from industrial and
+   academic fields due to their ability to hold disparate multi-structured
+   batch and streaming data sources in a single data repository. Thus, the
+   heterogeneous and complex aspect of the data requires a dedicated
+   process to improve their quality and retrieve value from them.
+   Therefore, data curation encompasses several tasks that clean and enrich
+   data to ensure it continues to fit the user requirements. Nevertheless,
+   most existing data curation approaches need more dynamics, flexibility,
+   and customization in constituting the data curation pipeline to align
+   with end user requirements that may vary according to her/his decision
+   context. Moreover, they are dedicated to curating only a single type of
+   structure of batch data sources (e.g., semi-structured). Considering the
+   changing requirements of the user and the need to build a customized
+   data curation pipeline according to the users and the data source
+   characteristics, we propose a service-based framework for adaptive data
+   curation in data lakehouses that encompasses five modules: data
+   collection, data quality evaluation, data characterization, curation
+   service composition, and data curation. The proposed framework is built
+   upon new data characterization and evaluation modular ontology and a
+   curation service composition approach that we detail in the following
+   paper. The experimental findings validate the contributions' performance
+   in terms of effectiveness and execution time.
+RI Zouari, Firas/; KABACHI, Nadia/; GHEDIRA GUEGAN, Chirine/JDV-7343-2023; Boukadi, Khouloud/KRQ-1263-2024
+OI Zouari, Firas/0000-0001-6403-2157; KABACHI, Nadia/0000-0001-8071-8490;
+   GHEDIRA GUEGAN, Chirine/0000-0003-0908-2711; Boukadi,
+   Khouloud/0000-0002-6744-711X
+Z8 0
+ZS 0
+TC 1
+ZB 0
+ZA 0
+ZR 0
+Z9 2
+U1 1
+U2 14
+SN 1386-145X
+EI 1573-1413
+DA 2023-11-27
+UT WOS:001096969400001
+ER
+
+PT J
+AU Ozguven, Yavuz Melih
+   Gonener, Utku
+   Eken, Suleyman
+TI A Dockerized Big Data Architecture for Sports Analytics
+SO COMPUTER SCIENCE AND INFORMATION SYSTEMS
+VL 19
+IS 2
+BP 957
+EP 978
+DI 10.2298/CSIS220118010O
+DT Article
+PD JUN 2022
+PY 2022
+AB The big data revolution has had an impact on sports analytics as well.
+   Many large corporations have begun to see the financial benefits of
+   integrating sports analytics with big data. When we rely on central
+   processing systems to aggregate and analyze large amounts of sport data
+   from many sources, we compromise the accuracy and timeliness of the
+   data. As a response to these issues, distributed systems come to the
+   rescue, and the MapReduce paradigm holds promise for largescale data
+   analytics. We describe a big data architecture based on Docker
+   containers with Apache Spark in this paper. We evaluate the architecture
+   on four data-intensive case studies in sport analytics including
+   structured analysis, streaming, machine learning approaches, and
+   graph-based analysis.
+RI Gonener, Utku/; Eken, Suleyman/A-1083-2018; Gönener, Utku/F-6606-2018
+OI Gonener, Utku/0000-0002-6152-3353; 
+Z8 0
+ZR 0
+ZA 0
+ZS 0
+ZB 0
+TC 2
+Z9 2
+U1 1
+U2 27
+SN 1820-0214
+DA 2022-11-13
+UT WOS:000878619800010
+ER
+
+PT C
+AU Barry, Mariam
+   Bifet, Albert
+   Chiky, Raja
+   Montiel, Jacob
+   Tran, Vinh-Thuy
+BE Srirama, SN
+   Lin, JCW
+   Bhatnagar, R
+   Agarwal, S
+   Reddy, PK
+TI Challenges of Machine Learning for Data Streams in the Banking Industry
+SO 9TH INTERNATIONAL CONFERENCE ON BIG DATA ANALYTICS, BDA 2021
+SE Lecture Notes in Computer Science
+VL 13147
+BP 106
+EP 118
+DI 10.1007/978-3-030-93620-4_9
+DT Proceedings Paper
+PD 2021
+PY 2021
+AB Banking Information Systems continuously generate large quantities of
+   data as inter-connected streams (transactions, events logs, time series,
+   metrics, graphs, process, etc.). Such data streams need to be processed
+   online to deal with critical business applications such as real-time
+   fraud detection, network security attack prevention or predictive
+   maintenance on information system infrastructure. Many algorithms have
+   been proposed for data stream learning, however, most of them do not
+   deal with the important challenges and constraints imposed by real-world
+   applications. In particular, when we need to train models incrementally
+   from heterogeneous data mining and deployment them within complex big
+   data architecture. Based on banking applications and lessons learned in
+   production environments of BNP Paribas - a major international banking
+   group and leader in the Eurozone - we identified the most important
+   current challenges for mining IT data streams. Our goal is to highlight
+   the key challenges faced by data scientists and data engineers within
+   complex industry settings for building or deploying models for real word
+   streaming applications. We provide future research directions on Stream
+   Learning that will accelerate the adoption of online learning models for
+   solving real-word problems. Therefore bridging the gap between research
+   and industry communities. Finally, we provide some recommendations to
+   tackle some of these challenges.
+CT 9th International Conference on Big Data Analytics (BDA)
+CY DEC 15-18, 2021
+CL ELECTR NETWORK
+SP Indian Inst Informat Tech
+RI Bifet, Albert/ISA-9610-2023; Montiel, Jacob/AAH-8641-2020
+OI Bifet, Albert/0000-0002-8339-7773; 
+ZR 0
+Z8 0
+ZB 0
+ZA 0
+ZS 0
+TC 1
+Z9 1
+U1 0
+U2 0
+SN 0302-9743
+EI 1611-3349
+BN 978-3-030-93619-8; 978-3-030-93620-4
+DA 2024-11-01
+UT WOS:001308354700009
+ER
+
+PT P
+AU VUYYURU S R
+TI Artificial intelligence-friendly data            infrastructure for
+   unifying retail information through            central data lake, has
+   infrastructure body for            integrating diverse data types from
+   retail            point-of-sale terminals and e-commerce platforms along
+              with CRM programs
+PN IN202541044444-A
+AE VUYYURU S R
+AB 
+   NOVELTY - The infrastructure has an infrastructure body               
+   for integrating diverse data types from retail               
+   point-of-sale terminals and e-commerce platforms                along
+   with CRM programs and inventory management                platforms and
+   IoT sensor networks. A real-time data                ingestion layer
+   incorporates streaming and batch                processing technologies
+   to establish a continuous                capture for diverse retail
+   endpoint data that                routes streams into centralized data
+   repository. A                data architecture contains additional      
+   functionalities for encompassing a data processing                and
+   transformation layer which performs ETL/ELT                operations,
+   feature engineering, normalization, and                enrichment for
+   analytics and machine learning                applications.
+   USE - Artificial intelligence-friendly data               
+   infrastructure for unifying retail information                through a
+   central data lake.
+   ADVANTAGE - The system utilizes cloud-native solutions in               
+   combination with distributed pipelines and                independent
+   microservice design to achieve system                flexibility and
+   continuous operation capabilities.                The system combines
+   features from big data                management with elements from
+   cloud computing and                deployments of artificial
+   intelligence (AI) models                along with retail technology to
+   construct advanced                data architecture that facilitates
+   data movement                while improving operational efficiency and
+   enabling                smart retail experiences. The system handles    
+   massive amounts of fast-moving data insertion while               
+   maintaining data quality standards and providing               
+   straightforward AI model development                capabilities.
+   DESCRIPTION Of DRAWING(S) - The drawing shows a schematic view of an    
+       artificial intelligence-friendly data                infrastructure.
+Z9 0
+U1 0
+U2 0
+DA 2025-06-29
+UT DIIDW:2025592473
+ER
+
+PT P
+AU VATTIKONDA N
+   NARRA B
+   POLU A R
+   PATCHIPULUSU H H S
+   GUPTA A K
+   BUDDULA D V K R
+TI System for scalable and secure data ingestion,            analysis, and
+   visualization across distributed edge and            cloud computing
+   environments, has visualization            interface that generates
+   real-time insights and            interactive dashboards
+PN IN202541037889-A
+AE VATTIKONDA N; NARRA B; POLU A R; PATCHIPULUSU H H S; GUPTA A K; BUDDULA
+   D V K R
+AB 
+   NOVELTY - The system has set of edge nodes configured to               
+   perform initial data processing and artificial               
+   intelligence (AI) inference. A cloud-based                analytics
+   engine is configured to perform batch and                real-time
+   processing. A data ingestion engine                utilizes AI
+   algorithms for adaptive routing, schema                inference, and
+   deduplication. A data fabric layer                enables synchronized
+   data sharing between edge and                cloud nodes. A secure data
+   governance module                enforcies access control, encryption,
+   and                compliance policies. A visualization interface       
+   generates real-time insights and interactive                dashboards.
+   The data ingestion engine dynamically                adjusts ingestion
+   pipelines based on data volume,                type, and network
+   conditions using reinforcement                learning.
+   USE - System for facilitating scalable and secure                data
+   ingestion, analysis and visualization across               
+   heterogeneous cloud and edge computing                environments.
+   ADVANTAGE - The system dynamically scales and provides               
+   low-latency insights, and ensures compliance with                privacy
+   and security policies across distributed                environments.
+   The system provides a unified,                intelligent, and secure
+   data architecture that                enables real-time ingestion,
+   analysis, and                visualization across distributed
+   infrastructures                while being adaptable to various data
+   volumes,                velocities, and varieties.
+   DETAILED DESCRIPTION - An INDEPENDENT CLAIM is also included for a      
+   method for realizing real-time big data processing                in
+   distributed computing environments.
+Z9 0
+U1 0
+U2 0
+DA 2025-06-04
+UT DIIDW:202554420Q
+ER
+
+PT J
+AU Wang, Gaizhi
+TI Intelligent Path for Constructing Financial Risk Monitoring Mechanism
+   Under the Big Data Environment
+SO INTERNATIONAL JOURNAL OF DECISION SUPPORT SYSTEM TECHNOLOGY
+VL 17
+IS 1
+AR 389193
+DI 10.4018/IJDSST.389193
+DT Article
+PD 2025
+PY 2025
+AB In the era of big data, corporate financial operations generate a large
+   amount of heterogeneous information. Traditional risk monitoring systems
+   cannot effectively accommodate complex data flows and real-time risk
+   changes, which often leads to false positives and delays. This study
+   proposes a framework based on 'big data lake-semantic layer-intelligent
+   algorithm' to achieve real-time and interpretable financial risk
+   monitoring. Through the multi-modal risk representation combined with
+   the hybrid flow-batch pipeline and knowledge graph, the real-time
+   synchronization of risk scoring and response strategy is realized by
+   using a state machine-driven feedback loop and adaptive threshold
+   adjustment. The experimental results show that the accuracy of the
+   framework is improved by more than 10%, the false alarm rate is reduced
+   to 1.8%, and the response time is shortened to 250 milliseconds. This
+   study improves the stability and responsiveness of the system through
+   multi-modal learning and an adaptive threshold mechanism.
+TC 0
+ZA 0
+ZS 0
+ZB 0
+ZR 0
+Z8 0
+Z9 0
+U1 3
+U2 3
+SN 1941-6296
+EI 1941-630X
+DA 2025-11-17
+UT WOS:001612856000002
+ER
+
+PT J
+AU JANOWCZYK, ANDREW ROBERT
+TI Histotools: scaling digital pathology curation tools for quality
+   control, annotation, labeling, and dataset identification
+DT Awarded Grant
+PD Sep 21 2022
+PY 2023
+AB ABSTRACT: With recent approval of whole slide scanners for primary
+   diagnosis, wherein routine glasshistopathology slides are digitized and
+   presented to clinical pathologists for diagnosis on computer monitors,
+   awealth of new untapped data is being created in routine clinical
+   practice and placed in growing data lakes. Indigital format, these whole
+   slide images (WSIs) can be subjected to digital pathomics, i.e., the
+   process ofextracting quantitative image features associated with
+   morphology, attributes, and relationships of histologicobjects in WSIs.
+   These features can subsequently be employed for discovery in many
+   domains such ashistogenomics, which sees associating phenotypical
+   presentations with biological pathways and geneontologies. Additionally,
+   low-cost non-tissue destructive image-based companion diagnostic assays
+   (CDx)can be developed for predicting prognosis and treatment response of
+   patients. Unfortunately, unprocessed largedata lakes (e.g., TCGA) are
+   not alone sufficient for pathomics, and often require an intractable
+   amount of humancuration effort in (i) performing meticulous quality
+   control of WSI (i.e., avoid “garbage-in, garbage-out”) andsubsequently
+   (ii) precisely annotating (e.g., cell boundary) and labeling (e.g., cell
+   type) histologic objects. Toaddress these major limiting factors in
+   curating data lakes, we propose developing our small-scale
+   HistoToolsprototypes to employ computing clusters and thus enable their
+   function at the scale of large digital sliderepositories (DSR): (i)
+   HistoQC for robust, reproducible quality control of WSI by identifying
+   artifacts (blurriness)and outliers (poorly stained slides) for avoidance
+   in downstream analyses, (ii) CohortFinder for identificationand
+   compensation of batch affects, (iii) Quick Annotator for rapid computer
+   aided annotation generation via acombination of active and machine
+   learning, (iv) PatchSorter for improving sub-typing of histologic
+   objects withmachine learning. We will evaluate HistoTools for
+   improvement of quality control and the efficiency of bothsegmenting and
+   labeling histologic objects of interest via (a) onsite curation and
+   release of the 14k WSI usedduring our internal validation and (b)
+   supported external curation of at least 100k WSI via 24-clinical
+   affiliatesfrom every continent, except Antarctica, whom together have
+   access to over 20 million WSI during this proposal.Our validation use
+   cases are designed to expedite existing onsite projects in the CDx
+   space, consisting of 4organs (breast, lung, heart, kidney), 3 diseases
+   (cancer, kidney disease, and organ rejection) and WSIs collectedfrom >70
+   sites. These cohort characteristics will help ensure the
+   generalizability of our tools for curated data lakecreation, with
+   open-source and usability study approaches employed to obtain feedback
+   from collaborators andthe larger research community. Dissemination
+   through consortia (ITCR, NEPTUNE) and websites (Github, TCIA)will
+   improve visibility and adoption. The tools and well-curated data sets we
+   release are anticipated to bootstrapresearcher-initiated CDx discovery
+   projects, along with the creation of their own onsite manicured data
+   lakes.Together, this proposal will engender digital pathology based
+   precision medicine research.
+ZS 0
+ZR 0
+TC 0
+ZB 0
+ZA 0
+Z8 0
+Z9 0
+U1 0
+U2 0
+G1 10708011; 5R01LM013864-02; R01LM013864
+DA 2024-07-25
+UT GRANTS:17756061
+ER
+
+PT J
+AU JANOWCZYK, ANDREW ROBERT
+TI Histotools: scaling digital pathology curation tools for quality
+   control, annotation, labeling, and dataset identification
+DT Awarded Grant
+PD Sep 21 2022
+PY 2022
+AB ABSTRACT: With recent approval of whole slide scanners for primary
+   diagnosis, wherein routine glasshistopathology slides are digitized and
+   presented to clinical pathologists for diagnosis on computer monitors,
+   awealth of new untapped data is being created in routine clinical
+   practice and placed in growing data lakes. Indigital format, these whole
+   slide images (WSIs) can be subjected to digital pathomics, i.e., the
+   process ofextracting quantitative image features associated with
+   morphology, attributes, and relationships of histologicobjects in WSIs.
+   These features can subsequently be employed for discovery in many
+   domains such ashistogenomics, which sees associating phenotypical
+   presentations with biological pathways and geneontologies. Additionally,
+   low-cost non-tissue destructive image-based companion diagnostic assays
+   (CDx)can be developed for predicting prognosis and treatment response of
+   patients. Unfortunately, unprocessed largedata lakes (e.g., TCGA) are
+   not alone sufficient for pathomics, and often require an intractable
+   amount of humancuration effort in (i) performing meticulous quality
+   control of WSI (i.e., avoid “garbage-in, garbage-out”) andsubsequently
+   (ii) precisely annotating (e.g., cell boundary) and labeling (e.g., cell
+   type) histologic objects. Toaddress these major limiting factors in
+   curating data lakes, we propose developing our small-scale
+   HistoToolsprototypes to employ computing clusters and thus enable their
+   function at the scale of large digital sliderepositories (DSR): (i)
+   HistoQC for robust, reproducible quality control of WSI by identifying
+   artifacts (blurriness)and outliers (poorly stained slides) for avoidance
+   in downstream analyses, (ii) CohortFinder for identificationand
+   compensation of batch affects, (iii) Quick Annotator for rapid computer
+   aided annotation generation via acombination of active and machine
+   learning, (iv) PatchSorter for improving sub-typing of histologic
+   objects withmachine learning. We will evaluate HistoTools for
+   improvement of quality control and the efficiency of bothsegmenting and
+   labeling histologic objects of interest via (a) onsite curation and
+   release of the 14k WSI usedduring our internal validation and (b)
+   supported external curation of at least 100k WSI via 24-clinical
+   affiliatesfrom every continent, except Antarctica, whom together have
+   access to over 20 million WSI during this proposal.Our validation use
+   cases are designed to expedite existing onsite projects in the CDx
+   space, consisting of 4organs (breast, lung, heart, kidney), 3 diseases
+   (cancer, kidney disease, and organ rejection) and WSIs collectedfrom >70
+   sites. These cohort characteristics will help ensure the
+   generalizability of our tools for curated data lakecreation, with
+   open-source and usability study approaches employed to obtain feedback
+   from collaborators andthe larger research community. Dissemination
+   through consortia (ITCR, NEPTUNE) and websites (Github, TCIA)will
+   improve visibility and adoption. The tools and well-curated data sets we
+   release are anticipated to bootstrapresearcher-initiated CDx discovery
+   projects, along with the creation of their own onsite manicured data
+   lakes.Together, this proposal will engender digital pathology based
+   precision medicine research.
+TC 0
+ZS 0
+ZA 0
+ZB 0
+Z8 0
+ZR 0
+Z9 0
+U1 0
+U2 0
+G1 10520124; 1R01LM013864-01A1; R01LM013864
+DA 2023-12-14
+UT GRANTS:16276817
+ER
+
+PT P
+AU MEI L
+   WANG Y
+   HUANG J
+   CHENG L
+   LI Z
+   TANG Y
+TI General data model for big data marketing, has            industry model
+   package that is general model obtained            by abstracting domain
+   knowledge applied to big data            marketing in certain field, and
+   industry model packages            includes data entity classes and
+   composite type            fields
+PN CN114330998-A
+AE SHANGHAI XINZHAOYANG INFORMATION TECHNOL
+AB 
+   NOVELTY - The model has an industry model package that                is
+   a general model obtained by abstracting the                domain
+   knowledge applied to big data marketing in a                certain
+   field. The data between the industry model                packages are
+   independent of each other. Each of                industry model
+   packages includes data entity                classes and composite type
+   fields.
+   USE - General data model for big data marketing such                as
+   internet advertisement industry, and used in                large data
+   ecological system represented by data                lake, current
+   mainstream mixed practice mode, real                time data stream
+   processing architecture, frame                integrated batch
+   processing and stream processing,                data pipeline execution
+   engine and machine learning                platform.
+   ADVANTAGE - The GDM provides layered expandable service               
+   modelling mode from the service layer viewing angle                of
+   the large data marketing field to make up the                service
+   uniform language lack between the service                party and the
+   data engineer, can normalize the data                source data type,
+   and keep the type consistency.                The logic layer of the
+   universal data model                modelling system is convenient for
+   the service                parties to quickly define the service, easy
+   to                simulate service innovation. The model layer is       
+   directly dropped to the physical layer by the data                table
+   editor. The normalized data is convenient to                integrate
+   the service value with the third-party                system or tool.
+   The data table tool generates                database table, and helps
+   data engineer to                understand the service and guide data
+   development                and use through the service description on
+   the                GDM.
+   DETAILED DESCRIPTION - INDEPENDENT CLAIMS are included for the          
+   following:1. a construction method of the general data               
+   model; and2. a data specification method for big data               
+   marketing.
+   DESCRIPTION Of DRAWING(S) - The drawing shows a schematic view of the   
+   general data model for big data marketing. (Drawing               
+   includes non-English language text).
+Z9 0
+U1 0
+U2 0
+DA 2025-03-20
+UT DIIDW:2022565183
+ER
+
+PT B
+AU Correia, Ricardo André Araújo
+Z2  
+TI Iiot Data Ness: From Streaming to Added Value
+DT Dissertation/Thesis
+PD Jan 01 2022
+PY 2022
+ZA 0
+ZB 0
+Z8 0
+ZR 0
+TC 0
+ZS 0
+Z9 0
+U1 1
+U2 1
+BN 9798381548549
+UT PQDT:87643133
+ER
+
+PT B
+AU da Silveira, Duarte Miguel
+   Sanders, Michael
+   Lourenço, João
+Z2  
+TI [not available]
+DT Dissertation/Thesis
+PD Aug 09 2024
+PY 2024
+ZR 0
+ZB 0
+ZA 0
+TC 0
+Z8 0
+ZS 0
+Z9 0
+U1 0
+U2 0
+BN 9798382567198
+UT PQDT:89156675
+ER
+
+PT B
+AU Luo, Yu
+   Plale, Beth A.
+   Leake, David B.
+   Wild, David
+   Liu, Xiaozhong
+Z2  
+TI [not available]
+DT Dissertation/Thesis
+PD Mar 06 2023
+PY 2023
+ZR 0
+ZS 0
+ZB 0
+Z8 0
+TC 0
+ZA 0
+Z9 0
+U1 0
+U2 1
+BN 9798368418988
+UT PQDT:68362392
+ER
+
+PT C
+AU Maamouri, Amine
+   Sfaxi, Lilia
+   Robbana, Riadh
+BE Themistocleous, M
+   Papadaki, M
+TI Phi: A Generic Microservices-Based Big Data Architecture
+SO INFORMATION SYSTEMS (EMCIS 2021)
+SE Lecture Notes in Business Information Processing
+VL 437
+BP 3
+EP 16
+DI 10.1007/978-3-030-95947-0_1
+DT Proceedings Paper
+PD 2022
+PY 2022
+AB We present in this paper Phi, a generic microservices-based Big Data
+   architecture dedicated to complex multi-layered systems, that rallies
+   multiple machine learning jobs, stream and batch processing. We show how
+   to apply our architecture to an adaptive e-learning application that
+   adjusts its recommendation to the emotions of the learner on the spot.
+   We deploy our application on the cloud using AWS services, and perform
+   some performance tests to show its feasibility in a realistic
+   environment.
+CT 18th European, Mediterranean, and Middle Eastern Conference on
+   Information Systems (EMCIS)
+CY DEC 08-09, 2021
+CL ELECTR NETWORK
+SP Unov Nicosia; British Univ Dubai; Dubai Block Chain Ctr
+RI Maamouri, Amine/; Sfaxi, Lilia/AAO-6154-2021; Robbana, Riadh/
+OI Maamouri, Amine/0000-0002-0507-4434; Robbana, Riadh/0000-0001-5736-4137
+ZA 0
+TC 0
+ZB 0
+ZR 0
+ZS 0
+Z8 0
+Z9 0
+U1 0
+U2 3
+SN 1865-1348
+EI 1865-1356
+BN 978-3-030-95947-0; 978-3-030-95946-3
+DA 2022-04-02
+UT WOS:000771721100001
+ER
+
+PT P
+AU RAE C B
+   SEO J
+   PARKJINYOUNG
+TI Artificial intelligence (AI) framework-enabled distributed edge clusters
+   for intelligent weather data processing, which defines and maps
+   functions for data lake-centric AI service support by utilizing machine
+   learning architecture
+PN KR2021070152-A; KR2345786-B1
+AE GENO TECH CO LTD
+AB 
+   NOVELTY - The artificial intelligence (AI) framework-enabled distributed
+   edge clusters defines and maps functions for data lake-centric AI
+   service support by utilizing machine learning architecture of the
+   giuseppe in the data lake framework. The data based on the Abyss
+   software defined storage (SDS) infrastructure with integrated computing
+   by solid state drive (SSD) and graphics processing unit (GPU).
+   USE - Artificial intelligence (AI) framework-enabled distributed edge
+   clusters for intelligent weather data processing of remote sensing.
+   ADVANTAGE - The distributed edge cluster supporting the AI framework for
+   remote sensing intelligent weather data processing can effectively
+   support the connected data architecture (CDA) -based AI framework based
+   on a large number of accurate data, thus reducing the risk and
+   responding to disaster situations. The distributed edge cluster
+   supporting AI framework for intelligent weather data processing of
+   remote sensing strengthens computing by SSD and GPU to Abyss SDS
+   infrastructure to process various big data, and relates to a system that
+   can integrate and support a connected data architecture (CDA) based AI
+   framework. The messaging layer separates the connection between the data
+   collection layer and the work device to prevent unnecessary data from
+   flowing in, and the data received from the data collection layer and
+   converted into a message to ensure the delivery. The lambda architecture
+   facilitates the merging of batch data processing and real-time data
+   processing, and can provide consistent data through semi-real-time
+   processing of large-scale data sets with high-performance distributed
+   computing and scalability. The metadata is structured data about data,
+   and data given to content according to a certain rule so as to
+   efficiently find and use the information that is being sought from among
+   a large amount of information. The security incidents are prevented in
+   advance as the number of users who make decisions using large-scale data
+   analysis increases.
+   DETAILED DESCRIPTION - An INDEPENDENT CLAIM is included for a method for
+   detecting a weather change using the AI framework-supported distributed
+   edge cluster.
+   DESCRIPTION Of DRAWING(S) - The drawing shows a schematic view of a
+   Abyss SDS, which is a configuration of an AI framework-supported
+   distributed edge cluster for remote sensing intelligent weather data
+   processing.Central processing unit (CPU)Graphics processing unit
+   (GPU)Solid state drive (SSD)
+Z9 0
+U1 0
+U2 0
+DA 2025-03-20
+UT DIIDW:2021653205
+ER
+
+PT B
+AU Machmouchi, Hassan
+   Desper, Deane
+   Sambasivam, Samuel
+   Calongne, Cynthia
+Z2  
+TI [not available]
+DT Dissertation/Thesis
+PD Jun 22 2023
+PY 2023
+ZA 0
+TC 0
+ZB 0
+Z8 0
+ZR 0
+ZS 0
+Z9 0
+U1 1
+U2 3
+BN 9798534683547
+UT PQDT:64705582
+ER
+
+PT C
+AU Zhang, Leihan
+   Zhao, Jichang
+   Xu, Ke
+BE Yang, BJ
+   Chen, J
+   Cai, XQ
+   Qin, KD
+   Zhou, C
+TI Emotion-based Social Computing Platform for Streaming Big-data:
+   Architecture and Application
+SO 2016 13TH INTERNATIONAL CONFERENCE ON SERVICE SYSTEMS AND SERVICE
+   MANAGEMENT
+SE International Conference on Service Systems and Service Management
+DT Proceedings Paper
+PD 2016
+PY 2016
+AB Exploration of user generated content in the epoch of Web 2.0 brings
+   unprecedented challenge to the social computing, which has to provide
+   real-time solution in the circumstance of massive data volumes and
+   evolving application scenarios. This paper presents an emotion-based
+   social computing platform namely ESC for streaming big-data. The main
+   aim of ESC is to provide sentiment analysis as the foundation of social
+   computing and enable both real-time computation on streaming big-data
+   and batch computation on off-line big-data with high performance and low
+   risk. Different from conventional data processing technologies, ESC is
+   designed as a scalable and QoS-optimized adaptive platform for
+   developers to only focus on business models instead of being distracted
+   by details of the computing infrastructure. In addition, continuous
+   streaming computing is emphasized in ESC to keep tracking on long term
+   dynamic evolution in social media, which can provide a valuable proxy
+   for in-depth social analytics. The architecture of ESC is implemented by
+   distributed storage, sentiment analysis, data parallelism and routing,
+   real-time streaming computation, batch computation and distributed
+   machine learning. And the evaluation results from real-time and batch
+   computations testify the high performance and scalability of ESC.
+   Moreover, a few applications based on it further demonstrates its
+   usability in enacting on different streaming big-data and variety of
+   social computations.
+CT 13th International Conference on Service Systems and Service Management
+   (ICSSSM)
+CY JUN 24-26, 2016
+CL Kunming Univ Sci & Technol, Sch Management & Econ, Kunming, PEOPLES R
+   CHINA
+HO Kunming Univ Sci & Technol, Sch Management & Econ
+SP Tsinghua Univ; Inst Elect & Elect Engineers; IEEE Syst; Chinese Univ
+   Hong Kong; S China Univ Technol
+RI xu, ke/JSL-2305-2023
+ZB 0
+TC 0
+ZS 0
+Z8 0
+ZA 0
+ZR 0
+Z9 0
+U1 0
+U2 4
+SN 2161-1890
+BN 978-1-5090-2842-9
+DA 2017-01-11
+UT WOS:000390104400182
+ER
+
+EF

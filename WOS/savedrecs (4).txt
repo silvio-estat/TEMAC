@@ -1,0 +1,2736 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Yi, Xiaomeng
+   Liu, Fangming
+   Liu, Jiangchuan
+   Jin, Hai
+TI Building a Network Highway for Big Data: Architecture and Challenges
+SO IEEE NETWORK
+VL 28
+IS 4
+SI SI
+BP 5
+EP 13
+DI 10.1109/MNET.2014.6863125
+DT Article
+PD JUL-AUG 2014
+PY 2014
+AB Big data, with their promise to discover valuable insights for better
+   decision making, have recently attracted significant interest from both
+   academia and industry. Voluminous data are generated from a variety of
+   users and devices, and are to be stored and processed in powerful data
+   centers. As such, there is a strong demand for building an unimpeded
+   network infrastructure to gather geologically distributed and rapidly
+   generated data, and move them to data centers for effective knowledge
+   discovery. The express network should also be seamlessly extended to
+   interconnect multiple data centers as well as interconnect the server
+   nodes within a data center. In this article, we take a close look at the
+   unique challenges in building such a network infrastructure for big
+   data. Our study covers each and every segment in this network highway:
+   the access networks that connect data sources, the Internet backbone
+   that bridges them to remote data centers, as well as the dedicated
+   network among data centers and within a data center. We also present two
+   case studies of real-world big data applications that are empowered by
+   networking, highlighting interesting and promising future research
+   directions.
+RI Liu, Fangming/HLG-2050-2023
+ZR 0
+Z8 3
+ZA 0
+ZB 1
+TC 119
+ZS 0
+Z9 137
+U1 1
+U2 51
+SN 0890-8044
+EI 1558-156X
+DA 2014-07-01
+UT WOS:000345579100003
+ER
+
+PT J
+AU Immonen, Anne
+   Paakkonen, Pekka
+   Ovaska, Eila
+TI Evaluating the Quality of Social Media Data in Big Data Architecture
+SO IEEE ACCESS
+VL 3
+BP 2028
+EP 2043
+DI 10.1109/ACCESS.2015.2490723
+DT Article
+PD 2015
+PY 2015
+AB The use of freely available online data is rapidly increasing, as
+   companies have detected the possibilities and the value of these data in
+   their businesses. In particular, data from social media are seen as
+   interesting as they can, when properly treated, assist in achieving
+   customer insight into business decision making. However, the
+   unstructured and uncertain nature of this kind of big data presents a
+   new kind of challenge: how to evaluate the quality of data and manage
+   the value of data within a big data architecture? This paper contributes
+   to addressing this challenge by introducing a new architectural solution
+   to evaluate and manage the quality of social media data in each
+   processing phase of the big data pipeline. The proposed solution
+   improves business decision making by providing real-time, validated data
+   for the user. The solution is validated with an industrial case example,
+   in which the customer insight is extracted from social media data in
+   order to determine the customer satisfaction regarding the quality of a
+   product.
+ZR 0
+Z8 3
+TC 62
+ZA 0
+ZB 1
+ZS 2
+Z9 81
+U1 0
+U2 52
+SN 2169-3536
+DA 2016-03-23
+UT WOS:000371388200155
+ER
+
+PT J
+AU Sarabia-Jacome, David
+   Palau, Carlos E.
+   Esteve, Manuel
+   Boronat, Fernando
+TI Seaport Data Space for Improving Logistic Maritime Operations
+SO IEEE ACCESS
+VL 8
+BP 4372
+EP 4382
+DI 10.1109/ACCESS.2019.2963283
+DT Article
+PD 2020
+PY 2020
+AB The maritime industry expects several improvements to efficiently manage
+   the operation processes by introducing Industry 4.0 enabling
+   technologies. Seaports are the most critical point in the maritime
+   logistics chain because of its multimodal and complex nature.
+   Consequently, coordinated communication among any seaport stakeholders
+   is vital to improving their operations. Currently, Electronic Data
+   Interchange (EDI) and Port Community Systems (PCS), as primary enablers
+   of digital seaports, have demonstrated their limitations to interchange
+   information on time, accurately, efficiently, and securely, causing high
+   operation costs, low resource management, and low performance. For these
+   reasons, this contribution presents the Seaport Data Space (SDS) based
+   on the Industrial Data Space (IDS) reference architecture model to
+   enable a secure data sharing space and promote an intelligent transport
+   multimodal terminal. Each seaport stakeholders implements the IDS
+   connector to take part in the SDS and share their data. On top of SDS, a
+   Big Data architecture is integrated to manage the massive data shared in
+   the SDS and extract useful information to improve the decision-making.
+   The architecture has been evaluated by enabling a port authority and a
+   container terminal to share its data with a shipping company. As a
+   result, several Key Performance Indicators (KPIs) have been developed by
+   using the Big Data architecture functionalities. The KPIs have been
+   shown in a dashboard to allow easy interpretability of results for
+   planning vessel operations. The SDS environment may improve the
+   communication between stakeholders by reducing the transaction costs,
+   enhancing the quality of information, and exhibiting effectiveness.
+RI Palau, Carlos E/HCH-5674-2022; Esteve, Manuel/; Sarabia-Jácome, David/AAG-5233-2019; Sarabia, David/AAG-5233-2019; Boronat, Fernando/A-3234-2011
+OI Palau, Carlos E/0000-0002-3795-5404; Esteve, Manuel/0000-0002-7985-3270;
+   Sarabia, David/0000-0003-4930-9677; Boronat,
+   Fernando/0000-0001-5525-3441
+ZA 0
+TC 27
+ZR 0
+ZS 0
+ZB 1
+Z8 1
+Z9 33
+U1 7
+U2 78
+SN 2169-3536
+DA 2020-07-28
+UT WOS:000549773400004
+ER
+
+PT J
+AU Shrouf, Fadi
+   Gong, Bing
+   Ordieres-Mere, Joaquin
+TI Multi-level awareness of energy used in production processes
+SO JOURNAL OF CLEANER PRODUCTION
+VL 142
+BP 2570
+EP 2585
+DI 10.1016/j.jclepro.2016.11.019
+PN 4
+DT Article
+PD JAN 20 2017
+PY 2017
+AB To ensure green manufacturing, the energy consumption of production
+   processes should be transparent and minimized. Also, to achieve the
+   desired level of energy consumption awareness and efficiency
+   improvements, energy use should be measured in more detail and linked to
+   production data. In this scenario, real-time monitoring of energy
+   consumption represents an essential step to increasing energy awareness,
+   efficiency and the support of energy-aware production processes. This
+   paper seeks to provide a way to achieve multi-level awareness of the
+   energy used during production processes. The multi-level awareness of
+   energy consumption means identifying the amount of energy used, CO2
+   emitted, and the cost of the energy used at operation, product, and
+   order level. This multi-level awareness is achieved by integrating
+   energy usage data with production data at the operational level.
+   Furthermore, energy sources need to be considered to define the amount
+   of CO2 that is emitted from the production process for each product. A
+   pilot study was carried out to integrate electrical energy data,
+   production data and scheduling data in real time to achieve the
+   multi-level awareness of energy used in production. The results show
+   that integrating energy with production data enables factories to
+   provide specific energy consumption information for decision makers at
+   the factory level, as well as for the consumers and the regulators. This
+   integration of energy and production data is achieved efficiently when
+   there is a high level of standardization of production processes and the
+   availability of detailed energy usage data. (C) 2016 Elsevier Ltd. All
+   rights reserved.
+RI Ordieres-Meré, Joaquín/B-9677-2011; Gong, Bing/ADD-1408-2022
+OI Ordieres-Meré, Joaquín/0000-0002-9677-6764; Gong,
+   Bing/0000-0001-7770-2738
+Z8 0
+ZR 0
+ZA 0
+ZB 1
+ZS 0
+TC 29
+Z9 32
+U1 0
+U2 36
+SN 0959-6526
+EI 1879-1786
+DA 2017-02-08
+UT WOS:000391516300016
+ER
+
+PT C
+AU Matsebula, Fezile
+   Mnkandla, Ernest
+BE Cornish, DR
+TI A BIG DATA ARCHITECTURE FOR LEARNING ANALYTICS IN HIGHER EDUCATION
+SO 2017 IEEE AFRICON
+SE Africon
+BP 951
+EP 956
+DT Proceedings Paper
+PD 2017
+PY 2017
+AB Data with high volume, velocity, variety and veracity brings the new
+   experience curve of analytics. Big data in higher education comes from
+   different sources that include blogs, social networks, student
+   information systems, learning management systems, research, and other
+   machine-generated data. Once the data is analysed it promises better
+   student placement processes; more accurate enrolment forecasts, and
+   early warning systems that identify and assist students at-risk of
+   failing or dropping out. Big data is becoming a key to creating
+   competitive advantages in higher education. Like with any organization,
+   traditional data processing and analysis of structured and unstructured
+   data using RDBMS and data warehousing no longer satisfy big data
+   challenges. The lack of adequate conceptual architectures for big data
+   tailored for institutions of higher education has led to many failures
+   to produce meaningful, accessible, and timely information for decision
+   making. Therefore, this calls for the development of conceptual
+   architectures for big data in higher education. This paper presents an
+   architecture for big data analytics in higher education.
+CT IEEE AFRICON Conference - Science, Technology and Innovation for Africa
+CY SEP 18-20, 2017
+CL Cape Town, SOUTH AFRICA
+SP IEEE; mlab; IEEE Reg 8; IEEE S Africa Sect; IES; Univ Pretoria; SAiEE;
+   IBM; Altair; CST
+RI Mnkandla, Ernest/G-5235-2012; Matsebula, Fezile/JDD-6998-2023; Matsebula, Fezile/
+OI Matsebula, Fezile/0000-0001-7646-6243
+ZB 0
+ZS 0
+TC 16
+ZA 0
+Z8 1
+ZR 0
+Z9 29
+U1 0
+U2 17
+SN 2153-0025
+BN 978-1-5386-2775-4
+DA 2017-01-01
+UT WOS:000424741600162
+ER
+
+PT J
+AU Errami, Soukaina Ait
+   Hajji, Hicham
+   Kadi, Kenza Ait El
+   Badir, Hassan
+TI Spatial big data architecture: From Data Warehouses and Data Lakes to
+   the LakeHouse
+SO JOURNAL OF PARALLEL AND DISTRIBUTED COMPUTING
+VL 176
+BP 70
+EP 79
+DI 10.1016/j.jpdc.2023.02.007
+EA MAR 2023
+DT Article
+PD JUN 2023
+PY 2023
+AB The construction of systems supporting spatial data has experienced
+   great enthusiasm in the past, due to the richness of this type of data
+   and their semantics, which can be used in the decision-making process in
+   various fields. Thus, the problem of integrating spatial data into
+   existing databases and information systems has been addressed by
+   creating spatial extensions to relational tables or by creating spatial
+   data warehouses, while arranging data structures and query languages by
+   making them more spatiallyaware. With the advent of Big Data, these
+   conventional storage and spatial representation structures are becoming
+   increasingly outdated, and required a new organization of spatial data.
+   Approaches based on distributed storage and data lakes have been
+   proposed, to integrate the complexity of spatial data, with operational
+   and analytical systems which unfortunately quickly showed their limits.
+   Recently the concept of lakehouse was introduced in order to integrate,
+   among other things, the notion of reliability and ACID properties to the
+   volume of data to be managed. This new data architecture is a
+   combination of governed and reliable Data Warehouses and flexible,
+   scalable and cost-effective Data Lakes.In this paper, we present how
+   traditional approaches of spatial data management in the context of
+   spatial big data have quickly shown their limits. We present a
+   literature overview of these approaches, and how they led to the Data
+   LakeHouse. We detail how the Lakehouse paradigm can be used and extended
+   for managing spatial big data, by giving the different components and
+   best practices for building a spatial data LakeHouse architecture
+   optimized for the storage and computing over spatial big data.(c) 2023
+   Elsevier Inc. All rights reserved.
+RI aitelkadi, aitelkadi/; Hassan, BADIR/R-6226-2019
+OI aitelkadi, aitelkadi/0000-0002-4233-1292; 
+ZS 0
+TC 21
+ZR 0
+ZB 0
+Z8 0
+ZA 0
+Z9 28
+U1 4
+U2 45
+SN 0743-7315
+EI 1096-0848
+DA 2023-04-10
+UT WOS:000956881700001
+ER
+
+PT J
+AU Brous, Paul
+   Janssen, Marijn
+TI Trusted Decision-Making: Data Governance for Creating Trust in Data
+   Science Decision Outcomes
+SO ADMINISTRATIVE SCIENCES
+VL 10
+IS 4
+AR 81
+DI 10.3390/admsci10040081
+DT Article
+PD DEC 2020
+PY 2020
+AB Organizations are increasingly introducing data science initiatives to
+   support decision-making. However, the decision outcomes of data science
+   initiatives are not always used or adopted by decision-makers, often due
+   to uncertainty about the quality of data input. It is, therefore, not
+   surprising that organizations are increasingly turning to data
+   governance as a means to improve the acceptance of data science decision
+   outcomes. In this paper, propositions will be developed to understand
+   the role of data governance in creating trust in data science decision
+   outcomes. Two explanatory case studies in the asset management domain
+   are analyzed to derive boundary conditions. The first case study is a
+   data science project designed to improve the efficiency of road
+   management through predictive maintenance, and the second case study is
+   a data science project designed to detect fraudulent usage of
+   electricity in medium and low voltage electrical grids without
+   infringing privacy regulations. The duality of technology is used as our
+   theoretical lens to understand the interactions between the
+   organization, decision-makers, and technology. The results show that
+   data science decision outcomes are more likely to be accepted if the
+   organization has an established data governance capability. Data
+   governance is also needed to ensure that organizational conditions of
+   data science are met, and that incurred organizational changes are
+   managed efficiently. These results imply that a mature data governance
+   capability is required before sufficient trust can be placed in data
+   science decision outcomes for decision-making.
+RI Brous, Paul/; Janssen, Marijn/H-6223-2013
+OI Brous, Paul/0000-0002-0593-1168; Janssen, Marijn/0000-0001-6211-8790
+ZS 0
+ZA 0
+TC 21
+ZR 0
+Z8 0
+ZB 0
+Z9 27
+U1 3
+U2 84
+EI 2076-3387
+DA 2021-01-06
+UT WOS:000601534200001
+ER
+
+PT C
+AU Giebler, Corinna
+   Groger, Christoph
+   Hoos, Eva
+   Schwarz, Holger
+   Mitschang, Bernhard
+GP IEEE
+TI A Zone Reference Model for Enterprise-Grade Data Lake Management
+SO 2020 IEEE 24TH INTERNATIONAL ENTERPRISE DISTRIBUTED OBJECT COMPUTING
+   CONFERENCE (EDOC 2020)
+SE IEEE International Enterprise Distributed Object Computing
+   Conference-EDOC
+BP 57
+EP 66
+DI 10.1109/EDOC49727.2020.00017
+DT Proceedings Paper
+PD 2020
+PY 2020
+AB Data lakes are on the rise as data platforms for any kind of analytics,
+   from data exploration to machine learning. They achieve the required
+   flexibility by storing heterogeneous data in their raw format, and by
+   avoiding the need for pre-defined use cases. However, storing only raw
+   data is inefficient, as for many applications, the same data processing
+   has to be applied repeatedly. To foster the reuse of processing steps,
+   literature proposes to store data in different degrees of processing in
+   addition to their raw format. To this end, data lakes are typically
+   structured in zones. There exists various zone models, but they are
+   varied, vague, and no assessments are given. It is unclear which of
+   these zone models is applicable in a practical data lake implementation
+   in enterprises. In this work, we assess existing zone models using
+   requirements derived from multiple representative data analytics use
+   cases of a real-world industry case. We identify the shortcomings of
+   existing work and develop a zone reference model for enterprise-grade
+   data lake management in a detailed manner. We assess the reference
+   model's applicability through a prototypical implementation for a
+   real-world enterprise data lake use case. This assessment shows that the
+   zone reference model meets the requirements relevant in practice and is
+   ready for industry use.
+CT 24th IEEE International Enterprise Distributed Object Computing
+   Conference (IEEE EDOC)
+CY OCT 05-08, 2020
+CL ELECTR NETWORK
+SP IEEE; IEEE Comp Soc
+RI Schwarz, Holger/AAP-1719-2020
+TC 18
+Z8 1
+ZR 0
+ZB 0
+ZA 0
+ZS 0
+Z9 23
+U1 0
+U2 3
+SN 2325-6354
+BN 978-1-7281-6473-1
+DA 2021-04-20
+UT WOS:000630246800007
+ER
+
+PT C
+AU Li, Xiaoquan
+   Zhang, Fujiang
+   Wang, Yongliang
+GP IEEE
+TI Research on Big Data Architecture, Key Technologies and its Measures
+SO 2013 IEEE 11TH INTERNATIONAL CONFERENCE ON DEPENDABLE, AUTONOMIC AND
+   SECURE COMPUTING (DASC)
+BP 1
+EP 4
+DI 10.1109/DASC.2013.28
+DT Proceedings Paper
+PD 2013
+PY 2013
+AB Big data require exceptional technologies to efficiently process large
+   quantities of data within tolerable elapsed times, such as capture,
+   curation, storage, search, sharing, transfer, analysis and
+   visualization. Concept, features, construction importance, architecture,
+   run mode, and its key technologies of big data are analyzed in this
+   paper. Information sharing and data security under big data constructin
+   are studied, at last, four measures for building big data are
+   putforward, which can provide good decision-making for big data
+   construction.
+CT 11th IEEE International Conference on Dependable, Autonomic and Secure
+   Computing (DASC)
+CY DEC 21-22, 2013
+CL Chengdu, PEOPLES R CHINA
+SP IEEE; NSFC; IEEE Comp Soc; Unive Elect Sci & Technol China; StFX Univ;
+   Ubiquitous Media Communicat Lab; IEEE Tech Comm Scalable Comp
+ZB 5
+ZR 0
+ZS 0
+ZA 0
+TC 15
+Z8 0
+Z9 16
+U1 0
+U2 9
+BN 978-1-4799-3381-5
+DA 2013-01-01
+UT WOS:000360991500001
+ER
+
+PT C
+AU Wibowo, Merlinda
+   Sulaiman, Sarina
+   Shamsuddin, Siti Mariyam
+BA Shi, Y
+BE Tan, Y
+   Takagi, H
+TI Machine Learning in Data Lake for Combining Data Silos
+SO DATA MINING AND BIG DATA, DMBD 2017
+SE Lecture Notes in Computer Science
+VL 10387
+BP 294
+EP 306
+DI 10.1007/978-3-319-61845-6_30
+DT Proceedings Paper
+PD 2017
+PY 2017
+AB Data silo can grow to be a large-scale data for years, overlapping and
+   has an indefinite quality. It allows an organization to develop their
+   own analytical capabilities. Data lake has the ability to solve this
+   problem efficiently with the data analysis by using statistical and
+   predictive modeling techniques which can be applied to enhance and
+   support an organization's business strategy. This study provides an
+   overview of the process of decision-making, operational efficiency, and
+   creating the solution for an organization. Machine Learning can
+   distribute the architecture of data model and integrate the data silo
+   with other organizations data to optimize the operational business
+   processes within an organization in order to improve data quality and
+   efficiency. Testing is done by utilizing the data from the Malaysia's
+   and Singapore's Government Open Data on the Air Pollutant Index to
+   determine the condition of air pollution levels for the health and
+   safety of the population.
+CT 2nd International Conference on Data Mining and Big Data (DMBD)
+CY JUL 27-AUG 01, 2017
+CL Fukuoka, JAPAN
+SP Peking Univ, Computat Intelligence Lab; Kyushu Univ, Res Ctr Appl
+   Perceptual Sci; IEEE Computat Intelligence Soc; IEEE Syst, Man &
+   Cybernet Soc, Japan Chapter
+RI Wibowo, Merlinda/AAD-1609-2021; Sulaiman, Sarina/A-1704-2013
+Z8 0
+TC 8
+ZA 0
+ZB 0
+ZS 0
+ZR 0
+Z9 14
+U1 0
+U2 40
+SN 0302-9743
+EI 1611-3349
+BN 978-3-319-61845-6; 978-3-319-61844-9
+DA 2018-08-15
+UT WOS:000440465200030
+ER
+
+PT J
+AU Lopez, Ivan Dario
+   Grass, Jose Fernando
+   Figueroa, Apolinar
+   Corrales, Juan Carlos
+TI A proposal for a multi-domain data fusion strategy in a climate-smart
+   agriculture context
+SO INTERNATIONAL TRANSACTIONS IN OPERATIONAL RESEARCH
+VL 30
+IS 4
+SI SI
+BP 2049
+EP 2070
+DI 10.1111/itor.12899
+EA OCT 2020
+DT Article
+PD JUL 2023
+PY 2023
+AB Agriculture provides food, raw materials, and employment opportunities
+   for a significant percentage of the world's population. Climate,
+   economic, political, social, and other conditions affect decision making
+   in agricultural processes. In many cases, these conditions imply the
+   loss of suitability of many areas for some traditional crops. In
+   contrast, these areas can produce new crops by taking advantage of
+   changing conditions. In this sense, having reliable tools and
+   information for decision making is essential in adapting to new
+   agricultural productivity scenarios. The above implies having sufficient
+   and relevant data sources to reduce the uncertainty in the
+   decision-making processes. However, data by nature tend to be diverse in
+   structure, storage formats, and access protocols. Data fusion tasks have
+   been immersed in a multitude of applications and have been approached
+   from different points of view when implementing a suitable solution. We
+   propose a multi-domain data fusion strategy to support data analysis
+   tasks in agricultural contexts. We also describe all the data sources
+   collected, which are the main input to the proposed strategy. The
+   combined data sources were also evaluated through a preliminary
+   exploratory analysis in a multi-label learning approach. Finally, the
+   data fusion strategy is explained through an example in agricultural
+   crop production.
+RI Figueroa Casas, Apolinar/AAC-3182-2019; Lopez Gomez, Ivan Dario/; lopez, ivan/GSM-8495-2022
+OI Figueroa Casas, Apolinar/0000-0003-3586-8187; Lopez Gomez, Ivan
+   Dario/0000-0002-9781-6094; 
+ZS 0
+Z8 0
+TC 11
+ZR 0
+ZA 0
+ZB 3
+Z9 13
+U1 0
+U2 25
+SN 0969-6016
+EI 1475-3995
+DA 2020-11-19
+UT WOS:000587020700001
+ER
+
+PT C
+AU Li, Sujie
+   Zhang, Guigang
+   Wang, Jian
+GP IEEE
+TI Civil Aircraft Health Management Research based on Big Data and Deep
+   Learning Technologies
+SO 2017 IEEE INTERNATIONAL CONFERENCE ON PROGNOSTICS AND HEALTH MANAGEMENT
+   (ICPHM)
+BP 154
+EP 159
+DT Proceedings Paper
+PD 2017
+PY 2017
+AB the coupling and correlation degree between aircraft systems is higher,
+   and the diagnosis and prognosis of aircraft are more complex. Building a
+   platform for storing and analyzing the aviation big data becomes an
+   important task for civil aviation. This paper proposes a civil aircraft
+   health management big data architecture. The civil aircraft health
+   management system includes airborne PHM, ground PHM, remote diagnosis
+   system, portable maintenance assistant system, maintenance center,
+   automatic test equipment, special test equipment. Airborne PHM collects
+   data from multiple types of data sources. Ground PHM provides decision
+   making support for civil aircrafts including real-time alarm, health
+   management, maintenance plan, spare parts. The paper introduces deep
+   learning algorithm and aircraft fault diagnosis and prognosis
+   implementation.
+CT IEEE International Conference on Prognostics and Health Management
+   (ICPHM)
+CY JUN 19-21, 2017
+CL Dallas, TX
+SP IEEE; IEEE Reliabil Soc
+ZS 0
+TC 9
+ZB 0
+Z8 2
+ZR 0
+ZA 0
+Z9 13
+U1 3
+U2 18
+BN 978-1-5090-5710-8
+DA 2017-01-01
+UT WOS:000452639100025
+ER
+
+PT C
+AU Spangenberg, Norman
+   Wilke, Moritz
+   Franczyk, Bogdan
+BE Shakshuki, E
+TI A Big Data architecture for intra-surgical remaining time predictions
+SO 8TH INTERNATIONAL CONFERENCE ON EMERGING UBIQUITOUS SYSTEMS AND
+   PERVASIVE NETWORKS (EUSPN 2017) / 7TH INTERNATIONAL CONFERENCE ON
+   CURRENT AND FUTURE TRENDS OF INFORMATION AND COMMUNICATION TECHNOLOGIES
+   IN HEALTHCARE (ICTH-2017) / AFFILIATED WORKSHOPS
+SE Procedia Computer Science
+VL 113
+BP 310
+EP 317
+DI 10.1016/j.procs.2017.08.332
+DT Proceedings Paper
+PD 2017
+PY 2017
+AB The operating room area is still one of the most expensive sections in
+   the hospital due to the high resource requirements and the diverse
+   uncertainties. However there are few solutions that support monitoring
+   and decision-making in operating room management. But with new data
+   sources and analytical methods of big data research more improvements
+   could be achieved. In this work we utilize surgical phase events
+   recognized in surgical device data to learn prediction models and
+   trigger online predictions for remaining intervention times in operating
+   rooms. To identify the best algorithm for prediction model computation
+   with the existing data, we evaluate a set of regression algorithms.
+   Based on this methods we propose an architecture approach for the
+   integrated processing of real-time data and historic learning data. The
+   evaluation and comparison with related work shows that our prototype is
+   competitive regarding prediction accuracy. (C) 2017 The Authors.
+   Published by Elsevier B.V.
+CT 8th International Conference on Emerging Ubiquitous Systems and
+   Pervasive Networks (EUSPN) / 7th International Conference on Current and
+   Future Trends of Information and Communication Technologies in
+   Healthcare (ICTH)
+CY SEP 18-20, 2017
+CL Lund, SWEDEN
+ZB 0
+TC 9
+Z8 0
+ZR 0
+ZS 0
+ZA 0
+Z9 13
+U1 0
+U2 9
+SN 1877-0509
+BN *****************
+DA 2018-02-01
+UT WOS:000419236500040
+ER
+
+PT C
+AU Goncalves, Andre
+   Portela, Filipe
+   Santos, Manuel Filipe
+   Rua, Fernando
+BE Shakshuki, E
+TI Towards of a Real-time Big Data Architecture to Intensive Care
+SO 8TH INTERNATIONAL CONFERENCE ON EMERGING UBIQUITOUS SYSTEMS AND
+   PERVASIVE NETWORKS (EUSPN 2017) / 7TH INTERNATIONAL CONFERENCE ON
+   CURRENT AND FUTURE TRENDS OF INFORMATION AND COMMUNICATION TECHNOLOGIES
+   IN HEALTHCARE (ICTH-2017) / AFFILIATED WORKSHOPS
+SE Procedia Computer Science
+VL 113
+BP 585
+EP 590
+DI 10.1016/j.procs.2017.08.294
+DT Proceedings Paper
+PD 2017
+PY 2017
+AB These days the exponential increase in the volume and variety of data
+   stored by companies and organizations of various sectors of activity,
+   has required to organizations the search for new solutions to improve
+   their services and/or products, taking advantage of technological
+   evolution. As a response to the inability of organizations to process
+   large quantities and varieties of data, in the technological market,
+   arise the Big Data. This emerging concept defined mainly by the volume,
+   velocity and variety has evolved greatly in part by its ability to
+   generate value for organizations in decision making. Currently, the
+   health care sector is one of the five sectors of activity where the
+   potential of Big Data growth most stands out. However, the way to go is
+   still long and in fact there are few organizations, related to health
+   care, that are taking advantage of the true potential of Big Data. The
+   main target of this research is to produce a real-time Big Data
+   architecture to the INTCare system, of the Centro Hospitalar do Porto,
+   using the main open source big data solution, the Apache Hadoop. As a
+   result of the first phase of this research we obtained a generic
+   architecture who can be adopted by other Intensive Care Units. (c) 2017
+   The Authors. Published by Elsevier B.V.
+CT 8th International Conference on Emerging Ubiquitous Systems and
+   Pervasive Networks (EUSPN) / 7th International Conference on Current and
+   Future Trends of Information and Communication Technologies in
+   Healthcare (ICTH)
+CY SEP 18-20, 2017
+CL Lund, SWEDEN
+RI Gomes, André/KXQ-9620-2024; Santos, Manuel/ABD-3467-2020; Portela, Filipe/G-5324-2012
+OI Santos, Manuel/0000-0002-5441-3316; Portela, Filipe/0000-0003-2181-6837
+TC 5
+ZB 0
+Z8 1
+ZR 0
+ZA 0
+ZS 1
+Z9 11
+U1 0
+U2 4
+SN 1877-0509
+BN *****************
+DA 2018-02-01
+UT WOS:000419236500080
+ER
+
+PT J
+AU Eltabakh, Mohamed Y.
+   Kunjir, Mayuresh
+   Elmagarmid, Ahmed K.
+   Ahmad, Mohammad Shahmeer
+TI Cross Modal Data Discovery over Structured and Unstructured Data Lakes
+SO PROCEEDINGS OF THE VLDB ENDOWMENT
+VL 16
+IS 11
+BP 3377
+EP 3390
+DI 10.14778/3611479.3611533
+DT Article; Proceedings Paper
+PD JUL 2023
+PY 2023
+AB Organizations are collecting increasingly large amounts of data for
+   data-driven decision making. These data are often dumped into a
+   centralized repository, e.g., a data lake, consisting of thousands of
+   structured and unstructured datasets. Perversely, such mixture makes the
+   problem of discovering tables or documents that are relevant to a user's
+   query very challenging. Despite the recent efforts in data discovery,
+   the problem remains widely open especially in the two fronts of (1)
+   discovering relationships and relatedness across structured and
+   unstructured datasets-where existing techniques suffer from either
+   scalability, being customized for a specific problem type (e.g., entity
+   matching or data integration), or demolishing the structural properties
+   on its way, and (2) developing a holistic system for integrating various
+   similarity measurements and sketches in an effective way to boost the
+   discovery accuracy.
+   In this paper, we propose a new data discovery system, named CMDL, for
+   addressing these two limitations. CMDL supports the data discovery
+   process over both structured and unstructured data while retaining the
+   structural properties of tables. As a result, CMDL is the only system to
+   date that empowers end-users to seamlessly pipeline the discovery tasks
+   across the two modalities. We propose a novel multi-modal embedding
+   representation that captures the similarities between text documents and
+   tabular columns. The model training relies on labeled datasets generated
+   though weak supervision, and thus the system is domain agnostic and
+   easily generalizable. We evaluate CMDL on three real-world data lakes
+   with diverse applications and show that our system is significantly more
+   effective for cross-modality discovery compared to the search-based
+   baseline techniques. Moreover, CMDL is more accurate and robust to
+   different data types and distributions compared to the state-of-the-art
+   systems that are limited to only the structured datasets.
+CT 49th International Conference on Very Large Data Bases (VLDB)
+CY AUG 28-SEP 01, 2023
+CL Vancouver, CANADA
+TC 6
+Z8 0
+ZB 0
+ZS 0
+ZA 0
+ZR 0
+Z9 8
+U1 0
+U2 7
+SN 2150-8097
+DA 2023-10-12
+UT WOS:001059181900055
+ER
+
+PT C
+AU Molnar, Balint
+   Pisoni, Galena
+   Tarcsi, Adam
+BE Vansinderen, M
+   Obaidat, M
+   Benothman, J
+TI Data Lakes for Insurance Industry: Exploring Challenges and
+   Opportunities for Customer Behaviour Analytics, Risk Assessment, and
+   Industry Adoption
+SO ICE-B: PROCEEDINGS OF THE 17TH INTERNATIONAL JOINT CONFERENCE ON
+   E-BUSINESS AND TELECOMMUNICATIONS, VOL 3: ICE-B
+BP 127
+EP 134
+DI 10.5220/0009972301270134
+DT Proceedings Paper
+PD 2020
+PY 2020
+AB The proliferation of the big data movement has led to volumes of data.
+   The data explosion has surpassed enterprises' ability to consume the
+   various data types that may exist. This paper discusses the
+   opportunities and challenges associated with implementing data lakes, a
+   potential strategy for leveraging data as a strategic asset for
+   enterprise decision-making The paper analyzes an information ecosystem
+   of an Insurance Company environment. There are two types of data
+   sources, information systems based on a transactional databases for
+   recording claims, as the basis of financial administration and systems
+   policies. There exists neither Data Warehouse solutions nor any other
+   data collection solutions dedicated to utilizing by Data Science methods
+   and tools. The emerging technologies provide opportunities for synergy
+   between the traditional Data Warehouse and the most recent Data Lake
+   approaches. Therefore, it seems feasible and reasonable to integrate
+   these two architecture approaches to support data analytics on several
+   aspects of insurance, financial activities, risk analysis, prediction
+   and forecasting.
+CT 17th International Joint Conference on e-Business and Telecommunications
+   (ICE-B)
+CY JUL 08-10, 2020
+CL Paris, FRANCE
+RI Molnár, Bálint/AAA-7271-2021; Pisoni, Galena/O-4598-2019
+ZR 0
+ZB 0
+ZA 0
+ZS 0
+Z8 0
+TC 6
+Z9 8
+U1 1
+U2 8
+BN 978-989-758-447-3
+DA 2020-01-01
+UT WOS:000836152300010
+ER
+
+PT J
+AU Cherradi, Mohamed
+   Bouhafer, Fadwa
+   EL Haddadi, Anass
+TI Data lake governance using IBM-Watson knowledge catalog
+SO SCIENTIFIC AFRICAN
+VL 21
+AR e01854
+DI 10.1016/j.sciaf.2023.e01854
+EA AUG 2023
+DT Article
+PD SEP 2023
+PY 2023
+AB The strategic importance of data in decision-making is increasingly
+   recognized, demanding efficient solutions such as data catalogs to
+   ensure data governance and emphasize data interoperability, in
+   accordance with the FAIR (Findable, Accessible, Interoperable, and
+   Reusable) principles. However, the usage of FAIR-compliant data catalogs
+   lacks empirical studies due to its novelty. This study aims to promote
+   the practical adoption of data catalogs as a means to manage the
+   expanding data landscape. We differentiate our contribution by providing
+   an empirical evaluation and comparison of IBM Watson Knowledge Catalog
+   (IBM-WKC), a leading data cataloging solution, with two other prominent
+   alternatives, Open-Metadata and Data-Galaxy, for extracting relevant
+   information from data lakes containing heterogeneous data sources in
+   their native formats. Our proposed methodology utilizes an innovative
+   tool built on IBM-WKC for annotating collected documents. To evaluate
+   our approach, we conducted experiments on a dataset of 100 documents
+   sourced from scientific databases. Moreover, to assess our proposal, we
+   compare the retrieved text to the appropriate interventions that use the
+   original checklist. The results demonstrate the superiority of IBM-WKC
+   over its competitors, showcasing its enhanced performance in addressing
+   data cataloging challenges. Notably, the tested queries achieved an
+   impressive accuracy, precision, and recall value of 96%. These findings
+   highlight the reliability and alignment of IBM-WKC with the FAIR
+   principles.
+RI EL HADDADI, Anass/ABD-8465-2021
+OI EL HADDADI, Anass/0000-0002-3338-2477
+ZA 0
+ZB 0
+Z8 0
+ZR 0
+TC 5
+ZS 0
+Z9 7
+U1 1
+U2 9
+SN 2468-2276
+DA 2024-02-25
+UT WOS:001165433200001
+ER
+
+PT J
+AU Correa, Christian
+   Dujovne, Diego
+   Bolano, Fernando
+TI Design and Implementation of an Embedded Edge-Processing Water Quality
+   Monitoring System for Underground Waters
+SO IEEE EMBEDDED SYSTEMS LETTERS
+VL 15
+IS 2
+BP 81
+EP 84
+DI 10.1109/LES.2022.3184925
+DT Article
+PD JUN 2023
+PY 2023
+AB Global warming effects are seen around the world and Latin American
+   countries are not an exception, especially for expanding drought areas.
+   Therefore, underground water resources used in the region are
+   incrementing exponentially. However, temporal and spatial underground
+   water information concerning availability and quality is scarce,
+   disabling proper decision making. In order to close that breach, we
+   propose and embedded edge-processing Internet of Things (IoT)-based
+   water quality monitoring system. This letter introduces the design and
+   implementation of this solution, specifically targeted to monitor
+   irrigation and drinking water extracted from water wells. The system is
+   designed to be deployed in central Chile, considering the topographic
+   conditions, which severely affect power availability and communication
+   resources. The captured data are stored in a data lake, for further
+   processing according to water quality models.
+RI Correa, Christian/AAP-1823-2020
+OI Correa, Christian/0000-0002-4748-2129
+ZA 0
+ZS 0
+Z8 0
+ZR 0
+TC 7
+ZB 1
+Z9 7
+U1 0
+U2 30
+SN 1943-0663
+EI 1943-0671
+DA 2023-06-25
+UT WOS:000995882700007
+ER
+
+PT C
+AU Ren, Peng
+   Li, Shuaibo
+   Hou, Wei
+   Zheng, Wenkui
+   Li, Zhen
+   Cui, Qin
+   Chang, Wang
+   Li, Xin
+   Zeng, Chun
+   Sheng, Ming
+   Zhang, Yong
+BE Xing, C
+   Fu, X
+   Zhang, Y
+   Zhang, G
+   Borjigin, C
+TI MHDP: An Efficient Data Lake Platform for Medical Multi-source
+   Heterogeneous Data
+SO WEB INFORMATION SYSTEMS AND APPLICATIONS (WISA 2021)
+SE Lecture Notes in Computer Science
+VL 12999
+BP 727
+EP 738
+DI 10.1007/978-3-030-87571-8_63
+DT Proceedings Paper
+PD 2021
+PY 2021
+AB In medical domain, huge amounts of data are generated at all times.
+   These data are usually difficult to access, with poor data quality and
+   many data islands. Besides, with a wide range of sources and complex
+   structure, these data contain essential information and are difficult to
+   manage. However, few existing data management frameworks based on Data
+   Lake excel in solving the persistence and the analysis efficiency for
+   medical multi-source heterogeneous data. In this paper, we propose an
+   efficient Multi-source Heterogeneous Data Lake Platform (MHDP) to
+   realize the efficient medical data management. Firstly, we propose an
+   efficient and unified method based on Data Lake to store data of
+   different types and different sources persistently. Secondly, based on
+   the unified data store, an efficient multi-source heterogeneous data
+   fusion is implemented to effectively manage data. Finally, an efficient
+   data query strategy is carried out to assist doctors in medical
+   decision-making. In-depth analysis on applications shows that MHDP
+   delivers better performance for data management in medical domain.
+CT 18th Web Information Systems and Applications Conference (WISA)
+CY SEP 24-26, 2021
+CL Kaifeng, PEOPLES R CHINA
+SP China Comp Federat Tech Comm Informat Syst; Henan Univ; China Comp
+   Federat
+RI Cui, Qin/GQQ-3888-2022
+TC 5
+ZB 0
+ZA 0
+ZS 0
+ZR 0
+Z8 0
+Z9 7
+U1 2
+U2 29
+SN 0302-9743
+EI 1611-3349
+BN 978-3-030-87571-8; 978-3-030-87570-1
+DA 2022-03-25
+UT WOS:000767941100063
+ER
+
+PT J
+AU Mitrovic, Stanislav
+TI Specifics of the integration of Business Intelligence and Big Data
+   technologies in the processes of economic analysis
+SO BIZNES INFORMATIKA-BUSINESS INFORMATICS
+VL 42
+IS 4
+BP 40
+EP 46
+DI 10.17323/1998-0663.2017.4.40.46
+DT Article
+PD 2017
+PY 2017
+AB The volume of data used for economic analysis of the activities of
+   organizations is growing every year. Despite the fact that all
+   information required for economic analysis is available from various
+   sources, such data are very often useless for analysis from the point of
+   view of their economic potential.
+   The purpose of this study is to outline a foundation for integrating
+   Business Intelligence and Big Data into economic analysis processes. The
+   theoretical and methodological basis of this study is provided by
+   scientific research, methodological and practical developments of
+   domestic and foreign authors on the application of IT solutions in
+   economic analysis.
+   According to the results of the research, modern information
+   technologies, in particular, the Business Intelligence and Big Data
+   systems have considerably changed the possibilities for improving
+   economic analysis and reducing decision-making time. From the
+   methodological point of view, many aspects of integration of BI and Big
+   Data solutions and their implementation in the economic analysis
+   processes in Russia's companies remain insufficiently developed. The
+   foreign market of modern information technologies for business analytics
+   has a longer history and is being developed more rapidly.
+   The main conclusions of the study indicate that modern organizations
+   operating on a highly competitive market should understand that the
+   accumulation of Big Data does not always lead to the expected business
+   benefits. In this context, the conclusion is that a modern company
+   should not set as its goal to process all the available data in order to
+   improve the quality of its economic analysis. It is more significant to
+   use the entire volume of data for segmentation, which allows effective
+   construction of a large number of models for small clusters, solving
+   specific problems of economic analysis based on the application of
+   modern IT systems.
+RI Stanislav, Mitrovic/A-3060-2009
+OI Stanislav, Mitrovic/0000-0003-0664-7270
+ZS 0
+Z8 0
+ZR 0
+ZA 0
+TC 2
+ZB 0
+Z9 7
+U1 0
+U2 19
+SN 1998-0663
+DA 2018-12-28
+UT WOS:000426970600004
+ER
+
+PT J
+AU Salierno, Giulio
+   Leonardi, Letizia
+   Cabri, Giacomo
+TI A Big Data Architecture for Digital Twin Creation of Railway Signals
+   Based on Synthetic Data
+SO IEEE OPEN JOURNAL OF INTELLIGENT TRANSPORTATION SYSTEMS
+VL 5
+BP 1
+EP 18
+DI 10.1109/OJITS.2024.3412820
+DT Article
+PD 2024
+PY 2024
+AB Industry 5.0 has introduced new possibilities for defining key features
+   of the factories of the future. This trend has transformed traditional
+   industrial production by exploiting Digital Twin (DT) models as virtual
+   representations of physical manufacturing assets. In the railway
+   industry, Digital Twin models offer significant benefits by enabling
+   anticipation of developments in rail systems and subsystems, providing
+   insight into the future performance of physical assets, and allowing
+   testing and prototyping solutions prior to implementation. This paper
+   presents our approach for creating a Digital Twin model in the railway
+   domain. We particularly emphasize the critical role of Big Data in
+   supporting decision-making for railway companies and the importance of
+   data in creating virtual representations of physical objects in railway
+   systems. Our results show that the Digital Twin model of railway switch
+   points, based on synthetic data, accurately represents the behavior of
+   physical railway switches in terms of data points.
+RI Leonardi, Letizia/L-9722-2015; Salierno, Giulio/; Cabri, Giacomo/M-6723-2015
+OI Leonardi, Letizia/0000-0003-4035-8560; Salierno,
+   Giulio/0000-0002-9617-4448; Cabri, Giacomo/0000-0002-4942-2453
+ZA 0
+Z8 0
+TC 4
+ZB 0
+ZR 0
+ZS 0
+Z9 6
+U1 1
+U2 12
+EI 2687-7813
+DA 2024-07-28
+UT WOS:001273038700001
+ER
+
+PT J
+AU Munshi, Amr
+   Alhindi, Ahmad
+   Qadah, Thamir M.
+   Alqurashi, Amjad
+TI An Electronic Commerce Big Data Analytics Architecture and Platform
+SO APPLIED SCIENCES-BASEL
+VL 13
+IS 19
+AR 10962
+DI 10.3390/app131910962
+DT Article
+PD OCT 2023
+PY 2023
+AB The COVID-19 pandemic significantly increased e-commerce growth, adding
+   more than 218 billion US dollars to the United States e-commerce sales.
+   With this significant growth, various operational challenges have
+   appeared, including logistic difficulties and customer satisfaction.
+   Businesses that strive to take advantage of increased e-commerce growth
+   must understand data and rely on e-commerce analytics. The large scale
+   of e-commerce data requires sophisticated information technology
+   techniques and cyber-infrastructure to leverage and analyze. This study
+   presents a big e-commerce data platform to address several challenges in
+   e-commerce. The presented platform's design is based on a distributed
+   system architecture that supports e-commerce analytics applications
+   using historical and real-time data and features a continuous feedback
+   loop to observe the decision-making and evaluation processes to achieve
+   the desired objectives. The platform was validated using two analytical
+   applications. The first application was to identify the periods in which
+   customers prefer to place orders, while the second was used to verify
+   the big e-commerce data platform. The resulting insights and findings
+   promote informed e-commerce decisions. Furthermore, viewing and acting
+   on insight results and findings promote informed decisions that
+   potentially benefit the e-commerce industry. The proposed platform can
+   perform numerous e-commerce applications that potentially benefit the
+   e-commerce industry.
+RI Qadah, Thamir/AAG-7508-2019; Munshi, Amr/AHB-7543-2022; Alhindi, Ahmad/U-5347-2019
+OI Qadah, Thamir/0000-0003-0754-0504; Munshi, Amr/0000-0002-4002-3755;
+   Alhindi, Ahmad/0000-0002-0516-7868
+ZS 0
+ZA 0
+ZR 0
+Z8 0
+ZB 0
+TC 4
+Z9 6
+U1 17
+U2 106
+EI 2076-3417
+DA 2023-11-01
+UT WOS:001085550300001
+ER
+
+PT J
+AU Benjelloun, Sarah
+   El Aissi, Mohamed El Mehdi
+   Lakhrissi, Younes
+   El Haj Ben Ali, Safae
+TI Data Lake Architecture for Smart Fish Farming Data-Driven Strategy
+SO APPLIED SYSTEM INNOVATION
+VL 6
+IS 1
+AR 8
+DI 10.3390/asi6010008
+DT Article
+PD FEB 2023
+PY 2023
+AB Thanks to continuously evolving data management solutions, data-driven
+   strategies are considered the main success factor in many domains. These
+   strategies consider data as the backbone, allowing advanced data
+   analytics. However, in the agricultural field, and especially in fish
+   farming, data-driven strategies have yet to be widely adopted. This
+   research paper aims to demystify the situation of the fish farming
+   domain in general by shedding light on big data generated in fish farms.
+   The purpose is to propose a dedicated data lake functional architecture
+   and extend it to a technical architecture to initiate a fish farming
+   data-driven strategy. The research opted for an exploratory study to
+   explore the existing big data technologies and to propose an
+   architecture applicable to the fish farming data-driven strategy. The
+   paper provides a review of how big data technologies offer multiple
+   advantages for decision making and enabling prediction use cases. It
+   also highlights different big data technologies and their use. Finally,
+   the paper presents the proposed architecture to initiate a data-driven
+   strategy in the fish farming domain.
+RI Lakhrissi, Younes/AAA-8819-2021
+OI Lakhrissi, Younes/0000-0003-2718-7090
+ZS 0
+TC 5
+ZA 0
+Z8 0
+ZB 2
+ZR 0
+Z9 6
+U1 1
+U2 8
+EI 2571-5577
+DA 2023-03-20
+UT WOS:000938241700001
+ER
+
+PT J
+AU Di Martino, Beniamino
+   Cante, Luigi Colucci
+   D'Angelo, Salvatore
+   Esposito, Antonio
+   Graziano, Mariangela
+   Marulli, Fiammetta
+   Lupi, Pietro
+   Cataldi, Alessandra
+TI A Big Data Pipeline and Machine Learning for Uniform Semantic
+   Representation of Data and Documents From IT Systems of the Italian
+   Ministry of Justice
+SO INTERNATIONAL JOURNAL OF GRID AND HIGH PERFORMANCE COMPUTING
+VL 14
+IS 1
+DI 10.4018/IJGHPC.301579
+DT Article
+PD 2022
+PY 2022
+AB In this paper, a big data pipeline is presented, taking in consideration
+   both structured and unstructured data made available by the Italian
+   Ministry of Justice, regarding their telematic civil process. Indeed,
+   the complexity and volume of the data provided by the ministry requires
+   the application of big data analysis techniques, in concert with machine
+   and deep learning frameworks, to be correctly analysed and to obtain
+   meaningful information that could support the ministry itself in better
+   managing civil processes. The pipeline has two main objectives: to
+   provide a consistent workflow of activities to be applied to the
+   incoming data, aiming at extracting useful information for the
+   ministry's decision making tasks, and to homogenize the incoming data,
+   so that they can be stored in a centralized and coherent data lake to be
+   used as a reference for further analysis and considerations.
+RI Di Martino, Beniamino/O-6876-2015; Esposito, Antonio/AHC-3301-2022; Colucci Cante, Luigi/; Graziano, Mariangela/HPF-2471-2023; Marulli, Fiammetta/AAD-4051-2022; D'Angelo, Salvatore/GQB-4948-2022
+OI Di Martino, Beniamino/0000-0001-7613-1312; Esposito,
+   Antonio/0000-0002-2004-4815; Colucci Cante, Luigi/0009-0005-5226-6737;
+   Graziano, Mariangela/0000-0002-1258-8249; 
+ZA 0
+ZS 0
+ZB 0
+TC 5
+ZR 0
+Z8 0
+Z9 6
+U1 0
+U2 1
+SN 1938-0259
+EI 1938-0267
+DA 2023-02-17
+UT WOS:000916579600019
+ER
+
+PT J
+AU Kachaoui, Jabrane
+   Belangour, Abdessamad
+TI Enhanced Data Lake Clustering Design based on K-means Algorithm
+SO INTERNATIONAL JOURNAL OF ADVANCED COMPUTER SCIENCE AND APPLICATIONS
+VL 11
+IS 4
+BP 547
+EP 554
+DT Article
+PD APR 2020
+PY 2020
+AB In recent years, Big Data requirements have evolved. Organizations are
+   trying more than ever to accent their efforts on industrial development
+   of all data at their disposal and move further away from underpinning
+   technologies. After investing around Data Lake concept, organizations
+   must now overhaul their data architecture to face IoT (Internet of
+   Things) and AI (Artificial Intelligence) expansion. Efficient and
+   effective data mapping treatments could serve in understanding the
+   importance of data being transformed and used for decision-making
+   process endorsement. As current relational databases are not able to
+   manage large amounts of data, organizations headed towards NoSQL (Not
+   only Structured Query Language) databases. One such known NoSQL database
+   is MongoDB, which has a high scalability. This article mainly put
+   forward a new data model able to extract, classify, and then map data
+   for the purpose of generating new more structured data that meet
+   organizational needs. This can be carried out by calculating various
+   metadata attributes weights, which are considered as important
+   information. It also processed on data clustering stored into MongoDB.
+   This categorization based on data mining clustering algorithm named
+   K-Means.
+RI Belangour, Abdessamad/KAL-6712-2024
+ZB 1
+TC 6
+ZA 0
+ZR 0
+Z8 0
+ZS 0
+Z9 6
+U1 0
+U2 4
+SN 2158-107X
+EI 2156-5570
+DA 2020-06-16
+UT WOS:000537489900072
+ER
+
+PT J
+AU Talha, Mohamed
+   Elmarzouqi, Nabil
+   Kalam, Anas Abou El
+TI Towards a Powerful Solution for Data Accuracy Assessment in the Big Data
+   Context
+SO INTERNATIONAL JOURNAL OF ADVANCED COMPUTER SCIENCE AND APPLICATIONS
+VL 11
+IS 2
+BP 419
+EP 429
+DT Article
+PD FEB 2020
+PY 2020
+AB Data Accuracy is one of the main dimensions of Data Quality; it measures
+   the degree to which data are correct. Knowing the accuracy of an
+   organization's data reflects the level of reliability it can assign to
+   them in decision-making processes. Measuring data accuracy in Big Data
+   environment is a process that involves comparing data to assess with
+   some "reference data" considered by the system to be correct. However,
+   such a process can be complex or even impossible in the absence of
+   appropriate reference data. In this paper, we focus on this problem and
+   propose an approach to obtain the reference data thanks to the emergence
+   of Big Data technologies. Our approach is based on the upstream
+   selection of a set of criteria that we define as "Accuracy Criteria". We
+   use furthermore a set of techniques such as Big Data Sampling, Schema
+   Matching, Record Linkage, and Similarity Measurement. The proposed model
+   and experiment results allow us to be more confident in the importance
+   of data quality assessment solution and the configuration of the
+   accuracy criteria to automate the selection of reference data in a Data
+   Lake.
+RI abou el kalam, anas/; ELMARZOUQI, Nabil/AAK-8004-2020
+OI abou el kalam, anas/0000-0001-7714-4801; 
+TC 4
+Z8 0
+ZR 0
+ZB 0
+ZA 0
+ZS 0
+Z9 7
+U1 0
+U2 10
+SN 2158-107X
+EI 2156-5570
+DA 2020-03-24
+UT WOS:000518468600054
+ER
+
+PT J
+AU Simionato, Rafael
+   Torres Neto, Jose Rodrigues
+   dos Santos, Carla Julciane
+   Ribeiro, Bruno Silva
+   Britto de Araujo, Fernando Cesar
+   de Paula, Antonio Robson
+   de Lima Oliveira, Pedro Augusto
+   Fernandes, Paulo Silas
+   Yi, Jin Hong
+TI Survey on connectivity and cloud computing technologies:
+   State-of-the-art applied to Agriculture 4.0
+SO REVISTA CIENCIA AGRONOMICA
+VL 51
+SI SI
+AR e20207755
+DI 10.5935/1806-6690.20200085
+DT Article
+PD 2020
+PY 2020
+AB In recent years, agriculture has faced many challenges, from a growing
+   global population to be fed, the work power evasion in the sector, to
+   sustainability requirements and environmental constraints. To satisfy
+   the increasingly demanding stakeholders, the agricultural sector has
+   looked for new ways to tackle these issues. In this context, Information
+   and Communications Technologies (ICTs) have been applied to help the
+   agricultural sector overcome these challenges. This article investigates
+   how two ICTs - connectivity and cloud computing - can leverage and
+   traverse other ICTs, such as Internet of Things and artificial
+   intelligence, enabling the entire productive sector to be supported by
+   decision-making systems, which in turn are based on data-driven models.
+   Moreover, a successful case study on how cloud computing has helped one
+   of SiDi's biggest customers - a global company - improve its operational
+   performance by obtaining insights from its data is presented.
+ZS 0
+ZR 0
+ZA 0
+ZB 2
+TC 3
+Z8 0
+Z9 6
+U1 1
+U2 15
+SN 0045-6888
+EI 1806-6690
+DA 2021-09-17
+UT WOS:000692719200019
+ER
+
+PT C
+AU Lamrhari, Soumaya
+   Elghazi, Hamid
+   Sadiki, Tayeb
+   El Faker, Abdellatif
+BE Essaaidi, M
+   ElHani, S
+TI A Profile-Based Big Data Architecture for Agricultural Context
+SO 2016 INTERNATIONAL CONFERENCE ON ELECTRICAL AND INFORMATION TECHNOLOGIES
+   (ICEIT)
+BP 22
+EP 27
+DT Proceedings Paper
+PD 2016
+PY 2016
+AB Bringing Big data technologies into agriculture presents a significant
+   challenge; at the same time, this technology contributes effectively in
+   many countries' economic and social development. In this work, we will
+   study environmental data provided by precision agriculture information
+   technologies, which represents a crucial source of data in need of being
+   wisely managed and analyzed with appropriate methods and tools in order
+   to extract the meaningful information.
+   Our main purpose through this paper is to propose an effective Big data
+   architecture based on profiling system which can assist (among others)
+   producers, consulting companies, public bodies and research laboratories
+   to make better decisions by providing them real time data processing,
+   and a dynamic big data service composition method, to enhance and
+   monitor the agricultural productivity. Thus, improve their traditional
+   decision-making process, and allow better management of the natural
+   resources.
+CT 2nd International Conference on Electrical and Information Technologies
+   (ICEIT)
+CY MAY 04-07, 2016
+CL Tangier, MOROCCO
+RI EL GHAZI, Hamid/KFB-5688-2024; EL FAKER, Abdellatif/HGD-3815-2022
+OI EL GHAZI, Hamid/0000-0002-2790-4419; 
+ZS 0
+ZB 1
+ZR 0
+Z8 0
+TC 5
+ZA 0
+Z9 6
+U1 0
+U2 3
+BN 978-1-4673-8469-8
+DA 2017-02-08
+UT WOS:000391354500004
+ER
+
+PT C
+AU Silva, Alecio
+   Souza, Gilberto F. M.
+GP IEEE
+TI Prognosis Smart System AI-based Applied to Equipment Health Monitoring
+   in 4.0 Industry Scenario
+SO 67TH ANNUAL RELIABILITY & MAINTAINABILITY SYMPOSIUM (RAMS 2021)
+SE Reliability and Maintainability Symposium
+DI 10.1109/RAMS48097.2021.9605722
+DT Proceedings Paper
+PD 2021
+PY 2021
+AB In the age of IIoT - Industrial Internet of Things, data lake, data
+   mining, big data, and cloud computing, the smart manufacturing enables
+   to make more informed decisions in real-time by using the database
+   extracted from sensors in its equipment. During an operational campaign,
+   the Health Monitoring System (HMS) also allows an understanding of how
+   component degradation is affecting the performance of the equipment.
+   Through a structure supported by AI, as data lake and cloud computing,
+   the HMS provides to monitored equipment a fault detection system, early
+   warning alarms to prevent failures and a calculation of the remaining
+   useful life (RUL).
+   The purpose of this paper is to present a prognosis smart system based
+   on AI applied to HMS to support decision-making regarding operational
+   performance of equipment. A Recurrent Neural Network (RNN) procedure is
+   developed to continuously analyze the mass of monitoring data generated
+   during the machine operation. The ability to learn the behavior patterns
+   of the collected signals and in this way to be able to make parameter
+   predictions with high accuracy makes artificial neural networks a
+   powerful tool to carry out an effective prognosis. Machine operational
+   parameters are monitored simultaneously by the prognosis smart system.
+   Then, this information is processed by the neural network and used to
+   characterize the machine operational condition. Upon detecting a failure
+   trend for one or more parameters monitored by recognizing deterioration
+   patterns, the prognosis system calculates the remaining useful life
+   (RUL) and allows maintainers to take early actions before the failure
+   occurrence.
+   The proposed methodology is applied as part of a HMS of a hydro
+   generator based on parameters registered in operator inspections routes
+   designed to identify critical equipment degradation. The registered data
+   representing one operational year are used to train the neural network
+   regarding normal and abnormal machine condition. After training, the
+   neural network is able to predict failure trends for monitored
+   temperature parameters of the hydro-generator lubricating system that is
+   critical to support equipment performance. Comparing prediction data and
+   data collected by the sensors, the developed neural network reached
+   about 0,98 RMSE score. The remaining useful life prognosis proved to be
+   an important tool to avoid hydro generator components unexpected
+   failures which may affect power output and cause penalties to the power
+   generation company.
+CT 67th Annual Reliability and Maintainability Symposium (RAMS)
+CY MAY 24-27, 2021
+CL Orlando, FL
+RI de Souza, Gilberto/P-1299-2018
+ZR 0
+ZS 0
+TC 5
+ZA 0
+Z8 0
+ZB 0
+Z9 5
+U1 0
+U2 3
+SN 0149-144X
+BN 978-1-7281-8017-5
+DA 2022-05-11
+UT WOS:000784131300024
+ER
+
+PT C
+AU Neves, Ricardo A.
+   Cruvinel, Paulo E.
+GP IEEE
+TI Model for Semantic Base Structuring of Digital Data to Support
+   Agricultural Management
+SO 2020 IEEE 14TH INTERNATIONAL CONFERENCE ON SEMANTIC COMPUTING (ICSC
+   2020)
+SE IEEE International Conference on Semantic Computing
+BP 337
+EP 340
+DI 10.1109/ICSC.2020.00067
+DT Proceedings Paper
+PD 2020
+PY 2020
+AB This article presents a semantic model for structuring digital databases
+   to function in a cloud environment and connect to data sources
+   originating from Big Data. The work examines the process of receiving
+   structured, semi-structured and unstructured data for use in
+   agricultural risk management. It is conceived as an architecture that
+   combines Data Mart, Data Warehouse (NoSQL), and Data Lake resources to
+   support decision making, through knowledge discovery and applies
+   algorithms for data mining by machine learning resources. The
+   configuration presented addresses scenarios involving agricultural data,
+   obtained from sensors operating in multiple modes.
+CT 14th IEEE International Conference on Semantic Computing (ICSC)
+CY FEB 03-05, 2020
+CL San Diego, CA
+SP IEEE; IEEE Comp Soc
+RI Cruvinel, Paulo/C-7687-2015
+ZR 0
+TC 4
+ZB 0
+Z8 0
+ZS 0
+ZA 0
+Z9 5
+U1 1
+U2 4
+SN 2325-6516
+BN 978-1-7281-6332-1
+DA 2020-09-17
+UT WOS:000565450400058
+ER
+
+PT C
+AU Wiener, Patrick
+   Stein, Manuel
+   Seebacher, Daniel
+   Bruns, Julian
+   Frank, Matthias
+   Simko, Viliam
+   Zander, Stefan
+   Nimis, Jens
+BE Ali, M
+   Newsam, S
+   Ravada, S
+   Renz, M
+   Trajcevski, G
+TI BigGIS: A Continuous Refinement Approach to Master Heterogeneity and
+   Uncertainty in Spatio-Temporal Big Data (Vision Paper)
+SO 24TH ACM SIGSPATIAL INTERNATIONAL CONFERENCE ON ADVANCES IN GEOGRAPHIC
+   INFORMATION SYSTEMS (ACM SIGSPATIAL GIS 2016)
+DI 10.1145/2996913.2996931
+DT Proceedings Paper
+PD 2016
+PY 2016
+AB Geographic information systems (GIS) are important for decision support
+   based on spatial data. Due to technical and economical progress an ever
+   increasing number of data sources are available leading to a rapidly
+   growing fast and unreliable amount of data that can be bene ficial (1)
+   in the approximation of multivariate and causal predictions of future
+   values as well as (2) in robust and proactive decision-making processes.
+   However, today's GIS are not designed for such big data demands and
+   require new methodologies to effectively model uncertainty and generate
+   meaningful knowledge. As a consequence, we introduce BigGIS, a
+   predictive and prescriptive spatio-temporal analytics platform, that
+   symbiotically combines big data analytics, semantic web technologies and
+   visual analytics methodologies. We present a novel continuous refinement
+   model and show future challenges as an intermediate result of a
+   collaborative research project into big data methodologies for
+   spatio-temporal analysis and design for a big data enabled GIS.
+CT 24th ACM SIGSPATIAL International Conference on Advances in Geographic
+   Information Systems (ACM SIGSPATIAL GIS)
+CY OCT 31-NOV 03, 2016
+CL San Francisco, CA
+SP ACM Special Interest Grp Spatial Informat; ACM; Amazon; ESRI; Facebook;
+   Google; Oracle; Microsoft
+OI Nimis, Jens/0000-0001-8300-0134; Stein, Manuel/0000-0002-7198-1438;
+   Bruns, Julian/0000-0002-6592-7371
+ZR 0
+ZB 0
+TC 5
+ZA 0
+ZS 0
+Z8 0
+Z9 5
+U1 0
+U2 9
+BN 978-1-4503-4589-7
+DA 2017-07-04
+UT WOS:000403647900008
+ER
+
+PT J
+AU Le, Ngoc-Bao-van
+   Seo, Yeong-Seok
+   Huh, Jun-Ho
+TI Artificial Intelligence in Finance: Coffee Commodity Trading Big Data
+   for Informed Decision Making
+SO IEEE ACCESS
+VL 12
+BP 91780
+EP 91792
+DI 10.1109/ACCESS.2024.3409762
+DT Article
+PD 2024
+PY 2024
+AB Coffee, the second-largest global soft commodity, can take advantage of
+   a comprehensive mining of daily and historical market data for more
+   effective informed trading decisions. Advanced ICT and data mining
+   technologies can change the trading market operation. The existing
+   systems are confronted with certain constraints, including incomplete
+   data, insufficient documentation for storage, and a requirement for a
+   scalable infrastructure for big data analytics, such as a data warehouse
+   or data lakehouse. To address this issue, the paper presents a design
+   and implementation of a coffee commodity trading big data warehouse
+   capable of analyzing various essential parameters for supporting
+   informed decision-making. First, the designed system can automatically
+   collect coffee trading data for New York Arabica coffee futures prices
+   from selected worldwide reports and financial data portals. Next, the
+   Extract, transform, and load (ETL) process is adopted to ingest coffee
+   futures trading crawled data into the 3 layers data warehouse. Finally,
+   the analytical system will extract and visualize selected key dimensions
+   that influence coffee futures prices within different observation
+   windows and perspectives. As a result, we implement a prototype of a
+   coffee trading data warehouse on the crawled data from January 2000 to
+   October 2022 and visualize trends in coffee futures prices based on the
+   collected data for informed decision-making. The construction system is
+   capable of stably operating and processing large volumes of transaction
+   data. This paper will be valuable documentation for reference and
+   decision support for coffee commodity trading enterprises and contribute
+   to the development of future forecasting algorithms.
+RI Le, Ngoc Bao Van/IXW-9767-2023; Huh, Jun-Ho/AAC-1518-2022; Seo, Yeong-Seok/AAF-2849-2019
+OI Le, Ngoc Bao Van/0000-0002-3464-1274; Huh, Jun-Ho/0000-0001-6735-6456;
+   Seo, Yeong-Seok/0000-0002-5319-7674
+ZR 0
+TC 3
+ZB 0
+Z8 0
+ZS 0
+ZA 0
+Z9 3
+U1 6
+U2 23
+SN 2169-3536
+DA 2024-07-23
+UT WOS:001269900500001
+ER
+
+PT C
+AU Oukhouya, Lamya
+   El Haddadi, Anass
+   Er-Raha, Brahim
+   Asri, Hiba
+   Laaz, Naziha
+BE BenAhmed, M
+   Abdelhakim, BA
+   Ane, BK
+   Rosiyadi, D
+TI A Proposed Big Data Architecture Using Data Lakes for Education Systems
+SO EMERGING TRENDS IN INTELLIGENT SYSTEMS & NETWORK SECURITY
+SE Lecture Notes on Data Engineering and Communications Technologies
+VL 147
+BP 53
+EP 62
+DI 10.1007/978-3-031-15191-0_6
+DT Proceedings Paper
+PD 2023
+PY 2023
+AB Nowadays, educational data can be defined through the 3Vs of Big Data:
+   volume, variety and velocity. Data sources produce massive and complex
+   data, which makes knowledge extraction with traditional tools difficult
+   for educational organizations. Indeed, the actual architecture of data
+   warehouses do not possess the capability of storing and managing this
+   huge amount of varied data. The same goes for analytical processes;
+   which no longer satisfy business analysts; in terms of data availability
+   and speed of execution of queries. These constraints have implied an
+   evolution towards more modern architectures, integrating Big Data
+   solutions capable of promoting smart learning to students. In this
+   context, the present paper proposes a new big data architecture for
+   education systems covering multiple data sources. Using this
+   architecture, data is organized through a set of layers, starting with
+   the management of the different data sources to their final consumption.
+   The proposal approach includes data lake as a means of modernizing
+   decision-making processes, in particular data warehouses and OLAP
+   methods. It will be used as a means for data consolidation for the
+   integration of heterogeneous data sources.
+CT 5th International Conference on Networks, Intelligent Systems and
+   Security (NISS)
+CY MAR 30-31, 2022
+CL Bandung, INDONESIA
+RI EL HADDADI, Anass/ABD-8465-2021; Laaz, Naziha/GSM-8175-2022
+ZR 0
+ZB 0
+Z8 0
+ZA 0
+TC 1
+ZS 0
+Z9 3
+U1 2
+U2 10
+SN 2367-4512
+BN 978-3-031-15191-0; 978-3-031-15190-3
+DA 2023-01-15
+UT WOS:000894285000006
+ER
+
+PT C
+AU Ulbig, Michael
+   Merschak, Simon
+   Hehenberger, Peter
+   Bachler, Johann
+BE Noel, F
+   Nyffenegger, F
+   Rivest, L
+   Bouras, A
+TI Requirements on and Selection of Data Storage Technologies for Life
+   Cycle Assessment
+SO PRODUCT LIFECYCLE MANAGEMENT PLM IN TRANSITION TIMES: THE PLACE OF
+   HUMANS AND TRANSFORMATIVE TECHNOLOGIES, PLM 2022
+SE IFIP Advances in Information and Communication Technology
+VL 667
+BP 86
+EP 95
+DI 10.1007/978-3-031-25182-5_9
+DT Proceedings Paper
+PD 2023
+PY 2023
+AB The importance of a centralized data storage system for life cycle
+   assessment (LCA) will be addressed in this paper. Further, the
+   decision-making process for a suitable data storage system is discussed.
+   LCA requires a lot of relevant data such as resource/material data,
+   production process data and logistics data, originating from many
+   different sources, which must be integrated. Therefore, data collection
+   for LCA is quite difficult. In practice, relevant data for LCA is often
+   not available or is uncertain and has therefore to be estimated or
+   generalized. This implies less accuracy of the calculated carbon
+   footprint. State of the Art research shows that the LCA data collection
+   process can benefit from data engineering approaches. Key of these
+   approaches is a suitable and efficient data storage system like a data
+   warehouse or a data lake. Depending on the LCA use case, a data storage
+   system can also benefit from the combination with other technologies
+   such as big data and cloud computing. As a result, in this paper a
+   criteria catalog is developed and presented. It can be used to evaluate
+   and decide which data storage systems and additional technologies are
+   recommended to store and process data for more efficient and more
+   precise carbon footprint calculation in life cycle assessment.
+CT 19th IFIP WG 5.1 International Conference on Product Lifecycle
+   Management (PLM)
+CY JUL 10-13, 2022
+CL Grenoble, FRANCE
+SP IFIP WG 5 1; Univ Grenoble Alpes, Grenoble INP; CNRS; G Sci Concept
+   Optimisat Prod; Springer
+OI Merschak, Simon/0000-0001-8903-6146; Ulbig, Michael/0009-0009-4574-5974
+TC 2
+ZA 0
+ZB 0
+ZS 0
+Z8 0
+ZR 0
+Z9 3
+U1 2
+U2 10
+SN 1868-4238
+EI 1868-422X
+BN 978-3-031-25181-8; 978-3-031-25182-5
+DA 2023-05-03
+UT WOS:000968187600009
+ER
+
+PT C
+AU Ouafiq, El Mehdi
+   Saadane, Rachid
+   Chehri, Abdellah
+   Wahbi, Mohamed
+GP IEEE
+TI 6G Enabled Smart Environments and Sustainable Cities: an Intelligent Big
+   Data Architecture
+SO 2022 IEEE 95TH VEHICULAR TECHNOLOGY CONFERENCE (VTC2022-SPRING)
+SE IEEE Vehicular Technology Conference VTC
+DI 10.1109/VTC2022-Spring54318.2022.9860772
+DT Proceedings Paper
+PD 2022
+PY 2022
+AB Nowadays, there is an important need for fault-tolerant and
+   energy-efficient self-organization systems, especially within smart
+   cities. Internet of Things (IoT) proved capable of observing and
+   examining the environment, generating & processing data. IoT is now
+   applicable to almost every industry, including transportation and
+   logistics, utilities, agriculture, smart cities, and more. In these
+   industries, various types of meters, sensors, and trackers are used to
+   constantly monitor activities, automate processes and optimize tasks.
+   With the help of big data analytics, they can drive decision-making
+   systems based on observations. As a result, the cities-management
+   challenges are growing. The smart cities requirements are increasing to
+   remedy the challenges, which requires a self-organized network composed
+   of a sizeable number of nodes distributed across an area of interest.
+   The traditional communication systems show limitations, especially when
+   dealing with massive data rates, latency, the explosive growth of
+   vehicular communication, and dynamic mobility. In this study, we explore
+   a way to leverage the capabilities of wireless communication and big
+   data analytics in favor of Smart Cities.
+CT IEEE 95th Vehicular Technology Conference: (VTC-Spring)
+CY JUN 19-22, 2022
+CL Helsinki, FINLAND
+SP IEEE; Nokia; Huawei; Samsung; Technol Innovat Inst; Pix Moving
+RI Wahbi, Mohamed/I-3076-2013; Chehri, Abdellah/X-9516-2019; rachid, saadane/J-4558-2019
+OI Chehri, Abdellah/0000-0002-4193-6062; rachid,
+   saadane/0000-0002-0197-8313
+ZA 0
+ZS 0
+ZR 0
+TC 2
+ZB 0
+Z8 0
+Z9 3
+U1 1
+U2 4
+BN 978-1-6654-8243-1
+DA 2022-10-29
+UT WOS:000861825802017
+ER
+
+PT J
+AU Zhang, Wei
+   Dai, Zhixiang
+   Xia, Taiwu
+   Chen, Gangping
+   Zhang, Yihua
+   Zhou, Jun
+   Liu, Cui
+TI Multi-Source Heterogeneous Data-Driven Digital Delivery System for Oil
+   and Gas Surface Engineering
+SO SYSTEMS
+VL 13
+IS 6
+AR 447
+DI 10.3390/systems13060447
+DT Article
+PD JUN 6 2025
+PY 2025
+AB To address the challenges of data fragmentation, inconsistent standards,
+   and weak interactivity in oil and gas field surface engineering, this
+   study proposes an intelligent delivery system integrated with
+   three-dimensional dynamic modeling. Utilizing a layered collaborative
+   framework, the system combines optimization algorithms and anomaly
+   detection methods during data processing to enhance the relevance and
+   reliability of high-dimensional data. The model construction adopts a
+   structured data architecture and dynamic governance strategies,
+   supporting multi-project secure collaboration and full lifecycle data
+   management. At the application level, it integrates three-dimensional
+   visualization and semantic parsing capabilities to achieve interactive
+   display and intelligent analysis of cross-modal data. Validated through
+   practical engineering cases, the platform enables real-time linkage of
+   equipment parameters, documentation, and three-dimensional models,
+   significantly improving data integration efficiency and decision-making
+   capabilities. This advancement drives the transformation of oil and gas
+   field engineering toward intelligent and knowledge-driven practices.
+ZS 0
+ZR 0
+ZB 0
+TC 2
+ZA 0
+Z8 0
+Z9 2
+U1 4
+U2 7
+EI 2079-8954
+DA 2025-07-01
+UT WOS:001516216200001
+ER
+
+PT J
+AU Abouzaid, Ahmed
+   Barclay, Peter J.
+   Chrysoulas, Christos
+   Pitropakis, Nikolaos
+TI Building a modern data platform based on the data lakehouse architecture
+   and cloud-native ecosystem
+SO DISCOVER APPLIED SCIENCES
+VL 7
+IS 3
+AR 166
+DI 10.1007/s42452-025-06545-w
+DT Article
+PD FEB 22 2025
+PY 2025
+AB In today's Big Data world, organisations can gain a competitive edge by
+   adopting data-driven decision-making. However, a modern data platform
+   that is portable, resilient, and efficient is required to manage
+   organisations' data and support their growth. Furthermore, the change in
+   the data management architectures has been accompanied by changes in
+   storage formats, particularly open standard formats like Apache Hudi,
+   Apache Iceberg, and Delta Lake. With many alternatives, organisations
+   are unclear on how to combine these into an effective platform. Our work
+   investigates capabilities provided by Kubernetes and other Cloud-Native
+   software, using DataOps methodologies to build a generic data platform
+   that follows the Data Lakehouse architecture. We define the data
+   platform specification, architecture, and core components to build a
+   proof of concept system. Moreover, we provide a clear implementation
+   methodology by developing the core of the proposed platform, which are
+   infrastructure (Kubernetes), ingestion and transport (Argo Workflows),
+   storage (MinIO), and finally, query and processing (Dremio). We then
+   conducted performance benchmarks using an industry-standard benchmark
+   suite to compare cold/warm start scenarios and assess Dremio's caching
+   capabilities, demonstrating a 12% median enhancement of query duration
+   with caching.
+RI AbouZaid, Ahmed/; Pitropakis, Nikolaos/ACW-7211-2022; Chrysoulas, Christos/AAD-8176-2020
+OI AbouZaid, Ahmed/0009-0007-5524-5055; Pitropakis,
+   Nikolaos/0000-0002-3392-9970; Chrysoulas, Christos/0000-0001-9817-003X
+ZS 0
+TC 1
+ZB 0
+ZA 0
+Z8 0
+ZR 0
+Z9 2
+U1 3
+U2 6
+EI 3004-9261
+DA 2025-02-27
+UT WOS:001427902800002
+ER
+
+PT J
+AU Maass, Laura
+   Badino, Manuel
+   Iyamu, Ihoghosa
+   Holl, Felix
+TI Assessing the Digital Advancement of Public Health Systems Using
+   Indicators Published in Gray Literature: Narrative Review
+SO JMIR PUBLIC HEALTH AND SURVEILLANCE
+VL 10
+AR e63031
+DI 10.2196/63031
+DT Review
+PD 2024
+PY 2024
+AB Background: Revealing the full potential of digital public health (DiPH)
+   systems requires a wide-ranging tool to assess their maturity and
+   readiness for emerging technologies. Although a variety of indices exist
+   to assess digital health systems, questions arise about the inclusion of
+   indicators of information and communications technology maturity and
+   readiness, digital (health) literacy, and interest in DiPH tools by the
+   society and workforce, as well as the maturity of the legal framework
+   and the readiness of digitalized health systems. Existing tools
+   frequently target one of these domains while overlooking the others. In
+   addition, no review has yet holistically investigated the available
+   national DiPH system maturity and readiness indicators using a
+   multidisciplinary lens. Objective: We used a narrative review to map the
+   landscape of DiPH system maturity and readiness indicators published in
+   the gray literature. Methods: As original indicators were not published
+   in scientific databases, we applied predefined search strings to the
+   DuckDuckGo and Google search engines for 11 countries from all
+   continents that had reached level 4 of 5 in the latest Global Digital
+   Health Monitor evaluation. In addition, we searched the literature
+   published by 19 international organizations for maturity and readiness
+   indicators concerning DiPH. Results: Of the 1484 identified references,
+   137 were included, and they yielded 15,806 indicators. We deemed 286
+   indicators from 90 references relevant for DiPH system maturity and
+   readiness assessments. The majority of these indicators (133/286, 46.5%)
+   had legal relevance (targeting big data and artificial intelligence
+   regulation, cybersecurity, national DiPH strategies, or health data
+   governance), and the smallest number of indicators (37/286, 12.9%) were
+   related to social domains (focusing on internet use and access, digital
+   literacy and digital health literacy, or the use of DiPH tools,
+   smartphones, and computers). Another 14.3% (41/286) of indicators
+   analyzed the information and communications technology infrastructure
+   (such as workforce, electricity, internet, and smartphone availability
+   or interoperability standards). The remaining 26.2% (75/286) of
+   indicators described the degree to which DiPH was applied (including
+   health data architecture, storage, and access; the implementation of
+   DiPH interventions; or the existence of interventions promoting health
+   literacy and digital inclusion). Conclusions:Our work is the first to
+   conduct a multidisciplinary analysis of the gray literature on DiPH
+   maturity and readiness assessments. Although new methods for
+   systematically researching gray literature are needed, our study holds
+   the potential to develop more comprehensive tools for DiPH system
+   assessments. We contributed toward a more holistic understanding of
+   DiPH. Further examination is required to analyze the suitability and
+   applicability of all identified indicators in diverse health care
+   settings. By developing a standardized method to assess DiPH system
+   maturity and readiness, we aim to foster informed decision-making among
+   health care planners and practitioners to improve resource distribution
+   and continue to drive innovation in health care delivery.
+RI Iyamu, Ihoghosa/IWE-5004-2023; Badino, Manuel/; Holl, Felix/Y-9648-2019; Maaß, Laura/AEX-5567-2022
+OI Iyamu, Ihoghosa/0000-0003-0271-9468; Badino, Manuel/0000-0003-2193-2168;
+   Holl, Felix/0000-0002-4020-9509; Maaß, Laura/0000-0001-7354-8120
+ZR 0
+ZS 0
+ZB 0
+Z8 0
+TC 2
+ZA 0
+Z9 2
+U1 5
+U2 11
+SN 2369-2960
+DA 2025-01-07
+UT WOS:001388074000001
+PM 39566910
+ER
+
+PT J
+AU Sreepathy, H., V
+   Rao, B. Dinesh
+   Kumar, J. Mohan
+   Rao, B. Deepak
+TI Design an efficient data driven decision support system to predict
+   flooding by analysing heterogeneous and multiple data sources using Data
+   Lake
+SO METHODSX
+VL 11
+AR 102262
+DI 10.1016/j.mex.2023.102262
+EA JUN 2023
+DT Article
+PD DEC 2023
+PY 2023
+AB Floods are the most common natural disaster in several countries
+   throughout the world. Flooding has a major impact on people's lives and
+   livelihoods. The impact of flood disasters on human lives can be
+   mitigated by developing effective flood forecasting and prediction
+   models. The majority of flood prediction models do not take all
+   flood-causing factors into account when they are designed. It is
+   difficult to collect and handle some of these flood-causing variables
+   since they are heterogeneous in nature. This paper presents a new big
+   data architecture called Data Lake, which can ingest and store all
+   important flood-causing heterogeneous data sources in their raw format
+   for machine learning model creation. The statistical relevance of
+   important flood producing factors on flood prediction outcome is
+   determined utilizing inferential statistical approaches. The outcome of
+   this research is to create flood warning systems that can alert the
+   public and government officials so that they can make decisions in the
+   event of a severe flood, reducing socioeconomic loss. & BULL; Flood
+   causing factors are from heterogeneous sources, so there is no big data
+   architecture for handling variety of data sources. & BULL; To provide
+   data architectural solution using data lake for collecting and analysing
+   heterogeneous flood causing factors. & BULL; Uses inferential
+   statistical approach to determine importance of different flood causing
+   factors in design of efficient flood prediction models.
+OI Jayasubramanian, Mohan Kumar/0000-0002-7559-0071
+ZB 0
+Z8 0
+ZA 0
+ZS 0
+TC 2
+ZR 0
+Z9 2
+U1 0
+U2 15
+EI 2215-0161
+DA 2023-09-16
+UT WOS:001060254000001
+PM 37448950
+ER
+
+PT J
+AU Patil, Avinash M.
+   Lagad, Priyanka M.
+   Soge, Bhavana
+   Meshram, Rohan
+   Lokhande, Mahendra N.
+   Lokhande, Pradeep D.
+TI Ammonium chloride mediated synthesis of 2-aryl-phthalazinone from
+   O-formyl benzoic acid and in silico applications
+SO ARKIVOC
+SI SI
+BP 1
+EP 11
+DI 10.24820/ark.5550190.p011.972
+PN 7
+DT Article
+PD 2023
+PY 2023
+AB Ammonium chloride mediated cyclization reaction leading to one-pot
+   synthesis of 2-arylphthalazinone from 2 -carboxyl benzoic acid and aryl
+   hydrazine in methanol was developed. This method was found to be
+   tolerant of a broad range of functional groups. This novel protocol
+   features mild reaction conditions, operational simplicity, and easy
+   availability of starting material and very high yields. The molecular
+   docking data indicates that compound have comparable free energy with
+   the standard compound. They interact only with some conserved residues
+   such as Leu387, Trp387, Phe381, Tyr385. Therefore, this compound can be
+   considered for further analysis and they have enormous potential to be
+   tested experimentally
+OI N Patil, Ashish/0000-0001-7807-2686
+ZB 0
+Z8 0
+ZA 0
+ZS 0
+ZR 0
+TC 2
+Z9 2
+U1 0
+U2 1
+SN 1551-7004
+EI 1551-7012
+DA 2023-06-03
+UT WOS:000994652600001
+ER
+
+PT C
+AU Sousa, Vania
+   Barros, Daniela
+   Guimaraes, Pedro
+   Santos, Antonina
+   Santos, Maribel Yasmina
+BE Cabanillas, C
+   Perez, F
+TI Conceptual Formalization of Massive Storage for Advancing
+   Decision-Making with Data Analytics
+SO INTELLIGENT INFORMATION SYSTEMS, CAISE FORUM 2023
+SE Lecture Notes in Business Information Processing
+VL 477
+BP 121
+EP 128
+DI 10.1007/978-3-031-34674-3_15
+DT Proceedings Paper
+PD 2023
+PY 2023
+AB Data Lakes have been widely used to handle massive amounts of data
+   arriving at high velocity and variety. However, if proper data
+   management concerns are not addressed, this massive data storage can
+   easily turn Data Lakes into Data Swamps. Furthermore, data must be
+   associated with the data artefacts created to extract value from it,
+   such as pipelines used to collect, treat, or process data and analytical
+   artefacts such as analytical dashboards and machine learning models.
+   This paper proposes a more comprehensive view of a Data Lake, in which
+   all of these resources can be stored and managed. To that end, the
+   conceptual meta-model incorporates a data catalog, data at various
+   stages of maturity, pipelines, dashboards, and machine learning models.
+   The proposed meta-model was instantiated in the ADM.IN (Advanced
+   Decision Making in Productive Systems through Intelligent Networks)
+   project, showing how vast amounts of data and their related artefacts
+   can be managed to support decision-making processes with data analytics.
+CT 35th CAiSE Conference on Cyber-Human Systems
+CY JUN 12-16, 2023
+CL Zaragoza, SPAIN
+SP San Jorge Univ, SVIT Res Grp
+RI Guimarães, Peo/; Santos, Maribel Yasmina/M-5214-2013; Sousa, Vânia/
+OI Guimarães, Peo/0000-0003-3390-8528; Santos, Maribel
+   Yasmina/0000-0002-3249-6229; Sousa, Vânia/0009-0002-1279-6651
+TC 2
+Z8 0
+ZR 0
+ZA 0
+ZB 0
+ZS 0
+Z9 2
+U1 0
+U2 0
+SN 1865-1348
+EI 1865-1356
+BN 978-3-031-34673-6; 978-3-031-34674-3
+DA 2024-09-15
+UT WOS:001284384200015
+ER
+
+PT J
+AU Ritchi, Hamzah
+   Andriani, Gina
+   Zulkarnaen, Reza
+   Zaidaan, Akmal
+TI "The state of implementing big data in banking business processes: An
+   Indonesian perspective"
+SO BANKS AND BANK SYSTEMS
+VL 17
+IS 3
+DI 10.21511/bbs.17(3).2022.10
+DT Article
+PD 2022
+PY 2022
+AB Notwithstanding the perceived global potentiality, how big data enhances
+   decision- making quality prompts an intriguing inquiry, especially in an
+   increasingly competitive banking environment in developing economies.
+   Building on an industry data-driven framework, this study strives to
+   understand the state of implementing big data in the Indonesian banking
+   sector. A deductively organized descriptive method employing indepth
+   interviews was conducted with subject matter experts representing
+   Indonesian banking-related areas. The result and the following analysis
+   show the modest status of big data implementation across three major
+   banks and two complementary companies, as indicated by many elements of
+   the framework phases that were found during the early adoption stage.
+   This denotes a steady buy-in across banking business processes as
+   particularly reflected in the framework's four phases - continuing push
+   to meet the variety aspect (intelligence), structured data architecture
+   domination (design), limited choice of performance indicator for big
+   data value (choice), and customer-corporate vision decoupling
+   (implementation). While Indonesian banks have evidently initiated the
+   big data implementation, further improvement remains imperative for the
+   decision-making process. Accordingly, big data should be tightly coupled
+   with a strong data-driven vision that drives decision-making across
+   intra-firm actors. Handling data omnipresence shall be viewed as the
+   embodiment of a data-driven vision.
+RI Zaidaan, Akmal/; Ritchi, Hamzah/O-3531-2017
+OI Zaidaan, Akmal/0000-0003-3714-3155; Ritchi, Hamzah/0000-0002-9374-9357
+ZA 0
+Z8 0
+ZR 0
+ZS 0
+ZB 0
+TC 2
+Z9 2
+U1 0
+U2 4
+SN 1816-7403
+EI 1991-7074
+DA 2022-01-01
+UT WOS:001297163400010
+ER
+
+PT J
+AU Zerega-Prado, Jose
+   Llerena-Izquierdo, Joe
+TI Information consolidation architecture for health insurance using Big
+   Data
+SO MEMORIA INVESTIGACIONES EN INGENIERIA
+IS 23
+BP 18
+EP 31
+DI 10.36561/ING.23.3
+DT Article
+PD 2022
+PY 2022
+AB The identification of data that is in various sources of information and
+   its consolidation to deliver it as useful is achieved with Big Data. The
+   overall objective of this work is to develop an information
+   consolidation architecture design for health insurance using Big Data.
+   For this research proposal, the analytical empirical method is used, of
+   a quasi-experimental type with a quantitative approach, through the
+   analysis of relevant references and specification of the architecture
+   components. The results of this research allow categorizing different
+   computational architectures for health insurance through a review of
+   relevant literature, developing an architectural model of a
+   computational system for an Ecuadorian health insurance company oriented
+   to the consolidation of information, and evaluating the study
+   methodology used to establish feasible factors of the model. The
+   contribution of this work allows us to determine the applicability of
+   the model to national or foreign health insurance companies by
+   contrasting feasible factors in a specific company of the environment.
+   It is concluded that the different sources of information or types of
+   data used in the field of health insurance allow to know several edges
+   of data analysis through a Big Data architecture, in addition to
+   obtaining indicators to improve decision making; 73% of the established
+   factors are viable in an Ecuadorian health insurance company.
+RI Llerena Izquierdo, Joe/B-5941-2014
+OI Llerena Izquierdo, Joe/0000-0001-9907-7048
+Z8 0
+ZA 0
+ZR 0
+ZS 0
+ZB 0
+TC 0
+Z9 2
+U1 0
+U2 7
+SN 2301-1092
+EI 2301-1106
+DA 2023-01-22
+UT WOS:000906769400002
+ER
+
+PT J
+AU Geva, Gil A.
+   Ketko, Itay
+   Nitecki, Maya
+   Simon, Shoham
+   Inbar, Barr
+   Toledo, Itay
+   Shapiro, Michael
+   Vaturi, Barak
+   Votta, Yoni
+   Filler, Daniel
+   Yosef, Roey
+   Shpitzer, Sagi A.
+   Hir, Nabil
+   Markovich, Michal Peri
+   Shapira, Shachar
+   Fink, Noam
+   Glasberg, Elon
+   Furer, Ariel
+TI Data Empowerment of Decision-Makers in an Era of a Pandemic:
+   Intersection of "Classic" and Artificial Intelligence in the Service of
+   Medicine
+SO JOURNAL OF MEDICAL INTERNET RESEARCH
+VL 23
+IS 9
+AR e24295
+DI 10.2196/24295
+DT Article
+PD SEP 10 2021
+PY 2021
+AB Background: The COVID-19 outbreak required prompt action by health
+   authorities around the world in response to a novel threat. With
+   enormous amounts of information originating in sources with uncertain
+   degree of validation and accuracy, it is essential to provide
+   executive-level decision-makers with the most actionable, pertinent, and
+   updated data analysis to enable them to adapt their strategy swiftly and
+   competently.
+   Objective: We report here the origination of a COVID-19 dedicated
+   response in the Israel Defense Forces with the assembly of an
+   operational Data Center for the Campaign against Coronavirus.
+   Methods: Spearheaded by directors with clinical, operational, and data
+   analytics orientation, a multidisciplinary team utilized existing and
+   newly developed platforms to collect and analyze large amounts of
+   information on an individual level in the context of SARS-CoV-2
+   contraction and infection.
+   Results: Nearly 300,000 responses to daily questionnaires were recorded
+   and were merged with other data sets to form a unified data lake. By
+   using basic as well as advanced analytic tools ranging from simple
+   aggregation and display of trends to data science application, we
+   provided commanders and clinicians with access to trusted, accurate, and
+   personalized information and tools that were designed to foster
+   operational changes and mitigate the propagation of the pandemic. The
+   developed tools aided in the in the identification of high-risk
+   individuals for severe disease and resulted in a 30% decline in their
+   attendance to their units. Moreover, the queue for laboratory
+   examination for COVID-19 was optimized using a predictive model and
+   resulted in a high true-positive rate of 20%, which is more than twice
+   as high as the baseline rate (2.28%, 95% CI 1.63%-3.19%).
+   Conclusions: In times of ambiguity and uncertainty, along with an
+   unprecedented flux of information, health organizations may find
+   multidisciplinary teams working to provide intelligence from diverse and
+   rich data a key factor in providing executives relevant and actionable
+   support for decision-making.
+OI Geva, Gil/0000-0002-0322-8348; Shapiro, Michael/0000-0001-5943-6974;
+   Filler, Daniel/0000-0002-0070-816X; Simon, Shoham/0000-0003-2544-1550;
+   Ketko, Itay/0000-0001-7435-4424; Nitecki, Maya/0000-0003-1127-4552;
+   Inbar, Barr/0000-0002-1978-1826
+ZB 0
+TC 2
+Z8 0
+ZA 0
+ZS 0
+ZR 0
+Z9 2
+U1 1
+U2 19
+SN 1439-4456
+EI 1438-8871
+DA 2021-09-10
+UT WOS:000695740200002
+PM 34313589
+ER
+
+PT C
+AU Neves, Ricardo A.
+   Cruvinel, Paulo E.
+GP IEEE
+TI Ontology for Structuring a Digital Databases for Decision Making in
+   Grain Production
+SO 2021 IEEE 15TH INTERNATIONAL CONFERENCE ON SEMANTIC COMPUTING (ICSC
+   2021)
+SE IEEE International Conference on Semantic Computing
+BP 386
+EP 392
+DI 10.1109/ICSC50631.2021.00071
+DT Proceedings Paper
+PD 2021
+PY 2021
+AB This paper presents an ontology for the structuring of digital databases
+   with the objective of acting in a cloud environment and meeting big data
+   sources in the agricultural context of grain production. Its conception
+   is structured in three stages: the first stage presents an ontological
+   architecture aimed at public and private cloud environments, the second
+   stage deals with a semantic model at process level, and a pseudocode for
+   ontological application is elaborated in the third stage, considering
+   the technologies applied to the cloud. This work combines advanced
+   features to support decision making from Data Lake storage solutions,
+   semantic treatment of big data, as well as the presentation of
+   strategies based on machine learning and data quality analysis to obtain
+   data and metadata organized for application in a decision model. The
+   configuration of the ontology presented meets the diversity of big data
+   projects in the grain production context, the characteristics of which
+   are based on interoperability in the use of heterogeneous data and its
+   integration, elasticity of computational resources, and high
+   availability of cloud access.
+CT 15th IEEE International Conference on Semantic Computing (ICSC)
+CY JAN 27-29, 2021
+CL ELECTR NETWORK
+SP IEEE; IEEE Comp Soc
+RI Cruvinel, Paulo/C-7687-2015
+ZS 0
+Z8 0
+ZA 0
+ZB 1
+ZR 0
+TC 2
+Z9 2
+U1 0
+U2 8
+SN 2325-6516
+BN 978-1-7281-8899-7
+DA 2021-08-04
+UT WOS:000668692000067
+ER
+
+PT C
+AU Sosa, David
+   Paciello, Julio
+BE Teran, L
+   Pincay, J
+   Portmann, E
+TI Data Lake: A Case of Study of a Big Data Analytics Architecture for
+   Public Procurements
+SO 2021 EIGHT INTERNATIONAL CONFERENCE ON EDEMOCRACY & EGOVERNMENT (ICEDEG)
+SE International Conference on eDemocracy and eGovernment ICEDEG
+BP 194
+EP 198
+DI 10.1109/ICEDEG52154.2021.9530976
+DT Proceedings Paper
+PD 2021
+PY 2021
+AB Big Data technologies are facing problems of volume, velocity, variety
+   and veracity of data, attending to the wide expansion of emerging
+   technologies like IoT and IoE. Cyberocracy proposes a decision-making
+   process of a Government based on the effective use of information. An
+   important effort in this line, focusing on government public
+   procurement, has been carried out by the Open Contracting Partnership
+   (OCP), promoting the publication of more volumes of public procurement
+   data in non-relational and machine processable formats every day. This
+   work analyzes the underlying Big Data infrastructure for the analysis of
+   public procurement data through a comparative case of study between a
+   technology proposed by the OCP called KingFisher and emergent
+   technologies based on Data Lakes. With an emphasis on storage
+   requirements to support a high volume of payloads, also considering
+   criteria of velocity and RAM use. Preliminary results show encouraging
+   findings especially in terms of volume required by a Data Lake, even for
+   different payload scenarios, up to 10 times less storage than the
+   relational database-based model.
+CT 8th International Conference on eDemocracy and eGovernment (ICEDEG)
+CY JUL 28-30, 2021
+CL ELECTR NETWORK
+SP Escuela Super Politecnica Litoral; Escuela Politecnica Nacl; Inst Altos
+   Estudios Nacl; Univ Amer; Univ Fuerzas Armadas; Univ Tecnica Ambato;
+   Univ Fribourg; Univ San Francisco Quito; IEEE Comp Soc; IEEE Reg 9; IEEE
+   Comp Soc eGovernment Special Tech Community
+ZS 0
+ZA 0
+ZB 0
+TC 1
+Z8 0
+ZR 0
+Z9 2
+U1 0
+U2 4
+SN 2573-2005
+EI 2573-1998
+BN 978-1-6654-2513-1
+DA 2022-11-30
+UT WOS:000847020200026
+ER
+
+PT C
+AU Abdelhedi, Fatma
+   Jemmali, Rym
+   Zurfluh, Gilles
+GP IEEE
+TI Medical data lake query assistance
+SO 2023 20TH ACS/IEEE INTERNATIONAL CONFERENCE ON COMPUTER SYSTEMS AND
+   APPLICATIONS, AICCSA
+SE International Conference on Computer Systems and Applications
+DI 10.1109/AICCSA59173.2023.10479336
+DT Proceedings Paper
+PD 2023
+PY 2023
+AB In today's world, there is a growing need to analyze data stored in a
+   Data Lake, which is a collection of large, heterogeneous databases. Our
+   work is part of a medical application that aims to help healthcare
+   professionals analyze complex data for decision-making. We propose
+   mechanisms that promote data accessibility. The data are stored in a
+   Data Warehouse (DW) that is periodically built from a data lake.
+   Depending on the needs of the decision-maker, data are extracted from
+   the DW and transferred to a Data Mart (DM) for querying. In this paper,
+   we present a schema recommendation system based on the principle of
+   collaborative filtering. This system can predict the DM schemas that
+   were developed in the past that best match the data need expressed by a
+   decision-maker. It does this by comparing the attributes present in the
+   schemas with the attributes deduced from the need to propose a list of
+   predictions for the most suitable schemas. The technique used is simple,
+   while allowing us to solve the problem of periodic updates to the source
+   data. An experiment was conducted for a medical application.
+CT 20th ACS/IEEE International Conference on Computer Systems and
+   Applications (AICCSA)
+CY DEC 04-07, 2023
+CL Giza, EGYPT
+SP IEEE; ACS
+RI Abdelhedi, Fatma/AAT-3786-2021
+ZB 0
+ZR 0
+ZA 0
+Z8 0
+ZS 0
+TC 0
+Z9 1
+U1 0
+U2 0
+SN 2161-5322
+BN 979-8-3503-1943-9
+DA 2024-07-06
+UT WOS:001222477900102
+ER
+
+PT C
+AU Kulkarni, Apurva
+   Bassin, Pooja
+   Parasa, Niharika Sri
+   Venugopal, Vinu E.
+   Srinivasa, Srinath
+   Ramanathan, Chandrashekar
+BE Sachdeva, S
+   Watanobe, Y
+   Bhalla, S
+TI Ontology Augmented Data Lake System for Policy Support
+SO BIG DATA ANALYTICS IN ASTRONOMY, SCIENCE, AND ENGINEERING, BDA 2022
+SE Lecture Notes in Computer Science
+VL 13830
+BP 3
+EP 16
+DI 10.1007/978-3-031-28350-5_1
+DT Proceedings Paper
+PD 2023
+PY 2023
+AB Analytics of Big Data in the absence of an accompanying framework of
+   metadata can be a quite daunting task. While it is true that statistical
+   algorithms can do large-scale analyses on diverse data with little
+   support from metadata, using such methods on widely dispersed, extremely
+   diverse, and dynamic data may not necessarily produce trustworthy
+   findings. One such task is identifying the impact of indicators for
+   various Sustainable Development Goals (SDGs). One of the methods to
+   analyze impact is by developing a Bayesian network for the policymaker
+   to make informed decisions under uncertainty. It is of key interest to
+   policy-makers worldwide to rely on such models to decide the new
+   policies of a state or a country (https://sdgs.un.org/2030agenda). The
+   accuracy of the models can be improved by considering enriched data -
+   often done by incorporating pertinent data from multiple sources.
+   However, due to the challenges associated with volume, variety,
+   veracity, and the structure of the data, traditional data lake systems
+   fall short of identifying information that is syntactically diverse yet
+   semantically connected. In this paper, we propose a Data Lake (DL)
+   framework that targets ingesting & processing of data like any
+   traditional DL, and in addition, is capable of performing data retrieval
+   for applications such as Policy Support Systems (where the selection of
+   data greatly affect the output interpretations) by using ontologies as
+   the intermediary. We discuss the proof of concept for the proposed
+   system and the preliminary results (IIITB Data Lake project Website
+   link: http://cads.iiitb.ac.in/wordpress/) based on the data collected
+   from the agriculture department of the Government of Karnataka (GoK).
+CT 10th International Conference on Big Data Analytics (BDA)
+CY DEC 05-07, 2022
+CL Univ Aizu, ELECTR NETWORK
+HO Univ Aizu
+SP Natl Inst Technol Delhi; Indian Inst Technol Delhi
+RI Ellampallil Venugopal, Vinu/; Srinivasa, Srinath/AAT-8414-2020; Kulkarni, Apurva/; Bassin, Pooja/; Ramanathan, Chanashekar/
+OI Ellampallil Venugopal, Vinu/0000-0003-4429-9932; Kulkarni,
+   Apurva/0000-0002-9215-2049; Bassin, Pooja/0000-0002-0611-8734;
+   Ramanathan, Chanashekar/0000-0002-3330-8365
+Z8 0
+TC 1
+ZR 0
+ZA 0
+ZB 0
+ZS 0
+Z9 1
+U1 1
+U2 4
+SN 0302-9743
+EI 1611-3349
+BN 978-3-031-28349-9; 978-3-031-28350-5
+DA 2023-07-13
+UT WOS:001004046900001
+ER
+
+PT C
+AU Bianchini, Devis
+   De Antonellis, Valeria
+   Garda, Massimiliano
+   Melchiori, Michele
+BE Hartmann, S
+   Kung, J
+   Kotsis, G
+   Tjoa, AM
+   Khalil, I
+TI Contextual Preferences to Personalise Semantic Data Lake Exploration
+SO DATABASE AND EXPERT SYSTEMS APPLICATIONS, DEXA 2020, PT II
+SE Lecture Notes in Computer Science
+VL 12392
+BP 322
+EP 332
+DI 10.1007/978-3-030-59051-2_22
+DT Proceedings Paper
+PD 2020
+PY 2020
+AB In the latest years, the availability of data collected within Smart
+   Cities is enabling citizens to take decisions about their daily life in
+   an autonomous way. In this landscape, data aggregation according to
+   different analysis dimensions may help users to take decisions,
+   leveraging indicators as powerful tools for meaningful exploration.
+   However, due to the volume and heterogeneity of Smart City data, data
+   lakes have to be used as flexible repositories for enabling data storage
+   and organisation. Despite they are usually based on centralisation of
+   data storage, data lakes compel to consider pay-as-you-go or on-demand
+   solutions, where integration is progressively carried out, to cope with
+   the cumbersome nature of Big Data. Given the variety of interested
+   users, their goals and preferences on available data, personalised data
+   access, as well as representation and use of preferences, are required
+   and need to be adapted to the unique characteristics of data lakes. In
+   this paper, we describe an approach to model preferences on Smart City
+   indicators built on top of a data lake. Preferences are used for
+   personalised data exploration. Main contributions of this paper concern:
+   (a) the definition of users' preferences and preference constructors
+   over the semantic representation of indicators; (b) the definition of
+   users' contexts and contextual preferences; (c) preference-based
+   personalised exploration of Smart City data.
+CT 31st International Conference on Database and Expert Systems
+   Applications (DEXA)
+CY SEP 14-17, 2020
+CL Comenius Univ Bratislava, ELECTR NETWORK
+HO Comenius Univ Bratislava
+SP Software Competence Ctr Hagenberg; JVU, Inst Telecooperaat; Informat
+   Integrat & Web Based Applicat & Serv
+RI Melchiori, Michele/AAH-3714-2019; Garda, Massimiliano/
+OI Garda, Massimiliano/0009-0006-5823-6595
+Z8 0
+ZR 0
+ZA 0
+ZB 0
+TC 1
+ZS 0
+Z9 1
+U1 0
+U2 3
+SN 0302-9743
+EI 1611-3349
+BN 978-3-030-59051-2; 978-3-030-59050-5
+DA 2021-11-21
+UT WOS:000716716900022
+ER
+
+PT C
+AU Hou, Jie
+   Zhang, Xi-kun
+   Wang, Yao-gang
+BE Cai, N
+TI SVM-Based Clinical Decision Support Algorithm under Medical Big Data
+   Architecture
+SO COMPUTER SCIENCE AND TECHNOLOGY (CST2016)
+BP 936
+EP 945
+DT Proceedings Paper
+PD 2017
+PY 2017
+AB Big Data technology has experienced rapid development in recent years
+   and has demonstrated its effectiveness when implemented inclinical
+   diagnostic decision support. Current research of big data focuses
+   largely on data storage architecture, the exploration on big clinical
+   data mining and decision making strategy is relatively less. This paper
+   discusses the parallel big medical data mining method under Spark
+   architecture and proposes the optimized support vector machine (PCSVM)
+   algorithm to provide qualitative data for clinical diagnostic decision
+   support.
+CT International Conference on Computer Science and Technology (CST)
+CY JAN 08-10, 2016
+CL Shenzhen, PEOPLES R CHINA
+TC 1
+ZA 0
+ZR 0
+ZS 0
+Z8 0
+ZB 0
+Z9 1
+U1 1
+U2 6
+BN 978-981-314-642-6; 978-981-3146-41-9
+DA 2018-09-12
+UT WOS:000443429900105
+ER
+
+EF
