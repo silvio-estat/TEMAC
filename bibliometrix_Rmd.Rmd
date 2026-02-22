@@ -1,0 +1,45 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Notebook para ajuste dos arquivos para o biblioshiny
+
+```{r}
+library(bibliometrix)
+```
+
+```{r}
+M_scopus <- convert2df("ajustes_BD/base_scopus_consolidada.csv", dbsource = "scopus", format = "csv")
+```
+```{r}
+write.table(M_scopus, "M_scopus_rstudio.csv", sep = ";", row.names = FALSE)
+```
+
+
+```{r}
+M_ieee <- convert2df("ajustes_BD/base_ieee_adaptada_scopus.csv", dbsource = "scopus", format = "csv")
+```
+```{r}
+write.table(M_ieee, "M_ieee_rstudio.csv", sep = ";", row.names = FALSE)
+```
+
+```{r}
+M_wos <- convert2df("ajustes_BD/base_wos_consolidada.txt", dbsource = "wos", format = "plaintext")
+```
+```{r}
+write.table(M_wos, "M_wos_rstudio.csv", sep = ";", row.names = FALSE)
+```
+
+
+
+```{r}
+M_final <- mergeDbSources(M_scopus,M_ieee, M_wos, remove.duplicated = TRUE)
+```
+
+```{r}
+write.table(M_final, "dadosbiblio_rstudio.csv", sep = ";", row.names = FALSE)
+```
+
+
+
