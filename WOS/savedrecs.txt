@@ -1,7 +1,15 @@
 ﻿FN Clarivate Analytics Web of Science
 VR 1.0
 PT J
-AU Silva, Danilo
+AU Silva, D
+   Moir, M
+   Dunaiski, M
+   Blanco, N
+   Murtala-Ibrahim, F
+   Baxter, C
+   de Oliveira, T
+   Xavier, JS
+AF Silva, Danilo
    Moir, Monika
    Dunaiski, Marcel
    Blanco, Natalia
@@ -13,107 +21,160 @@ CA INFORM Africa Res Study Grp
 TI Review of open-source software for developing heterogeneous data
    management systems for bioinformatics applications
 SO BIOINFORMATICS ADVANCES
+LA English
+DT Review
+ID BIG DATA; CLOUD; FORMAT; PERFORMANCE; HADOOP
+AB In a world where data drive effective decision-making, bioinformatics and health science researchers often encounter difficulties managing data efficiently. In these fields, data are typically diverse in format and subject. Consequently, challenges in storing, tracking, and responsibly sharing valuable data have become increasingly evident over the past decades. To address the complexities, some approaches have leveraged standard strategies, such as using non-relational databases and data warehouses. However, these approaches often fall short in providing the flexibility and scalability required for complex projects. While the data lake paradigm has emerged to offer flexibility and handle large volumes of diverse data, it lacks robust data governance and organization. The data lakehouse is a new paradigm that combines the flexibility of a data lake with the governance of a data warehouse, offering a promising solution for managing heterogeneous data in bioinformatics. However, the lakehouse model remains unexplored in bioinformatics, with limited discussion in the current literature. In this study, we review strategies and tools for developing a data lakehouse infrastructure tailored to bioinformatics research. We summarize key concepts and assess available open-source and commercial solutions for managing data in bioinformatics.Availability and implementation Not applicable.
+C1 [Silva, Danilo; Moir, Monika; de Oliveira, Tulio; Xavier, Joicymara S.] Stellenbosch Univ, Ctr Epidem Response & Innovat CERI, Sch Data Sci & Computat Thinking, ZA-7602 Stellenbosch, South Africa.
+   [Silva, Danilo; Dunaiski, Marcel] Stellenbosch Univ, Fac Sci, Dept Math Sci, Comp Sci Div, ZA-7602 Stellenbosch, South Africa.
+   [Dunaiski, Marcel] Stellenbosch Univ, Sch Data Sci & Computat Thinking, ZA-7602 Stellenbosch, South Africa.
+   [Blanco, Natalia] Univ Maryland Baltimore, Sch Med, Baltimore, MD 21201 USA.
+   [Murtala-Ibrahim, Fati] Inst Human Virol IHVN, Dept Strateg Informat, Abuja 900211, Fed Capital Ter, Nigeria.
+   [Baxter, Cheryl; de Oliveira, Tulio] Ctr AIDS Programme Res South Afr CAPRISA, ZA-4013 Durban, South Africa.
+   [de Oliveira, Tulio] Univ KwaZulu Natal, Nelson R Mandela Sch Med, KwaZulu Natal Res Innovat & Sequencing Platform KR, ZA-4001 Durban, South Africa.
+   [de Oliveira, Tulio] Univ Washington, Dept Global Hlth, Seattle, WA 98195 USA.
+   [Xavier, Joicymara S.] Univ Fed Minas Gerais UFMG, Inst Biol Sci, BR-31270901 Belo Horizonte, Brazil.
+   [Xavier, Joicymara S.] Inst Tecnol Aeronaut, Comp Sci Div, Marechal Eduardo Gomes Sq 50, BR-12228900 Sao Jose Dos Campos, SP, Brazil.
+C3 Stellenbosch University; Stellenbosch University; Stellenbosch
+   University; University System of Maryland; University of Maryland
+   Baltimore; University of Kwazulu Natal; University of Washington;
+   University of Washington Seattle; Comando-Geral de Tecnologia
+   Aeroespacial (CTA); Instituto Tecnologico de Aeronautica (ITA)
+RP Xavier, JS (corresponding author), Inst Tecnol Aeronaut, Comp Sci Div, Marechal Eduardo Gomes Sq 50, BR-12228900 Sao Jose Dos Campos, SP, Brazil.
+EM joicymara@ita.br
+RI ; Moir, Monika/AAU-6520-2021; Dunaiski, Marcel/AAC-9387-2022
+OI de Castro Silva, Danilo/0000-0001-5740-3968; Santos Xavier,
+   Joicymara/0000-0002-4649-6270; Moir, Monika/0000-0003-1095-1910; 
+FU INFORM Africa; Centre for Epidemic Response and Innovation (CERI);
+   INFORM Africa Consortium; Stellenbosch University's Computer Science
+   Department
+FX We thank INFORM Africa Research Hub for providing the use case for this
+   review. Our research included local African researchers from the Centre
+   for Epidemic Response and Innovation (CERI), the INFORM Africa
+   Consortium, and Stellenbosch University's Computer Science Department.
+   Local researchers participated in all steps from study design to
+   implementation and authorship (C.B., T.D.O., M.M., J.X., and M.D.).
+   Participating authors from CERI helped to guide the development of the
+   review and the INFORM Africa Research hub helped in providing the user
+   requirements so that it is locally relevant and useful in Africa. Roles
+   and responsibilities were agreed among collaborators before the start of
+   the project. Our research is not restricted to researchers and does not
+   pose any health, safety, security, or other risks.
+CR Acquaviva L, 2018, IEEE GLOB COMM CONF
+   [Anonymous], 2024, Amazon S3. Amazon S3
+   [Anonymous], 2024, Global.Health. Global.Health
+   Apache Atlas, 2024, Apache Atlas
+   Apache Flink, 2024, Apache Flink
+   Apache HBase, 2024, Apache HBase
+   Apache Hive, 2024, Apache Hive
+   Apache Kafka, 2024, Apache Kafka
+   Apache Nifi, 2024, Apache Nifi
+   Apache Ranger, 2024, Apache Ranger 2024-11-25
+   Apache Spark, 2024, Apache Spark
+   Apache Sqoop, 2024, Apache Sqoop
+   Apache Storm, 2024, Apache Storm
+   Baig FQ, 2021, PROC INT CONF DATA, P2279, DOI [10.1109/icde51399.2021.00237, 10.1109/ICDE51399.2021.00237]
+   Barker M, 2022, SCI DATA, V9, DOI 10.1038/s41597-022-01710-x
+   Bartolini I, 2023, FRONT BIG DATA, V6, DOI 10.3389/fdata.2023.1227156
+   Begoli E, 2021, IEEE INT CONF BIG DA, P4643, DOI 10.1109/BigData52589.2021.9671534
+   Benjamin A., 2022, etal Global.health: a scalable platform for pandemic data integration, analytics, and preparedness, DOI [10.21203/rs.3.rs-1528783/v1, DOI 10.21203/RS.3.RS-1528783/V1]
+   Campos VVdS., 2021, Semina: Ciencias Exatas e Tecnologicas, V42, P113
+   Ceph Foundation, 2024, Ceph
+   Che HY, 2020, FRONT BIOENG BIOTECH, V8, DOI 10.3389/fbioe.2020.553904
+   Chekam TT, 2016, IEEE INFOCOM SER
+   Cock PJA, 2010, NUCLEIC ACIDS RES, V38, P1767, DOI 10.1093/nar/gkp1137
+   Couto J., 2022, INT C DAT MIN APPL V, P137
+   Danecek P, 2011, BIOINFORMATICS, V27, P2156, DOI 10.1093/bioinformatics/btr330
+   Databricks, 2024, Databricks
+   de Brevern AG, 2015, BIOMED RES INT, V2015, DOI 10.1155/2015/904541
+   Deka GC., 2017, NoSQL: Database for Storage and Retrieval of Data in Cloud
+   Delta Lake, 2024, Delta Lake
+   Dremio, 2024, Dremio
+   Ferguson DA., 2021, ADMI 2021 S VIRT S C, P1
+   Fraczek K, 2017, COMM COM INF SC, V716, P153, DOI 10.1007/978-3-319-58274-0_13
+   Global Alliance for Genomics & Health, 2024, GA4GH Data Connect
+   Global Alliance for Genomics & Health, 2024, GA4GH Passport Broker
+   GlusterFS, 2024, GlusterFS
+   Gupta M, 2017, PROCEEDINGS OF THE 22ND ACM SYMPOSIUM ON ACCESS CONTROL MODELS AND TECHNOLOGIES (SACMAT'17), P183, DOI 10.1145/3078861.3084173
+   Hambardzumyan S, 2022, Arxiv, DOI arXiv:2209.10785
+   Harby Ahmed A, 2022, [No title captured], P389, DOI DOI 10.1109/BIGDATA55660.2022.10020719
+   HDFS, 2024, HDFS
+   Heath AP, 2014, J AM MED INFORM ASSN, V21, P969, DOI 10.1136/amiajnl-2013-002155
+   Htut AM, 2022, PLOS ONE, V17, DOI 10.1371/journal.pone.0264923
+   Lamprecht AL, 2020, Data Science, V3, P37, DOI [10.3233/ds-190026, DOI 10.3233/DS-190026, 10.3233/DS-190026]
+   Lawlor B, 2018, GIGASCIENCE, V7, DOI 10.1093/gigascience/giy036
+   Lee JY, 2021, ELECTRONICS-SWITZ, V10, DOI 10.3390/electronics10121471
+   Leung CK, 2020, IEEE INT CONF BIG DA, P5118, DOI 10.1109/BigData50022.2020.9378407
+   Li H, 2009, BIOINFORMATICS, V25, P1094, DOI [10.1093/bioinformatics/btp100, 10.1093/bioinformatics/btp352, 10.1093/bioinformatics/btp324]
+   Matteussi KJ, 2022, SENSORS-BASEL, V22, DOI 10.3390/s22134756
+   Messaoudi C., 2017, 6 INT C INN NEW TREN, P11
+   Miloslavskaya N, 2016, PROCEDIA COMPUT SCI, V88, P300, DOI 10.1016/j.procs.2016.07.439
+   Mishachandar B., 2021, International Journal of Information Technology, V13, P2081, DOI [10.1007/s41870-021-00738-3, 10.1007/s41870-021-00738-3]
+   Mitreva E., 2013, P DOCT C MIE SOF BUL, P77
+   MongoDB, 2024, MongoDB
+   Mrozek D, 2016, INFORM SCIENCES, V349, P77, DOI 10.1016/j.ins.2016.02.029
+   Mrozek D, 2014, BIOINFORMATICS, V30, P2822, DOI 10.1093/bioinformatics/btu389
+   Nambiar A, 2022, BIG DATA COGN COMPUT, V6, DOI 10.3390/bdcc6040132
+   Nordberg H, 2013, BIOINFORMATICS, V29, P3014, DOI 10.1093/bioinformatics/btt528
+   O'Driscoll A, 2013, J BIOMED INFORM, V46, P774, DOI 10.1016/j.jbi.2013.07.001
+   Openstack Swift, 2024, Openstack Swift
+   Ozaydin B, 2020, J MED INTERNET RES, V22, DOI 10.2196/18579
+   Padhy R.P., 2011, INT J ADV ENG SCI TE, V11, P15
+   Petrillo UF, 2021, BMC BIOINFORMATICS, V22, DOI 10.1186/s12859-021-04063-1
+   Poongavanan J, 2023, S AFR J SCI, V119, DOI 10.17159/sajs.2023/14659
+   Rehm HL, 2021, CELL GENOM, V1, DOI 10.1016/j.xgen.2021.100029
+   Sawadogo P, 2021, J INTELL INF SYST, V56, P97, DOI 10.1007/s10844-020-00608-7
+   Schneider J., 2023, P 25 INT C ENT INF S, V1, P44
+   Schulz WL, 2016, J BIOMED INFORM, V64, P288, DOI 10.1016/j.jbi.2016.10.015
+   Sebaa A, 2018, J MED SYST, V42, DOI 10.1007/s10916-018-0894-9
+   Shah P., 2022, Internet Thing Cloud Comput, V10, P12
+   Snowflake, 2024, Snowflake
+   Tall AM, 2023, APPL SCI-BASEL, V13, DOI 10.3390/app13021183
+   Tang L, 2020, NAT METHODS, V17, P127, DOI 10.1038/s41592-020-0742-y
+   Taylor RC, 2010, BMC BIOINFORMATICS, V11, DOI 10.1186/1471-2105-11-S12-S1
+   Terrizzano IG., 2015, 7 C INN DAT SYST RES, P4
+   Thorogood A, 2021, CELL GENOM, V1, DOI 10.1016/j.xgen.2021.100032
+   Treeverse, 2024, LakeFS
+   Visweswaran S, 2022, J AM MED INFORM ASSN, V29, P601, DOI 10.1093/jamia/ocab204
+   Vora MN, 2012, 2011 INTERNATIONAL CONFERENCE ON COMPUTER SCIENCE AND NETWORK TECHNOLOGY (ICCSNT), VOLS 1-4, P601
+   Wiewiórka MS, 2014, BIOINFORMATICS, V30, P2652, DOI 10.1093/bioinformatics/btu343
+   Wilkinson MD, 2018, SCI DATA, V5, DOI 10.1038/sdata.2018.118
+   Wilkinson MD, 2016, SCI DATA, V3, DOI 10.1038/sdata.2016.18
+   Zaharia MA., 2021, Conf Innov Data Syst Res., V8, P28
+   Zhou LJ, 2017, SENSORS-BASEL, V17, DOI 10.3390/s17040815
+NR 82
+TC 0
+Z9 0
+U1 3
+U2 3
+PU OXFORD UNIV PRESS
+PI OXFORD
+PA GREAT CLARENDON ST, OXFORD OX2 6DP, ENGLAND
+EI 2635-0041
+J9 BIOINFORM ADV
+JI Bioinform. Adv.
+PY 2025
 VL 5
 IS 1
 AR vbaf168
 DI 10.1093/bioadv/vbaf168
-DT Review
-PD 2025
-PY 2025
-AB In a world where data drive effective decision-making, bioinformatics
-   and health science researchers often encounter difficulties managing
-   data efficiently. In these fields, data are typically diverse in format
-   and subject. Consequently, challenges in storing, tracking, and
-   responsibly sharing valuable data have become increasingly evident over
-   the past decades. To address the complexities, some approaches have
-   leveraged standard strategies, such as using non-relational databases
-   and data warehouses. However, these approaches often fall short in
-   providing the flexibility and scalability required for complex projects.
-   While the data lake paradigm has emerged to offer flexibility and handle
-   large volumes of diverse data, it lacks robust data governance and
-   organization. The data lakehouse is a new paradigm that combines the
-   flexibility of a data lake with the governance of a data warehouse,
-   offering a promising solution for managing heterogeneous data in
-   bioinformatics. However, the lakehouse model remains unexplored in
-   bioinformatics, with limited discussion in the current literature. In
-   this study, we review strategies and tools for developing a data
-   lakehouse infrastructure tailored to bioinformatics research. We
-   summarize key concepts and assess available open-source and commercial
-   solutions for managing data in bioinformatics.Availability and
-   implementation Not applicable.
-RI de Castro Silva, Danilo/; Santos Xavier, Joicymara/; Moir, Monika/AAU-6520-2021; Dunaiski, Marcel/AAC-9387-2022
-OI de Castro Silva, Danilo/0000-0001-5740-3968; Santos Xavier,
-   Joicymara/0000-0002-4649-6270; Moir, Monika/0000-0003-1095-1910; 
-ZS 0
-ZR 0
-TC 0
-Z8 0
-ZB 0
-ZA 0
-Z9 0
-U1 3
-U2 3
-EI 2635-0041
-DA 2025-08-12
+PG 14
+WC Mathematical & Computational Biology
+WE Emerging Sources Citation Index (ESCI)
+SC Mathematical & Computational Biology
+GA 5SJ5S
 UT WOS:001543196800001
 PM 40761326
-ER
-
-PT J
-AU Park, Sun
-   Yang, Chan-Su
-   Kim, JongWon
-TI Design of Vessel Data Lakehouse with Big Data and AI Analysis Technology
-   for Vessel Monitoring System
-SO ELECTRONICS
-VL 12
-IS 8
-AR 1943
-DI 10.3390/electronics12081943
-DT Article
-PD APR 2023
-PY 2023
-AB The amount of data in the maritime domain is rapidly increasing due to
-   the increase in devices that can collect marine information, such as
-   sensors, buoys, ships, and satellites. Maritime data is growing at an
-   unprecedented rate, with terabytes of marine data being collected every
-   month and petabytes of data already being made public. Heterogeneous
-   marine data collected through various devices can be used in various
-   fields such as environmental protection, defect prediction,
-   transportation route optimization, and energy efficiency. However, it is
-   difficult to manage vessel related data due to high heterogeneity of
-   such marine big data. Additionally, due to the high heterogeneity of
-   these data sources and some of the challenges associated with big data,
-   such applications are still underdeveloped and fragmented. In this
-   paper, we propose the Vessel Data Lakehouse architecture consisting of
-   the Vessel Data Lake layer that can handle marine big data, the Vessel
-   Data Warehouse layer that supports marine big data processing and AI,
-   and the Vessel Application Services layer that supports marine
-   application services. Our proposed a Vessel Data Lakehouse that can
-   efficiently manage heterogeneous vessel related data. It can be
-   integrated and managed at low cost by structuring various types of
-   heterogeneous data using an open source-based big data framework. In
-   addition, various types of vessel big data stored in the Data Lakehouse
-   can be directly utilized in various types of vessel analysis services.
-   In this paper, we present an actual use case of a vessel analysis
-   service in a Vessel Data Lakehouse by using AIS data in Busan area.
-OI PARK, SUN/0000-0002-7371-2661; Yang, Chan-Su/0000-0002-6882-7325
-TC 7
-ZS 0
-Z8 0
-ZR 0
-ZA 0
-ZB 0
-Z9 10
-U1 1
-U2 30
-EI 2079-9292
-DA 2023-05-15
-UT WOS:000978958700001
+OA Green Submitted, gold
+DA 2026-02-21
 ER
 
 PT C
-AU Bureva, Veselina
+AU Bureva, V
+   Atanassov, K
+   Genov, M
+   Sotirov, S
+AF Bureva, Veselina
    Atanassov, Krassimir
    Genov, Miroslav
    Sotirov, Sotir
@@ -127,282 +188,188 @@ TI Index Matrix Representation of Data Storage Structures Using
    Intuitionistic Fuzzy Logic
 SO INTELLIGENT AND FUZZY SYSTEMS, INFUS 2024 CONFERENCE, VOL 1
 SE Lecture Notes in Networks and Systems
-VL 1088
-BP 459
-EP 466
-DI 10.1007/978-3-031-70018-7_51
+LA English
 DT Proceedings Paper
-PD 2024
-PY 2024
-AB In the current research work a big data structure representation using
-   extended intuitionistic fuzzy index matrix (EIFIM) is presented. The
-   investigation is based on the theories of index matrices, intuitionistic
-   fuzzy sets and databases. It is known that big data systems use
-   different data structures. The data warehouses are implemented to
-   integrate structured datasets. A data lake provides storing capabilities
-   for unstructured data. Nowadays, the two concepts are integrated in data
-   lakehouse platforms that provide facilities for structured,
-   semi-structured and unstructured data. The open-source framework for
-   managing and processing huge amounts of data Hadoop is observed. More
-   precisely, the HDFS (Hadoop Distributed File System) organization is
-   discussed. The aim of the investigation is to present big data structure
-   using EIFIM. User access through big data system environment to reach
-   files and other resources is analyzed. The intuitionistic fuzzy logic is
-   applied to evaluate the big data system processes.
 CT International Conference on Intelligent and Fuzzy Systems (INFUS)
 CY JUL 16-18, 2024
 CL Istanbul Tech Univ, Canakkale, TURKEY
 HO Istanbul Tech Univ
-SP Canakkale Onsekiz Mart Univ
-RI Sotirov, Sotir/M-2488-2013; Bureva, Veselina/; Atanassov, Krassimir/S-2877-2016
+DE Big Data; Databases; Intuitionistic Fuzzy Sets; Index Matrix
+AB In the current research work a big data structure representation using extended intuitionistic fuzzy index matrix (EIFIM) is presented. The investigation is based on the theories of index matrices, intuitionistic fuzzy sets and databases. It is known that big data systems use different data structures. The data warehouses are implemented to integrate structured datasets. A data lake provides storing capabilities for unstructured data. Nowadays, the two concepts are integrated in data lakehouse platforms that provide facilities for structured, semi-structured and unstructured data. The open-source framework for managing and processing huge amounts of data Hadoop is observed. More precisely, the HDFS (Hadoop Distributed File System) organization is discussed. The aim of the investigation is to present big data structure using EIFIM. User access through big data system environment to reach files and other resources is analyzed. The intuitionistic fuzzy logic is applied to evaluate the big data system processes.
+C1 [Bureva, Veselina; Atanassov, Krassimir; Genov, Miroslav; Sotirov, Sotir] Prof Dr Assen Zlatarov Univ, Lab Intelligent Syst, Prof Yakimov Blvd, Burgas 8010, Bulgaria.
+   [Atanassov, Krassimir] Bulgarian Acad Sci, Inst Biophys & Biomed Engn, Dept Bioinformat & Math Modelling, Acad Georgi Bonchev Str,Block 105, Sofia 1113, Bulgaria.
+C3 University of Burgas; Bulgarian Academy of Sciences
+RP Bureva, V (corresponding author), Prof Dr Assen Zlatarov Univ, Lab Intelligent Syst, Prof Yakimov Blvd, Burgas 8010, Bulgaria.
+EM vbureva@btu.bg; krat@bas.bg; miroslav.chavdarov.genov@abv.bg;
+   ssotirov@btu.bg
+RI Sotirov, Sotir/M-2488-2013; Atanassov, Krassimir/S-2877-2016
 OI Bureva, Veselina/0000-0003-4344-4392; 
-ZR 0
-ZA 0
+CR Atanassov K., 2013, Notes Intuitionistic Fuzzy Sets, V19, P1, DOI [10.7546/nifs, DOI 10.7546/NIFS]
+   Atanassov K. T., 1986, Fuzzy Sets and Systems, V20, P87, DOI 10.1016/S0165-0114(86)80034-3
+   Atanassov K, 2022, FED CONF COMPUT SCI, P1, DOI 10.15439/2022F300
+   Atanassov K, 2022, CR ACAD BULG SCI, V75, P719, DOI 10.7546/CRABS.2022.05.12
+   Atanassov K, 2019, 2019 BIG DATA, KNOWLEDGE AND CONTROL SYSTEMS ENGINEERING (BDKCSE)
+   Atanassov K, 2015, KNOWL-BASED SYST, V80, P122, DOI 10.1016/j.knosys.2015.01.015
+   Atanassov KT, 2014, STUD COMPUT INTELL, V573, P1, DOI 10.1007/978-3-319-10945-9
+   Atanassov KT, 2012, STUD FUZZ SOFT COMP, V283, P1, DOI 10.1007/978-3-642-29127-2
+   Boyadzhieva D, 2010, 5 IEEE INT C INT SYS, P331
+   Boyadzhieva D, 2010, STUD COMPUT INTELL, V299, P383
+   Bureva V, 2020, Annual of "Informatics"Section Union of Scientists in Bulgaria, V10, P81
+   Bureva V., 2021, Annual of "Informatics"Section Union of Scientists in Bulgaria, V11, P1
+   Bureva Veselina, 2016, Advanced Studies in Contemporary Mathematics, V26, P669
+   BUREVA VESELINA, 2017, Advanced Studies in Contemporary Mathematics, V27, P647, DOI 10.17777/ascm2017.27.5.647
+   Chountas P., 2004, Notes Intuitionistic Fuzzy Sets, V10, P47
+   Kumar S.P, 2018, Modern Big Data Processing with Hadoop
+   Narayanan V, 2020, Big Data Hadoop Interview Guide
+   TRANEVA VELICHKA, 2017, Advanced Studies in Contemporary Mathematics, V27, P253
+   Vohra D., 2016, Practical Hadoop Ecosystem: A Definitive Guide to Hadoop-Related Frameworks and Tools
+   White T., 2015, Hadoop : The Definitive Guide, V4th
+NR 20
 TC 0
-ZS 0
-ZB 0
-Z8 0
 Z9 0
 U1 0
 U2 1
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
 SN 2367-3370
 EI 2367-3389
 BN 978-3-031-70017-0; 978-3-031-70018-7
-DA 2024-11-13
+J9 LECT NOTE NETW SYST
+PY 2024
+VL 1088
+BP 459
+EP 466
+DI 10.1007/978-3-031-70018-7_51
+PG 8
+WC Computer Science, Artificial Intelligence; Computer Science,
+   Interdisciplinary Applications; Computer Science, Theory & Methods
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science
+GA BX8IR
 UT WOS:001331332200050
-ER
-
-PT P
-AU WANG H
-   LIN C
-   WANG Y
-   ZHANG Z
-   ZHU C
-   SUN S
-   LI W
-   MIAO X
-   CHEN H
-   YAO S
-   WU Y
-   DONG R
-   TIAN Y
-TI Method for entering multi-source heterogeneous            energy data
-   into data lake, involves obtaining            multi-source heterogeneous
-   data from internal and            external systems of energy enterprise,
-   preprocessing            lake-entering data, and executing lake data
-   filing,            deleting and transferring processes
-PN CN119645983-A; CN119645983-B
-AE GUIZHOU POWER GRID CO LTD
-AB 
-   NOVELTY - The method involves obtaining multi-source               
-   heterogeneous data from internal and external                systems of
-   an energy enterprise. The lake-entering                data is
-   preprocessed. The multi-source                heterogeneous data is
-   entered into the lake through                different entering
-   controllers. An Apache Flink                (RTM: open source stream
-   processing framework) is                used as the uniform data
-   entering engine. Lake data                filing, deleting and
-   transferring processes are                executed, where the
-   multi-source heterogeneous data                comprises energy
-   production, transmission, storage,                consumption and energy
-   market transaction full link                full chain data. A
-   SeaTunnel(RTM: open-source big                data integration tool) is
-   used to provide data                cleaning. A Spark SQLfunction is
-   used to define                pre-processing operator.
-   USE - Method for entering multi-source heterogeneous               
-   energy data into data lake.
-   ADVANTAGE - The method enables using the technical               
-   framework of Flink (RTM: open source stream                processing
-   framework) + Iceberg(RTM: high                performance open-source
-   format for large analytic                tables) to realize real-time
-   lake entry of                multi-source heterogeneous energy data,
-   supporting                data access from different types of data
-   source,                ensuring diversification and comprehensiveness of
-   data source, adapting multiple data formats, and               
-   satisfying the real-time performance and                flexibility
-   requirement of energy service                processing.
-   DETAILED DESCRIPTION - INDEPENDENT CLAIMS are included for: (1) a       
-   computer device comprising a memory and a processor                for
-   executing a set of instructions for entering                multi-source
-   heterogeneous energy data into data                lake; (2) a
-   computer-readable storage medium for                storing a set of
-   instructions for entering                multi-source heterogeneous
-   energy data into data                lake.
-   DESCRIPTION Of DRAWING(S) - The drawing shows a flow diagram
-   illustrating                a method for entering multi-source
-   heterogeneous                energy data into data lake. (Drawing
-   includes                non-English language text).
-Z9 0
-U1 0
-U2 0
-DA 2025-04-26
-UT DIIDW:2025329080
-ER
-
-PT C
-AU Sawadogo, Pegdwende N.
-   Darmont, Jerome
-BE Golfarelli, M
-   Wrembel, R
-   Kotsis, G
-   Tjoa, AM
-   Khalil, I
-TI Benchmarking Data Lakes Featuring Structured and Unstructured Data with
-   DLBench
-SO BIG DATA ANALYTICS AND KNOWLEDGE DISCOVERY (DAWAK 2021)
-SE Lecture Notes in Computer Science
-VL 12925
-BP 15
-EP 26
-DI 10.1007/978-3-030-86534-4_2
-DT Proceedings Paper
-PD 2021
-PY 2021
-AB In the last few years, the concept of data lake has become trendy for
-   data storage and analysis. Thus, several approaches have been proposed
-   to build data lake systems. However, these proposals are difficult to
-   evaluate as there are no commonly shared criteria for comparing data
-   lake systems. Thus, we introduce DLBench, a benchmark to evaluate and
-   compare data lake implementations that support textual and/or tabular
-   contents. More concretely, we propose a data model made of both textual
-   and CSV documents, a workload model composed of a set of various tasks,
-   as well as a set of performance-based metrics, all relevant to the
-   context of data lakes. As a proof of concept, we use DLBench to evaluate
-   an open source data lake system we previously developed.
-CT 23rd International Conference on Big Data Analytics and Knowledge
-   Discovery (DaWaK)
-CY SEP 27-30, 2021
-CL ELECTR NETWORK
-SP Software Competence Ctr Hagenberg; JKU Inst Telecooperat; Web Applicat
-   Soc
-OI Sawadogo, Pegdwendé N/0000-0001-6180-5476
-TC 1
-ZA 0
-Z8 0
-ZB 0
-ZR 0
-ZS 0
-Z9 1
-U1 0
-U2 5
-SN 0302-9743
-EI 1611-3349
-BN 978-3-030-86534-4; 978-3-030-86533-7
-DA 2022-12-04
-UT WOS:000886498500002
+DA 2026-02-21
 ER
 
 PT J
-AU Kretzer, Arthur Raulino
-   Barreto Vavassori Benitti, Fabiane
-   Siqueira, Frank
-TI Challenges and Opportunities in Big Data Analytics for Industry 4.0: A
-   Systematic Evaluation of Current Architectures
-SO IEEE ACCESS
-VL 13
-BP 183419
-EP 183447
-DI 10.1109/ACCESS.2025.3624558
+AU Park, S
+   Yang, CS
+   Kim, J
+AF Park, Sun
+   Yang, Chan-Su
+   Kim, JongWon
+TI Design of Vessel Data Lakehouse with Big Data and AI Analysis Technology
+   for Vessel Monitoring System
+SO ELECTRONICS
+LA English
 DT Article
-PD 2025
-PY 2025
-AB The current efforts to integrate Big Data Analytics (BDA) into Industry
-   4.0 manufacturing systems, despite their usefulness for enhancing
-   data-driven decision-making, are constrained by the lack of
-   architectural standards for data management. This systematic mapping
-   study analyzes many BDA architectures proposed in the literature,
-   revealing a fragmented landscape in which the proposed architectures are
-   largely conceptual with limited industrial validation. Our analysis
-   identifies dominant technological patterns, such as Apache Kafka for
-   ingestion, Spark for processing, and Hadoop and Hive for storage, with
-   the majority of implementations favoring open-source solutions. Despite
-   their theoretical importance, real-time analytics capabilities remain
-   underutilized in practice. This study synthesizes a unified conceptual
-   reference architecture with eight fundamental layers to provide a
-   framework for comparative analysis. We document an imbalance in layer
-   development: storage and processing receive comprehensive attention
-   while querying, infrastructure management, and monitoring layers remain
-   underdeveloped. Implementation approaches show distinct patterns in
-   deployment strategies and data handling, with structured and
-   semi-structured data well supported, whereas unstructured data
-   integration presents ongoing challenges. Future research should focus on
-   developing standardized modular frameworks, benchmarking methodologies,
-   and integrating modern data lakehouse architectures to bridge the gap
-   between theoretical proposals and production-ready systems.
-RI Siqueira, Frank/ABB-8351-2021; Raulino Kretzer, Arthur/; Benitti, Fabiane/
-OI Raulino Kretzer, Arthur/0000-0003-1656-9464; Benitti,
-   Fabiane/0000-0003-2747-9931
-ZB 0
-Z8 0
-ZA 0
-ZR 0
-TC 0
-ZS 0
-Z9 0
-U1 4
-U2 4
-SN 2169-3536
-DA 2025-11-12
-UT WOS:001606717700016
-ER
-
-PT P
-AU GUI H
-   FENG K
-   WANG Y
-   WANG H
-TI Petri network based multi-source heterogeneous            data quality
-   detection method, involves forming data            quality analysis
-   report in form of table and chart            based on feedback of
-   library for realizing monitoring            data quality detection
-   process
-PN CN112540975-A; CN112540975-B
-AE CAS BIG DATA ACAD COMPUTING TECHNOLOGY; BIG DATA ACAD ZHONGKE
-AB 
-   NOVELTY - The method involves configuring multiple               
-   heterogeneous data sources connected in data lake                managed
-   by a main system through a data source for                configuring.
-   Multiple heterogeneous data sources                are connected with
-   the data lake. Multiple                heterogeneous data sources are
-   connected with a                local multi-source heterogeneous data
-   processing                server. Metadata is obtained by performing
-   metadata                collection task to multi-source heterogeneous   
-   database, where the metadata comprises metadata                table
-   information, field information, index                information and
-   constraint information. External                table connection is
-   established through autonomous                expansion of
-   PostgreSQL(RTM: free and open-source                relational database
-   management system) database                according to data source
-   information and metadata                information. Data quality rule
-   is established                according to quality task constructing
-   adding                information feedback of a petri network           
-       model.
-   USE - Petri network based multi-source heterogeneous                data
-   quality detection method.
-   ADVANTAGE - The method enables generating data quality               
-   analysis result for the user to check, establishing                data
-   quality knowledge base to improve quality                problem solving
-   ability for providing effective                support for enhancement
-   of system data quality so                as to increase data value.
-   DETAILED DESCRIPTION - Data quality analysis report is formed in form   
-   of table and chart to help a user for analyzing               
-   integrity, consistency, accuracy, timeliness and                validity
-   of data in a management data source                according to
-   real-time feedback of message library                for realizing
-   real-time monitoring data quality                detection process.
-   DESCRIPTION Of DRAWING(S) - The drawing shows a flow diagram
-   illustrating                a petri network based multi-source
-   heterogeneous                data quality detection method. (Drawing
-   includes                non-English language text).
-Z9 0
-U1 0
-U2 0
-DA 2021-04-27
-UT DIIDW:2021314369
+DE vessel monitoring system; data lakehouse; big data; AI analysis
+AB The amount of data in the maritime domain is rapidly increasing due to the increase in devices that can collect marine information, such as sensors, buoys, ships, and satellites. Maritime data is growing at an unprecedented rate, with terabytes of marine data being collected every month and petabytes of data already being made public. Heterogeneous marine data collected through various devices can be used in various fields such as environmental protection, defect prediction, transportation route optimization, and energy efficiency. However, it is difficult to manage vessel related data due to high heterogeneity of such marine big data. Additionally, due to the high heterogeneity of these data sources and some of the challenges associated with big data, such applications are still underdeveloped and fragmented. In this paper, we propose the Vessel Data Lakehouse architecture consisting of the Vessel Data Lake layer that can handle marine big data, the Vessel Data Warehouse layer that supports marine big data processing and AI, and the Vessel Application Services layer that supports marine application services. Our proposed a Vessel Data Lakehouse that can efficiently manage heterogeneous vessel related data. It can be integrated and managed at low cost by structuring various types of heterogeneous data using an open source-based big data framework. In addition, various types of vessel big data stored in the Data Lakehouse can be directly utilized in various types of vessel analysis services. In this paper, we present an actual use case of a vessel analysis service in a Vessel Data Lakehouse by using AIS data in Busan area.
+C1 [Park, Sun; Kim, JongWon] Gwangju Inst Sci & Technol, AI Grad Sch, Gwangju 61005, South Korea.
+   [Yang, Chan-Su] Korea Inst Ocean Sci & Technol, Marine Secur & Safety Res Ctr, Busan 49111, South Korea.
+C3 Gwangju Institute of Science & Technology (GIST); Korea Institute of
+   Ocean Science & Technology (KIOST)
+RP Park, S (corresponding author), Gwangju Inst Sci & Technol, AI Grad Sch, Gwangju 61005, South Korea.; Yang, CS (corresponding author), Korea Inst Ocean Sci & Technol, Marine Secur & Safety Res Ctr, Busan 49111, South Korea.
+EM sunpark@gist.ac.kr; yangcs@kiost.ac.kr
+OI PARK, SUN/0000-0002-7371-2661; Yang, Chan-Su/0000-0002-6882-7325
+FU Institute of Information & Communications Technology Planning &
+   Evaluation (IITP) - Korea government (MSIT) (Artificial Intelligence
+   Graduate School Program (GIST)); Institute of Information &
+   Communications Technology Planning & Evaluation (IITP) grant - Korea
+   government (MSIT) (Artificial Intelligence Innovation Hub)
+   [2021-0-02068]; project "Monitoring System of Spilled Oils Using
+   Multiple Remote Sensing Techniques" - Korea Coast Guard;  [2019-0-01842]
+FX This work was supported by Institute of Information & Communications
+   Technology Planning & Evaluation (IITP) grant funded by the Korea
+   government (MSIT) (No. 2019-0-01842, Artificial Intelligence Graduate
+   School Program (GIST)). This work was supported by Institute of
+   Information & Communications Technology Planning & Evaluation (IITP)
+   grant funded by the Korea government (MSIT) (No. 2021-0-02068,
+   Artificial Intelligence Innovation Hub). This work was supported by the
+   project "Monitoring System of Spilled Oils Using Multiple Remote Sensing
+   Techniques" funded by the Korea Coast Guard.
+CR Ahmed I, 2022, IEEE T INTELL TRANSP, V23, P20783, DOI 10.1109/TITS.2022.3187714
+   Alba J.M.M., 2020, 2020 IEEE 7 INT C IN
+   [Anonymous], Delta Lake
+   [Anonymous], DATA LAKEHOUSE
+   [Anonymous], Weather data open portal
+   [Anonymous], APACHE KUDU
+   [Anonymous], APACHE IMPALA
+   [Anonymous], VESSEL MONITORING SY
+   [Anonymous], APACHE SPARK
+   [Anonymous], Ocean Data in Grid Framework
+   [Anonymous], APACHE HADOOP
+   Armbrust M., 2021, Proceedings of CIDR
+   Beek R.V., 2020, P IEEE AS PAC C GEOS
+   Begoli E., 2021, P 2021 IEEE INT C BI
+   Evmides N., 2022, P 23 IEEE INT C MOB
+   HANJAERIM, 2021, [Journal of the Korean Association of Geographic Information Studies, 한국지리정보학회지], V24, P112, DOI 10.11108/kagis.2021.24.1.112
+   Harby A.A., 2022, P 2022 IEEE INT C BI
+   Hery H., 2020, P 3 INT SEMINAR RES
+   Huang HG, 2020, IEEE ACCESS, V8, P112530, DOI 10.1109/ACCESS.2020.3002173
+   Huang J, 2020, IEEE ACCESS, V8, P50684, DOI 10.1109/ACCESS.2020.2980322
+   Hue, US
+   keras, About us
+   Kumar D., 2022, P 2022 IEEE 9 INT C, P1
+   Li XE, 2021, ISPRS INT J GEO-INF, V10, DOI 10.3390/ijgi10050277
+   Lin B., 2020, P 2020 INT C BIG DAT
+   Liu R.W., 2021, P IEEE 22 INT C INF
+   Lytra I., 2017, P INT C ENG TECHN IN
+   Orescanin D., 2021, P 44 INT CONVENTION
+   Pandas, About us
+   Park S., 2022, P 9 INT C ADV ENG IC
+   Prasad P., 2021, P 2021 INT C ADV EL
+   Souza E.N., 2016, PLOS ONE, V11
+   Tampakis P., 2020, P 21 IEEE INT C MOB
+   TensorFlow, About Us
+   Xiao Z, 2023, IEEE INTEL TRANSP SY, V15, P363, DOI 10.1109/MITS.2022.3144411
+   Zhao Z., 2020, P GLOB OC US GULF CO
+   US
+NR 37
+TC 7
+Z9 10
+U1 1
+U2 30
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+EI 2079-9292
+J9 ELECTRONICS-SWITZ
+JI Electronics
+PD APR
+PY 2023
+VL 12
+IS 8
+AR 1943
+DI 10.3390/electronics12081943
+PG 20
+WC Computer Science, Information Systems; Engineering, Electrical &
+   Electronic; Physics, Applied
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering; Physics
+GA E9WN4
+UT WOS:000978958700001
+OA Green Submitted, gold
+DA 2026-02-21
 ER
 
 PT C
-AU Levandoski, Justin
+AU Levandoski, J
+   Casto, G
+   Deng, M
+   Desai, R
+   Edara, P
+   Hottelier, T
+   Hormati, A
+   Johnson, A
+   Johnson, J
+   Kurzyniec, D
+   McVeety, S
+   Ramanathan, P
+   Saxena, G
+   Shanmugam, V
+   Volobuev, Y
+AF Levandoski, Justin
    Casto, Garrett
    Deng, Mingge
    Desai, Rushabh
@@ -422,65 +389,384 @@ TI BigLake: BigQuery's Evolution toward a Multi-Cloud Lakehouse
 SO COMPANION OF THE 2024 INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA,
    SIGMOD-COMPANION 2024
 SE International Conference on Management of Data
-BP 334
-EP 346
-DI 10.1145/3626246.3653388
+LA English
 DT Proceedings Paper
-PD 2024
-PY 2024
-AB BigQuery's cloud-native disaggregated architecture has allowed Google
-   Cloud to evolve the system to meet several customer needs across the
-   analytics and AI/ML workload spectrum. A key customer requirement for
-   BigQuery centers around the unification of data lake and enterprise data
-   warehousing workloads. This approach combines: (1) the need for core
-   data management primitives, e.g., security, governance, common runtime
-   metadata, performance acceleration, ACID transactions, provided by an
-   enterprise data warehouses coupled with (2) harnessing the flexibility
-   of the open source format and analytics ecosystem along with new
-   workload types such as AI/ML over unstructured data on object storage.
-   In addition, there is a strong requirement to support BigQuery as a
-   multi-cloud offering given cloud customers are opting for a multi-cloud
-   footprint by default.
-   This paper describes BigLake, an evolution of BigQuery toward a
-   multi-cloud lakehouse to address these customer requirements in novel
-   ways. We describe three main innovations in this space. We first present
-   BigLake tables, making open-source table formats (e.g., Apache Parquet,
-   Iceberg) first class citizens, providing fine-grained governance
-   enforcement and performance acceleration over these formats to BigQuery
-   and other open-source analytics engines. Next, we cover the design and
-   implementation of BigLake Object tables that allow BigQuery to integrate
-   AI/ML for inferencing and processing over unstructured data. Finally, we
-   present Omni, a platform for deploying BigQuery on non-GCP clouds,
-   focusing on the infrastructure and operational innovations we made to
-   provide an enterprise lakehouse product regardless of the cloud provider
-   hosting the data.
 CT ACM International Conference on Management of Data (SIGMOD)
 CY JUN 09-15, 2024
 CL Santiago, CHILE
-SP Assoc Comp Machinery; ACM SIGMOD
-RI , Justin Levandoski/; Edara, Pavan/; Casto, Garrett/; Deng, Mingge/; , Anoop Johnson/; Hormati, Amir/; Desai, Rushabh/; Saxena, Gaurav/MHR-3400-2025; Johnson, Jeff Jeffrey/
+DE Data Warehousing; Data Lake; Unstructured Data; Multi-Cloud Analytics
+AB BigQuery's cloud-native disaggregated architecture has allowed Google Cloud to evolve the system to meet several customer needs across the analytics and AI/ML workload spectrum. A key customer requirement for BigQuery centers around the unification of data lake and enterprise data warehousing workloads. This approach combines: (1) the need for core data management primitives, e.g., security, governance, common runtime metadata, performance acceleration, ACID transactions, provided by an enterprise data warehouses coupled with (2) harnessing the flexibility of the open source format and analytics ecosystem along with new workload types such as AI/ML over unstructured data on object storage. In addition, there is a strong requirement to support BigQuery as a multi-cloud offering given cloud customers are opting for a multi-cloud footprint by default.
+   This paper describes BigLake, an evolution of BigQuery toward a multi-cloud lakehouse to address these customer requirements in novel ways. We describe three main innovations in this space. We first present BigLake tables, making open-source table formats (e.g., Apache Parquet, Iceberg) first class citizens, providing fine-grained governance enforcement and performance acceleration over these formats to BigQuery and other open-source analytics engines. Next, we cover the design and implementation of BigLake Object tables that allow BigQuery to integrate AI/ML for inferencing and processing over unstructured data. Finally, we present Omni, a platform for deploying BigQuery on non-GCP clouds, focusing on the infrastructure and operational innovations we made to provide an enterprise lakehouse product regardless of the cloud provider hosting the data.
+C1 [Levandoski, Justin; Casto, Garrett; Deng, Mingge; Desai, Rushabh; Edara, Pavan; Hottelier, Thibaud; Hormati, Amir; Johnson, Anoop; Johnson, Jeff; Kurzyniec, Dawid; McVeety, Sam; Ramanathan, Prem; Saxena, Gaurav; Shanmugam, Vidya; Volobuev, Yuri] Google, Seattle, WA 98039 USA.
+C3 Alphabet Inc.; Google Incorporated
+RP Levandoski, J (corresponding author), Google, Seattle, WA 98039 USA.
+RI ; Saxena, Gaurav/MHR-3400-2025
 OI , Justin Levandoski/0009-0005-7033-0528; Edara,
    Pavan/0009-0001-8943-140X; Casto, Garrett/0009-0008-8808-1779; Deng,
    Mingge/0009-0005-0497-8203; , Anoop Johnson/0009-0006-0891-0166;
    Hormati, Amir/0009-0002-5786-3301; Desai, Rushabh/0009-0001-7406-8433;
    Johnson, Jeff Jeffrey/0009-0009-9657-3121
-Z8 0
-ZA 0
-ZR 0
-ZS 0
-ZB 0
+CR Apache parquet, 2023, about us
+   Armbrust M, 2020, PROC VLDB ENDOW, V13, P3411, DOI 10.14778/3415478.3415560
+   Armenatzoglou N, 2022, INT CONF MANAGE DATA, P2205, DOI 10.1145/3514221.3526045
+   Bacon DF, 2017, SIGMOD'17: PROCEEDINGS OF THE 2017 ACM INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA, P331, DOI 10.1145/3035918.3056103
+   Bai Junjie., 2019, Onnx: Open neural network exchange
+   Beyer Betsy., 2016, SITE RELIABILITY ENG
+   Burns B, 2016, COMMUN ACM, V59, P50, DOI 10.1145/2890784
+   Burrows M, 2006, USENIX ASSOCIATION 7TH USENIX SYMPOSIUM ON OPERATING SYSTEMS DESIGN AND IMPLEMENTATION, P335
+   Chattopadhyay B, 2019, PROC VLDB ENDOW, V12, P2022, DOI 10.14778/3352063.3352121
+   Chattopadhyay B, 2011, PROC VLDB ENDOW, V4, P1318
+   cloud.google, 2023, Google Cloud Dataproc
+   cloud.google, 2023, Container Optimized OS
+   cloud.google, 2023, Google Infrastructure Security
+   Corbett JC, 2013, ACM T COMPUT SYST, V31, DOI 10.1145/2491245
+   Dageville B, 2016, SIGMOD'16: PROCEEDINGS OF THE 2016 INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA, P215, DOI 10.1145/2882903.2903741
+   Edara P, 2021, PROC VLDB ENDOW, V14, P3083, DOI 10.14778/3476311.3476385
+   Edara Pavan, 2024, SIGMOD.
+   Ghali Cesar, 2017, Technical Report.
+   Ghemawat S., 2003, Operating Systems Review, V37, P29, DOI 10.1145/1165389.945450
+   github, 2023, Spark BigQuery Connector
+   Hall A, 2012, PROC VLDB ENDOW, V5, P1436, DOI 10.14778/2350229.2350259
+   He KM, 2016, PROC CVPR IEEE, P770, DOI 10.1109/CVPR.2016.90
+   Hildebrand Dean, 2021, Colossus under the hood: a peek into system
+   hudi.apach, 2023, about us
+   iceberg.apache, 2023, Apache Iceberg: The open table format for analytic datasets
+   Langley A, 2017, SIGCOMM '17: PROCEEDINGS OF THE 2017 CONFERENCE OF THE ACM SPECIAL INTEREST GROUP ON DATA COMMUNICATION, P183, DOI 10.1145/3098822.3098842
+   Martin Abadi Paul Barham., 2015, Tensorflow: Large-scale machine learning on heterogeneous systems
+   Marty M, 2019, PROCEEDINGS OF THE TWENTY-SEVENTH ACM SYMPOSIUM ON OPERATING SYSTEMS PRINCIPLES (SOSP '19), P399, DOI 10.1145/3341301.3359657
+   Melnik S, 2020, PROC VLDB ENDOW, V13, P3461, DOI 10.14778/3415478.3415568
+   Melnik S, 2010, PROC VLDB ENDOW, V3, P330
+   Potvin R, 2016, COMMUN ACM, V59, P78, DOI 10.1145/2854146
+   Samwel B, 2018, PROC VLDB ENDOW, V11, P1835, DOI 10.14778/3229863.3229871
+   Sethi R, 2019, PROC INT CONF DATA, P1802, DOI 10.1109/ICDE.2019.00196
+   Thusoo A, 2009, PROC VLDB ENDOW, V2, P1626, DOI 10.14778/1687553.1687609
+   Thusoo A, 2010, PROC INT CONF DATA, P996, DOI 10.1109/ICDE.2010.5447738
+   Verma AK, 2015, PARKINSONS DIS-US, V2015, DOI 10.1155/2015/598028
+   Ward Rory., 2014, login, V39, P6
+   Zaharia M, 2016, COMMUN ACM, V59, P56, DOI 10.1145/2934664
+NR 38
 TC 6
 Z9 9
 U1 3
 U2 6
+PU ASSOC COMPUTING MACHINERY
+PI NEW YORK
+PA 1601 Broadway, 10th Floor, NEW YORK, NY, UNITED STATES
 SN 0730-8078
 BN 979-8-4007-0422-2
-DA 2024-08-29
+J9 INT CONF MANAGE DATA
+PY 2024
+BP 334
+EP 346
+DI 10.1145/3626246.3653388
+PG 13
+WC Computer Science, Information Systems; Computer Science, Theory &
+   Methods
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science
+GA BX2RR
 UT WOS:001267334100029
+DA 2026-02-21
 ER
 
 PT C
-AU Suleykin, Alexander
+AU Liu, RR
+   Isah, H
+   Zulkernine, F
+AF Liu, Ruoran
+   Isah, Haruna
+   Zulkernine, Farhana
+GP IEEE
+TI A Big Data Lake for Multilevel Streaming Analytics
+SO 2020 1ST INTERNATIONAL CONFERENCE ON BIG DATA ANALYTICS AND PRACTICES,
+   IBDAP
+LA English
+DT Proceedings Paper
+CT 1st International Conference on Big Data Analytics and Practices (IBDAP)
+CY SEP 25-26, 2020
+CL ELECTR NETWORK
+DE Hadoop Data Platform; Hadoop Distributed File System; NiFi; streaming
+   data; unstructured data
+AB Large organizations are seeking to create new architectures and scalable platforms to effectively handle data management challenges due to the explosive nature of data rarely seen in the past. These data management challenges are largely posed by the availability of streaming data at high velocity from various sources in multiple formats. The changes in data paradigm have led to the emergence of new data analytics and management architecture. This paper focuses on storing high volume, velocity and variety data in the raw formats in a data storage architecture called a data lake. First, we present our study on the limitations of traditional data warehouses in handling recent changes in data paradigms. We discuss and compare different open source and commercial platforms that can be used to develop a data lake. We then describe our end-to-end data lake design and implementation approach using the Hadoop Distributed File System (HDFS) on the Hadoop Data Platform (HDP). Finally, we present a real-world data lake development use case for data stream ingestion, staging, and multilevel streaming analytics which combines structured and unstructured data. This study can serve as a guide for individuals or organizations planning to implement a data lake solution for their use cases.
+C1 [Liu, Ruoran; Isah, Haruna; Zulkernine, Farhana] Queens Univ, Sch Comp, Kingston, ON, Canada.
+C3 Queens University - Canada
+RP Liu, RR (corresponding author), Queens Univ, Sch Comp, Kingston, ON, Canada.
+EM 15r11@queensu.ca; h.isah@cs.queensu.ca; farhana@cs.queensu.ca
+RI Isah, Haruna/AAB-3693-2019; liu, ruoran/KOQ-5146-2024
+FU Southern Ontario Smart Computing for Innovation Platform (SOSCIP);
+   Ontario Centres of Excellence (OCE); IBM Canada
+FX We would like to express a special thanks to the Southern Ontario Smart
+   Computing for Innovation Platform (SOSCIP), Ontario Centres of
+   Excellence (OCE) and IBM Canada for supporting this research.
+CR Alrehamy H, 2015, PROCEEDINGS 2015 IEEE FIFTH INTERNATIONAL CONFERENCE ON BIG DATA AND CLOUD COMPUTING BDCLOUD 2015, P160, DOI 10.1109/BDCloud.2015.62
+   Bo Pang, 2008, Foundations and Trends in Information Retrieval, V2, P1, DOI 10.1561/1500000001
+   Borthakur Dhruba., 2008, HADOOP APACHE PROJEC, V53, P1
+   Fang H, 2015, IEEE ANN INT CONF CY, P820, DOI 10.1109/CYBER.2015.7288049
+   Hai RH, 2016, SIGMOD'16: PROCEEDINGS OF THE 2016 INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA, P2097, DOI 10.1145/2882903.2899389
+   IBM, 2016, IBM Industry Model support for a data lake architecture
+   Isah H, 2018, IEEE INT CONF BIG DA, P2900, DOI 10.1109/BigData.2018.8622360
+   Khine PP, 2018, ITM WEB CONF, V17, DOI 10.1051/itmconf/20181703025
+   Kortvelyesi P., 2017, Top 7 challenges of building a data lake
+   Loshin D., 2019, 4 factors to consider in a Hadoop distributions comparison
+   Maroto C., 2016, A Data Lake Architecture With Hadoop and Open Source Search Engines
+   Mehmood H, 2019, I C DATA ENGIN WORKS, P37, DOI 10.1109/ICDEW.2019.00-37
+   Mendelevitch Ofer., 2016, Practical Data Science with Hadoop and Spark: Designing and Building Effective Analytics at Scale, V1st
+   Mitra S., 2019, DWBI
+   Mohamed A, 2020, ARTIF INTELL REV, V53, P989, DOI 10.1007/s10462-019-09685-9
+   Oussous A, 2018, J KING SAUD UNIV-COM, V30, P431, DOI 10.1016/j.jksuci.2017.06.001
+   Ravat F, 2019, LECT NOTES COMPUT SC, V11706, P304, DOI 10.1007/978-3-030-27615-7_23
+NR 17
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
+BN 978-1-7281-8106-6
+PY 2020
+BP 103
+EP 108
+PG 6
+WC Computer Science, Information Systems; Computer Science,
+   Interdisciplinary Applications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science
+GA BX8TT
+UT WOS:001338048900019
+DA 2026-02-21
+ER
+
+PT C
+AU Sawadogo, PN
+   Darmont, J
+AF Sawadogo, Pegdwende N.
+   Darmont, Jerome
+BE Golfarelli, M
+   Wrembel, R
+   Kotsis, G
+   Tjoa, AM
+   Khalil, I
+TI Benchmarking Data Lakes Featuring Structured and Unstructured Data with
+   DLBench
+SO BIG DATA ANALYTICS AND KNOWLEDGE DISCOVERY (DAWAK 2021)
+SE Lecture Notes in Computer Science
+LA English
+DT Proceedings Paper
+CT 23rd International Conference on Big Data Analytics and Knowledge
+   Discovery (DaWaK)
+CY SEP 27-30, 2021
+CL ELECTR NETWORK
+DE Data lakes; Benchmarking; Textual documents; Tabular data
+AB In the last few years, the concept of data lake has become trendy for data storage and analysis. Thus, several approaches have been proposed to build data lake systems. However, these proposals are difficult to evaluate as there are no commonly shared criteria for comparing data lake systems. Thus, we introduce DLBench, a benchmark to evaluate and compare data lake implementations that support textual and/or tabular contents. More concretely, we propose a data model made of both textual and CSV documents, a workload model composed of a set of various tasks, as well as a set of performance-based metrics, all relevant to the context of data lakes. As a proof of concept, we use DLBench to evaluate an open source data lake system we previously developed.
+C1 [Sawadogo, Pegdwende N.; Darmont, Jerome] Univ Lyon, Lyon 2, UR ERIC, 5 Ave Pierre Mendes France, F-69676 Bron, France.
+RP Sawadogo, PN (corresponding author), Univ Lyon, Lyon 2, UR ERIC, 5 Ave Pierre Mendes France, F-69676 Bron, France.
+EM pegdwende.sawadogo@univ-lyon2.fr; jerome.darmont@univ-lyon2.fr
+OI Sawadogo, Pegdwendé N/0000-0001-6180-5476
+FU Auvergne-Rhone-Alpes Region through the AURA-PMI project
+FX P.N. Sawadogo's PhD is funded by the Auvergne-Rhone-Alpes Region through
+   the AURA-PMI project.
+CR Bajaber F, 2020, COMPUT COMMUN, V149, P241, DOI 10.1016/j.comcom.2019.10.002
+   Dixon James., 2010, Pentaho, Hadoop, and Data Lakes
+   elastic, 2019, ELASTICSEARCH THEORY
+   Fialho P, 2020, INFORMATION, V11, DOI 10.3390/info11100484
+   Ghazal A, 2017, PROC INT CONF DATA, P1225, DOI 10.1109/ICDE.2017.167
+   Ghazal Ahmad., 2013, P 2013 ACM SIGMOD IN, P1197, DOI DOI 10.1145/2463676.2463712
+   Gray J., 1993, Database and Transaction Processing Performance Handbook
+   Huang SS, 2010, I C DATA ENGIN WORKS, P41, DOI 10.1109/ICDEW.2010.5452747
+   Ivanov T., 2020, P 8 INT WORKSHOP TES, DOI [10.1145/3395032.3395324, DOI 10.1145/3395032.3395324]
+   Ivanov T., 2015, PERFORMANCE EVALUATI, P135, DOI 10.1007/978-3-319-31409-99
+   Maccioni A, 2018, LECT NOTES COMPUT SC, V10816, P474, DOI 10.1007/978-3-319-91563-0_29
+   Nargesian F, 2018, PROC VLDB ENDOW, V11, P813, DOI 10.14778/3192965.3192973
+   Ravat F, 2008, LECT NOTES COMPUT SC, V5182, P55, DOI 10.1007/978-3-540-85836-2_6
+   Russom P., 2017, TDWI RES PRACTICES
+   Scholly E., 2021, P 23 INT WORKSH DES, V2840, P31
+   Cingi C. C., 2019, Kocatepe Veterinary Journal, V12, P396, DOI [10.19107/ijisc.2019.02.01, 10.20546/ijcmas.2019.809.187, 10.1016/j.vhri.2020.07.329, 10.30534/ijatcse/2020/123922020, 10.3126/jpahs.v7i1.28858, 10.36939/cjur/vol29no1/art269, 10.24290/1029-3736-2019-25-1-62-77, 10.1589/rika.34.839, 10.70933/2773-9465.1801, 10.15503/onis2019.189.198, 10.26452/ijrps.v11i2.1997, 10.21474/ijar01/10949, 10.37200/ijpr/v24i5/pr2020764, 10.4236/jbm.2020.89008, 10.11122/ijmeb.2014.15.4.2594, 10.4103/phmj.phmj_14_20]
+   Steinley D, 2006, BRIT J MATH STAT PSY, V59, P1, DOI 10.1348/000711005X48266
+   Transaction Processing Performance Council, 2018, TPC EXPR BENCHM HS S
+   Transaction Processing Performance Council, 2014, TPC BENCHM H STAND S
+   Transaction Processing Performance Council, 2020, TPC EXPR AI DRAFT SP
+   Transaction Processing Performance Council, 2020, TPC BENCHM DS STAND
+   Truica CO, 2021, INFORM SYST FRONT, V23, P81, DOI 10.1007/s10796-020-09999-y
+   Wang L, 2014, INT S HIGH PERF COMP, P488, DOI 10.1109/HPCA.2014.6835958
+   WOLD S, 1987, CHEMOMETR INTELL LAB, V2, P37, DOI 10.1016/0169-7439(87)80084-9
+   Zhu YZ, 2019, IEEE ACCESS, V7, P370, DOI 10.1109/ACCESS.2018.2885398
+NR 25
+TC 1
+Z9 1
+U1 0
+U2 5
+PU SPRINGER INTERNATIONAL PUBLISHING AG
+PI CHAM
+PA GEWERBESTRASSE 11, CHAM, CH-6330, SWITZERLAND
+SN 0302-9743
+EI 1611-3349
+BN 978-3-030-86534-4; 978-3-030-86533-7
+J9 LECT NOTES COMPUT SC
+PY 2021
+VL 12925
+BP 15
+EP 26
+DI 10.1007/978-3-030-86534-4_2
+PG 12
+WC Computer Science, Artificial Intelligence; Computer Science, Information
+   Systems; Computer Science, Software Engineering
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science
+GA BU2SP
+UT WOS:000886498500002
+OA Green Submitted
+DA 2026-02-21
+ER
+
+PT J
+AU Kretzer, AR
+   Benitti, FBV
+   Siqueira, F
+AF Kretzer, Arthur Raulino
+   Barreto Vavassori Benitti, Fabiane
+   Siqueira, Frank
+TI Challenges and Opportunities in Big Data Analytics for Industry 4.0: A
+   Systematic Evaluation of Current Architectures
+SO IEEE ACCESS
+LA English
+DT Article
+DE Fourth Industrial Revolution; Manufacturing; Systematics; Computer
+   architecture; Artificial intelligence; Pipelines; Industrial Internet of
+   Things; Big Data applications; Computer science; Focusing; Big data
+   analytics (BDA); Industry 4.0; Industrial Internet of Things (IIoT);
+   smart manufacturing; cyber-physical systems (CPS); data lake
+ID PLATFORM; FRAMEWORK; STORAGE
+AB The current efforts to integrate Big Data Analytics (BDA) into Industry 4.0 manufacturing systems, despite their usefulness for enhancing data-driven decision-making, are constrained by the lack of architectural standards for data management. This systematic mapping study analyzes many BDA architectures proposed in the literature, revealing a fragmented landscape in which the proposed architectures are largely conceptual with limited industrial validation. Our analysis identifies dominant technological patterns, such as Apache Kafka for ingestion, Spark for processing, and Hadoop and Hive for storage, with the majority of implementations favoring open-source solutions. Despite their theoretical importance, real-time analytics capabilities remain underutilized in practice. This study synthesizes a unified conceptual reference architecture with eight fundamental layers to provide a framework for comparative analysis. We document an imbalance in layer development: storage and processing receive comprehensive attention while querying, infrastructure management, and monitoring layers remain underdeveloped. Implementation approaches show distinct patterns in deployment strategies and data handling, with structured and semi-structured data well supported, whereas unstructured data integration presents ongoing challenges. Future research should focus on developing standardized modular frameworks, benchmarking methodologies, and integrating modern data lakehouse architectures to bridge the gap between theoretical proposals and production-ready systems.
+C1 [Kretzer, Arthur Raulino; Barreto Vavassori Benitti, Fabiane; Siqueira, Frank] Fed Univ Santa Catarina UFSC, Dept Informat & Stat INE, BR-88040370 Florianopolis, SC, Brazil.
+RP Kretzer, AR (corresponding author), Fed Univ Santa Catarina UFSC, Dept Informat & Stat INE, BR-88040370 Florianopolis, SC, Brazil.
+EM arthur.kretzer@posgrad.ufsc.br
+RI Siqueira, Frank/ABB-8351-2021
+OI Raulino Kretzer, Arthur/0000-0003-1656-9464; Benitti,
+   Fabiane/0000-0003-2747-9931
+FU Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior (CAPES)
+   [00x0ma614]
+FX This work was supported by the Coordenacao de Aperfeicoamento de Pessoal
+   de Nivel Superior (CAPES) (Research Organization Registry (ROR)
+   identifier: 00x0ma614) for the Article Processing Charge.
+CR Aggour KS, 2019, IEEE INT CONF BIG DA, P1729, DOI 10.1109/BigData47090.2019.9006495
+   Agrawal A, 2024, Arxiv, DOI arXiv:2401.09621
+   Apache Softw, 2024, Apache Hudi: Data Lake Platform
+   Apache Software Foundation, 2007, Apache Hadoop
+   Araque-González G, 2022, J IND ENG MANAG-JIEM, V15, P614, DOI 10.3926/jiem.3922
+   Armbrust M, 2020, PROC VLDB ENDOW, V13, P3411, DOI 10.14778/3415478.3415560
+   Avellino F, 2022, IFAC PAPERSONLINE, V55, P307, DOI 10.1016/j.ifacol.2023.01.090
+   Barton M, 2024, ELECTRONICS-SWITZ, V13, DOI 10.3390/electronics13132485
+   Belhadi A, 2019, COMPUT IND ENG, V137, DOI 10.1016/j.cie.2019.106099
+   Bonnard R, 2021, INT J ADV MANUF TECH, V117, P1959, DOI 10.1007/s00170-021-07834-5
+   Borghesi A, 2021, 21ST IEEE/ACM INTERNATIONAL SYMPOSIUM ON CLUSTER, CLOUD AND INTERNET COMPUTING (CCGRID 2021), P625, DOI 10.1109/CCGrid51090.2021.00075
+   Bousdekis A, 2021, FRONT BIG DATA, V4, DOI 10.3389/fdata.2021.644651
+   Cai ZN, 2024, IEEE T CYBERNETICS, V54, P6509, DOI 10.1109/TCYB.2024.3407886
+   Cakir A, 2022, J BIG DATA-GER, V9, DOI 10.1186/s40537-022-00672-6
+   Calabrese M, 2020, INFORMATION, V11, DOI 10.3390/info11040202
+   Canizo M, 2019, IEEE ACCESS, V7, P52455, DOI 10.1109/ACCESS.2019.2911979
+   Christou IT, 2020, IFAC PAPERSONLINE, V53, P173, DOI 10.1016/j.ifacol.2020.11.028
+   Clark J. B., 1896, Political Sci. Quart., V11, P750, DOI [10.2307/2139634, DOI 10.2307/2139634]
+   Colombi L, 2024, IEEE IFIP NETW OPER, DOI 10.1109/NOMS59830.2024.10575103
+   Corradi A, 2022, IEEE T EMERG TOP COM, V10, P1605, DOI 10.1109/TETC.2021.3111974
+   Costantini A, 2022, COMPUTERS, V11, DOI 10.3390/computers11050067
+   Dean J, 2004, USENIX ASSOCIATION PROCEEDINGS OF THE SIXTH SYMPOSIUM ON OPERATING SYSTEMS DESIGN AND IMPLEMENTATION (OSDE '04), P137
+   Dintén R, 2024, J IND INF INTEGR, V41, DOI 10.1016/j.jii.2024.100668
+   Fahmideh M, 2019, COMPUT IND ENG, V128, P948, DOI 10.1016/j.cie.2018.08.004
+   Ferrao H., 2023, P INT C NDE, P24
+   Fu HC, 2023, IEEE ROBOT AUTOM MAG, V30, P22, DOI 10.1109/MRA.2023.3263973
+   Geng DQ, 2019, IEEE ACCESS, V7, P44574, DOI 10.1109/ACCESS.2019.2909060
+   Ghosh AK, 2023, J MANUF MATER PROC, V7, DOI 10.3390/jmmp7050159
+   Giebler C, 2021, BTW, P351, DOI 10.18420/btw2021-19
+   González-Velázquez R, 2024, PROCEDIA COMPUT SCI, V232, P2709, DOI 10.1016/j.procs.2024.02.088
+   Gui HQ, 2024, J INTELL MANUF, V35, P1173, DOI 10.1007/s10845-023-02095-3
+   Hammer M, 2017, PROC CIRP, V63, P715, DOI 10.1016/j.procir.2017.03.094
+   Hinojosa-Palafox EA, 2021, SENSORS-BASEL, V21, DOI 10.3390/s21134282
+   Hirsch E, 2023, Arxiv, DOI arXiv:2306.01418
+   Ikegwu AC, 2022, CLUSTER COMPUT, V25, P3343, DOI 10.1007/s10586-022-03568-5
+   Ismail A, 2019, J BIG DATA-GER, V6, DOI [10.35874/jic.v6i1.525, 10.1186/s40537-018-0162-3]
+   Jagatheesaperumal B. R., 2022, J. Manuf. Syst., V62, P642
+   Jamal A, 2021, IEEE 15TH INTERNATIONAL SYMPOSIUM ON APPLIED COMPUTATIONAL INTELLIGENCE AND INFORMATICS (SACI 2021), P491, DOI 10.1109/SACI51354.2021.9465594
+   Jun C, 2019, INT J COMPUT INTEG M, V32, DOI 10.1080/0951192X.2019.1610578
+   Kahveci S, 2022, J MANUF SYST, V63, P214, DOI 10.1016/j.jmsy.2022.03.010
+   Kitchenham B., 2007, Joint Rep. EBSE-2007-01
+   Lacerda Rogério Tadeu de Oliveira, 2012, Gest. Prod., V19, P59
+   Li HY, 2021, ISIJ INT, V61, P108, DOI 10.2355/isijinternational.ISIJINT-2020-249
+   Martínez PL, 2021, FUTURE GENER COMP SY, V125, P263, DOI 10.1016/j.future.2021.06.020
+   Lu YQ, 2019, ROBOT CIM-INT MANUF, V57, P92, DOI 10.1016/j.rcim.2018.11.006
+   Luo S, 2019, IND MANAGE DATA SYST, V119, P1072, DOI 10.1108/IMDS-10-2018-0445
+   Ma SY, 2024, J MANUF SYST, V74, P1037, DOI 10.1016/j.jmsy.2024.05.010
+   Magrino P., 2024, P 32 S ADV DAT SYST, V3194, P731
+   Majeed A, 2021, ROBOT CIM-INT MANUF, V67, DOI 10.1016/j.rcim.2020.102026
+   Marosi AC, 2022, IEEE ACCESS, V10, P60658, DOI 10.1109/ACCESS.2022.3180365
+   MinIO, 2019, Performance Comparison Between MinIO and HDFS for MapReduce Workloads
+   Mostafa F., An Effective Architecture of Digital Twin System to Support Human Decision Making and AI-driven Autonomy, V33
+   Nain G, 2022, J MANUF SYST, V62, P588, DOI 10.1016/j.jmsy.2022.01.010
+   Park S, 2023, IEEE ACCESS, V11, P96131, DOI 10.1109/ACCESS.2023.3305586
+   Petersen K, 2015, INFORM SOFTWARE TECH, V64, P1, DOI 10.1016/j.infsof.2015.03.007
+   Putrama I. M., 2023, P 46 INT SPRING SEM, P1
+   Radebe B., 2022, P IEEE AS PAC C COMP, P1
+   Ren S, 2019, J AMB INTEL HUM COMP, V10, P1093, DOI 10.1007/s12652-018-1017-7
+   Rosati R, 2023, J INTELL MANUF, V34, P107, DOI 10.1007/s10845-022-01960-x
+   Saeed N, 2024, MULTIMED TOOLS APPL, V83, P20699, DOI 10.1007/s11042-023-16328-3
+   Sahal R, 2020, J MANUF SYST, V54, P138, DOI 10.1016/j.jmsy.2019.11.004
+   Santos MY, 2017, INT J INFORM MANAGE, V37, P750, DOI 10.1016/j.ijinfomgt.2017.07.012
+   Sawadogo P, 2021, J INTELL INF SYST, V56, P97, DOI 10.1007/s10844-020-00608-7
+   Schneider J., 2024, P 35 GI WORKSH FDN D, P3
+   Scolati R, 2019, CLOSER: PROCEEDINGS OF THE 9TH INTERNATIONAL CONFERENCE ON CLOUD COMPUTING AND SERVICES SCIENCE, P68, DOI 10.5220/0007695000680080
+   Sebbar A., 2022, Int. J. Supply Oper. Manag., V9, P251, DOI [10.22034/ijsom.2021.109150.2208, DOI 10.22034/IJSOM.2021.109150.2208]
+   Silva N, 2021, ELECTRONICS-SWITZ, V10, DOI 10.3390/electronics10182221
+   Soderi M., 2022, P IEEE 20 JUB WORLD
+   Sorger M, 2021, APPL SCI-BASEL, V11, DOI 10.3390/app11199021
+   Su NJ, 2024, SENSORS-BASEL, V24, DOI 10.3390/s24134237
+   Terrazas G, 2019, COMPUT IND, V109, P204, DOI 10.1016/j.compind.2019.03.005
+   The Apache Software Foundation, 2024, Apache Iceberg
+   Throner S, 2021, IEEE INT SYMP SERV O, P134, DOI 10.1109/SOSE52839.2021.00020
+   Venanzi R, 2023, COMPUT IND, V147, DOI 10.1016/j.compind.2023.103876
+   Vieira J., Advanced Planning and Scheduling (APS) Systems: A Systematic Literature Review, P385
+   Wang JL, 2019, ENGINEERING-PRC, V5, P662, DOI 10.1016/j.eng.2018.12.013
+   Wang P, 2021, J MANUF SYST, V58, P16, DOI 10.1016/j.jmsy.2020.11.012
+   Wang W, 2019, IEEE ACCESS, V7, P83637, DOI 10.1109/ACCESS.2019.2925114
+   Wang YK, 2020, J CLEAN PROD, V248, DOI 10.1016/j.jclepro.2019.119299
+   Yang C, 2020, IEEE ACCESS, V8, P45938, DOI 10.1109/ACCESS.2020.2977846
+   Yu WJ, 2020, IEEE T IND INFORM, V16, P183, DOI 10.1109/TII.2019.2915846
+   Zhang Jianquan, 2022, 2022 2nd International Conference on Algorithms, High Performance Computing and Artificial Intelligence (AHPCAI), P240, DOI 10.1109/AHPCAI57455.2022.10087539
+   Zhang NH, 2021, IEEE ACCESS, V9, P34667, DOI 10.1109/ACCESS.2021.3061477
+   Zhang XY, 2020, J CLEAN PROD, V265, DOI 10.1016/j.jclepro.2020.121863
+   Ziegler J, 2020, PROC CIRP, V93, P496, DOI [10.1016/j.procir.2020.04.155, 10.1016/j.procir.2020.04.155]
+NR 85
+TC 0
+Z9 0
+U1 4
+U2 4
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2169-3536
+J9 IEEE ACCESS
+JI IEEE Access
+PY 2025
+VL 13
+BP 183419
+EP 183447
+DI 10.1109/ACCESS.2025.3624558
+PG 29
+WC Computer Science, Information Systems; Engineering, Electrical &
+   Electronic; Telecommunications
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Computer Science; Engineering; Telecommunications
+GA 9HV8H
+UT WOS:001606717700016
+OA Green Submitted, gold
+DA 2026-02-21
+ER
+
+PT C
+AU Suleykin, A
+   Bobkova, A
+   Panfilov, P
+   Chumakov, I
+AF Suleykin, Alexander
    Bobkova, Anna
    Panfilov, Peter
    Chumakov, Ilya
@@ -489,258 +775,71 @@ TI Efficient Data Exchange Between Typical Data Lake and DWH Corporate
    Systems
 SO INTERNATIONAL CONFERENCE ON ELECTRICAL, COMPUTER AND ENERGY TECHNOLOGIES
    (ICECET 2021)
-BP 1999
-EP 2004
-DI 10.1109/ICECET52533.2021.9698468
+LA English
 DT Proceedings Paper
-PD 2021
-PY 2021
-AB In the last five years, many companies around the world have been
-   successfully implemented Apache Hadoop as a main Data Lake storage for
-   all data presented in the organization. At the same time, the adoption
-   of other Open-Source technologies has been also increasing for years,
-   such as classical MPP-based systems for Analytical workloads. Thus, the
-   question of efficient and fast data integration between Apache Hadoop
-   and other organizational data storage systems is highly important for
-   enterprises, where business and decision makers need the minimum delay
-   of big heterogeneous data exchange between Hadoop and other storages. In
-   this paper, we compare different options for loading data from Apache
-   Hadoop, representing the Data Lake of organization, into Open-Source MPP
-   Greenplum database with the role of classical data warehouse for
-   analytical workloads, and choose the best one. Also, we identify
-   potential risks of using different data loading methods.
 CT IEEE International Conference on Electrical, Computer, and Energy
    Technologies (ICECET)
 CY DEC 09-10, 2021
 CL Cape Town, SOUTH AFRICA
-SP Aksaray Univ; IEEE; Univ Johannesburg
+DE Big Data; Data Lake; Hadoop Distributed File System; Greenplum;
+   Massively Parallel Processing; Data Warehouse
+AB In the last five years, many companies around the world have been successfully implemented Apache Hadoop as a main Data Lake storage for all data presented in the organization. At the same time, the adoption of other Open-Source technologies has been also increasing for years, such as classical MPP-based systems for Analytical workloads. Thus, the question of efficient and fast data integration between Apache Hadoop and other organizational data storage systems is highly important for enterprises, where business and decision makers need the minimum delay of big heterogeneous data exchange between Hadoop and other storages. In this paper, we compare different options for loading data from Apache Hadoop, representing the Data Lake of organization, into Open-Source MPP Greenplum database with the role of classical data warehouse for analytical workloads, and choose the best one. Also, we identify potential risks of using different data loading methods.
+C1 [Suleykin, Alexander] Russian Acad Sci, VA Trapeznikov Inst Control Sci, Doctoral Sch, Moscow, Russia.
+   [Bobkova, Anna; Panfilov, Peter] HSE Univ, Grad Sch Business, Dept Business Informat, Moscow, Russia.
+   [Chumakov, Ilya] Liebherr Int Deutschland GmbH, Digital Mkt & ECommerce Liebherr Appliances, Moscow, Russia.
+C3 V.A. Trapeznikov Institute of Control Sciences, Russian Academy of
+   Sciences; Russian Academy of Sciences; HSE University (National Research
+   University Higher School of Economics)
+RP Suleykin, A (corresponding author), Russian Acad Sci, VA Trapeznikov Inst Control Sci, Doctoral Sch, Moscow, Russia.
+EM aless.sull@mail.ru; aaspungen@gmail.com; ppanfilov@hse.ru;
+   chumakov-il@ya.ru
 RI Panfilov, Peter/AAJ-8308-2021; Suleykin, Alexander/AAC-6050-2022
 OI Panfilov, Peter/0000-0001-6567-6309; Suleykin,
    Alexander/0000-0003-2294-6449
-ZA 0
-ZS 0
+FU RFBR [20-07-00958]; HSE University's Project Group Competition grant
+FX The reported experimental research was partially supported by RFBR grant
+   No 20-07-00958 and the HSE University's Project Group Competition grant.
+CR Albertini O.R., 2020, IMAGE CLASSIFICATION, P1
+   [Anonymous], Reading and Writing HDFS Parquet Data
+   [Anonymous], Using PXF to Read and Write External Data
+   [Anonymous], NEW FUNCTIONALITY GR
+   Beakta R., 2015, International Journal of Computer Science & Information, V2
+   Chessell Mandy, 2018, JOURNEY CONTINUES DA
+   Daeng Bani FC, 2018, P COMPUT SCI, V135, P68, DOI [10.1016/j.procs.2018.08.151, DOI 10.1016/J.PROCS.2018.08.151]
+   Depardon B., 2013, FFHAL00789086, P44
+   McPadden J., 2019, HLTH CARE PRECISION
+   Rangarajan S., 2018, SCALABLE ARCHITECTUR, DOI [10.1007/978-3-319-76587-7_5, DOI 10.1007/978-3-319-76587-7_5]
+   Soroushmehr SMR, 2016, DIALOGUES CLIN NEURO, V18, P339
+NR 11
 TC 0
-ZR 0
-Z8 0
-ZB 0
 Z9 0
 U1 0
 U2 4
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
 BN 978-1-6654-4231-2
-DA 2022-07-10
+PY 2021
+BP 1999
+EP 2004
+DI 10.1109/ICECET52533.2021.9698468
+PG 6
+WC Computer Science, Theory & Methods; Energy & Fuels; Engineering,
+   Multidisciplinary
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science; Energy & Fuels; Engineering
+GA BT2VT
 UT WOS:000814669100344
+DA 2026-02-21
 ER
 
 PT C
-AU Liu, Ruoran
-   Isah, Haruna
-   Zulkernine, Farhana
-GP IEEE
-TI A Big Data Lake for Multilevel Streaming Analytics
-SO 2020 1ST INTERNATIONAL CONFERENCE ON BIG DATA ANALYTICS AND PRACTICES,
-   IBDAP
-BP 103
-EP 108
-DT Proceedings Paper
-PD 2020
-PY 2020
-AB Large organizations are seeking to create new architectures and scalable
-   platforms to effectively handle data management challenges due to the
-   explosive nature of data rarely seen in the past. These data management
-   challenges are largely posed by the availability of streaming data at
-   high velocity from various sources in multiple formats. The changes in
-   data paradigm have led to the emergence of new data analytics and
-   management architecture. This paper focuses on storing high volume,
-   velocity and variety data in the raw formats in a data storage
-   architecture called a data lake. First, we present our study on the
-   limitations of traditional data warehouses in handling recent changes in
-   data paradigms. We discuss and compare different open source and
-   commercial platforms that can be used to develop a data lake. We then
-   describe our end-to-end data lake design and implementation approach
-   using the Hadoop Distributed File System (HDFS) on the Hadoop Data
-   Platform (HDP). Finally, we present a real-world data lake development
-   use case for data stream ingestion, staging, and multilevel streaming
-   analytics which combines structured and unstructured data. This study
-   can serve as a guide for individuals or organizations planning to
-   implement a data lake solution for their use cases.
-CT 1st International Conference on Big Data Analytics and Practices (IBDAP)
-CY SEP 25-26, 2020
-CL ELECTR NETWORK
-RI Isah, Haruna/AAB-3693-2019; liu, ruoran/KOQ-5146-2024
-ZR 0
-ZB 0
-TC 0
-ZS 0
-ZA 0
-Z8 0
-Z9 0
-U1 0
-U2 0
-BN 978-1-7281-8106-6
-DA 2020-01-01
-UT WOS:001338048900019
-ER
-
-PT P
-AU XU B
-   GENG Z
-   YANG Q
-   XU H
-   XIAO Z
-TI Heterogeneous data integration method based on            virtualization
-   technology, involves obtaining optimal            integration solution
-   of heterogeneous database to be            integrated or data source
-   table
-PN CN116701504-A
-AE YUNNAN POWER GRID CO LTD INFORMATION CEN
-AB 
-   NOVELTY - The method involves combining the open source               
-   language to construct the data source linker                according to
-   the heterogeneous database to be                integrated or/and the
-   data source table. The                metadata information of the target
-   data source in                the data source linker is extracted. A    
-   corresponding packaging table for packaging is                generated,
-   and a mapping virtual table is                established. The data
-   service issue on the mapping                virtual table is performed,
-   and an optimization                operation by combining with the data
-   virtualization                engine is performed. The optimal
-   integration                solution of the heterogeneous database to be 
-        integrated or/and the data source table is                obtained.
-   USE - Heterogeneous data integration method based on               
-   virtualization technology for use in data                integration
-   system (claimed) such as data warehouse                system and data
-   lake system.
-   ADVANTAGE - Reduces the difficulty of data processing by               
-   setting uniform data access and virtual data market                and
-   autonomous service analysis, simplifies the                data
-   integration mode, data development speed, has                high
-   flexibility, can access in fast and controlled                mode, and
-   has low use cost.
-   DETAILED DESCRIPTION - INDEPENDENT CLAIMS are included for the          
-   following:a heterogeneous data integration system based               
-   on virtualization technology;a computer device; anda computer readable
-   storage medium storing                heterogeneous data integration
-   program based on                virtualization technology.
-   DESCRIPTION Of DRAWING(S) - The drawing shows a flow chart illustrating
-   a                method for integrating heterogeneous data based on     
-   virtualization technology and a system. (Drawing                includes
-   non-English language text)
-Z9 0
-U1 0
-U2 0
-DA 2025-03-20
-UT DIIDW:202396227N
-ER
-
-PT J
-AU Kim, Ka Ram
-   Suh,, Jin Hyung
-TI Design of Storage and Processing of Aviation Safety Data in a Hybrid
-   Data Lake Platform
-Z1 항공 안전 데이터의 혼합 데이터레이크 플랫폼에서의 저장과 처리 설계
-SO Journal of Creative Information Culture
-S1 창의정보문화연구
-VL 10
-IS 4
-BP 251
-EP 260
-DT research-article
-PD 2024
-PY 2024
-AB In the aviation industry, safety is a key element in protecting lives
-   and maintaining business continuity, and for this purpose, it is
-   essential to collect, store, and analyze a large amount of safety data.
-   Due to the importance of these aviation assets, many aviation-related
-   organizations have studied methods for storing and processing aviation
-   safety data and providing processed data. However, existing data storage
-   and processing methods are diverse and have limitations in quickly
-   processing aviation safety data generated in real time. In particular, a
-   mixed data processing platform that can accommodate and process both
-   structured data such as maintenance records and operation logs and
-   unstructured data such as voice and video data is required, and it
-   should be structured with a focus on real-time data processing, data
-   governance, and data security. In this study, we will examine the
-   structure of a mixed data lake platform that can centrally manage
-   aviation safety data from various sources by combining a cloud-based
-   data lake and an on-premise database.
-AK 항공산업에서의 안전은 생명의 보호와 비즈니스 지속성을 유지하는 핵심 요소로 이를 위하여 방대한 양의 안전 데이터를 수집, 저장,
-   분석하는 것이 필수적이다. 이러한 항공 자산의 중요성으로 많은 항공 관련 기관에서 항공 안전 데이터의 저장과 처리, 처리된
-   데이터의 제공 방법에 대한 연구가 있었으나 기존의 데이터 저장 및 처리 방식으로는 다양하며 실시간으로 발생하는 항공 안전 데이터의
-   신속한 처리에 한계가 있다. 특히 생성 데이터가 정비 기록, 운영 로그와 같은 정형 데이터와 음성 및 영상 데이터와 같은 비정형
-   데이터를 모두 수용, 처리할 수 있는 혼합 데이터 처리 플랫폼이 필요하며 실시간 데이터 처리, 데이터 거버넌스, 그리고 데이터
-   보안성을 중점으로 구성되어야 한다. 본 연구에서는 클라우드 기반의 데이터레이크와 온프레미스 데이터베이스를 결합하여 다양한 소스의
-   항공 안전 데이터를 중앙 집중적으로 관리할 수 있는 혼합 데이터레이크 플렛폼 구조를 살펴보고자 한다.
-Z8 0
-ZS 0
-ZR 0
-ZB 0
-TC 0
-ZA 0
-Z9 0
-U1 0
-U2 0
-SN 2384-2008
-DA 2024-12-27
-UT KJD:ART003141570
-ER
-
-PT P
-AU ZHANG T
-   CHEN Z
-   LIU Z
-   YU C
-   WANG P
-   WANG Q
-   CHEN W
-   LIU Y
-   LIU H
-TI Method for realizing delta lake data lake index            based on
-   Elasticsearch, involves locating storage            position of content
-   corresponding to keyword, and            entering positioning position
-   according to selection of            user
-PN CN116340317-A
-AE NANHU LAB
-AB 
-   NOVELTY - The method involves extracting the source                data,
-   and forming a structured Dataset data set                based on Spark.
-   The Schema analysis on the                extracted data set is
-   performed, and the data                storage address information is
-   increased to form an                index structure. The content of the
-   index structure                is converted into the support format of
-   the search                server and storing in the index database. The 
-   keyword input by the user is received by the search               
-   server. The search is started based on the index               
-   database, and the storage position of the content                is
-   located corresponding to the keyword. The                positioning
-   position is entered according to the                selection of the
-   user.
-   USE - Method for realizing delta lake data lake                index
-   based on Elasticsearch (RTM: open-source                computer
-   programming language developed and                marketed by
-   Microsoft(RTM: Company Name)).
-   ADVANTAGE - The method enables realizing automatic               
-   generating data index scheme on the Delta Lake,                storing
-   or searching according to the index scheme,                providing
-   efficient index organization and fast                query to support
-   high performance of large data                analysis, and realizing
-   full fuzzy matching, data                isolation and data fusion
-   freely interactive                matching and using full text search
-   theory of                Elasticsearch, the multi-source heterogeneous
-   data                to reach the purpose of full-text search, and       
-       automatically optimizing cache data in the data                lake.
-   DESCRIPTION Of DRAWING(S) - The drawing shows a schematic diagram of a  
-   method for realizing Deltalake data lake index                based on
-   Elasticsearch. (Drawing includes                non-English language
-   text)
-Z9 0
-U1 0
-U2 0
-DA 2023-07-15
-UT DIIDW:202369461J
-ER
-
-PT C
-AU Chen, Zhe
+AU Chen, Z
+   Shao, HY
+   Li, YP
+   Lu, HR
+   Jin, JH
+AF Chen, Zhe
    Shao, Hangyu
    Li, Yuping
    Lu, Hongru
@@ -749,55 +848,80 @@ GP IEEE
 TI Policy-Based Access Control System for Delta Lake
 SO 2022 TENTH INTERNATIONAL CONFERENCE ON ADVANCED CLOUD AND BIG DATA, CBD
 SE International Conference on Advanced Cloud and Big Data
-BP 60
-EP 65
-DI 10.1109/CBD58033.2022.00020
+LA English
 DT Proceedings Paper
-PD 2022
-PY 2022
-AB Delta lake is a new generation of data storage solutions. It stores both
-   transaction log and data files in one directory, and provides ACID
-   transactions, scalable metadata handling, and unifies streaming and
-   batch data processing on top of existing data lakes, such as S3, ADLS,
-   GCS, and HDFS. Different from data warehouses, delta lakes allow data to
-   be stored in the original format, retain complete data information, and
-   provide efficient and low-cost storage solutions for data computing and
-   analysis businesses. However, Since Delta Lake metadata is scattered in
-   different resource files, the lack of a unified metadata view increases
-   the difficulty of data governance. Also, Delta Lake adopts an open
-   source storage system as the underlying storage, and its basic access
-   control does not isolate different users, which may lead the risk of
-   data leakage. At present, most common storage systems use data tables'
-   row and column fields for access control, while delta lake treats the
-   file group as an object. In this paper, aiming at the difficulty of data
-   governance, we design a data lake metadata management method to achieve
-   unified and efficient management of metadata information in
-   heterogeneous data. Then, we design a policy-based data lake access
-   control mechanism, combined with the open source permission framework,
-   and complete the access request for different users and roles in Delta
-   Lake.
 CT 10th International Conference on Advanced Cloud and Big Data (CBD)
 CY NOV 04-05, 2022
 CL Guilin, PEOPLES R CHINA
-SP Guangxi Normal Univ; Guilin Univ Technol; SE Univ
+DE Data Lake; Delta Lake; Metadata; Access Control
+AB Delta lake is a new generation of data storage solutions. It stores both transaction log and data files in one directory, and provides ACID transactions, scalable metadata handling, and unifies streaming and batch data processing on top of existing data lakes, such as S3, ADLS, GCS, and HDFS. Different from data warehouses, delta lakes allow data to be stored in the original format, retain complete data information, and provide efficient and low-cost storage solutions for data computing and analysis businesses. However, Since Delta Lake metadata is scattered in different resource files, the lack of a unified metadata view increases the difficulty of data governance. Also, Delta Lake adopts an open source storage system as the underlying storage, and its basic access control does not isolate different users, which may lead the risk of data leakage. At present, most common storage systems use data tables' row and column fields for access control, while delta lake treats the file group as an object. In this paper, aiming at the difficulty of data governance, we design a data lake metadata management method to achieve unified and efficient management of metadata information in heterogeneous data. Then, we design a policy-based data lake access control mechanism, combined with the open source permission framework, and complete the access request for different users and roles in Delta Lake.
+C1 [Chen, Zhe] Southeast Univ, Sch Software Engn, Nanjing, Jiangsu, Peoples R China.
+   [Shao, Hangyu; Jin, Jiahui] Southeast Univ, Sch Comp Sci & Engn, Suzhou, Jiangsu, Peoples R China.
+   [Li, Yuping] China Informat Consulting & Designing Inst CO LTD, Nanjing, Jiangsu, Peoples R China.
+   [Lu, Hongru] Nanjing Audit Univ, Sch Informat Engn, Nanjing, Jiangsu, Peoples R China.
+C3 Southeast University - China; Southeast University - China; Nanjing
+   Audit University
+RP Chen, Z (corresponding author), Southeast Univ, Sch Software Engn, Nanjing, Jiangsu, Peoples R China.
+EM zhe_chen@seu.edu.cn; 220194323@seu.edu.cn; liyping.cicdi@chinaccs.cn;
+   HongruLU@nau.edu.cn; jjin@seu.edu.cn
 RI Jin, Jiahui/JPX-2144-2023
-ZB 0
-ZS 0
-ZA 0
-Z8 0
-ZR 0
+FU National Natural Science Foundation of China [62072099]; Jiangsu
+   Provincial Key Laboratory of Network and Information Security
+   [BM2003201]; Jiangsu Provincial Scientific and Technological
+   Achievements Transfer Fund [BA2021007]; Key Laboratory of Computer
+   Network and Information Integration of Ministry of Education of China
+   [93K-9]; Fundamental Research Funds for the Central Universities
+FX This work is supported by National Natural Science Foundation of China
+   under Grants No. 62072099, Jiangsu Provincial Key Laboratory of Network
+   and Information Security under Grants No.BM2003201, Jiangsu Provincial
+   Scientific and Technological Achievements Transfer Fund (Grant No.
+   BA2021007), Key Laboratory of Computer Network and Information
+   Integration of Ministry of Education of China under Grants No.93K-9, and
+   the Fundamental Research Funds for the Central Universities.
+CR Armbrust M, 2020, PROC VLDB ENDOW, V13, P3411, DOI 10.14778/3415478.3415560
+   Bogatu A, 2020, PROC INT CONF DATA, P709, DOI 10.1109/ICDE48307.2020.00067
+   Congwei Chen, 2020, 2020 IEEE 6th International Conference on Dependability in Sensor, Cloud and Big Data Systems and Application (DependSys), P16, DOI 10.1109/DependSys51298.2020.00012
+   Dai D, 2019, IEEE T PARALL DISTR, V30, P1613, DOI 10.1109/TPDS.2018.2887380
+   Gao YH, 2018, INT CONF MANAGE DATA, P943, DOI 10.1145/3183713.3183746
+   Hellerstein Joseph M, 2017, Ground: a data context service
+   Mami MN, 2019, IIWAS2019: THE 21ST INTERNATIONAL CONFERENCE ON INFORMATION INTEGRATION AND WEB-BASED APPLICATIONS & SERVICES, P313, DOI 10.1145/3366030.3366054
+   Nargesian F, 2020, SIGMOD'20: PROCEEDINGS OF THE 2020 ACM SIGMOD INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA, P1939, DOI 10.1145/3318464.3380605
+   Ouellette P, 2021, PROC VLDB ENDOW, V14, P2863, DOI 10.14778/3476311.3476364
+   Ramakrishnan R, 2017, SIGMOD'17: PROCEEDINGS OF THE 2017 ACM INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA, P51, DOI 10.1145/3035918.3056100
+   Ramya P, 2020, BIG DATA-US, V8, P147, DOI 10.1089/big.2019.0120
+   Ravat F, 2019, LECT NOTES COMPUT SC, V11706, P304, DOI 10.1007/978-3-030-27615-7_23
+   Sawadogo P, 2021, J INTELL INF SYST, V56, P97, DOI 10.1007/s10844-020-00608-7
+   Syed A, 2020, SIGMOD'20: PROCEEDINGS OF THE 2020 ACM SIGMOD INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA, P803, DOI 10.1145/3318464.3393816
+   Zhang Y, 2020, SIGMOD'20: PROCEEDINGS OF THE 2020 ACM SIGMOD INTERNATIONAL CONFERENCE ON MANAGEMENT OF DATA, P1951, DOI 10.1145/3318464.3389726
+   Zhu EK, 2019, INT CONF MANAGE DATA, P847, DOI 10.1145/3299869.3300065
+NR 16
 TC 1
 Z9 3
 U1 1
 U2 6
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
 SN 2573-301X
 BN 979-8-3503-0971-3
-DA 2023-06-01
+J9 INT CONF ADV CLOUD B
+PY 2022
+BP 60
+EP 65
+DI 10.1109/CBD58033.2022.00020
+PG 6
+WC Computer Science, Information Systems; Computer Science, Theory &
+   Methods
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Computer Science
+GA BV0RQ
 UT WOS:000976903900011
+DA 2026-02-21
 ER
 
 PT C
-AU Tunjic, Aleksandar
+AU Tunjic, A
+AF Tunjic, Aleksandar
 BE Koricic, M
    Butkovic, Z
    Skala, K
@@ -818,63 +942,53 @@ BE Koricic, M
 TI The Automation of the Data Lake Ingestion Process from Various Sources
 SO 2019 42ND INTERNATIONAL CONVENTION ON INFORMATION AND COMMUNICATION
    TECHNOLOGY, ELECTRONICS AND MICROELECTRONICS (MIPRO)
-BP 1276
-EP 1281
+LA English
 DT Proceedings Paper
-PD 2019
-PY 2019
-AB In a big data environment, it is often necessary to ingest data from
-   different sources into a unique storage. Because of low memory price,
-   system distribution and failure tolerance, that storage is typically
-   HDFS. It enables users to manipulate data with different tools from the
-   Hadoop ecosystem. The process of data ingestion seems simple. However,
-   because sources can be different database systems, structured,
-   semi-structured and unstructured data complicate the ingestion
-   procedure. It is usually not enough to just store everything. Data needs
-   to be stored in such a way that enables users to quickly access and
-   manipulate it. There are many ingestion-specific solutions in the big
-   data ecosystem. This paper will describe an implemented system for data
-   ingestion from MSSQL, MySQL and Postgres into a Hive database. The
-   process starts with creating tables with corresponding metadata,
-   continues with the ingestion process and ends with a description of how
-   the process is automated. The implementation of Sqoop as an open-source
-   tool and Hue, a web user interface from Cloudera, will be described.
 CT 42nd International Convention on Information and Communication
    Technology, Electronics and Microelectronics (MIPRO)
 CY MAY 20-24, 2019
 CL Opatija, CROATIA
-SP IEEE; MIPRO Croatian Soc; IEEE Reg 8; IEEE Croatia Sect; IEEE Croatia
-   Sect Comp Chapter; IEEE Croatia Sect Electron Devices Solid State
-   Circuits Joint Chapter; IEEE Croatia Sect Educ Chapter; IEEE Croatia
-   Sect Commun Chapter; Minist Sci & Educ Republ Croatia; Minist Sea
-   Transport & Infrastructure Republ Croatia; Minist Econ Entrepreneurship
-   & Crafts Republ Croatia; Minist Publ Adm Republ Croatia; Minist Reg Dev
-   & EU Funds Republ Croatia; Minist Environm & Energy Republ Croatia;
-   Central State Off Dev Digital Soc; Primorje Gorski Kotar County;
-   Croatian Regulatory Author Network Ind; Croatian Power Exchange; Univ
-   Zagreb; Univ Rijeka; Juraj Dobrila Univ Pula; Rudjer Boskovic Inst
-   Zagreb; Univ Zagreb, Fac Elect Engn & Comp; Univ Zagreb, Fac Org &
-   Informat; Univ Rijeka, Fac Maritime Studies; Univ Rijeka, Fac Engn; Univ
-   Rijeka, Fac Econ & Business; Zagreb Univ Appl Sci; Croatian Acad Engn;
-   Ericsson Nikola Tesla; T Croatian Telecom; Koncar Elect Ind; Croatian
-   Elect Co; A1; InfoDom; Storm Comp; Transmitters & Commun Co; Brintel;
-   Danieli Automat; Mjerne Tehnologije; Selmet; Inst SDT; Nomen
-ZR 0
-ZB 0
-Z8 0
+DE hadoop; sqoop; hive; data ingestion automation; big data
+AB In a big data environment, it is often necessary to ingest data from different sources into a unique storage. Because of low memory price, system distribution and failure tolerance, that storage is typically HDFS. It enables users to manipulate data with different tools from the Hadoop ecosystem. The process of data ingestion seems simple. However, because sources can be different database systems, structured, semi-structured and unstructured data complicate the ingestion procedure. It is usually not enough to just store everything. Data needs to be stored in such a way that enables users to quickly access and manipulate it. There are many ingestion-specific solutions in the big data ecosystem. This paper will describe an implemented system for data ingestion from MSSQL, MySQL and Postgres into a Hive database. The process starts with creating tables with corresponding metadata, continues with the ingestion process and ends with a description of how the process is automated. The implementation of Sqoop as an open-source tool and Hue, a web user interface from Cloudera, will be described.
+C1 [Tunjic, Aleksandar] Multicom Doo, Zagreb, Croatia.
+RP Tunjic, A (corresponding author), Multicom Doo, Zagreb, Croatia.
+EM aleksandar.tunjic@multicom.hr
+CR Apache Software Foundation, SQOOP US GUID V1 4 6
+   Capriolo E., 2012, PROGRAMMING HIVE
+   Cloudera Inc, GET START HUE
+   Cloudera Inc, CDH OV
+   Hortonworks Inc, HORT DAT PLATF HDP 3
+   Laney D, 2001, 3D DATA MANAGEMENT C
+   Oracle Corporation, 2016, NEW BIG DAT APPL BDA
+   Ting Kathleen., 2013, APACHE SQOOP COOKBOO
+NR 8
 TC 1
-ZA 0
-ZS 0
 Z9 1
 U1 0
 U2 5
+PU IEEE
+PI NEW YORK
+PA 345 E 47TH ST, NEW YORK, NY 10017 USA
 BN 978-953-233-098-4
-DA 2019-09-30
+PY 2019
+BP 1276
+EP 1281
+PG 6
+WC Engineering, Electrical & Electronic; Telecommunications
+WE Conference Proceedings Citation Index - Science (CPCI-S)
+SC Engineering; Telecommunications
+GA BN5PZ
 UT WOS:000484544500228
+DA 2026-02-21
 ER
 
 PT J
-AU Silvestri, Stefano
+AU Silvestri, S
+   Tricomi, G
+   Bassolillo, SR
+   De Benedictis, R
+   Ciampi, M
+AF Silvestri, Stefano
    Tricomi, Giuseppe
    Bassolillo, Salvatore Rosario
    De Benedictis, Riccardo
@@ -882,356 +996,134 @@ AU Silvestri, Stefano
 TI An Urban Intelligence Architecture for Heterogeneous Data and
    Application Integration, Deployment and Orchestration
 SO SENSORS
-VL 24
-IS 7
-AR 2376
-DI 10.3390/s24072376
+LA English
 DT Article
-PD APR 2024
-PY 2024
-AB This paper describes a novel architecture that aims to create a template
-   for the implementation of an IT platform, supporting the deployment and
-   integration of the different digital twin subsystems that compose a
-   complex urban intelligence system. In more detail, the proposed Smart
-   City IT architecture has the following main purposes: (i) facilitating
-   the deployment of the subsystems in a cloud environment; (ii)
-   effectively storing, integrating, managing, and sharing the huge amount
-   of heterogeneous data acquired and produced by each subsystem, using a
-   data lake; (iii) supporting data exchange and sharing; (iv) managing and
-   executing workflows, to automatically coordinate and run processes; and
-   (v) to provide and visualize the required information. A prototype of
-   the proposed IT solution was implemented leveraging open-source
-   frameworks and technologies, to test its functionalities and
-   performance. The results of the tests performed in real-world settings
-   confirmed that the proposed architecture could efficiently and easily
-   support the deployment and integration of heterogeneous subsystems,
-   allowing them to share and integrate their data and to select, extract,
-   and visualize the information required by a user, as well as promoting
-   the integration with other external systems, and defining and executing
-   workflows to orchestrate the various subsystems involved in complex
-   analyses and processes.
-RI Silvestri, Stefano/IUP-0829-2023; Tricomi, Giuseppe/S-6029-2019; Ciampi, Mario/B-3874-2015; Bassolillo, Salvatore Rosario/IUN-2349-2023; De Benedictis, Riccardo/AAU-3550-2020
+DE urban intelligence; smart cities architecture; data platform; data
+   integration; smart cities workflows; digital twins deployment; digital
+   twins integration
+ID BIG DATA
+AB This paper describes a novel architecture that aims to create a template for the implementation of an IT platform, supporting the deployment and integration of the different digital twin subsystems that compose a complex urban intelligence system. In more detail, the proposed Smart City IT architecture has the following main purposes: (i) facilitating the deployment of the subsystems in a cloud environment; (ii) effectively storing, integrating, managing, and sharing the huge amount of heterogeneous data acquired and produced by each subsystem, using a data lake; (iii) supporting data exchange and sharing; (iv) managing and executing workflows, to automatically coordinate and run processes; and (v) to provide and visualize the required information. A prototype of the proposed IT solution was implemented leveraging open-source frameworks and technologies, to test its functionalities and performance. The results of the tests performed in real-world settings confirmed that the proposed architecture could efficiently and easily support the deployment and integration of heterogeneous subsystems, allowing them to share and integrate their data and to select, extract, and visualize the information required by a user, as well as promoting the integration with other external systems, and defining and executing workflows to orchestrate the various subsystems involved in complex analyses and processes.
+C1 [Silvestri, Stefano; Tricomi, Giuseppe; Bassolillo, Salvatore Rosario; Ciampi, Mario] Natl Res Council Italy ICAR CNR, Inst High Performance Comp & Networking, Via Pietro Castellino 111, I-80131 Naples, Italy.
+   [Tricomi, Giuseppe] Univ Messina, Dept Engn, Contrada Dio 1, I-98166 Messina, Italy.
+   [Tricomi, Giuseppe] CINI Consorzio Interuniv Nazl Informat, Via Ariosto 25, I-00185 Rome, Italy.
+   [Bassolillo, Salvatore Rosario] Univ Naples Parthenope, Ctr Direzionale, Dept Sci & Technol, Isola C4, I-80143 Naples, Italy.
+   [De Benedictis, Riccardo] Natl Res Council Italy ISTC CNR, Inst Cognit Sci & Technol, via Giandomen Romagnosi 18-A, I-00196 Rome, Italy.
+C3 Consiglio Nazionale delle Ricerche (CNR); Istituto di Calcolo e Reti ad
+   Alte Prestazioni (ICAR-CNR); University of Messina; Parthenope
+   University Naples; Consiglio Nazionale delle Ricerche (CNR); Istituto di
+   Scienze e Tecnologie della Cognizione (ISTC-CNR)
+RP Silvestri, S; Tricomi, G (corresponding author), Natl Res Council Italy ICAR CNR, Inst High Performance Comp & Networking, Via Pietro Castellino 111, I-80131 Naples, Italy.; Tricomi, G (corresponding author), Univ Messina, Dept Engn, Contrada Dio 1, I-98166 Messina, Italy.; Tricomi, G (corresponding author), CINI Consorzio Interuniv Nazl Informat, Via Ariosto 25, I-00185 Rome, Italy.
+EM stefano.silvestri@icar.cnr.it; giuseppe.tricomi@icar.cnr.it;
+   salvatore.bassolillo@icar.cnr.it; riccardo.debenedictis@istc.cnr.it;
+   mario.ciampi@icar.cnr.it
+RI Silvestri, Stefano/IUP-0829-2023; Tricomi, Giuseppe/S-6029-2019; Ciampi,
+   Mario/B-3874-2015; Bassolillo, Salvatore Rosario/IUN-2349-2023; De
+   Benedictis, Riccardo/AAU-3550-2020
 OI Silvestri, Stefano/0000-0002-9890-8409; Tricomi,
    Giuseppe/0000-0003-3837-8730; Ciampi, Mario/0000-0002-7286-6212;
    Bassolillo, Salvatore Rosario/0000-0002-0411-3729; De Benedictis,
    Riccardo/0000-0003-2344-4088
-ZR 0
-ZS 0
-Z8 0
-ZA 0
-ZB 0
+FU European Union
+FX We thank Simona Sada and Giuseppe Trerotola for the administrative and
+   technical support they provided.
+CR agid, ModIPA-Modello di Interoperabilita per la Pubblica Amministrazione
+   Aguilar J, 2020, COMPUTING, V102, P2199, DOI 10.1007/s00607-020-00799-5
+   Al Nuaimi E, 2015, J INTERNET SERV APPL, V6, DOI 10.1186/s13174-015-0041-5
+   Allam Z, 2019, CITIES, V89, P80, DOI 10.1016/j.cities.2019.01.032
+   [Anonymous], The New European Interoperability Framework - Overview
+   [Anonymous], About us
+   [Anonymous], 2016, About OAuth 2.0
+   [Anonymous], 2020, Kubernetes: Production-grade container orchestration
+   apache, Spark-Unified Engine for Large-Scale Data Analytics
+   Aracri G, 2023, J DOC, V79, P1440, DOI 10.1108/JD-02-2023-0019
+   Bassolillo SR, 2023, APPL SCI-BASEL, V13, DOI 10.3390/app132011186
+   Bianchini D, 2024, KNOWL INF SYST, V66, P1469, DOI 10.1007/s10115-023-02014-1
+   Bianchini D, 2021, IEEE INT SM C CONF, DOI 10.1109/ISC253183.2021.9562913
+   Bibri SE, 2021, COMPUT URBAN SCI, V1, DOI 10.1007/s43762-021-00008-9
+   Caprari G, 2022, SUSTAINABILITY-BASEL, V14, DOI 10.3390/su14106263
+   Flores CC, 2022, TRANSFORM GOV-PEOPLE, V16, P519, DOI 10.1108/TG-03-2022-0033
+   Castelli G, 2022, 2022 WORKSHOP ON BLOCKCHAIN FOR RENEWABLES INTEGRATION (BLORIN), P132, DOI 10.1109/BLORIN54731.2022.10028437
+   Castelli G, 2019, 2019 IEEE 16TH INTERNATIONAL CONFERENCE ON SMART CITIES: IMPROVING QUALITY OF LIFE USING ICT, IOT AND AI (IEEE HONET-ICT 2019), P33, DOI 10.1109/honet.2019.8907962
+   Castro Neto M.d., 2018, P CAPSI 2018, P1
+   Chen M., 2014, BIG DATA RELATED TEC
+   Cicceri G, 2020, 2020 IEEE INTERNATIONAL CONFERENCE ON SMART COMPUTING (SMARTCOMP), P320, DOI 10.1109/SMARTCOMP50058.2020.00071
+   Cirillo Flavio, 2019, IEEE Internet of Things Magazine, V2, P12, DOI [10.1109/iotm.0001.1800022, 10.1109/IOTM.0001.1800022]
+   Deng TH, 2021, J MANAGE SCI ENG, V6, P125, DOI 10.1016/j.jmse.2021.03.003
+   Docker, About us
+   eclipse, Eclipse Paho
+   Fang YF, 2021, IEEE ACCESS, V9, P91244, DOI 10.1109/ACCESS.2021.3091716
+   Flask, about us
+   Flower, About us
+   Ford DN, 2020, J MANAGE ENG, V36, DOI 10.1061/(ASCE)ME.1943-5479.0000779
+   Glaessgen E., 2012, Proc. of the 53rd AIAA/ASME/ASCE/AHS/ASC Structures, P1818, DOI [10.2514/6.2012-1818, DOI 10.2514/6.2012-1818]
+   Goumopoulos C, 2024, IEEE ACCESS, V12, P4015, DOI 10.1109/ACCESS.2023.3349376
+   GridFS, ABOUT US
+   Habibzadeh H, 2019, ACM COMPUT SURV, V52, DOI 10.1145/3309545
+   Han Q, 2020, PROCEEDINGS OF THE 2020 IEEE INTERNATIONAL CONFERENCE ON HUMAN-MACHINE SYSTEMS (ICHMS), P602, DOI 10.1109/ichms49158.2020.9209493
+   Karras A., 2022, P ALGORITHMIC ASPECT, VVolume 13799, P21, DOI [10.1007/978-3-031-33437-5_2, DOI 10.1007/978-3-031-33437-5_2]
+   Kazmi A, 2017, LECT NOTES COMPUT SC, V10218, P20, DOI 10.1007/978-3-319-56877-5_2
+   Keycloack, about us
+   Kouroubali A, 2019, J BIOMED INFORM, V94, DOI 10.1016/j.jbi.2019.103166
+   Krishnamurthy R, 2017, SPRING GEOGR, P163, DOI 10.1007/978-3-319-40902-3_10
+   Li DR, 2021, COMPUT URBAN SCI, V1, DOI 10.1007/s43762-021-00005-y
+   Li X, 2021, IEEE SYST J, V15, P114, DOI 10.1109/JSYST.2019.2958874
+   Luo WC, 2020, ROBOT CIM-INT MANUF, V65, DOI 10.1016/j.rcim.2020.101974
+   Lymperis D, 2023, FUTURE INTERNET, V15, DOI 10.3390/fi15080276
+   Mehmood H, 2019, I C DATA ENGIN WORKS, P37, DOI 10.1109/ICDEW.2019.00-37
+   Miloslavskaya N, 2016, PROCEDIA COMPUT SCI, V88, P300, DOI 10.1016/j.procs.2016.07.439
+   MongoDB, About Us
+   mqtt, The Standard for IoT Messaging
+   Nurhadi, 2021, Information Science and Applications. Proceedings of ICISA 2020. Lecture Notes in Electrical Engineering (LNEE 739), P383, DOI 10.1007/978-981-33-6385-4_35
+   Park Y, 2020, INT J COMPUT INTEG M, V33, P1259, DOI 10.1080/0951192X.2020.1815850
+   Pereira J, 2022, FUTURE GENER COMP SY, V128, P552, DOI 10.1016/j.future.2021.10.030
+   Pomp A, 2021, PROCEEDINGS OF THE 30TH ACM INTERNATIONAL CONFERENCE ON INFORMATION & KNOWLEDGE MANAGEMENT, CIKM 2021, P4774, DOI 10.1145/3459637.3481995
+   Prabowo OM, 2023, IEEE ACCESS, V11, P120157, DOI 10.1109/ACCESS.2023.3327305
+   Puiu D, 2016, IEEE ACCESS, V4, P1086, DOI 10.1109/ACCESS.2016.2541999
+   Puliafito A, 2021, SENSORS-BASEL, V21, DOI 10.3390/s21103349
+   Raghavan S, 2020, LECT NOTES ELECTR EN, V603, P393, DOI 10.1007/978-981-15-0058-9_38
+   Rathore MM, 2018, SUSTAIN CITIES SOC, V40, P600, DOI 10.1016/j.scs.2017.12.022
+   Ruohomäki T, 2018, 2018 9TH INTERNATIONAL CONFERENCE ON INTELLIGENT SYSTEMS (IS), P155, DOI 10.1109/IS.2018.8710517
+   Sarramia D, 2022, SENSORS-BASEL, V22, DOI 10.3390/s22072733
+   Schäffer E, 2021, PROC CIRP, V96, P207, DOI [10.1016/j.procir.2021.01.076, 10.1016/j.procir.2021.01.076]
+   Silvestri S, 2019, IEEE WORLD CONGR SER, P283, DOI 10.1109/SERVICES.2019.00082
+   Sultanow E., 2021, IoT and IoE Driven Smart Cities, P293
+   Tao F, 2019, IEEE T IND INFORM, V15, P2405, DOI 10.1109/TII.2018.2873186
+   Varadharajan V., 2021, Developing and Monitoring Smart Environments for Intelligent Cities, P1
+   Venkatesan S, 2019, IET ELECTR POWER APP, V13, P1328, DOI 10.1049/iet-epa.2018.5732
+   Von Rosing M., BPMN Specifications-Business Process Model and Notation
+   Vue.js, The Progressive JavaScript Framework
+   vuetify, Vuetify Vue Component Framework
+   Wang S, 2019, ISPRS INT J GEO-INF, V8, DOI 10.3390/ijgi8120533
+   White G, 2021, CITIES, V110, DOI 10.1016/j.cities.2020.103064
+   White G, 2020, IEEE ACCESS, V8, P7518, DOI 10.1109/ACCESS.2020.2963912
+   Yang CT, 2021, J SUPERCOMPUT, V77, P5934, DOI 10.1007/s11227-020-03505-6
+NR 71
 TC 11
 Z9 12
 U1 2
 U2 7
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
 EI 1424-8220
-DA 2024-04-17
+J9 SENSORS-BASEL
+JI Sensors
+PD APR
+PY 2024
+VL 24
+IS 7
+AR 2376
+DI 10.3390/s24072376
+PG 22
+WC Chemistry, Analytical; Engineering, Electrical & Electronic; Instruments
+   & Instrumentation
+WE Science Citation Index Expanded (SCI-EXPANDED)
+SC Chemistry; Engineering; Instruments & Instrumentation
+GA NN5G5
 UT WOS:001201137000001
 PM 38610587
-ER
-
-PT P
-AU JYOTHY C R
-   ABRAHAM S
-   RAVEENDRANATH R
-   GOPIKA G
-   SHIRIN A
-TI Artificial intelligence-driven decision support            system for
-   digital transformation in traditional            manufacturing
-   enterprises, has secure deployment            architecture that supports
-   on-premise or cloud-based            environments
-PN IN202541041001-A
-AE MANGALAM ENG COLLEGE
-AB 
-   NOVELTY - The system has a data integration layer for               
-   collecting operational and enterprise data from               
-   enterprise resource planning (ERP), manufacturing               
-   execution system (MES), supervisory control and                data
-   acquisition (SCADA) and Internet of things                (IoT) systems.
-   An artificial intelligence (AI)                engine performs
-   predictive, prescriptive and                diagnostic analytics on
-   manufacturing data. A                modular user interface (UI) is
-   provided with                role-based dashboards and recommendation   
-   visualization. A digital twin simulation module is               
-   provided for scenario testing. A secure deployment               
-   architecture supports on-premise or cloud-based               
-   environments.
-   USE - AI-driven decision support system for digital               
-   transformation in traditional manufacturing                enterprises.
-   ADVANTAGE - The system bridges the gap between traditional              
-   manufacturing systems and advanced digital                technologies
-   using an incremental and modular                approach, avoids a
-   complete overhaul of existing                systems, preserves capital
-   investment, provides                AI-powered insights to allow good
-   decision-making                across maintenance, quality control,
-   energy                management and inventory planning, scales across  
-   industries and plant sizes, is cloud compatible,                tailored
-   with key performance indicators (KPIs)                relevant to roles
-   and deployed in low-connectivity                environments using edge
-   computing strategies,                empowers mid-sized manufacturers to
-   harness digital                tools for competitiveness, flexibility,
-   and                sustainable growth, combines predictive analytics,   
-   real-time monitoring, and data visualization to                assist
-   plant managers, engineers, and executives in                process
-   optimization, machine utilization, and                operational
-   forecasting, contributes to the                practical adoption of
-   Industry 4.0 technologies                within brownfield industrial
-   ecosystems, operates                on legacy systems with limited
-   connectivity,                fragmented data sources and outdated       
-   decision-making processes, increases data centric               
-   economy, guides traditional manufacturing                enterprises
-   through the process of digital                transformation, enhances
-   existing enterprise                software e.g. ERP, MES, and SCADA
-   systems using AI                for analytics, forecasting and
-   optimization,                aggregates structured and unstructured data
-   from                multiple operational silos comprising machine logs, 
-   energy meters, maintenance schedules and supply                chain
-   flows, processes data to identify                inefficiencies,
-   suggests process adjustments,                predicts machine failures,
-   offers role specific                dashboards and actionable
-   recommendations,                simulates operational scenarios for
-   risk-free                experimentation, supports local deployment for 
-   data-sensitive industries and secure cloud                deployment or
-   on- premise hosting and uses data                encryption and access
-   control mechanisms for                cybersecurity compliance, achieves
-   modularity,                ensures that manufacturers adopts components 
-   incrementally without overhauling their                infrastructure,
-   reduces the barrier to Industry 4.0                adoption by merging
-   real-time intelligence,                historical context, and strategic
-   insight into a                unified decision support system, empowers 
-   manufacturers to remain competitive and agile,                augments
-   industrial operations without disrupting                core processes,
-   collects and aggregates operational                data from IoT
-   sensors, machine controllers, energy                meters, and
-   maintenance logs in real time into a                central data lake,
-   pre-processes data using                techniques e.g. normalization,
-   anomaly detection                and imputation to ensure quality,
-   identifies                operational bottlenecks, predicts component
-   wear,                classifies machine efficiency zones, generates     
-   prescriptive suggestions e.g. optimal machine                scheduling,
-   energy saving strategies or proactive                inventory ordering,
-   features interactive dashboards                for plant managers,
-   supervisors and executives and                allows simulation of
-   scenarios before implementing                real-world changes.
-   DESCRIPTION Of DRAWING(S) - The drawing shows a block diagram of the    
-              AI-driven decision support system.
-Z9 0
-U1 0
-U2 0
-DA 2025-06-21
-UT DIIDW:202557041V
-ER
-
-PT P
-AU SONG S
-   DONG X
-TI Method for performing intelligent construction for            enterprise
-   data, involves supportting switching of            computing engines in
-   different scenarios, and            performing real-time query and
-   offline query through            Hadoop ecological technology ecology on
-   basis of            storage integration
-PN CN114691762-A
-AE SUZHOU YINGTIANDI INFORMATION TECHNOLOGY
-AB 
-   NOVELTY - The method involves performing operations at a               
-   level of computing and data architecture on a basis                of
-   storage integration through a cooperation of a                data
-   integration module, a data processing module,                a data
-   synchronization module, and a data asset                center. A
-   unified management of various data                sources is performed
-   in a one-key access mode, and                a database or schema
-   required to be accessed is                specified. Uploading is
-   performed through                unstructured and semi-structured data,
-   a unified                access interface channel is opened for a
-   downstream                data processing flow, data expansion and      
-   maintenance are performed through a file transfer               
-   protocol (FTP) data source acquisition, and a                switching
-   of calculation engines of different                scenes is supported
-   through Hadoop (RTM: collection                of open-source software
-   developed by Apache                Software Foundation) ecological
-   technology ecology,                and real-time query and off-line
-   query are                performed on the basis of storage              
-    integration.
-   USE - Method for performing intelligent construction                for
-   enterprise data.
-   ADVANTAGE - The method enables realizing smooth transition              
-   of offline data and real-time data, and ensuring                data
-   reliability and abnormal complement. The                method allows a
-   data integration module to support                the heterogeneous data
-   source of direct number and                off-line synchronization to
-   an integrated                collection service of a data lake, thus
-   realizing                flexible coding and configuration of different
-   data                number requirements, supporting arrangement         
-   scheduling of different development languages, and               
-   supporting the access of the data to a business                angle of
-   understanding for modeling and finishing                into a
-   retrievable data development                environment.
-Z9 0
-U1 0
-U2 0
-DA 2022-08-09
-UT DIIDW:202289641K
-ER
-
-PT B
-AU Bouziane, Anas
-Z2  
-TI On-Demand Health Data Provisioning With Custom Temporary Data Views for
-   Big Data Platforms
-DT Dissertation/Thesis
-PD Jan 01 2023
-PY 2023
-TC 0
-ZA 0
-ZB 0
-Z8 0
-ZR 0
-ZS 0
-Z9 0
-U1 0
-U2 0
-BN 9798302848277
-UT PQDT:121301049
-ER
-
-PT J
-AU MURUGIAH, KARTHIK 
-TI Automated ascertainment of bleeding and target lesion revascularization
-   after percutaneous coronary intervention (PCI) using electronic health
-   record (EHR) data
-DT Awarded Grant
-PD Jan 25 2022
-PY 2023
-AB PROJECT SUMMARYPercutaneous coronary intervention (PCI) is the most
-   common cardiac procedure with over 650,000 PCIperformed annually in the
-   U.S. Post-PCI complications which occur in a significant proportion of
-   patients areassociated with an increased risk of morbidity and
-   mortality. Reliable ascertainment of post-PCI events isimportant for
-   performance measurement, submission to disease registries, clinical
-   trials, and for cardiaccatheterization laboratory (CCL) safety
-   monitoring. Claims based detection of PCI complications is
-   inadequate.Assessing post-PCI events reliably requires an in-depth
-   manual chart review, which incurs a significantprovider and
-   administrative burden. However, with advances in health information
-   technology and nationwideadoption of electronic health record (EHR)
-   systems, it possible to utilize EHR for the automatic derivation
-   ofclinical events. Dr. Murugiah proposes to create and validate
-   automated algorithms which can be applied toEHR data to detect two
-   important post-PCI events which are a common focus of clinical trials
-   and qualityimprovement efforts – in-hospital bleeding and 1-year target
-   lesion revascularization (TLR). Using EHR data ata large health system,
-   Dr. Murugiah will develop a hybrid algorithm to detect major bleeding
-   post-PCI byleveraging structured data fields such as laboratory values,
-   as well as unstructured data such as imagingreports, cardiac
-   catheterization reports, and progress notes incorporating Natural
-   Language Processing (NLP)techniques (Aim 1). Similarly, using cardiac
-   catheterization reports for patients undergoing repeatrevascularization
-   within 1 year, an algorithm will be developed to detect TLR (Aim 2).
-   Both algorithms will beexternally validated using EHR data from another
-   large institution. The final algorithm will be implemented intoa tool
-   generating scheduled reports of bleeding and TLR, to be fed back to the
-   quality assurance team for theCCL and to individual operators.
-   Individual operators will be surveyed to obtain feedback about the
-   algorithm,reporting process, and their perceived benefit. The final
-   tools will be made open source (Aim 3). An automatedalgorithm for the
-   detection of post-PCI events within EHR can reduce administrative
-   burden, enable thegeneration of new knowledge from EHR based
-   observational studies, and enable pragmatic clinical trials.Further,
-   this project can serve as a proof of concept of the utility of hybrid
-   tools leveraging both structured dataand clinical text for surveillance
-   and quality measurement. Dr. Murugiah has a career interest in studying
-   andimproving the treatment for ischemic heart disease using
-   multidimensional datasets and EHR data to developreal time risk
-   prediction models and decision support tools, and conduct EHR based
-   comparative effectivenessstudies and clinical trials. During the award
-   period he will leverage the experience of his mentorship teamwhich
-   includes national experts in cardiovascular outcomes research, clinical
-   informatics, and computationallinguistics. He will also acquire formal
-   training in clinical informatics by completing a Master of Health
-   Sciencedegree which will provide him the necessary platform to make the
-   transition into an independent investigator.
-ZA 0
-ZR 0
-TC 0
-ZB 0
-ZS 0
-Z8 0
-Z9 0
-U1 0
-U2 0
-G1 10555326; 5K08HL157727-02; K08HL157727
-DA 2024-07-23
-UT GRANTS:17710121
-ER
-
-PT J
-AU MURUGIAH, KARTHIK 
-TI Automated ascertainment of bleeding and target lesion revascularization
-   after percutaneous coronary intervention (PCI) using electronic health
-   record (EHR) data
-DT Awarded Grant
-PD Jan 25 2022
-PY 2022
-AB PROJECT SUMMARYPercutaneous coronary intervention (PCI) is the most
-   common cardiac procedure with over 650,000 PCIperformed annually in the
-   U.S. Post-PCI complications which occur in a significant proportion of
-   patients areassociated with an increased risk of morbidity and
-   mortality. Reliable ascertainment of post-PCI events isimportant for
-   performance measurement, submission to disease registries, clinical
-   trials, and for cardiaccatheterization laboratory (CCL) safety
-   monitoring. Claims based detection of PCI complications is
-   inadequate.Assessing post-PCI events reliably requires an in-depth
-   manual chart review, which incurs a significantprovider and
-   administrative burden. However, with advances in health information
-   technology and nationwideadoption of electronic health record (EHR)
-   systems, it possible to utilize EHR for the automatic derivation
-   ofclinical events. Dr. Murugiah proposes to create and validate
-   automated algorithms which can be applied toEHR data to detect two
-   important post-PCI events which are a common focus of clinical trials
-   and qualityimprovement efforts – in-hospital bleeding and 1-year target
-   lesion revascularization (TLR). Using EHR data ata large health system,
-   Dr. Murugiah will develop a hybrid algorithm to detect major bleeding
-   post-PCI byleveraging structured data fields such as laboratory values,
-   as well as unstructured data such as imagingreports, cardiac
-   catheterization reports, and progress notes incorporating Natural
-   Language Processing (NLP)techniques (Aim 1). Similarly, using cardiac
-   catheterization reports for patients undergoing repeatrevascularization
-   within 1 year, an algorithm will be developed to detect TLR (Aim 2).
-   Both algorithms will beexternally validated using EHR data from another
-   large institution. The final algorithm will be implemented intoa tool
-   generating scheduled reports of bleeding and TLR, to be fed back to the
-   quality assurance team for theCCL and to individual operators.
-   Individual operators will be surveyed to obtain feedback about the
-   algorithm,reporting process, and their perceived benefit. The final
-   tools will be made open source (Aim 3). An automatedalgorithm for the
-   detection of post-PCI events within EHR can reduce administrative
-   burden, enable thegeneration of new knowledge from EHR based
-   observational studies, and enable pragmatic clinical trials.Further,
-   this project can serve as a proof of concept of the utility of hybrid
-   tools leveraging both structured dataand clinical text for surveillance
-   and quality measurement. Dr. Murugiah has a career interest in studying
-   andimproving the treatment for ischemic heart disease using
-   multidimensional datasets and EHR data to developreal time risk
-   prediction models and decision support tools, and conduct EHR based
-   comparative effectivenessstudies and clinical trials. During the award
-   period he will leverage the experience of his mentorship teamwhich
-   includes national experts in cardiovascular outcomes research, clinical
-   informatics, and computationallinguistics. He will also acquire formal
-   training in clinical informatics by completing a Master of Health
-   Sciencedegree which will provide him the necessary platform to make the
-   transition into an independent investigator.
-ZR 0
-ZB 0
-Z8 0
-ZS 0
-ZA 0
-TC 0
-Z9 0
-U1 0
-U2 0
-G1 10371710; 1K08HL157727-01A1; K08HL157727
-DA 2023-12-14
-UT GRANTS:15572751
+OA Green Submitted, gold
+DA 2026-02-21
 ER
 
 EF
