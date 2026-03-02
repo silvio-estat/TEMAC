@@ -30,7 +30,7 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
 ### **2\. Análise de Fontes (Periódicos e Eventos)**
 
-* **Lei de Bradford (BradfordLaw.csv):** A lei de dispersão de Bradford indica que o "Núcleo 1" (Zone 1\) do tema é composto por cerca de 79 fontes, ou seja, o primeiro terço da quantidade total de pesquisas é representado pelas 79 fontes. Essa será a zona principal de pesquisas.
+* **Lei de Bradford:** A lei de dispersão de Bradford indica que o "Núcleo 1" (Zone 1\) do tema é composto por cerca de 79 fontes, ou seja, o primeiro terço da quantidade total de pesquisas é representado pelas 79 fontes. Essa será a zona principal de pesquisas.
   
 * **Fontes Mais Relevantes e com Maior Impacto:** As séries *Lecture Notes in Computer Science* (105 artigos, h-index 14\) e *Lecture Notes in Networks and Systems* (73 artigos) lideram em volume. No entanto, o **IEEE Access** (41 artigos, 767 citações, h-index 13\) e o **Procedia Computer Science** (33 artigos, 818 citações) são as fontes de **maior impacto**. Notavelmente, periódicos como *Sensors* e *Sustainability* aparecem no topo, mostrando, provavelmente, que o tema está sendo aplicado em IoT e Sustentabilidade.
 
