@@ -76,7 +76,6 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
 ### **4\. Distribuição Geográfica e Institucional**
 
-*(Arquivos: MostRelAffiliations.csv, CountrySciProd.csv, CollabWorldMap.csv, CorrAuthCountries.csv)*
 
 * **Dominância Asiática:** A **China** é o motor do tema (1.549 publicações), seguida pela Índia (1.132) e EUA (755). Na Europa, Itália (348) e Alemanha (315) lideram.
    
@@ -105,10 +104,25 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
 ### **5\. Documentos Seminais e Espectroscopia (RPYS)**
 
-*(Arquivos: MostGlobCitDocs.csv, MostLocCitDocs.csv, MostLocCitRefs.csv, RPYS.csv)*
 
-* **Documentos Globais vs. Locais:** O artigo mais citado globalmente é *Francia M, 2021* (839 citações, focado em Future Generation Computer Systems). Mas para a sua RSL, o documento vital é o mais citado localmente: ***Balac N, 2020 (Intell Internet of Things...)***.  
-* **A Raiz Teórica (MostLocCitRefs.csv e RPYS.csv):** O RPYS (Espectroscopia de Ano de Publicação) mostra "picos" históricos que fundaram a área:  
+* **Documentos Globais vs. Locais:** O artigo mais citado globalmente é ***Francia M, 2021* (839 citações, focado em Future Generation Computer Systems)**, que representa o número total de citações que um artigo recebeu em toda a base de dados. Mas o documento mais importante, que representa o número de citações que um documento recebeu de outros artigos que fazem parte da amostra de interesse da pesquisa, é o mais citado localmente: **Balac N, 2020 (Intell Internet of Things: From Device To Fog and Cloud)**, conforme figuras 8 e 9.
+
+ <div align="center">
+  <figure>
+    <img src="/Resultados_biblioshiny/SCOPUS/fig8_docs_mais_cit_glob_scopus.jpeg" width="500">
+    <figcaption>Figura 8. Documentos globais mais citados.</figcaption>
+  </figure>
+</div>
+
+ <div align="center">
+  <figure>
+    <img src="/Resultados_biblioshiny/SCOPUS/fig9_docs_mais_cit_loc_scopus.jpeg" width="500">
+    <figcaption>Figura 9. Documentos locais mais citados.</figcaption>
+  </figure>
+</div>
+
+
+* **A Raiz Teórica:** O RPYS (Espectroscopia de Ano de Publicação) mostra "picos" históricos que fundaram a área:  
   * **2004/2008:** O nascimento do processamento distribuído (Trabalho de Dean J. sobre *MapReduce*).  
   * **2011/2014:** A explosão do *Big Data* (Trabalho de Chen, 2014).  
   * **2015/2016:** A conceitualização do *Data Lake* (Trabalho seminal de Fang, 2015).  
@@ -116,14 +130,37 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
 ### **6\. Temática, Palavras-chave e Tendências**
 
-*(Arquivos: MostFreqWords.csv, TrendTopics.csv, ThematicMap.csv, FactorialAnalysis.csv)*
 
-* **Frequência Absoluta (MostFreqWords.csv):** A palavra mais frequente não é uma tecnologia, mas um objetivo de negócio: **Decision Making (1.065)**, superando Big Data (1.044) e Data Integration (897).  
-* **Evolução Temática (TrendTopics.csv):**  
+* **Frequência Absoluta:** A palavra mais frequente não é uma tecnologia, mas um objetivo de negócio: **Decision Making (1.065)**, superando Big Data (1.044) e Data Integration (897), conforme figura 9. 
+
+ <div align="center">
+  <figure>
+    <img src="/Resultados_biblioshiny/SCOPUS/fig10_palavras_mais_freq_scopus.jpeg" width="500">
+    <figcaption>Figura 10. Palavras mais frequentes.</figcaption>
+  </figure>
+</div>
+
+* **Evolução Temática:**  Pode-se, a partir da figura 11, propor três recortes de tempo com os termos mais frequentes:
+
+ <div align="center">
+  <figure>
+    <img src="/Resultados_biblioshiny/SCOPUS/fig11_topicos_mais_relevantes_spcopus.jpeg" width="500">
+    <figcaption>Figura 11. Distribuição das palavras mais relevantes no tempo.</figcaption>
+  </figure>
+</div>
+
   * *Passado (2016-2019):* Hadoop, MapReduce, Fast Data. (Tecnologia de infraestrutura).  
   * *Presente (2020-2022):* Data Architectures, Digital Storage, Data Handling. (Gestão e arquitetura).  
-  * *Futuro (2022-Atualidade):* Network Architecture, Digital Twin, Predictive Analytics. (Uso da inteligência em tempo real).  
-* **Mapa Temático (ThematicMap.csv):** O *Decision Making* (Tomada de Decisão) juntamente com *IoT* e *Data Integration* formam os temas motores (alta centralidade e alta densidade), ou seja, são o coração do desenvolvimento atual.
+  * *Futuro (2022-Atualidade):* Network Architecture, Digital Twin, Predictive Analytics. (Uso da inteligência em tempo real).
+  
+* **Mapa Temático:** O *Decision Making* (Tomada de Decisão) juntamente com *IoT* e *Data Integration* formam os temas motores (alta centralidade e alta densidade), ou seja, são o coração do desenvolvimento atual.
+
+ <div align="center">
+  <figure>
+    <img src="/Resultados_biblioshiny/SCOPUS/fig12_mapa_tematico_scopus.jpeg" width="500">
+    <figcaption>Figura 12. Mapa temático dos tópicos.</figcaption>
+  </figure>
+</div>
 
 ## **PARTE II: SÍNTESE METODOLÓGICA T-E-M-A-C**
 
