@@ -7,7 +7,8 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 ### **1\. Informações Principais e Crescimento da Produção Científica**
 
 
-* **Visão Geral (MainInfo.csv):** A amostra é composta por 3.192 documentos publicados entre 2016 e 2026\. Um dado crucial é a tipologia documental: **1.548 são *Conference Papers*** e **1.033 são *Articles***. Em áreas de rápida inovação tecnológica (como Ciência da Computação e Engenharia de Dados), as conferências são o principal veículo de disseminação, validando tecnologias antes que cheguem aos periódicos tradicionais.  
+* **Visão Geral (MainInfo.csv):** A amostra é composta por 3.192 documentos publicados entre 2016 e 2026, sendo **1.548 *Conference Papers*** e **1.033 *Articles***. Aparentemente, áreas de rápida inovação tecnológica (como Ciência da Computação e Engenharia de Dados), as conferências parecem ser o principal veículo de disseminação, diferente de outras áreas que são ainda publicizadas em periódicos tradicionais.  
+  
 * **Crescimento Exponencial:** A produção saltou de 149 publicações (2016) para 948 (2025), como pode-se observar na Figura 1. 
   
 
@@ -38,9 +39,9 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
 
 
-* **Produtividade vs. Impacto:** Autores asiáticos dominam a produção (ZHANG Y, LI X, WANG Y), conforme figura 3. Contudo, o impacto local revela uma anomalia fundamental: **BALAC N possui 1.160 citações locais**, um valor absurdamente superior ao segundo colocado (QUIX C, com 62), conforme figura 4. Balac N é o "autor âncora" desta rede de conhecimento, ou seja, é o autor com trabalhos considerados mais importantes. Cabe destacar ainda os seguintes resultados:
-   * **Liderança por TC (Citações)**: O autor LI Y possui o maior impacto local (TC = 605), o que significa que ele é a maior referência teórica dentro desse grupo de documentos, seguido por WANG H (TC = 400).
-   * **Eficiência (Impacto vs. Quantidade)**: Note que LIU Z tem um impacto local alto (TC = 392) com apenas 16 publicações (NP), enquanto ZHANG Y tem 44 publicações mas um impacto bem menor (TC = 190). Isso mostra que os trabalhos de LIU Z são mais influentes para esse tema específico.
+* **Produtividade vs. Impacto:** Autores asiáticos dominam a produção (ZHANG Y, LI X, WANG Y), conforme Figura 3. Contudo, o impacto local revela uma anomalia fundamental: **BALAC N possui 1.160 citações locais**, um valor sensivelmente superior ao segundo colocado (QUIX C, com 62), conforme Figura 4. Balac N é o "autor âncora" desta rede de conhecimento, ou seja, é o autor com trabalhos considerados mais importantes. Cabe destacar ainda os seguintes resultados:
+   * **Liderança por TC (Total de Citações)**: O autor LI Y possui o maior impacto local (TC = 605), o que significa que ele é a maior referência teórica dentro desse grupo de documentos, seguido por WANG H (TC = 400).
+   * **Eficiência (Impacto vs. Quantidade)**: LIU Z tem um impacto local alto (TC = 392) com apenas 16 publicações (NP), enquanto ZHANG Y tem 44 publicações mas um impacto bem menor (TC = 190). Isso mostra que os trabalhos de LIU Z são mais influentes para esse tema específico.
    * **Consolidação (m-index)**: Autores como GRÖGER C e LIU Z têm o maior m-index (0.875), indicando que atingiram um impacto relevante em menos tempo (carreira mais "produtiva" recentemente dentro do tema).
 
 
