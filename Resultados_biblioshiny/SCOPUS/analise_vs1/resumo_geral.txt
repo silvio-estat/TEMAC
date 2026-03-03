@@ -1,0 +1,164 @@
+$MainInformation
+ [1] "\n\nMAIN INFORMATION ABOUT DATA\n\n"                  "Timespan                              2016 : 2026 \n"
+ [3] "Sources (Journals, Books, etc)        1744 \n"        "Documents                             3141 \n"       
+ [5] "Annual Growth Rate %                  0.53 \n"        "Document Average Age                  3.61 \n"       
+ [7] "Average citations per doc             9.36 \n"        "Average citations per year per doc    1.685 \n"      
+ [9] "References                            24911 \n"       "\nDOCUMENT TYPES                     \n"             
+[11] "article                1033 \n"                       "book chapter           239 \n"                       
+[13] "conference paper       1548 \n"                       "conference review      78 \n"                        
+[15] "data paper             1 \n"                          "editorial              2 \n"                         
+[17] "erratum                1 \n"                          "letter                 2 \n"                         
+[19] "note                   5 \n"                          "retracted              2 \n"                         
+[21] "review                 227 \n"                        "short survey           3 \n"                         
+[23] "\nDOCUMENT CONTENTS\n"                                "Keywords Plus (ID)                    16372 \n"      
+[25] "Author's Keywords (DE)                8050 \n"        "\nAUTHORS\n"                                         
+[27] "Authors                               9948 \n"        "Author Appearances                    13364 \n"      
+[29] "Authors of single-authored docs       219 \n"         "\nAUTHORS COLLABORATION\n"                           
+[31] "Single-authored docs                  238 \n"         "Documents per Author                  0.316 \n"      
+[33] "Co-Authors per Doc                    4.25 \n"        "International co-authorships %        20.85 \n"      
+[35] "\n"                                                  
+
+$MainInformationDF
+                          Description   Results
+1         MAIN INFORMATION ABOUT DATA          
+2                            Timespan 2016:2026
+3      Sources (Journals, Books, etc)      1744
+4                           Documents      3141
+5                Annual Growth Rate %      0.53
+6                Document Average Age      3.61
+7           Average citations per doc      9.36
+8  Average citations per year per doc     1.685
+9                          References     24911
+10                     DOCUMENT TYPES          
+11                            article      1033
+12                       book chapter       239
+13                   conference paper      1548
+14                  conference review        78
+15                         data paper         1
+16                          editorial         2
+17                            erratum         1
+18                             letter         2
+19                               note         5
+20                          retracted         2
+21                             review       227
+22                       short survey         3
+23                  DOCUMENT CONTENTS          
+24                 Keywords Plus (ID)     16372
+25             Author's Keywords (DE)      8050
+26                            AUTHORS          
+27                            Authors      9948
+28                 Author Appearances     13364
+29    Authors of single-authored docs       219
+30              AUTHORS COLLABORATION          
+31               Single-authored docs       238
+32               Documents per Author     0.316
+33                 Co-Authors per Doc      4.25
+34     International co-authorships %     20.85
+35                                             
+
+$AnnualProduction
+   Year    Articles
+1     2016      147
+2     2017      135
+3     2018      157
+4     2019      200
+5     2020      190
+6     2021      231
+7     2022      240
+8     2023      309
+9     2024      438
+10    2025      939
+11    2026      155
+
+$AnnualGrowthRate
+[1] 0.53
+
+$MostProdAuthors
+   Authors        Articles Authors        Articles Fractionalized
+1         ZHANG Y       44        WANG Y                     9.18
+2         LI X          35        ZHANG Y                    8.35
+3         WANG Y        35        LI Y                       7.42
+4         LI Y          29        WANG H                     6.97
+5         WANG H        29        LIU Y                      6.34
+6         LIU Y         28        LI X                       6.11
+7         WANG J        25        ZHANG J                    5.98
+8         ZHANG X       25        LI J                       5.52
+9         LI J          24        WANG Z                     5.28
+10        ZHANG H       24        ZHANG X                    5.20
+
+$MostCitedPapers
+                                  Paper                                      DOI  TC TCperYear  NTC
+1  FRANCIA M, 2021, FUTURE GENER COMPUT SYST     10.1016/j.future.2021.06.031    839     139.8 40.2
+2  SAGAN V, 2020, EARTH SCI REV                  10.1016/j.earscirev.2020.103187 562      80.3 29.5
+3  PAN Y, 2021, AUTOM CONSTR                     10.1016/j.autcon.2021.103564    437      72.8 21.0
+4  HAJJAJI Y, 2021, COMPUT SCI REV               10.1016/j.cosrev.2020.100318    363      60.5 17.4
+5  KRISHNAMURTHI R, 2020, SENSORS                10.3390/s20216076               350      50.0 18.3
+6  HE X, 2017, IEEE TRANS SMART GRID             10.1109/TSG.2015.2445828        323      32.3 16.5
+7  CUI L, 2016, IEEE NETWORK                     10.1109/MNET.2016.7389832       287      26.1 14.9
+8  LIU Z, 2022, IEEE TRANS INTELL TRANSP SYST    10.1109/TITS.2021.3059674       260      52.0 19.3
+9  ROBINSON SC, 2020, TECHNOL SOC                10.1016/j.techsoc.2020.101421   252      36.0 13.2
+10 BLAZQUEZ D, 2018, TECHNOL FORECAST SOC CHANGE 10.1016/j.techfore.2017.07.027  252      28.0 12.0
+
+$MostProdCountries
+          Country Articles   Freq SCP MCP MCP_Ratio
+1  CHINA               567 0.2801 504  63     0.111
+2  INDIA               238 0.1176 202  36     0.151
+3  USA                 158 0.0781 125  33     0.209
+4  ITALY                98 0.0484  67  31     0.316
+5  GERMANY              74 0.0366  61  13     0.176
+6  MOROCCO              58 0.0287  49   9     0.155
+7  FRANCE               56 0.0277  40  16     0.286
+8  UNITED KINGDOM       52 0.0257  27  25     0.481
+9  SPAIN                46 0.0227  32  14     0.304
+10 AUSTRALIA            38 0.0188  23  15     0.395
+
+$TCperCountries
+           Country      Total Citations Average Article Citations
+1  CHINA                           3664                     6.462
+2  USA                             2361                    14.943
+3  ITALY                           1959                    19.990
+4  INDIA                           1572                     6.605
+5  SPAIN                           1151                    25.022
+6  AUSTRALIA                       1064                    28.000
+7  UNITED KINGDOM                   943                    18.135
+8  GERMANY                          768                    10.378
+9  PORTUGAL                         691                    22.290
+10 FRANCE                           599                    10.696
+
+$MostRelSources
+                                                                                                                         Sources       
+1  LECTURE NOTES IN COMPUTER SCIENCE (INCLUDING SUBSERIES LECTURE NOTES IN ARTIFICIAL INTELLIGENCE AND LECTURE NOTES IN BIOINFORMATICS)
+2  LECTURE NOTES IN NETWORKS AND SYSTEMS                                                                                               
+3  PROCEEDINGS OF SPIE - THE INTERNATIONAL SOCIETY FOR OPTICAL ENGINEERING                                                             
+4  CEUR WORKSHOP PROCEEDINGS                                                                                                           
+5  COMMUNICATIONS IN COMPUTER AND INFORMATION SCIENCE                                                                                  
+6  ACM INTERNATIONAL CONFERENCE PROCEEDING SERIES                                                                                      
+7  IEEE ACCESS                                                                                                                         
+8  PROCEDIA COMPUTER SCIENCE                                                                                                           
+9  ADVANCES IN INTELLIGENT SYSTEMS AND COMPUTING                                                                                       
+10 LECTURE NOTES IN ELECTRICAL ENGINEERING                                                                                             
+   Articles
+1       105
+2        73
+3        53
+4        50
+5        49
+6        46
+7        41
+8        33
+9        25
+10       25
+
+$MostRelKeywords
+   Author Keywords (DE)      Articles  Keywords-Plus (ID)     Articles
+1    BIG DATA                     566 DECISION MAKING             1070
+2    DATA LAKE                    239 DATA INTEGRATION             862
+3    MACHINE LEARNING             227 BIG DATA                     841
+4    ARTIFICIAL INTELLIGENCE      158 INFORMATION MANAGEMENT       569
+5    DATA INTEGRATION             121 DIGITAL STORAGE              342
+6    DIGITAL TWIN                 117 DATA ARCHITECTURES           337
+7    DEEP LEARNING                112 DATA ANALYTICS               332
+8    DATA FUSION                  109 ARTIFICIAL INTELLIGENCE      331
+9    INTERNET OF THINGS            97 LEARNING SYSTEMS             302
+10   BIG DATA ARCHITECTURE         90 DATA HANDLING                287
+

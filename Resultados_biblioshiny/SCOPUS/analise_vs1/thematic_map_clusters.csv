@@ -1,0 +1,41 @@
+"groups","words","name_full","n","centrality","density","rcentrality","rdensity","name","color","freq"
+1,"decision making 1050
+data integration 851
+internet of things 232
+decisions makings 214
+predictive analytics 164
+real- time 157
+integration 142
+data acquisition 133
+network security 117
+digital twin 108","decision making",114,6.80902347843937,7.46755359226434,4,2,"decision making","#E41A1C80",6699
+2,"big data 829
+information management 569
+digital storage 342
+data architectures 337
+data handling 287
+lakes 264
+data analytics 254
+metadata 202
+data mining 182
+data lake 151","big data",118,5.34867158432691,7.20755445717708,3,1,"big data","#377EB880",7357
+3,"artificial intelligence 288
+machine learning 223
+human 185
+humans 105
+article 97
+data privacy 91
+health care 77
+risk assessment 75
+diagnosis 67
+review 61","artificial intelligence",64,3.15824993012665,10.8734826410388,1,4,"artificial intelligence","#4DAF4A80",2664
+4,"learning systems 302
+deep learning 213
+data fusion 205
+machine-learning 205
+decision support systems 188
+real time systems 156
+sensor data fusion 153
+remote sensing 143
+behavioral research 121
+learning algorithms 111","learning systems",140,5.12832313730412,10.4423583252958,2,3,"learning systems","#984EA380",5142
