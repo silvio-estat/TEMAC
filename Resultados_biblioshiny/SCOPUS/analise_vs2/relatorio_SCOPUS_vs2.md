@@ -4,7 +4,7 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
 ## **PARTE I: ANÁLISE DETALHADA DOS RESULTADOS BIBLIOMÉTRICOS**
 
-### **1\. Informações Principais e Crescimento da Produção Científica**
+### **1. Informações Principais e Crescimento da Produção Científica**
 
 
 * **Visão Geral (MainInfo.csv):** A amostra é composta por 2.902 documentos publicados entre 2016 e 2026, sendo **1.548 *Conference Papers*** e **1.033 *Articles***. Aparentemente, áreas de rápida inovação tecnológica (como Ciência da Computação e Engenharia de Dados), as conferências parecem ser o principal veículo de disseminação, diferente de outras áreas que são ainda publicizadas em periódicos tradicionais.  
@@ -12,9 +12,9 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 * **Crescimento Exponencial:** A produção saltou de 138 publicações (2016) para 840 (2025), como pode-se observar na Figura 1. 
   
 
- <div align="center">
+<div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig1_prod_cient_anual_scopus.png" width="500">
+    <img src="graficos_scopus_vs2/fig1_prod_cient_anual.png" width="500">
     <figcaption>Figura 1. Produção científica anual</figcaption>
   </figure>
 </div>
@@ -23,19 +23,19 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
  <div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig2_qtd_media_cit_scopus.png" width="500">
+    <img src="graficos_scopus_vs2/fig2_citacoes_por_ano.png" width="500">
     <figcaption>Figura 2. Quantidade média de citações por ano</figcaption>
   </figure>
 </div>
 
 
-### **2\. Análise de Fontes (Periódicos e Eventos)**
+### **2. Análise de Fontes (Periódicos e Eventos)**
 
-* **Lei de Bradford:** A lei de dispersão de Bradford indica que o "Núcleo 1" (Zone 1) do tema é composto por cerca de 20 fontes, ou seja, as primeiras 20 fontes (de um total de 1.553) representam o núcleo principal de pesquisas, com aproximadamente 587 documentos (primeiro terço da produção).
+* **Lei de Bradford:** A lei de dispersão de Bradford indica que o "Núcleo 1" (Zone 1) do tema é composto por cerca de 63 fontes, ou seja, as primeiras 63 fontes (de um total de 1.553) representam o núcleo principal de pesquisas, com aproximadamente 959 documentos (primeiro terço da produção).
   
 * **Fontes Mais Relevantes e com Maior Impacto:** As séries *Lecture Notes in Computer Science* (103 artigos, h-index 14) e *Lecture Notes in Networks and Systems* (72 artigos) lideram em volume. No entanto, o **IEEE Access** (41 artigos, 767 citações, h-index 13) e o **Procedia Computer Science** (33 artigos, 818 citações) são as fontes de **maior impacto**. Notavelmente, periódicos como *Sensors* e *Sustainability* aparecem no topo, mostrando, provavelmente, que o tema está sendo aplicado em IoT e Sustentabilidade.
 
-### **3\. Análise de Autores e Padrões de Colaboração**
+### **3. Análise de Autores e Padrões de Colaboração**
 
 
 
@@ -49,19 +49,19 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
  <div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig3_qtd_artg_autor_scopus.png" width="500">
+    <img src="graficos_scopus_vs2/fig4_autores_mais_relevantes.png" width="500">
     <figcaption>Figura 3. Quantidade total de artigos produzidos por autor (2016-2026)</figcaption>
   </figure>
 </div>
 
  <div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig4_qtd_cit_autor_scopus.png" width="500">
+    <img src="graficos_scopus_vs2/fig5_autores_mais_citados.png" width="500">
     <figcaption>Figura 4. Quantidade total de citações por autor (2016-2026)</figcaption>
   </figure>
 </div>
 
-<mark style="background-color: #ffb86c;">COLOCAR AQUI MAIS INFORMACOES DO BALAC N</mark>.
+<mark style="background-color: #ffb86c;">COLOCAR AQUI MAIS INFORMACOES DO QUIX C</mark>.
 
 
 * **Lei de Lotka:** 85,7% dos autores (8.013) escreveram apenas 1 artigo. Isso pode caracterizar um campo de pesquisa "fragmentado" e altamente interdisciplinar. Provavelmente muitos pesquisadores "visitam" o tema para resolver um problema específico de suas áreas e não retornam. 
@@ -70,12 +70,12 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
  <div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig5_rede_autores_colab_scopus.png" width="500">
+    <img src="graficos_scopus_vs2/fig19_CollabNet_scopus.png" width="500">
     <figcaption>Figura 5. Rede de colaboração entre autores (2016-2026)</figcaption>
   </figure>
 </div>
 
-### **4\. Distribuição Geográfica e Institucional**
+### **4. Distribuição Geográfica e Institucional**
 
 
 * **Dominância Asiática:** A **China** é o motor do tema (1.521 publicações), seguida pela Índia (896) e EUA (692). Na Europa, Itália (332) e Alemanha (282) lideram.
@@ -89,35 +89,35 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 * **Colaboração Global:** A maior ponte de colaboração ocorre entre China e EUA, e China e Austrália. Há um "deserto" de colaborações no hemisfério sul (África e América do Sul).
 * **Produção por país:** A figura 6 mostra um aumento, ao longo dos anos, da produção científica na área de pesquisa, destacando-se a China, em primeiro lugar e a Índia em segundo. Porém pode-se perceber que, apesar de produzir mais artigos que o Estados Unidos, este último possui mais impacto em termos de citação que a Índia.
 
- <div align="center">
+<div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig6_paises_mais_produtivos_scopus.png" width="500">
+    <img src="graficos_scopus_vs2/fig8_paises_mais_produtivos.png" width="500">
     <figcaption>Figura 6. Produção de pesquisas por páis (os mais relevantes) ao longo dos anos.</figcaption>
   </figure>
 </div>
 
  <div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig7_paises_mais_citados_scopus.png" width="500">
+    <img src="graficos_scopus_vs2/fig9_paises_mais_citados.png" width="500">
     <figcaption>Figura 7. Países mais citados ao longo dos anos.</figcaption>
   </figure>
 </div>
 
-### **5\. Documentos Seminais e Espectroscopia (RPYS)**
+### **5. Documentos Seminais e Espectroscopia (RPYS)**
 
 
 * **Documentos Globais vs. Locais:** O artigo mais citado globalmente é ***Francia M, 2021* (839 citações, focado em Future Generation Computer Systems)**, que representa o número total de citações que um artigo recebeu em toda a base de dados. Mas o documento mais importante, que representa o número de citações que um documento recebeu de outros artigos que fazem parte da amostra de interesse da pesquisa, é o mais citado localmente: **NA, 2018 (Proc ACM SIGMOD Int Conf Manage Data)** com 108 citações locais, seguido por **NA, 2017 (ACM Int Conf Proc Ser)** com 72 citações locais, conforme figuras 8 e 9.
 
  <div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig8_docs_mais_cit_glob_scopus.jpeg" width="500">
+    <img src="graficos_scopus_vs2/fig10_docs_mais_citados_global.png" width="500">
     <figcaption>Figura 8. Documentos globais mais citados.</figcaption>
   </figure>
 </div>
 
  <div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig9_docs_mais_cit_loc_scopus.jpeg" width="500">
+    <img src="graficos_scopus_vs2/fig11_docs_mais_citados_local.png" width="500">
     <figcaption>Figura 9. Documentos locais mais citados.</figcaption>
   </figure>
 </div>
@@ -129,6 +129,9 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
   * **2015/2016:** A conceitualização do *Data Lake* (Trabalho seminal de Fang, 2015).  
   * **2021:** A evolução para o *Lakehouse* (Trabalho de Armbrust, 2021).
 
+<mark style="background-color: #ffb86c;">OLHAR ISSO MELHOR NO BIBLIOSHINY</mark>.
+
+
 ### **6\. Temática, Palavras-chave e Tendências**
 
 
@@ -136,7 +139,7 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
  <div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig10_palavras_mais_freq_scopus.jpeg" width="500">
+    <img src="graficos_scopus_vs2/fig12_palavras_mais_frequentes.png" width="500">
     <figcaption>Figura 10. Palavras mais frequentes.</figcaption>
   </figure>
 </div>
@@ -145,7 +148,7 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
 
  <div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig11_topicos_mais_relevantes_spcopus.jpeg" width="500">
+    <img src="graficos_scopus_vs2/fig15_topicos_tendencia.png" width="500">
     <figcaption>Figura 11. Distribuição das palavras mais relevantes no tempo.</figcaption>
   </figure>
 </div>
@@ -154,11 +157,11 @@ Este documento apresenta uma análise exaustiva dos resultados exportados via Bi
   * *Presente (2020-2022):* Data Architectures, Digital Storage, Data Handling. (Gestão e arquitetura).  
   * *Futuro (2022-Atualidade):* Network Architecture, Digital Twin, Predictive Analytics. (Uso da inteligência em tempo real).
   
-* **Mapa Temático:** O *Decision Making* (Tomada de Decisão) juntamente com *IoT* e *Data Integration* formam os temas motores (alta centralidade e alta densidade), ou seja, são o coração do desenvolvimento atual.
+* **Mapa Temático:** O *Decision Making*  juntamente com *machine learning* e *learning systems* formam os temas motores (alta centralidade e alta densidade), ou seja, são o coração do desenvolvimento atual.
 
  <div align="center">
   <figure>
-    <img src="/Resultados_biblioshiny/SCOPUS/fig12_mapa_tematico_scopus.jpeg" width="500">
+    <img src="graficos_scopus_vs2/fig23_thematicmap_scopus.png" width="500">
     <figcaption>Figura 12. Mapa temático dos tópicos.</figcaption>
   </figure>
 </div>
