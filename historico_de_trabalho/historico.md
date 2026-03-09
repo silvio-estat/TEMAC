@@ -1,5 +1,4 @@
 1. Tudo comecou com a definicao de quais palavras chaves seriam utilizadas para cada base de dados (wos,ieee_xpres, scopus). Essas palavras-chave encontram-se no arquivo informacoes_iniciais/palavras_chave_temac.md
-
 2. Após a definicao, o autor foi atrás das bases de dados e salvou cada consulta de cada base nas seguintes pastas:
 	1. dados_brutos_IEE_XPRES;
 	2. dados_brutos_scopus;
@@ -23,3 +22,9 @@
    3. Após rodar o plano e o LLM criar o notebook "ajustes_BD/IC2I/extracao_metadados_iccrts_v2.ipynb", foi feita análise do arquivo "metadados_iccrts_v2.xlsx" e, de forma manual, foi feito alguns ajustes;
    4. Após o ajuste manual, foi solicitado um novo plano para corrigir os demais problemas encontrados na tabela de metadados, como a falta de keywords e desestruturação das referências bibliográficas. Assim o plano "ajustes_BD/IC2I/plano_enriquecimento_metadados_iccrts_v4.md" foi criado e, por meio dele, foi criado o notebook "ajustes_BD/IC2I/enriquecimento_metadados_iccrts_v4.ipynb"
    5. O arquivo "ajustes_BD/IC2I/metadados_iccrts_v4.xlsx" foi gerado, e ainda contém alguns erros na parte de referenciacao. não sei se o bibliometrix::Biblioshiny() vai conseguir ajustar.
+   6. Não deu certo, por enquanto, vamos pensar em outra forma mais para frente...
+9. A tabela "ajustes_BD/C2COE/Tabela_Metadata_C2COE_OTAN.xlsx" foi totalmente feita a mão a partir dos Jornals baixados em <https://c2coe.org/annals/>
+10. O portal  acima também disponibiliza, em sua biblioteca, diversos trabalhos, além dos que estão nos 2 jornals disponibilizados. Como vai ser imporssível criar uma base de dados de metadados desses documentos dispersos, para eles eu vou utilizar o NotebookLM do Google para me ajudar e se algum tiver alguma informação importante, ele será utilizado e devidamente referenciado. Para facilitar a identificacao desses documentos, por meio do "ajustes_BD/C2COE/lista_documentos_c2coe_library.ipynb" criei o documento "ajustes_BD/C2COE/info_documentos_nato_c2coe.xlsx"
+11. Eu por meio da funcionalidade de criar tabela do NotebookLM consegui criar uma tabela de metadados para os documentos que estavam dispersos na biblioteca do site mas eu ainda nao sei se ficou bom.
+12. Não consegui ter acesso ao repositório de trabalhos do "NATO Science and Technoloty Organization"
+13. 
