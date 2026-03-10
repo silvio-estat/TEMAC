@@ -1,8 +1,6 @@
 
 ## Comentários do Cesar feitos por Whatsapp no dia 5 de março de 2026
 
-
-
 * Impacto das Citações: Os anos de 2021 e 2022 apresentam as maiores médias de
 citações por ano (respectivamente 2,96 e 2,94 citações por artigo por ano). Artigos
 publicados neste período formam a base consolidada do conhecimento atual **CONVÉM EXPLICAR O QUE SÃO ESTAS CITAÇÕES**

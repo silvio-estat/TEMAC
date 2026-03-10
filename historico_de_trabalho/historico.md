@@ -26,5 +26,17 @@
 9. A tabela "ajustes_BD/C2COE/Tabela_Metadata_C2COE_OTAN.xlsx" foi totalmente feita a mão a partir dos Jornals baixados em <https://c2coe.org/annals/>
 10. O portal  acima também disponibiliza, em sua biblioteca, diversos trabalhos, além dos que estão nos 2 jornals disponibilizados. Como vai ser imporssível criar uma base de dados de metadados desses documentos dispersos, para eles eu vou utilizar o NotebookLM do Google para me ajudar e se algum tiver alguma informação importante, ele será utilizado e devidamente referenciado. Para facilitar a identificacao desses documentos, por meio do "ajustes_BD/C2COE/lista_documentos_c2coe_library.ipynb" criei o documento "ajustes_BD/C2COE/info_documentos_nato_c2coe.xlsx"
 11. Eu por meio da funcionalidade de criar tabela do NotebookLM consegui criar uma tabela de metadados para os documentos que estavam dispersos na biblioteca do site mas eu ainda nao sei se ficou bom.
-12. Não consegui ter acesso ao repositório de trabalhos do "NATO Science and Technoloty Organization"
-13. 
+12. Eu fiz um Deep Research com o Google Gemini com o seguinte prompt "Quais são as fontes de pesquisas mais relevantes na área de Comando e Controle no mundo?" e recebi um relatório com os seguintes resultados (o documento completo encontra-se em "historico_de_trabalho/Fontes de Pesquisa em Comando e Controle.md") relacionados às fontes de maior impacto:
+    1.  **Fonte - NATO C2COE**: Baixei todos os documentos como já explicado em 9, 10 e 11;
+    2.  **Fonte - NATO STO**: Uma fonte fechada para parceiros da OTAN;
+    3.  **Fonte - ICCRTS**: Baixei todos os documentos de 2016 até fev 2026 e realizei os tratamentos contidos no 8;
+    4.  **Fonte - Journal of Information Warfare**: Sem acesso aos documentos;
+    5.  **Fonte - IEEE Transactions on Systems, Man, and Cybernetics**: A Scopus e WoS já indexam artigos do IEEE;
+    6.  **Fonte - Military Operations Research (MOR)**: De uma lista que consegui baixar do site com trabalhos até 2016, conforme "ajustes_BD/MOR/fontes_MORS.xlsx" consegui, analisando somente os títulos, separar os trabalhos que pareciam ter alguma relação com a minha dissertação. Por fim, criei com o notebooklm uma tabela com os metadados dos 4 artigos escolhidos, conforme "ajustes_BD/MOR/Tabela_Metadata_MOR.xlsx" (ainda precisa ajustar as referencias).
+    7.  **Fonte - Conteporary Security Policy**: Fiz uma busca simples por "command and control" (pois aqualquer palavra relacionada a "data lake", "data lakehouse" ou "data architecture" retornou nenhum resultado) entre  2016 e 2026, que retornou 41 trabalhos, sendo que destes, após uma análise por meio de título e, depois, do resumo, não foi encontrado trabalho algum que tivesse alguma relação com a dissertação.
+    8.  **Fonte - Jornal of Strategic Studies**: Fiz uma busca simples por "command and control" ou "C2" ou "C4ISR" (pois aqualquer palavra relacionada a "data lake", "data lakehouse" ou "data architecture" retornou nenhum resultado) entre  2016 e 2026. Essa pesquisa retornou 145 trabalhos e, lendo na primeira fase os títulos dos trabalhos e em uma segunda os resumos, foram escolhidos os seguintes trabalhos:
+        1.  Evolving towards military innovation: AI and the Australian Army;
+        2.  From closed to open systems: How the US military services pursue innovation;
+        3.  4IR technologies in the Israel Defence Forces blurring traditional boundaries;
+    9.  **Fonte - Systems Engineering (wiley)**: É indexada pela SCOPUS
+    10. **Fonte - Journal of Advanced Military Studies (JAMS)**: É indexada pela SCOPUS
