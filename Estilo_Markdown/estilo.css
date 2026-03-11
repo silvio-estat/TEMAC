@@ -1,0 +1,66 @@
+/* 1. Configuração da Página e Margens (Para impressão/exportação em PDF) */
+@page {
+    /* Margens ABNT: Superior 3cm, Esquerda 3cm, Inferior 2cm, Direita 2cm */
+    margin: 3cm 2cm 2cm 3cm; 
+}
+
+/* 2. Configurações Gerais de Texto */
+body {
+    /* Fontes aceitas: Arial ou Times New Roman */
+    font-family: "Arial", "Times New Roman", sans-serif;
+    /* Tamanho padrão da fonte: 12pt */
+    font-size: 12pt; 
+    /* Espaçamento entre linhas: 1,5 */
+    line-height: 1.5; 
+    /* Alinhamento: Justificado */
+    text-align: justify; 
+    color: #000000;
+}
+
+/* 3. Formatação de Parágrafos */
+p {
+    /* Recuo da primeira linha: 1,25cm (ou 1,5cm, dependendo da instituição) */
+    text-indent: 1.25cm; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* 4. Citações Longas (Blockquotes) */
+/* No Markdown, gerado usando o sinal ">" */
+blockquote {
+    /* Fonte menor: 10pt */
+    font-size: 10pt; 
+    /* Espaçamento simples */
+    line-height: 1; 
+    /* Recuo de 4cm da margem esquerda */
+    margin-left: 4cm; 
+    margin-right: 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-indent: 0; /* Citações longas não têm recuo na primeira linha */
+}
+
+/* 5. Títulos e Subtítulos (Headings) */
+h1, h2, h3, h4, h5, h6 {
+    font-size: 12pt; /* ABNT exige que os títulos tenham o mesmo tamanho do texto */
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-indent: 0; /* Títulos não levam recuo de parágrafo */
+}
+
+/* Títulos primários (H1 - #) geralmente são em CAIXA ALTA */
+h1 {
+    text-transform: uppercase;
+}
+
+/* 6. Listas (Marcadores e Numerações) */
+ul, ol {
+    text-align: left;
+    margin-left: 1.25cm;
+    padding-left: 1.25cm;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}

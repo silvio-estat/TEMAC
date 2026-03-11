@@ -1,3 +1,5 @@
+# APÊNDICE A - Lista de strings utilizadas
+
 **WEB of Science**
 
 | TS=("data lake" OR "data lakehouse") AND TS=("on-premise" OR "open source" OR "hybrid architecture") AND TS=("unstructured data" OR "heterogeneous data" OR "schema-on-read") |

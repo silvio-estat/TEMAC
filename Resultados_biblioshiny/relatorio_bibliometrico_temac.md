@@ -1,3 +1,4 @@
+
 # Relatório Bibliométrico - Estágios 1 e 2 da Metodologia TEMAC
 
 ## Sumário
@@ -13,40 +14,39 @@
   - [1.3. Estratégia de Busca: Palavras-Chave e Strings de Consulta](#13-estratégia-de-busca-palavras-chave-e-strings-de-consulta)
     - [1.3.1. Eixos Temáticos e Termos Utilizados](#131-eixos-temáticos-e-termos-utilizados)
     - [1.3.2. Strings de Consulta Utilizadas no Scopus](#132-strings-de-consulta-utilizadas-no-scopus)
-    - [1.3.3. Strings de Consulta Utilizadas no Web of Science](#133-strings-de-consulta-utilizadas-no-web-of-science)
-    - [1.3.4. Critérios de Inclusão e Exclusão](#134-critérios-de-inclusão-e-exclusão)
+    - [1.3.4. Critérios de Exclusão](#134-critérios-de-exclusão)
   - [1.4. Síntese do Estágio 1](#14-síntese-do-estágio-1)
 - [Estágio 2: Síntese Comparativa da Análise Bibliométrica](#estágio-2-síntese-comparativa-da-análise-bibliométrica)
-  - [2.1. Informações Principais e Crescimento da Produção Científica](#21-informações-principais-e-crescimento-da-produção-científica)
-    - [2.1.1. Visão Geral das Bases de Dados](#211-visão-geral-das-bases-de-dados)
-    - [2.1.2. Evolução da Produção Científica](#212-evolução-da-produção-científica)
-    - [2.1.3. Impacto das Citações](#213-impacto-das-citações)
-  - [2.2. Análise de Fontes (Periódicos e Eventos)](#22-análise-de-fontes-periódicos-e-eventos)
-    - [2.2.1. Lei de Bradford e Zonas de Influência](#221-lei-de-bradford-e-zonas-de-influência)
-    - [2.2.2. Fontes Mais Relevantes com Maior Impacto](#222-fontes-mais-relevantes-com-maior-impacto)
-  - [2.3. Análise de Autores e Padrões de Colaboração](#23-análise-de-autores-e-padrões-de-colaboração)
-    - [2.3.1. Produtividade versus Impacto](#231-produtividade-versus-impacto)
-    - [2.3.2. Impacto de Citações por Autor](#232-impacto-de-citações-por-autor)
-    - [2.3.3. Redes de Colaboração](#233-redes-de-colaboração)
-  - [2.4. Distribuição Geográfica e Institucional](#24-distribuição-geográfica-e-institucional)
-    - [2.4.1. Países Dominantes](#241-países-dominantes)
-    - [2.4.2. Países Mais Citados](#242-países-mais-citados)
-    - [2.4.3. Instituições e Casos de Uso](#243-instituições-e-casos-de-uso)
-  - [2.5. Fundações Teóricas e Historiografia](#25-fundações-teóricas-e-historiografia)
-    - [2.5.1. Documentos Globais versus Locais](#251-documentos-globais-versus-locais)
-    - [2.5.2. Historiografia e Fluxo do Conhecimento](#252-historiografia-e-fluxo-do-conhecimento)
-  - [2.6. Temática, Evolução de Palavras-chave e Tendências](#26-temática-evolução-de-palavras-chave-e-tendências)
-    - [2.6.1. Estruturação Temática pelos Clusters](#261-estruturação-temática-pelos-clusters)
-    - [2.6.2. Mapa Temático Estratégico](#262-mapa-temático-estratégico)
-    - [2.6.3. Tendências de Palavras-chave](#263-tendências-de-palavras-chave)
-    - [2.6.4. Palavras-chave Mais Frequentes](#264-palavras-chave-mais-frequentes)
-  - [2.7. Convergência entre as Bases de Dados](#27-convergência-entre-as-bases-de-dados)
-    - [2.7.1. Análise Comparativa Scopus versus Web of Science](#271-análise-comparativa-scopus-versus-web-of-science)
-    - [2.7.2. Pontos de Convergência](#272-pontos-de-convergência)
-    - [2.7.3. Divergências Identificadas](#273-divergências-identificadas)
-    - [2.7.4. Implicações para o Projeto](#274-implicações-para-o-projeto)
-    - [2.8. Funil de Seleção PRISMA](#28-funil-de-seleção-prisma)
-    - [2.9. Sugestões de Filtros para o Estágio 3](#29-sugestões-de-filtros-para-o-estágio-3)
+  - [2.1. Software para análise bibliométrica](#21-software-para-análise-bibliométrica)
+  - [2.2. Informações Principais e Crescimento da Produção Científica](#22-informações-principais-e-crescimento-da-produção-científica)
+    - [2.2.1. Visão Geral das Bases de Dados](#221-visão-geral-das-bases-de-dados)
+    - [2.2.2. Evolução da Produção Científica](#222-evolução-da-produção-científica)
+    - [2.2.3. Impacto das Citações](#223-impacto-das-citações)
+  - [2.3. Análise de Fontes (Periódicos e Eventos)](#23-análise-de-fontes-periódicos-e-eventos)
+    - [2.3.1. Lei de Bradford e Zonas de Influência](#231-lei-de-bradford-e-zonas-de-influência)
+    - [2.3.2. Fontes Mais Relevantes com Maior Impacto](#232-fontes-mais-relevantes-com-maior-impacto)
+  - [2.4. Análise de Autores e Padrões de Colaboração](#24-análise-de-autores-e-padrões-de-colaboração)
+    - [2.4.1. Produtividade versus Impacto vesus Citação](#241-produtividade-versus-impacto-vesus-citação)
+    - [2.4.2. Redes de Colaboração](#242-redes-de-colaboração)
+  - [2.5. Distribuição Geográfica e Institucional](#25-distribuição-geográfica-e-institucional)
+    - [2.5.1. Países Dominantes](#251-países-dominantes)
+    - [2.5.2. Países Mais Citados](#252-países-mais-citados)
+    - [2.5.3. Instituições e Casos de Uso](#253-instituições-e-casos-de-uso)
+  - [2.6. Fundações Teóricas e Historiografia](#26-fundações-teóricas-e-historiografia)
+    - [2.6.1. Documentos Globais versus Locais](#261-documentos-globais-versus-locais)
+    - [2.6.2. Historiografia e Fluxo do Conhecimento](#262-historiografia-e-fluxo-do-conhecimento)
+  - [2.7. Temática, Evolução de Palavras-chave e Tendências](#27-temática-evolução-de-palavras-chave-e-tendências)
+    - [2.7.1. Estruturação Temática pelos Clusters](#271-estruturação-temática-pelos-clusters)
+    - [2.7.2. Mapa Temático Estratégico](#272-mapa-temático-estratégico)
+    - [2.7.3. Tendências de Palavras-chave](#273-tendências-de-palavras-chave)
+    - [2.7.4. Palavras-chave Mais Frequentes](#274-palavras-chave-mais-frequentes)
+  - [2.8. Convergência entre as Bases de Dados](#28-convergência-entre-as-bases-de-dados)
+    - [2.8.1. Análise Comparativa Scopus versus Web of Science](#281-análise-comparativa-scopus-versus-web-of-science)
+    - [2.8.2. Pontos de Convergência](#282-pontos-de-convergência)
+    - [2.8.3. Divergências Identificadas](#283-divergências-identificadas)
+    - [2.8.4. Implicações para o Projeto](#284-implicações-para-o-projeto)
+    - [2.9. Funil de Seleção PRISMA](#29-funil-de-seleção-prisma)
+    - [2.10. Sugestões de Filtros para o Estágio 3](#210-sugestões-de-filtros-para-o-estágio-3)
 - [Conclusão](#conclusão)
 - [Referências](#referências)
 
@@ -66,7 +66,9 @@ Este relatório está organizado em conformidade com a metodologia TEMAC (Techni
 
 ## 1.1. Justificativa da Escolha das Bases de Dados
 
-A seleção das fontes de dados para a revisão sistemática da literatura fundamentou-se em critérios de abrangência, qualidade e adequação temática. Foram escolhidas duas bases de dados consolidadas no cenário acadêmico internacional: **Scopus** e **Web of Science (WoS)**. Esta escolha justifica-se por múltiplos fatores que garantem a robustez e a credibilidade dos resultados obtidos.
+A seleção das fontes de dados para a revisão sistemática da literatura fundamentou-se em critérios de abrangência, qualidade e adequação temática. Foram escolhidas duas bases de dados consolidadas no cenário acadêmico internacional: **Scopus** e **Web of Science (WoS)**. Esta escolha justifica-se por múltiplos fatores que garantem a robustez e a credibilidade dos resultados obtidos. Cabe observar que houve uma entativa inicial de se usar a base de dados **IEEE Xplore**, porém, como ela não disponibilizava a lista de referências, sua análise foi cancelada.
+
+<mark style="background-color: #ffb86c;">verificar essas explicacoes sobre cada base de dados</mark>
 
 O **Scopus**, mantido pela Elsevier, constitui a maior base de dados de citações e resumos de literatura revisada por pares, abrangendo mais de 24.000 títulos de periódicos científicos, milhões de artigos de conferências e milhões de patentes. A plataforma oferece cobertura multidisciplinar e permite acesso a métricas de citação detalhadas, sendo reconhecida como referência global para avaliação de produção científica.
 
@@ -87,7 +89,7 @@ A Tabela 1 apresenta a síntese dos resultados obtidos nas consultas iniciais à
 | Scopus        | 2.902                         | 2016-2026|
 | Web of Science| 1.166                         | 2016-2026|
 
-A diferença quantitativa entre as bases de dados reflete as distintas políticas de indexação e cobertura de cada plataforma. O Scopus apresenta maior abrangência em termos de documentos indexados, incluindo um volume significativo de conference papers, enquanto o WoS mantém critérios de seleção mais restritivos, privilegiando periódicos de alto impacto. Esta característica permite que a análise conjunta das duas bases ofereça uma visão mais completa do panorama científico.
+A diferença quantitativa entre as bases de dados reflete, provavelmente, as distintas políticas de indexação e cobertura de cada plataforma. Cabe destacar que a base SCOPUS tinha mais *Conference Papers* do que artigos, diferente da *Web of Science* que tinha uma base mais balanceada.
 
 ## 1.2. Fontes Alternativas Estudadas
 
@@ -109,9 +111,11 @@ A diferença quantitativa entre as bases de dados reflete as distintas política
 
 A não inclusão dessas fontes na análise bibliométrica quantitativa não invalida sua importância para o presente estudo. Elas servem como referência qualitativa e contextual, fortalecendo a fundamentação teórica e garantindo que a revisão sistemática considere também a literatura técnico-militar que, por suas características editoriais, não está presente nas bases de dados acadêmicas tradicionais.
 
+<mark style="background-color: #ffb86c;">Ler melhor sobre o detalhamento dessas bases depois</mark>
+
 ## 1.3. Estratégia de Busca: Palavras-Chave e Strings de Consulta
 
-A construção das strings de busca seguiu os princípios da metodologia TEMAC, combinando termos relacionados a três eixos temáticos principais: (1) arquiteturas de dados, (2) inteligência artificial e aprendizado de máquina, e (3) Comando e Controle militar. A estratégia contemplou variações terminológicas e sinônimos para maximizar a abrangência das buscas.
+A construção das strings de busca seguiu os princípios da metodologia TEMAC, combinando termos relacionados a três eixos (de forma geral) temáticos principais: (1) arquiteturas de dados, (2) inteligência artificial e aprendizado de máquina, e (3) Comando e Controle militar. A estratégia contemplou variações terminológicas e sinônimos para maximizar a abrangência das buscas.
 
 ### 1.3.1. Eixos Temáticos e Termos Utilizados
 
@@ -125,7 +129,7 @@ A construção das strings de busca seguiu os princípios da metodologia TEMAC, 
 - Data Integration
 - Data Management
 
-**Eixo 2 - Inteligência Artificial:**
+**Eixo 2 - Suporte para Decisão:**
 - Artificial Intelligence
 - Machine Learning
 - Deep Learning
@@ -143,74 +147,18 @@ A construção das strings de busca seguiu os princípios da metodologia TEMAC, 
 
 ### 1.3.2. Strings de Consulta Utilizadas no Scopus
 
-A Tabela 2 apresenta as strings de consulta utilizadas no Scopus e os respectivos volumes de resultados.
+O Apêndice A apresenta as strings de consulta utilizadas assim como a quantidade de trabalhos retornados tanto da base de dados *SCOPUS* quanto da base *Web of Science*.
 
-**Tabela 2 - Strings de Consulta e Resultados no Scopus**
+### 1.3.4. Critérios de Exclusão
 
-| Query | String de Busca | Resultados |
-|-------|-----------------|------------|
-| Q1 | "data lake" AND "military" | 89 |
-| Q2 | "data lake" AND "command and control" | 45 |
-| Q3 | "data warehouse" AND "military" | 156 |
-| Q4 | "big data" AND "defense" | 234 |
-| Q5 | "data integration" AND "tactical" | 178 |
-| Q6 | "artificial intelligence" AND "military operations" | 312 |
-| Q7 | "machine learning" AND "battlefield" | 87 |
-| Q8 | "predictive analytics" AND "defense" | 67 |
-| Q9 | "decision support system" AND "C2" | 134 |
-| Q10 | "data lakehouse" AND "enterprise" | 156 |
-| Q11 | "military information system" AND "data management" | 98 |
-| Q12 | "situation awareness" AND "data fusion" | 76 |
-| Q13 | "intelligence" AND "data pipeline" | 203 |
+Como critério de exclusão, decidiu-se por trabalhos publicados até 2016. Para a base de dados *SCOPUS*, também retirou-se os livros, pois após uma avaliação prévia utilizando as ferramentas do Bibliometrix, percebeu-se que, nesta base de dados, tinha livros sem o devido referenciamento dos autores e que atrapalhava os resultados das análises.
 
-**Total de resultados brutos Scopus: 1.835** (antes da deduplicação e filtragem)
-
-### 1.3.3. Strings de Consulta Utilizadas no Web of Science
-
-A Tabela 3 apresenta as strings de consulta utilizadas no Web of Science.
-
-**Tabela 3 - Strings de Consulta e Resultados no Web of Science**
-
-| Query | String de Busca | Resultados |
-|-------|-----------------|------------|
-| Q1 | "data lake" | 487 |
-| Q2 | "data warehouse" AND "military" | 89 |
-| Q3 | "big data" AND "command and control" | 67 |
-| Q4 | "data integration" AND "defense" | 78 |
-| Q5 | "artificial intelligence" AND "military" | 234 |
-| Q6 | "machine learning" AND "tactical" | 56 |
-| Q7 | "predictive analytics" AND "military" | 45 |
-| Q8 | "decision support" AND "C2" | 89 |
-| Q9 | "data lakehouse" | 123 |
-
-**Total de resultados brutos WoS: 1.268** (antes da deduplicação e filtragem)
-
-### 1.3.4. Critérios de Inclusão e Exclusão
-
-Os critérios de inclusão adotados para a seleção do corpus final foram:
-
-<mark style="background-color: #ffb86c;">VERIFICAR AQUI PQ A IA ALUCINOU</mark>.
-
-**Critérios de Inclusão:**
-- Documentos publicados entre 2016 e 2026
-- Artigos de periódicos revisados por pares
-- Artigos de conferências com texto completo disponível
-- Documentos escritos em inglês, português ou espanhol
-- Trabalhos que abordem Data Lake, Big Data ou arquiteturas de dados no contexto militar ou de defesa
-
-**Critérios de Exclusão:**
-- Documentos duplicados entre as bases de dados
-- Publicações que não possuam texto completo acessível
-- Resumos de conferências sem conteúdo substancial
-- Documentos retracted ou com problemas de integridade identificados
 
 ## 1.4. Síntese do Estágio 1
 
-O Estágio 1 da metodologia TEMAC estabeleceu as bases para a análise bibliométrica sistemática, definindo uma estratégia de busca abrangente que contempla as principais fontes de literatura acadêmica internacional. A escolha do Scopus e do Web of Science como fontes primárias justifica-se pela credibilidade, abrangência e qualidade dos metadados disponibilizados, essenciais para a realização de análises quantitativas robustas.
+O Estágio 1 da metodologia TEMAC estabeleceu as bases para a análise bibliométrica sistemática. A escolha do Scopus e do Web of Science como fontes primárias justifica-se pela credibilidade, abrangência e qualidade dos metadados disponibilizados, essenciais para a realização de análises quantitativas robustas.
 
-<mark style="background-color: #ffb86c;">ACHO QUE NAO FAZ SENTIDO FALAR DO MODELO PRISMA POR AQUI</mark>.
-
-A aplicação de filtros temporais (2016-2026) garantiu a focalização em literatura contemporânea, enquanto as strings de consulta foram desenhadas para capturar a interseção entre arquiteturas de dados, Inteligência Artificial e contextos de Comando e Controle militar. O processo de triagem, documentado pelo modelo PRISMA, assegura a reprodutibilidade e a transparência da metodologia adotada.
+A aplicação de filtros temporais (2016-2026) garantiu a focalização em literatura contemporânea, enquanto as strings de consulta foram desenhadas para capturar a interseção entre arquiteturas de dados, suporte a decisão e contextos de Comando e Controle militar.
 
 A identificação de fontes alternativas de defesa (NATO C2COE, ICCRTS, MORS) demonstra a amplitude da pesquisa e reconhece que a literatura técnico-militar, embora não passível de processamento bibliométrico estruturado, constitui componente fundamental para a compreensão do problema de pesquisa.
 
@@ -218,236 +166,278 @@ A identificação de fontes alternativas de defesa (NATO C2COE, ICCRTS, MORS) de
 
 # Estágio 2: Síntese Comparativa da Análise Bibliométrica
 
-## 2.1. Informações Principais e Crescimento da Produção Científica
+## 2.1. Software para análise bibliométrica
 
-### 2.1.1. Visão Geral das Bases de Dados
+Para a análise bibliométrica, utilizou-se o pacote *Bibliometrix* do software R, mais especificadamente a interface gráfica *Biblioshiny*, que reúnde todas as principais funções de análise bibliométrica do referido pacote.
+
+## 2.2. Informações Principais e Crescimento da Produção Científica
+
+### 2.2.1. Visão Geral das Bases de Dados
 
 A análise bibliométrica das bases de dados Scopus e Web of Science revela um panorama consistente da produção científica internacional no domínio de Data Lakes e arquiteturas de dados para aplicações de Comando e Controle. A Tabela 4 apresenta os indicadores globais de cada base.
 
-**Tabela 4 - Indicadores Globais das Bases de Dados**
+**Tabela 2 - Indicadores Globais das Bases de Dados**
 
 | Indicador | Scopus | Web of Science |
 |-----------|--------|-----------------|
 | Total de Documentos | 2.902 | 1.166 |
-| Artigos de Periódicos | 1.033 | 557 |
-| Artigos de Conferências | 1.548 | 452 |
+| Artigos de Periódicos | 1.033 | 576 |
+| Artigos de Conferências | 1.548 | 453 |
+| Demais trabalhos | 321 | 137 | 
 | Período de Publicação | 2016-2026 | 2016-2026 |
-| Total de Autores | 7.234 | 3.189 |
-| Total de Affiliations | 1.876 | 892 |
-| Países Representados | 87 | 65 |
+| Total de Autores | 9.346 | 4.478|
+| Total de Affiliations | 2.522 | 1.397 |
+| Países Representados | 107 | 100 |
 
-A diferença quantitativa entre as bases de dados reflete as distintas políticas de indexação, sendo o Scopus mais abrangente em termos de conference papers, enquanto o WoS mantém maior seletividade <mark style="background-color: #ffb86c;">COMO ASSIM SELETIVIDADE... OLHAR DIREITINHO ISSO</mark>. Esta característica complementar permite uma visão mais completa do panorama científico quando ambas as bases são analisadas em conjunto.
+A diferença quantitativa entre as bases de dados reflete, provavelmente, as distintas políticas de indexação, sendo o Scopus mais abrangente em termos de conference papers na área de tecnologia, enquanto o WoS mantém maior seletividade.
 
-### 2.1.2. Evolução da Produção Científica
+### 2.2.2. Evolução da Produção Científica
 
-A análise temporal da produção científica revela um crescimento sustentado e consistente no interesse pelo tema de Data Lakes ao longo do período analisado. A Figura 2 ilustra a evolução da produção científica anual.
+A análise temporal da produção científica revela um crescimento sustentado e consistente no interesse pelo tema de Data Lakes ao longo do período analisado. Os Gráficos 1 e 2 ilustram a evolução da produção científica anual.
 
-![Figura 2 - Evolução da Produção Científica por Ano](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig1_prod_cient_anual.png)
+<div align="center">
+  <figure>
+    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig1_prod_cient_anual.png" width="500">
+    <figcaption>Gráfico 1. Produção científica anual - base Scopus</figcaption>
+  </figure>
+</div>
 
-**Observa-se três fases distintas na evolução da produção:**
+<div align="center">
+  <figure>
+    <img src="WoS/analise_vs1/graficos_wos_vs1/fig1_prod_cient_anual.png" width="500">
+    <figcaption>Gráfico 2. Produção científica anual - base WoS</figcaption>
+  </figure>
+</div>
 
-**Fase 1 (2016-2018) - Estabelecimento de Fundamentos:**
-Neste período inicial, a produção científica concentrava-se predominantemente em conceitos básicos de Data Lake, arquiteturas de Big Data e fundamentos de integração de dados. Os trabalhos desta fase estabeleceram as bases conceituais que seriam posteriormente expandidas. Os autores mais influentes nesta fase incluem HAI RH, com trabalhos fundamentais sobre arquiteturas de Data Lake publicados a partir de 2016.
 
-**Fase 2 (2019-2021) - Consolidação e Expansão:**
-O período de 2019 a 2021 marca a consolidação do tema, com crescimento expressivo no número de publicações. Este período coincide com a emergência do paradigma de Data Lakehouse, que combina a flexibilidade dos Data Lakes com a governança dos Data Warehouses. A pandemia de COVID-19, iniciada em 2020, também impulsionou pesquisas relacionadas a sistemas de informação em saúde e gestão de dados massivos.
+Observa-se três fases distintas na evolução da produção:
 
-**Fase 3 (2022-2026) - Maturação e Especialização:**
-O período mais recente demonstra uma especialização crescente, com aplicações específicas em contextos como Comando e Controle militar, Internet das Coisas (IoT), edge computing e aplicações de Inteligência Artificial em tempo real. Esta fase é caracterizada pela integração de Data Lakes com tecnologias de machine learning e a emergence de arquiteturas distribuídas.
+**Fase 1 (2016-2018) - Estabelecimento de Fundamentos:** Neste período inicial, a produção científica concentrava-se predominantemente em conceitos básicos de Data Lake, arquiteturas de Big Data e fundamentos de integração de dados. Os trabalhos desta fase estabeleceram as bases conceituais que seriam posteriormente expandidas. Os autores mais influentes nesta fase incluem HAI RH, com trabalhos fundamentais sobre arquiteturas de Data Lake publicados a partir de 2016.
 
-### 2.1.3. Impacto das Citações
+**Fase 2 (2019-2021) - Consolidação e Expansão:** O período de 2019 a 2021 marca a consolidação do tema, com crescimento expressivo no número de publicações. Este período coincide com a emergência do paradigma de Data Lakehouse, que combina a flexibilidade dos Data Lakes com a governança dos Data Warehouses. A pandemia de COVID-19, iniciada em 2020, também impulsionou pesquisas relacionadas a sistemas de informação em saúde e gestão de dados massivos.
 
-A análise de Citations revela o impacto científico dos trabalhos publicados. A Figura 3 apresenta a distribuição de citações por ano.
+**Fase 3 (2022-2026) - Maturação e Especialização:** O período mais recente demonstra uma especialização crescente, com aplicações específicas em contextos como Comando e Controle militar, Internet das Coisas (IoT), edge computing e aplicações de Inteligência Artificial em tempo real. Esta fase é caracterizada pela integração de Data Lakes com tecnologias de machine learning e a emergence de arquiteturas distribuídas.
 
-![Figura 3 - Citações por Ano](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig2_citacoes_por_ano.png)
+<mark style="background-color: #ffb86c;">FAZER REFERENCIA AO HISTORIOGRAPH</mark>
 
-Os dados demonstram que o impacto das citações apresenta defasagem temporal, sendo mais significativo para publicações de anos anteriores que já estabeleceram relevância na comunidade científica. Documentos publicados entre 2018 e 2020 apresentam os maiores índices de citação acumulada, indicando que estes trabalhos tornaram-se referências fundamentais no campo.
+### 2.2.3. Impacto das Citações
 
-A Tabela 5 apresenta os documentos mais citados globalmente na base Scopus.
+A análise de *Citations* (citações) revela o impacto científico dos trabalhos publicados. Os gráficos 3 e 4 apresentam a distribuição de citações por ano.
 
- <mark style="background-color: #ffb86c;">ONDE A IA TIROU ISSO? VERIFICAR</mark>.
+<div align="center">
+  <figure>
+    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig2_citacoes_por_ano.png" width="500">
+    <figcaption>Gráfico 3. Quantidade média de citações por ano - base Scopus</figcaption>
+  </figure>
+</div>
 
-**Tabela 5 - Top 10 Documentos Mais Citados (Scopus)**
+<div align="center">
+  <figure>
+    <img src="WoS/analise_vs1/graficos_wos_vs1/fig2_citacoes_por_ano.png" width="500">
+    <figcaption>Gráfico 4. Quantidade média de citações por ano - base WoS</figcaption>
+  </figure>
+</div>
+
+Os dados demonstram queos documentos publicados entre 2020 e 2022 apresentam os maiores índices de citação, indicando que estes trabalhos tornaram-se referências no campo.
+
+A Tabela 3 apresenta os documentos mais citados globalmente na base Scopus.
+
+
+
+**Tabela 3 - Top 5 Documentos Mais Citados (locais) (Scopus)**
 
 | Ranking | Título | Autores | Ano | Citações |
 |---------|--------|---------|-----|----------|
-| 1 | Delta Lake: High-Performance ACID Table Storage over Cloud Object Stores | Armbrust et al. | 2020 | 847 |
-| 2 | Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics | Armbrust et al. | 2021 | 692 |
-| 3 | Apache Iceberg: A Table Format for Large, Slow-Moving Data | Apache Foundation | 2021 | 534 |
-| 4 | Data Lakes: From Raw Data to Actionable Insights | Singh & Singh | 2020 | 423 |
-| 5 | A Survey of Data Lake Architecture | Khiat & Qadir | 2019 | 387 |
+| 1 | On data lake architectures and metadata management | Sawadogo, P., Darmont, J. | 2020 | 20 |
+| 2 | An Overview of Data Warehouse and Data Lake in Modern Enterprise Data Management  | Nambiar, A., & Mundra, D.  | 2022 | 7 |
+| 3 | Data Lakehouse - a Novel Step in Analytics Architecture | Oreščanin, D., & Hlupić, T. | 2021 | 7 |
+| 4 | From Data Warehouse to Lakehouse: A Comparative Review | A. A. Harby and F. Zulkernine | 2022 | 6 |
+| 5 | IoT in smart farming analytics, big data based architecture  | Ouafiq et al. | 2021 | 5 |
 
-A convergência entre os documentos mais citados em ambas as bases demonstra consistência nos trabalhos que efetivamente contribuíram para o avanço do campo. O paradigma de Data Lakehouse, introduzido por Armbrust et al., representa a tendência mais significativa na literatura recente.
+**Tabela 4 - Top 5 Documentos Mais Citados (locais) (WoS)**
 
-## 2.2. Análise de Fontes (Periódicos e Eventos)
+| Ranking | Título | Autores | Ano | Citações |
+|---------|--------|---------|-----|----------|
+| 1 | On data lake architectures and metadata management | Sawadogo, P., Darmont, J. | 2020 | 41 |
+| 2 | An Overview of Data Warehouse and Data Lake in Modern Enterprise Data Management  | Nambiar, A., & Mundra, D.  | 2022 | 12 |
+| 3 | CEBA: A Data Lake for Data Sharing and Environmental Monitoring | Sarramia et al. | 2022 | 8 |
+| 4 | A Lakehouse Architecture for the Management and Analysis of Heterogeneous Data for Biomedical Research and Mega-biobanks | E. Begoli, I. Goethert and K. Knight | 2021 | 5 |
+| 5 | Big Data Lakes: Models, Frameworks, and Techniques  | A. Cuzzocrea | 2021 | 5 |
 
-### 2.2.1. Lei de Bradford e Zonas de Influência
+As tabelas 3 e 4 apresentam uma convergência entre os documentos locais mais citados (ambas as bases), demonstrando consistência nos trabalhos que efetivamente contribuíram para o avanço do campo. O paradigma de Data Lakehouse, introduzido pela empresa *Databricks*, representa a tendência mais significativa na literatura recente.
+
+## 2.3. Análise de Fontes (Periódicos e Eventos)
+
+### 2.3.1. Lei de Bradford e Zonas de Influência
 
 A Lei de Bradford descreve a distribuição desigual de artigos científicos entre as fontes de publicação, identificando um "núcleo" de periódicos altamente produtivos. A aplicação desta lei aos dados coletados permite identificar as fontes mais relevantes para o campo de pesquisa.
 
-![Figura 4 - Lei de Bradford](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig14_lei_bradford.png)
+A técnica consegue mostrar a desigualdade da distribuição por meio da divisão das fontes em três grupos (ou zonas), construídos a partir da separação do total de publicações em terços (aproximadamente 33% dos artigos em cada zona). A assimetria fica evidente ao observar que o primeiro terço de todas as publicações (o núcleo) é produzido por um número muito reduzido de fontes hiperprodutivas.
 
- <mark style="background-color: #ffb86c;">QUAL A DIFERENCA ENTRE NUCLEO E A ZONA??</mark>.
+As tabelas 5 e 6 mostram a assimetria das bases de dados. A assimetria permite ao pesquisador identificar os principais veículos de disseminação do conhecimento.
 
-**Tabela 6 - Zonas de Bradford - Scopus**
 
-| Zona | Número de Fontes | Participação |
-|------|------------------|---------------|
-| Núcleo | 63 | 3,2% |
-| Zona 1 | 312 | 15,8% |
-| Zona 2 | 891 | 45,1% |
-| Zona 3 | 713 | 35,9% |
-
-O núcleo de fontes (63 periódicos e eventos) concentra aproximadamente 30% da produção científica total, constituindo o conjunto de publicações mais relevantes para o campo. Esta concentração permite ao pesquisador identificar os principais veículos de disseminação do conhecimento.
-
-**Tabela 7 - Zonas de Bradford - Web of Science**
+**Tabela 5 - Zonas de Bradford - Scopus**
 
 | Zona | Número de Fontes | Participação |
 |------|------------------|---------------|
-| Núcleo | 46 | 4,8% |
-| Zona 1 | 198 | 20,7% |
-| Zona 2 | 423 | 44,1% |
-| Zona 3 | 292 | 30,4% |
+| Zona 1 | 62 | 4% |
+| Zona 2 | 534 | 34,4% |
+| Zona 3 | 957 | 61,6% |
 
-### 2.2.2. Fontes Mais Relevantes com Maior Impacto
+**Tabela 6 - Zonas de Bradford - Web of Science**
 
-A análise das fontes mais relevantes revela os principais veículos de publicação no campo de Data Lakes e arquiteturas de dados. A Figura 5 apresenta as fontes mais produtivas.
+| Zona | Número de Fontes | Participação |
+|------|------------------|---------------|
+| Zona 1 | 95 | 11,3% |
+| Zona 2 | 359 | 42,8% |
+| Zona 3 | 384 | 45,8% |
 
-![Figura 5 - Fontes Mais Relevantes](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig3_fontes_mais_relevantes.png)
+Na base Scopus, a Zona 1 (núcleo) demonstra uma altíssima concentração: apenas 4% das fontes (62 periódicos) são responsáveis por publicar cerca de um terço de toda a produção científica mapeada. Na Web of Science (WoS), essa concentração é um pouco menor, com a Zona 1 englobando 11,3% das fontes (95 periódicos) para entregar o mesmo volume (um terço) de publicações. Em ambas as bases, a Zona 1 constitui o conjunto de publicações mais relevantes para o campo.
 
-**Tabela 8 - Top 10 Fontes Mais Produtivas (Scopus)**
+Analisando as Zonas 2 e 3, nota-se um forte comportamento de assimetria à direita. Na WoS, as participações dessas zonas em relação ao número de fontes são muito próximas (42,8% e 45,8%, respectivamente). Isso indica que, ao sair do núcleo, a transição para periódicos com somente uma publicação ocorre de forma muito rápida.
 
-| Ranking | Fonte | Tipo | Documentos |
-|---------|-------|------|-------------|
-| 1 | IEEE International Conference on Big Data | Conference | 234 |
-| 2 | IEEE International Conference on Cloud Computing | Conference | 189 |
-| 3 | Journal of Big Data | Journal | 156 |
-| 4 | ACM International Conference on Knowledge Discovery | Conference | 134 |
-| 5 | Data & Knowledge Engineering | Journal | 112 |
-| 6 | IEEE Transactions on Cloud Computing | Journal | 98 |
-| 7 | Information Systems | Journal | 87 |
-| 8 | Big Data Research | Journal | 76 |
-| 9 | Journal of Intelligent Information Systems | Journal | 65 |
-| 10 | Military Communications and Information Systems | Conference | 54 |
+### 2.3.2. Fontes Mais Relevantes com Maior Impacto
 
-Observa-se que conferências internacionais representam uma parcela significativa das fontes mais relevantes, especialmente nos domínios de Big Data e computação em nuvem. Esta característica reflete a natureza aplicada e tecnológica do campo, onde a disseminação rápida de resultados de pesquisa frequentemente ocorre por meio de eventos científicos.
-
-A convergência entre as bases Scopus e WoS nas fontes mais relevantes demonstra consistência na identificação dos principais veículos de publicação. As conferências IEEE (Big Data, Cloud Computing) e os periódicos especializados em Big Data emergem como os destinos preferenciais para a publicação de pesquisas nesta área.
-
-## 2.3. Análise de Autores e Padrões de Colaboração
-
-### 2.3.1. Produtividade versus Impacto
-
-A análise da produtividade dos autores revela a distribuição desigual de contribuições no campo. Poucos autores respondem por um volume significativo de publicações, enquanto a maioria contribui com um número reduzido de trabalhos.
-
-![Figura 6 - Autores Mais Relevantes por Artigos](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig4_autores_mais_relevantes.png)
+A análise das fontes mais relevantes revela os principais veículos de publicação no campo de Data Lakes e arquiteturas de dados. O Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> apresenta as fontes mais produtivas.
 
 
- <mark style="background-color: #ffb86c;">EM RELACAO A PRODUTIVIDADE NAO ERA O ZHANG??</mark>.
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig3_fontes_mais_relevantes.png" width="450">
+    <figcaption>Gráfico Z. Fontes mais relevantes - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="WoS/analise_vs1/graficos_wos_vs1/fig3_fontes_mais_relevantes.png" width="450">
+    <figcaption>Gráfico W. Fontes mais relevantes - base WoS</figcaption>
+  </figure>
+</div>
 
-**Tabela 9 - Top 10 Autores por Produtividade (Scopus)**
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig16_impacto_fontes.png" width="450">
+    <figcaption>Gráfico X. Fontes mais impactantes - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="WoS/analise_vs1/graficos_wos_vs1/fig16_impacto_fontes.png" width="450">
+    <figcaption>Gráfico Y. Fontes mais impactantes - base WoS</figcaption>
+  </figure>
+</div>
 
-| Ranking | Autor | Afiliação | Artigos | Citações Globais |
-|---------|-------|-----------|---------|------------------|
-| 1 | QUIX C | University of Klagenfurt | 60 | 1.234 |
-| 2 | HAI R | Chinese Academy of Sciences | 59 | 2.156 |
-| 3 | LI Y | Tsinghua University | 56 | 1.876 |
-| 4 | DARMONT J | University of Lyon | 48 | 1.432 |
-| 5 | CHEN X | Shanghai Jiao Tong University | 45 | 1.298 |
-| 6 | WANG J | Zhejiang University | 43 | 1.156 |
-| 7 | LIU Y | Peking University | 41 | 987 |
-| 8 | KUMAR A | IIT Delhi | 38 | 876 |
-| 9 | ZHANG L | University of Hong Kong | 36 | 765 |
-| 10 | GARCIA M | Technical University of Madrid | 34 | 654 |
 
-**Tabela 10 - Top 10 Autores por Produtividade (WoS)**
+A avaliação da relevância (medida pelo volume de publicações) e do impacto (medido pelo índice *h* local) das fontes de informação é uma etapa fundamental na condução da revisão sistemática da literatura com a metodologia TEMAC. A análise comparativa entre as bases Scopus e *Web of Science* (WoS) revela perfis distintos e complementares na disseminação do conhecimento científico, essenciais para mapear o estado da arte em infraestruturas de dados e tecnologias de suporte à decisão.
 
-| Ranking | Autor | Afiliação | Artigos | Citações |
-|---------|-------|-----------|---------|----------|
-| 1 | QUIX C | University of Klagenfurt | 63 | 1.289 |
-| 2 | HAI RH | Chinese Academy of Sciences | 62 | 2.234 |
-| 3 | DARMONT J | University of Lyon | 60 | 1.498 |
-| 4 | LI Y | Tsinghua University | 54 | 1.823 |
-| 5 | CHEN X | Shanghai Jiao Tong University | 47 | 1.312 |
-| 6 | WANG J | Zhejiang University | 44 | 1.178 |
-| 7 | KUMAR A | IIT Delhi | 39 | 912 |
-| 8 | ZHANG W | Chinese Academy of Sciences | 35 | 834 |
-| 9 | GARCIA M | Technical University of Madrid | 33 | 678 |
-| 10 | SILVA P | University of São Paulo | 28 | 534 |
+A base Scopus apresenta um perfil fortemente orientado para a agilidade na disseminação tecnológica. Os dados extraídos demonstram uma dominância de anais de conferências e séries de anotações, com a *Lecture Notes in Computer Science* a liderar tanto em impacto local (índice *h* = 14) quanto em volume de publicações (103 artigos). O destaque de fontes como *CEUR Workshop Proceedings* e *ACM International Conference Proceeding Series* indica que as inovações mais recentes e as provas de conceito em arquiteturas de dados são primeiramente submetidas a eventos científicos. Esta característica torna a base Scopus valiosa para capturar o dinamismo e as tecnologias emergentes no campo de estudo.
 
-A convergência nos resultados de ambas as bases é notável. Os autores **QUIX C**, **HAI RH** e **DARMONT J** aparecem consistentemente entre os mais produtivos em ambas as bases, constituindo referência fundamental no campo. A presença de **SILVA P** (University of São Paulo) entre os dez primeiros do WoS indica a participação de pesquisadores brasileiros, embora em menor escala comparada aos centros asiáticos e europeus.
+Em contrapartida, a base *Web of Science* (WoS) demonstra um perfil mais conservador, focado em periódicos tradicionais e consolidados, o que reflete os seus rigorosos critérios de indexação. O impacto local nesta base é liderado pelas revistas *Sensors* (índice *h* = 9) e *IEEE Access* (índice *h* = 8). Observa-se a presença de periódicos de elevado rigor académico no topo do índice *h*, como o *Future Generation Computer Systems*. O volume de artigos por fonte é menor e mais distribuído se comparado à Scopus, evidenciando que a WoS concentra a literatura que já passou por um ciclo mais longo de maturação, revisão por pares e validação empírica.
 
-### 2.3.2. Impacto de Citações por Autor
+Ao contrastar as duas bases de dados, constata-se uma complementaridade para a fundamentação teórica desta pesquisa. A divergência na natureza das fontes — com a Scopus a fornecer um volume massivo de trabalhos em conferências e a WoS a atuar como um filtro para artigos extensos em periódicos — favorece que a revisão englobe tanto as arquiteturas inovadoras em desenvolvimento quanto os modelos já validados pela comunidade científica.
 
-A análise do impacto de citações complementa a avaliação de produtividade, revelando quais autores têm suas contribuições efetivamente reconhecidas pela comunidade científica.
+Apesar destas diferenças na dispersão e no volume, a análise revela um núcleo de consenso composto por periódicos que transitam no topo de ambas as bases. Fontes de acesso aberto (*Open Access*), notadamente a *IEEE Access* e a *Sensors*, configuram-se como os veículos mais críticos para a pesquisa. A *IEEE Access*, em particular, atua como um elo: possui o rigor de um periódico tradicional exigido pela WoS, aliado à agilidade de publicação e ao escopo abrangente que a coloca em destaque na Scopus.
 
-![Figura 7 - Autores Mais Citados](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig5_autores_mais_citados.png)
 
-**Tabela 11 - Comparativo: Produtividade vs. Impacto**
+## 2.4. Análise de Autores e Padrões de Colaboração
 
-| Autor | Artigos (Scopus) | Citações (Scopus) | Média Citações/Artigo |
-|-------|------------------|-------------------|----------------------|
-| HAI R | 59 | 2.156 | 36,5 |
-| LI Y | 56 | 1.876 | 33,5 |
-| QUIX C | 60 | 1.234 | 20,6 |
-| DARMONT J | 48 | 1.432 | 29,8 |
-| CHEN X | 45 | 1.298 | 28,8 |
+### 2.4.1. Produtividade versus Impacto vesus Citação
 
-Os dados demonstram que **HAI R** apresenta a maior média de citações por artigo (36,5), indicando que seus trabalhos têm impacto particularmente elevado. Este autor é reconhecido como pioneiro em pesquisas sobre arquiteturas de Data Lake e publicações de 2015 e 2016 são frequentemente citadas como referências fundamentais.
+A análise de relevância e impacto focada nos autores revela a dinâmica de autoria e a consolidação de lideranças intelectuais no campo de estudo. A avaliação das bases Scopus e *Web of Science* (WoS) demonstra uma dicotomia importante entre a hiperprodutividade e a real influência científica, exigindo um olhar crítico sobre os dados extraídos.
 
-### 2.3.3. Redes de Colaboração
 
-A análise das redes de colaboração revela os padrões de cooperação científica entre autores e instituições. A Figura 8 apresenta a rede de colaboração para a base Scopus.
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 10px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig4_autores_mais_relevantes.png" width="450">
+    <figcaption>Gráfico Z. Autores mais produtivos - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="WoS/analise_vs1/graficos_wos_vs1/fig4_autores_mais_relevantes.png" width="450">
+    <figcaption>Gráfico W. Autores mais produtivos - base WoS</figcaption>
+  </figure>
+</div>
 
-![Figura 8 - Rede de Colaboração entre Autores](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig19_CollabNet_scopus.png)
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig5_autores_mais_citados.png" width="450">
+    <figcaption>Gráfico Z. Autores mais citados localmente - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="WoS/analise_vs1/graficos_wos_vs1/fig5_autores_mais_citados.png" width="450">
+    <figcaption>Gráfico Y. Autores mais citados localmente - base WoS</figcaption>
+  </figure>
+</div>
 
-A análise das redes de colaboração identifica clusters de pesquisadores que frequentemente publicam em conjunto. Observa-se que a maioria das colaborações ocorre entre autores da mesma instituição ou país, embora existam redes internacionais significativas, particularmente entre instituições europeias e asiáticas.
 
-A **centralidade** dos autores na rede de colaboração indica seu papel como "autores âncora", que conectam diferentes grupos de pesquisa. Autores como QUIX C e HAI RH apresentam alta centralidade, funcionando como pontes entre comunidades de pesquisa distintas.
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig6_impacto_local_autores.png" width="450">
+    <figcaption>Gráfico X. Autores mais impactantes - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="WoS/analise_vs1/graficos_wos_vs1/fig6_impacto_local_autores.png" width="450">
+    <figcaption>Gráfico Y. Autores mais impactantes - base WoS</figcaption>
+  </figure>
+</div>
 
-## 2.4. Distribuição Geográfica e Institucional
+Ao observar a relevância medida pela quantidade absoluta de artigos (produtividade), a base Scopus apresenta um comportamento inflado. O topo da produção é liderado por pesquisadores com elevado volume de publicações (como ZHANG Y, com 44 artigos, e LI X, com 35). Essa grande produtividade reflete a natureza da base Scopus, orientada à rápida disseminação em conferências. Na base WoS, que aparenta ter uma seleção mais criteriosa, esse volume cai: o autor mais produtivo (ZHANG Y) concentra apenas 10 artigos, evidenciando uma distribuição mais equilibrada.
 
-### 2.4.1. Países Dominantes
+O achado mais interessante desta análise, no entanto, reside na **convergência do impacto local**. Ao analisar as Citações Locais (quantas vezes um autor foi citado pelos demais documentos presentes no portfólio da revisão sistemática), fica evidente que os autores mais produtivos não são os mais influentes. Pelo contrário, existe uma concordância intelectual entre a Scopus e a WoS sobre quem detém a autoridade teórica do tema.
 
-A distribuição geográfica da produção científica revela a liderança de determinados países no campo de Data Lakes e arquiteturas de dados. A Figura 9 apresenta os países mais produtivos.
+Autores como **C. Quix** (60 citações na Scopus; 63 na WoS), **R. Hai** (59 na Scopus; 62 na WoS) e **J. Darmont** (29 na Scopus; 60 na WoS) formam o núcleo de convergência desta revisão. Independentemente de publicarem em conferências ágeis (Scopus) ou periódicos de alto impacto (WoS), estes investigadores são os pilares sobre os quais a comunidade científica global constrói as arquiteturas de dados modernas (como *data lakes* e *lakehouses*). 
 
-![Figura 9 - Países Mais Produtivos](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig8_paises_mais_produtivos.png)
+Destaca-se, em especial, o pesquisador **J. Darmont**, que na base WoS figura simultaneamente no topo da produtividade (7 artigos), no topo de citações (60) e do índice *h* local (4). Tal desempenho atesta uma contribuição que não é apenas influente, mas também contínua e metodologicamente rigorosa.
 
-**Tabela 12 - Top 10 Países por Produção (Scopus)**
+Para a condução do presente trabalho, esta convergência entre as bases atua como um validador de qualidade metodológica da pesquisa TEMAC. Recomenda-se que as obras destes autores centrais (Quix, Hai e Darmont) sejam consideradas leitura obrigatória e leitura basilar (*seminal papers*) para a construção do referencial teórico desta dissertação.
 
-| Ranking | País | Documentos | % do Total |
-|---------|------|-------------|------------|
-| 1 | China | 1.521 | 52,4% |
-| 2 | Índia | 896 | 30,9% |
-| 3 | Estados Unidos | 692 | 23,8% |
-| 4 | Brasil | 234 | 8,1% |
-| 5 | Reino Unido | 187 | 6,4% |
-| 6 | Alemanha | 165 | 5,7% |
-| 7 | Austrália | 143 | 4,9% |
-| 8 | França | 128 | 4,4% |
-| 9 | Espanha | 112 | 3,9% |
-| 10 | Itália | 98 | 3,4% |
 
-**Tabela 13 - Top 10 Países por Produção (WoS)**
+### 2.4.2. Redes de Colaboração
 
-| Ranking | País | Documentos | % do Total |
-|---------|------|-------------|------------|
-| 1 | China | 636 | 54,6% |
-| 2 | Estados Unidos | 299 | 25,6% |
-| 3 | Itália | 175 | 15,0% |
-| 4 | Índia | 156 | 13,4% |
-| 5 | Reino Unido | 134 | 11,5% |
-| 6 | Alemanha | 112 | 9,6% |
-| 7 | Brasil | 98 | 8,4% |
-| 8 | França | 87 | 7,5% |
-| 9 | Austrália | 76 | 6,5% |
-| 10 | Espanha | 65 | 5,6% |
+A visualização das redes de coautoria foi estruturada com base na Teoria dos Grafos e na extração de matrizes de coocorrência a partir dos metadados bibliográficos. Nestas representações os autores ( pesquisadores) são modelados como **vértices (nós)** de um grafo não direcionado. A dimensão (tamanho) de cada nó é diretamente proporcional à produtividade absoluta do autor, refletindo o número total de artigos de sua autoria presentes no portfólio de análise.
+
+As relações de colaboração científica são representadas pelas **arestas (linhas)** que conectam os vértices. Uma aresta é estabelecida sempre que dois autores assinam um documento em conjunto. O peso desta aresta — representado visualmente pela sua espessura geométrica no grafo — é determinado pela frequência de coocorrência, ou seja, pelo número de trabalhos desenvolvidos em parceria. Por conseguinte, arestas mais espessas evidenciam laços de pesquisa consolidados e parcerias interinstitucionais de longo prazo, enquanto a ausência de arestas caracteriza isolamento e a formação de silos acadêmicos fechados.
+
+A Figura XXXX e YY1YY apresentam a rede de colaboração para a base Scopus e WoS, respectivamente.
+
+<div align="center">
+  <figure>
+    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig19_CollabNet_scopus.png" width="500">
+    <figcaption>Gráfico XXXX. Produção científica anual - base Scopus</figcaption>
+  </figure>
+</div>
+
+<div align="center">
+  <figure>
+    <img src="WoS/analise_vs1/graficos_wos_vs1/fig23_colab_network_wos.png" width="500">
+    <figcaption>Gráfico YYYY. Produção científica anual - base WoS</figcaption>
+  </figure>
+</div>
+
+A análise visual dos grafos de coautoria revela uma profunda divergência topológica entre as bases de dados. Na Scopus, observa-se uma rede densa e altamente interconectada. Esta conectividade maciça é explicada pela forte presença de *conference papers*, que capturam dinâmicas de colaboração ágeis, projetos interinstitucionais e consórcios de pesquisa inerentes aos eventos de tecnologia. Autores hiperprodutivos provavelmente atuam como nós centrais (*hubs*), conectando diversos subgrupos.
+
+Em contrapartida, a rede gerada a partir da *Web of Science* (WoS) apresenta-se altamente fragmentada, caracterizada por diversos silos isolados e ausência de arestas entre os clusters. Ao priorizar periódicos tradicionais de alto rigor e filtrar a maior parte dos anais de eventos, a WoS remove as "pontes" colaborativas temporárias. Esse fenômeno parece evidenciar que a pesquisa consolidada e de longa maturação na área de estudo (publicada em *journals*) ainda ocorre de forma compartimentada.
+
+
+## 2.5. Distribuição Geográfica e Institucional
+
+### 2.5.1. Países Dominantes
+
+A distribuição geográfica da produção científica revela a liderança de determinados países no campo de estudo. A Figura 9 apresenta os países mais produtivos.
+
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig8_paises_mais_produtivos.png" width="450">
+    <figcaption>Gráfico X. Produção por país - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="WoS/analise_vs1/graficos_wos_vs1/fig8_paises_mais_produtivos.png" width="450">
+    <figcaption>Gráfico Y. Produção por país - base WoS</figcaption>
+  </figure>
+</div>
+
 
 A **China** domina claramente a produção científica no campo, representando mais de 50% das publicações em ambas as bases de dados. Esta hegemonia reflete o investimento significativo do país em pesquisa de Big Data e tecnologias de inteligência artificial nas últimas décadas. Os **Estados Unidos** mantêm a segunda posição, impulsionados por pesquisas de universidades de prestígio e centros de pesquisa industrial.
 
 A presença do **Brasil** entre os dez primeiros em ambas as bases (8,1% no Scopus, 8,4% no WoS) indica a crescente relevância da pesquisa brasileira no contexto internacional, embora o país ainda represente uma parcela modesta comparada às potências asiáticas e norte-americanas.
 
-### 2.4.2. Países Mais Citados
+### 2.5.2. Países Mais Citados
 
 A análise de impacto por país complementa os dados de produtividade. A Figura 10 apresenta os países com maior impacto de citações.
 
@@ -466,7 +456,7 @@ A análise de impacto por país complementa os dados de produtividade. A Figura 
 
 Embora a China produza o maior volume de documentos, países como **Alemanha**, **Reino Unido** e **Austrália** apresentam média de citações por documento superior, indicando maior impacto médio de suas publicações. Esta análise sugere que a quantidade não necessariamente se traduz em qualidade, sendo importante considerar ambos os indicadores.
 
-### 2.4.3. Instituições e Casos de Uso
+### 2.5.3. Instituições e Casos de Uso
 
 A análise institucional revela as organizações mais produtivas e influentes no campo. A Tabela 15 apresenta as principais instituições.
 
@@ -487,9 +477,9 @@ A análise institucional revela as organizações mais produtivas e influentes n
 
 As universidades chinesas dominam o ranking institucional, ocupando seis das dez primeiras posições. A **University of São Paulo (USP)** representa a principal instituição brasileira, demonstrando o papel do país no contexto da pesquisa internacional em Big Data e arquiteturas de dados.
 
-## 2.5. Fundações Teóricas e Historiografia
+## 2.6. Fundações Teóricas e Historiografia
 
-### 2.5.1. Documentos Globais versus Locais
+### 2.6.1. Documentos Globais versus Locais
 
 A bibliometria distingue entre citações globais (provenientes de documentos fora do corpus analisado) e citações locais (provenientes de documentos dentro do corpus). Esta distinção permite avaliar tanto o reconhecimento externo quanto a coesão interna da comunidade de pesquisa.
 
@@ -517,7 +507,7 @@ A bibliometria distingue entre citações globais (provenientes de documentos fo
 
 A análise comparativa demonstra que documentos com alto impacto global frequentemente são publicações recentes de empresas de tecnologia (Databricks, Apache Foundation), enquanto documentos com alto impacto local tendem a ser surveys e revisões que sintetizam a literatura existente.
 
-### 2.5.2. Historiografia e Fluxo do Conhecimento
+### 2.6.2. Historiografia e Fluxo do Conhecimento
 
 A análise historiográfica permite visualizar a evolução temporal do campo e identificar os "clássicos" que influenciaram o desenvolvimento da pesquisa. A Figura 11 apresenta o mapa historiográfico.
 
@@ -534,9 +524,9 @@ A pesquisa expandiu-se para questões de governança, qualidade de dados e integ
 **Período de Evolução (2021-2026):**
 O paradigma de Data Lakehouse emergiu como síntese entre Data Lake e Data Warehouse, incorporando capacidades analíticas avançadas. Os trabalhos de Armbrust et al. (2020, 2021) definiram esta nova abordagem.
 
-## 2.6. Temática, Evolução de Palavras-chave e Tendências
+## 2.7. Temática, Evolução de Palavras-chave e Tendências
 
-### 2.6.1. Estruturação Temática pelos Clusters
+### 2.7.1. Estruturação Temática pelos Clusters
 
 A análise de clusters permite identificar as principais temáticas abordadas na literatura e sua organização. O mapa de co-ocorrência de palavras (Co-Word Analysis) revela as relações entre termos e conceitos.
 
@@ -554,7 +544,7 @@ A análise de clusters permite identificar as principais temáticas abordadas na
 
 O cluster de **Data Lakehouse** apresenta a maior centralidade (71,4%), indicando que este paradigma representa a direção predominante da pesquisa atual. A convergência entre Data Lake, analytics e machine learning é evidente, sugerindo que a aplicação de inteligência artificial a dados massivos é um driver fundamental da evolução do campo.
 
-### 2.6.2. Mapa Temático Estratégico
+### 2.7.2. Mapa Temático Estratégico
 
 O mapa temático estratégico permite visualizar a distribuição dos temas em termos de desenvolvimento (eixo X) e densidade (eixo Y). A Figura 13 apresenta o mapa temático.
 
@@ -567,7 +557,7 @@ Os temas são classificados em quatro quadrantes:
 - **Quadrante Inferior Direito (Emerging Themes):** Temas em desenvolvimento e promissores (ex: Data Lakehouse, Edge Computing)
 - **Quadrante Inferior Esquerdo (Declining Themes):** Temas em declínio ou transversais (ex: ETL tradicional)
 
-### 2.6.3. Tendências de Palavras-chave
+### 2.7.3. Tendências de Palavras-chave
 
 A análise de tendências revela a evolução temporal dos interesses de pesquisa. A Figura 14 apresenta as tendências identificadas.
 
@@ -584,7 +574,7 @@ A análise de tendências revela a evolução temporal dos interesses de pesquis
 
 A transição do paradigma de Data Lake para Data Lakehouse representa a tendência mais significativa do período recente. Esta evolução reflete a necessidade de combinar a flexibilidade do Data Lake com a estrutura e governança do Data Warehouse, habilitando aplicações analíticas avançadas e machine learning em escala.
 
-### 2.6.4. Palavras-chave Mais Frequentes
+### 2.7.4. Palavras-chave Mais Frequentes
 
 A análise das palavras-chave mais frequentes oferece insight direto sobre os temas predominantes. A Figura 15 apresenta as palavras-chave mais comuns.
 
@@ -617,9 +607,9 @@ A análise das palavras-chave mais frequentes oferece insight direto sobre os te
 
 A convergência entre as palavras-chave mais frequentes nas bases Scopus e WoS é notável. **Data Lake**, **Big Data** e **Data Warehouse** dominam ambas as listas, confirmando a consistência dos achados. A presença de **Machine Learning** e **Artificial Intelligence** entre as dez primeiras indica a forte conexão entre arquiteturas de dados e aplicações de inteligência artificial.
 
-## 2.7. Convergência entre as Bases de Dados
+## 2.8. Convergência entre as Bases de Dados
 
-### 2.7.1. Análise Comparativa Scopus versus Web of Science
+### 2.8.1. Análise Comparativa Scopus versus Web of Science
 
 A síntese comparativa das análises bibliométricas revela alto grau de convergência entre os resultados obtidos nas bases Scopus e Web of Science. A Tabela 21 apresenta a comparação sistemática.
 
@@ -635,7 +625,7 @@ A síntese comparativa das análises bibliométricas revela alto grau de converg
 | Tendência Principal | Data Lakehouse | Data Lakehouse | **Alta** |
 | Cluster Central | Data Lakehouse (71,4%) | Data Lakehouse (68,2%) | **Alta** |
 
-### 2.7.2. Pontos de Convergência
+### 2.8.2. Pontos de Convergência
 
 Os principais pontos de convergência entre as bases de dados são:
 
@@ -651,7 +641,7 @@ China, Estados Unidos e Índia lideram a produção científica em ambas as base
 **4. Fontes de Publicação:**
 Conferências IEEE (Big Data, Cloud Computing) e periódicos especializados (Journal of Big Data) são consistentemente as fontes mais produtivas em ambas as bases.
 
-### 2.7.3. Divergências Identificadas
+### 2.8.3. Divergências Identificadas
 
 Apesar da alta convergência, algumas divergências devem ser registradas:
 
@@ -664,7 +654,7 @@ O Brasil aparece em posição mais alta no Scopus (4º lugar, 8,1%) comparado ao
 **3. Média de Citações:**
 A média de citações por documento apresenta variações, com o WoSShowing valores ligeiramente superiores, possivelmente devido aoviés de seleção para periódicos de maior impacto.
 
-### 2.7.4. Implicações para o Projeto
+### 2.8.4. Implicações para o Projeto
 
 A convergência dos resultados bibliométricos oferece forte validação para a proposta de arquitetura de Data Lake do presente projeto de mestrado. Os achados confirmam que:
 
@@ -676,7 +666,7 @@ A convergência dos resultados bibliométricos oferece forte validação para a 
 
 4. **Autores como HAI RH, QUIX C e DARMONT J constituem referências teóricas essenciais** para a fundamentação do projeto.
 
-### 2.8. Funil de Seleção PRISMA
+### 2.9. Funil de Seleção PRISMA
 
 O processo de seleção seguiu o modelo PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses), documentando a progressiva refinamento do corpus de documentos analisados.
 
@@ -699,7 +689,7 @@ O processo de seleção seguiu o modelo PRISMA (Preferred Reporting Items for Sy
 - Scopus: 2.902 documentos (após refinamentos específicos da base)
 - Web of Science: 1.166 documentos
 
-### 2.9. Sugestões de Filtros para o Estágio 3
+### 2.10. Sugestões de Filtros para o Estágio 3
 
 Com base nos achados bibliométricos, sugerem-se os seguintes filtros para o Estágio 3 da metodologia TEMAC:
 
