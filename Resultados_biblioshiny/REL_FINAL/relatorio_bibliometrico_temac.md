@@ -1,7 +1,7 @@
 
 # Relatório Bibliométrico - Estágios 1 e 2 da Metodologia TEMAC
 
-## Sumário
+<!-- ## Sumário
 
 - [Relatório Bibliométrico - Estágios 1 e 2 da Metodologia TEMAC](#relatório-bibliométrico---estágios-1-e-2-da-metodologia-temac)
   - [Sumário](#sumário)
@@ -48,7 +48,7 @@
     - [2.9. Funil de Seleção PRISMA](#29-funil-de-seleção-prisma)
     - [2.10. Sugestões de Filtros para o Estágio 3](#210-sugestões-de-filtros-para-o-estágio-3)
 - [Conclusão](#conclusão)
-- [Referências](#referências)
+- [Referências](#referências) -->
 
 ---
 
@@ -62,7 +62,7 @@ Este relatório está organizado em conformidade com a metodologia TEMAC (Techni
 
 ---
 
-# Estágio 1: Estratégia de Busca e Seleção do Corpus
+## Estágio 1: Estratégia de Busca e Seleção do Corpus
 
 ## 1.1. Justificativa da Escolha das Bases de Dados
 
@@ -151,7 +151,7 @@ O Apêndice A apresenta as strings de consulta utilizadas assim como a quantidad
 
 ### 1.3.4. Critérios de Exclusão
 
-Como critério de exclusão, decidiu-se por trabalhos publicados até 2016. Para a base de dados *SCOPUS*, também retirou-se os livros, pois após uma avaliação prévia utilizando as ferramentas do Bibliometrix, percebeu-se que, nesta base de dados, tinha livros sem o devido referenciamento dos autores e que atrapalhava os resultados das análises.
+Como critério de exclusão, decidiu-se por trabalhos a partir de 2016. Para a base de dados *SCOPUS*, também retirou-se os livros, pois após uma avaliação prévia utilizando as ferramentas do Bibliometrix, percebeu-se que, nesta base de dados, tinha livros sem o devido referenciamento dos autores e que atrapalhava os resultados das análises.
 
 
 ## 1.4. Síntese do Estágio 1
@@ -193,19 +193,13 @@ A diferença quantitativa entre as bases de dados reflete, provavelmente, as dis
 
 ### 2.2.2. Evolução da Produção Científica
 
-A análise temporal da produção científica revela um crescimento sustentado e consistente no interesse pelo tema de Data Lakes ao longo do período analisado. Os Gráficos 1 e 2 ilustram a evolução da produção científica anual.
+A análise temporal da produção científica revela um crescimento sustentado e consistente no interesse pelo tema de Data Lakes ao longo do período analisado. Os Gráficos <mark style="background-color: #ffb86c;">XXXX</mark> ilustram a evolução da produção científica anual.
+
 
 <div align="center">
   <figure>
-    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig1_prod_cient_anual.png" width="500">
-    <figcaption>Gráfico 1. Produção científica anual - base Scopus</figcaption>
-  </figure>
-</div>
-
-<div align="center">
-  <figure>
-    <img src="WoS/analise_vs1/graficos_wos_vs1/fig1_prod_cient_anual.png" width="500">
-    <figcaption>Gráfico 2. Produção científica anual - base WoS</figcaption>
+    <img src="graficos_combinados/fig1_prod_cient_anual_combinada.png" width="500">
+    <figcaption>Gráfico 1. Produção científica anual </figcaption>
   </figure>
 </div>
 
@@ -222,19 +216,28 @@ Observa-se três fases distintas na evolução da produção:
 
 ### 2.2.3. Impacto das Citações
 
-A análise de *Citations* (citações) revela o impacto científico dos trabalhos publicados. Os gráficos 3 e 4 apresentam a distribuição de citações por ano.
+A análise de *Citations* (citações) revela o impacto científico dos trabalhos publicados. Os gráficos <mark style="background-color: #ffb86c;">XXXX</mark> apresentam a distribuição de citações por ano.
 
-<div align="center">
+<!-- <div align="center">
   <figure>
-    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig2_citacoes_por_ano.png" width="500">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig2_citacoes_por_ano.png" width="500">
     <figcaption>Gráfico 3. Quantidade média de citações por ano - base Scopus</figcaption>
   </figure>
 </div>
 
 <div align="center">
   <figure>
-    <img src="WoS/analise_vs1/graficos_wos_vs1/fig2_citacoes_por_ano.png" width="500">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig2_citacoes_por_ano.png" width="500">
     <figcaption>Gráfico 4. Quantidade média de citações por ano - base WoS</figcaption>
+  </figure>
+</div> -->
+
+
+
+<div align="center">
+  <figure>
+    <img src="graficos_combinados/fig2_med_cit_anual_combinada.png" width="500">
+    <figcaption>Gráfico XXX. Quantidade média de citações por ano </figcaption>
   </figure>
 </div>
 
@@ -304,22 +307,22 @@ A análise das fontes mais relevantes revela os principais veículos de publica�
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
-    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig3_fontes_mais_relevantes.png" width="450">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig3_fontes_mais_relevantes.png" width="450">
     <figcaption>Gráfico Z. Fontes mais relevantes - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
-    <img src="WoS/analise_vs1/graficos_wos_vs1/fig3_fontes_mais_relevantes.png" width="450">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig3_fontes_mais_relevantes.png" width="450">
     <figcaption>Gráfico W. Fontes mais relevantes - base WoS</figcaption>
   </figure>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
-    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig16_impacto_fontes.png" width="450">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig16_impacto_fontes.png" width="450">
     <figcaption>Gráfico X. Fontes mais impactantes - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
-    <img src="WoS/analise_vs1/graficos_wos_vs1/fig16_impacto_fontes.png" width="450">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig16_impacto_fontes.png" width="450">
     <figcaption>Gráfico Y. Fontes mais impactantes - base WoS</figcaption>
   </figure>
 </div>
@@ -345,22 +348,22 @@ A análise de relevância e impacto focada nos autores revela a dinâmica de aut
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 10px;">
   <figure style="text-align: center; margin: 0;">
-    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig4_autores_mais_relevantes.png" width="450">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig4_autores_mais_relevantes.png" width="450">
     <figcaption>Gráfico Z. Autores mais produtivos - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
-    <img src="WoS/analise_vs1/graficos_wos_vs1/fig4_autores_mais_relevantes.png" width="450">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig4_autores_mais_relevantes.png" width="450">
     <figcaption>Gráfico W. Autores mais produtivos - base WoS</figcaption>
   </figure>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
-    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig5_autores_mais_citados.png" width="450">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig5_autores_mais_citados.png" width="450">
     <figcaption>Gráfico Z. Autores mais citados localmente - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
-    <img src="WoS/analise_vs1/graficos_wos_vs1/fig5_autores_mais_citados.png" width="450">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig5_autores_mais_citados.png" width="450">
     <figcaption>Gráfico Y. Autores mais citados localmente - base WoS</figcaption>
   </figure>
 </div>
@@ -368,11 +371,11 @@ A análise de relevância e impacto focada nos autores revela a dinâmica de aut
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
-    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig6_impacto_local_autores.png" width="450">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig6_impacto_local_autores.png" width="450">
     <figcaption>Gráfico X. Autores mais impactantes - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
-    <img src="WoS/analise_vs1/graficos_wos_vs1/fig6_impacto_local_autores.png" width="450">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig6_impacto_local_autores.png" width="450">
     <figcaption>Gráfico Y. Autores mais impactantes - base WoS</figcaption>
   </figure>
 </div>
@@ -394,18 +397,18 @@ A visualização das redes de coautoria foi estruturada com base na Teoria dos G
 
 As relações de colaboração científica são representadas pelas **arestas (linhas)** que conectam os vértices. Uma aresta é estabelecida sempre que dois autores assinam um documento em conjunto. O peso desta aresta — representado visualmente pela sua espessura geométrica no grafo — é determinado pela frequência de coocorrência, ou seja, pelo número de trabalhos desenvolvidos em parceria. Por conseguinte, arestas mais espessas evidenciam laços de pesquisa consolidados e parcerias interinstitucionais de longo prazo, enquanto a ausência de arestas caracteriza isolamento e a formação de silos acadêmicos fechados.
 
-A Figura XXXX e YY1YY apresentam a rede de colaboração para a base Scopus e WoS, respectivamente.
+A Figura <mark style="background-color: #ffb86c;">XXXX</mark> apresentam a rede de colaboração para a base Scopus e WoS, respectivamente.
 
 <div align="center">
   <figure>
-    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig19_CollabNet_scopus.png" width="500">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig19_CollabNet_scopus.png" width="500">
     <figcaption>Gráfico XXXX. Produção científica anual - base Scopus</figcaption>
   </figure>
 </div>
 
 <div align="center">
   <figure>
-    <img src="WoS/analise_vs1/graficos_wos_vs1/fig23_colab_network_wos.png" width="500">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig23_colab_network_wos.png" width="500">
     <figcaption>Gráfico YYYY. Produção científica anual - base WoS</figcaption>
   </figure>
 </div>
@@ -419,93 +422,144 @@ Em contrapartida, a rede gerada a partir da *Web of Science* (WoS) apresenta-se 
 
 ### 2.5.1. Países Dominantes
 
-A distribuição geográfica da produção científica revela a liderança de determinados países no campo de estudo. A Figura 9 apresenta os países mais produtivos.
+A distribuição geográfica da produção científica revela a liderança de determinados países no campo de estudo. A Figura  <mark style="background-color: #ffb86c;">XXXX</mark> apresenta os países mais produtivos.
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
-    <img src="SCOPUS/analise_vs2/graficos_scopus_vs2/fig8_paises_mais_produtivos.png" width="450">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig8_paises_mais_produtivos.png" width="450">
     <figcaption>Gráfico X. Produção por país - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
-    <img src="WoS/analise_vs1/graficos_wos_vs1/fig8_paises_mais_produtivos.png" width="450">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig8_paises_mais_produtivos.png" width="450">
     <figcaption>Gráfico Y. Produção por país - base WoS</figcaption>
   </figure>
 </div>
 
 
-A **China** domina claramente a produção científica no campo, representando mais de 50% das publicações em ambas as bases de dados. Esta hegemonia reflete o investimento significativo do país em pesquisa de Big Data e tecnologias de inteligência artificial nas últimas décadas. Os **Estados Unidos** mantêm a segunda posição, impulsionados por pesquisas de universidades de prestígio e centros de pesquisa industrial.
+É possivel observar, pelos dois gráficos que a China permanece em primeiro lugar em produção científica. Por outro lado, os países, Estados Unidos, Itália e India, além de serem grandes produtores, trocam de posição quando comparamos as duas bases bibliográficas.
 
-A presença do **Brasil** entre os dez primeiros em ambas as bases (8,1% no Scopus, 8,4% no WoS) indica a crescente relevância da pesquisa brasileira no contexto internacional, embora o país ainda represente uma parcela modesta comparada às potências asiáticas e norte-americanas.
+A presença do **Brasil** entre os treze primeiros países, em ambas as bases, parece indicar a crescente relevância da pesquisa brasileira no contexto internacional, embora o país ainda represente uma parcela modesta comparada às potências asiáticas, norte-americanas e européias.
 
 ### 2.5.2. Países Mais Citados
 
-A análise de impacto por país complementa os dados de produtividade. A Figura 10 apresenta os países com maior impacto de citações.
+A análise do impacto científico distribuído geograficamente permite compreender a geopolítica do desenvolvimento do assunto em estudo. A avaliação das bases Scopus e *Web of Science* (WoS) evidencia uma clara convergência no que tange aos polos de liderança mundial em pesquisa, ao mesmo tempo que reforça o paradoxo entre volume produtivo e efetividade científica.
 
-![Figura 10 - Países Mais Citados](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig9_paises_mais_citados.png)
+A Tabela <mark style="background-color: #ffb86c;">XXXX</mark>  consolida os indicadores de impacto geográfico, contrastando o Total de Citações (TC) acumuladas pelo país e a Média de Citações por Artigo, métrica que revela o impacto real (qualitativo) da produção de cada nação.
 
-**Tabela 14 - Impacto por País (Scopus)**
 
-| País | Documentos | Citações | Média Citações/Doc |
-|------|-------------|----------|-------------------|
-| Estados Unidos | 692 | 12.456 | 18,0 |
-| China | 1.521 | 15.234 | 10,0 |
-| Reino Unido | 187 | 4.321 | 23,1 |
-| Alemanha | 165 | 3.876 | 23,5 |
-| Austrália | 143 | 3.234 | 22,6 |
-| Brasil | 234 | 2.876 | 12,3 |
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark>  – Impacto Científico por País: Scopus *vs.* Web of Science**
 
-Embora a China produza o maior volume de documentos, países como **Alemanha**, **Reino Unido** e **Austrália** apresentam média de citações por documento superior, indicando maior impacto médio de suas publicações. Esta análise sugere que a quantidade não necessariamente se traduz em qualidade, sendo importante considerar ambos os indicadores.
+| País | Total de Citações <br> (Scopus) | Média por Artigo <br> (Scopus) | Total de Citações <br> (WoS) | Média por Artigo <br> (WoS) |
+| :--- | :---: | :---: | :---: | :---: |
+| **China** | 3.655 | 6,5 | 2.142 | 8,2 |
+| **EUA** | 2.337 | 15,2 | 1.869 | 17,5 |
+| **Itália** | 1.952 | 20,8 | 472 | 7,9 |
+| **Índia** | 1.444 | 7,0 | 431 | 6,4 |
+| **Espanha** | 1.149 | 26,7 | 673 | 15,0 |
+| **Austrália** | 1.051 | 33,9 | 536 | 23,3 |
+| **Reino Unido** | 943 | 18,9 | 629 | 18,0 |
+| **Alemanha** | 753 | 10,9 | 627 | 13,9 |
+| **França** | 585 | 11,0 | 461 | 9,6 |
+| **Portugal** | 691 | 22,3 | - | - |
+| **Catar** | - | - | 406 | 203,0 |
+
+
+Ao analisar os dados, constata-se uma convergência no eixo de volume: em ambas as bases, a **China** e os **EUA** dominam o somatório absoluto de citações, confirmando-se como os maiores financiadores e produtores globais no tema estudado. Contudo, há uma disparidade crítica na efetividade dessa produção. Países como a China e a Índia apresentam as médias de impacto por artigo mais baixas (6,5 e 7,0 na Scopus; 8,2 e 6,4 na WoS), sugerindo uma estratégia de pulverização científica: um alto volume de artigos publicados (especialmente em eventos) com baixo nível de adoção teórica pelos pares.
+
+A verdadeira convergência de impacto metodológico (qualitativo) concentra-se no eixo Estados Unidos, Europa e Oceania. Países como a Austrália (média de 33,9 na Scopus e 23,3 na WoS), Espanha e Reino Unido apresentam uma produção absoluta menor, mas com índices de citação por trabalho expressivos. Isso demonstra que as publicações advindas destas nações aparentam ser mais maduras, consolidadas e frequentemente utilizadas como base do assunto em estudo.
+
+Por fim, destaca-se o fenômeno bibliométrico da base WoS no tocante ao **Catar**. A presença deste país com uma média anômala de 203,0 citações por artigo é indicativa da presença de *seminal papers* ou macro-colaborações internacionais, na qual a publicação de um conjunto muito reduzido de trabalhos de altíssimo impacto distorce a média estatística nacional, evidenciando como publicações isoladas podem influenciar a percepção de impacto geográfico numa revisão sistemática <mark style="background-color: #ffb86c;">EU NAO CONSEGUI ACHAR ESSE TRABALHO. COMO POSSO FAZER A ENGENHARIA INVERSA E DESCOBRIR?</mark.
 
 ### 2.5.3. Instituições e Casos de Uso
 
-A análise institucional revela as organizações mais produtivas e influentes no campo. A Tabela 15 apresenta as principais instituições.
+A análise das afiliações institucionais permite rastrear os principais centros de desenvolvimento e aplicação prática das arquiteturas de dados a nível global. O cruzamento dos dados provenientes da Scopus e da *Web of Science* (WoS) evidencia a transição entre ambientes universitários de experimentação e grandes consórcios nacionais de investigação validada.
 
-**Tabela 15 - Top 10 Instituições por Produção (Scopus)**
+A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> apresenta as dez instituições mais produtivas em cada base de dados, expurgando ruídos de extração metodológica (como registos "Not Reported" ou nomes de departamentos genéricos).
 
-| Ranking | Instituição | País | Documentos |
-|---------|-------------|------|-------------|
-| 1 | Chinese Academy of Sciences | China | 234 |
-| 2 | Tsinghua University | China | 198 |
-| 3 | University of California | EUA | 156 |
-| 4 | IIT Delhi | Índia | 134 |
-| 5 | Zhejiang University | China | 123 |
-| 6 | Shanghai Jiao Tong University | China | 112 |
-| 7 | University of Cambridge | Reino Unido | 98 |
-| 8 | Technical University of Munich | Alemanha | 87 |
-| 9 | University of São Paulo | Brasil | 76 |
-| 10 | Peking University | China | 72 |
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Instituições mais produtivas: Scopus *vs.* Web of Science**
 
-As universidades chinesas dominam o ranking institucional, ocupando seis das dez primeiras posições. A **University of São Paulo (USP)** representa a principal instituição brasileira, demonstrando o papel do país no contexto da pesquisa internacional em Big Data e arquiteturas de dados.
+| Posição | Afiliação (Scopus) | Artigos | | Afiliação (WoS) | Artigos |
+| :---: | :--- | :---: | :---: | :--- | :---: |
+| **1º** | Jiangsu University | 23 | | Centre National de la Recherche Scientifique (CNRS) | 28 |
+| **2º** | Beihang University | 20 | | Chinese Academy of Sciences | 25 |
+| **3º** | Tongji University | 19 | | Catholic University of the Sacred Heart | 22 |
+| **4º** | Fondazione Policlinico A. Gemelli | 18 | | IRCCS Policlinico Gemelli | 21 |
+| **5º** | Tsinghua University | 17 | | Jiangsu University | 20 |
+| **6º** | Universidade do Minho | 17 | | Egyptian Knowledge Bank (EKB) | 17 |
+| **7º** | Wuhan University | 17 | | Tsinghua University | 16 |
+| **8º** | Politecnico di Milano | 16 | | Yonsei University | 15 |
+| **9º** | Univ. of Chinese Academy of Sciences | 14 | | Hassan II University of Casablanca | 13 |
+| **10º** | South China Univ. of Technology | 13 | | Universidade do Minho | 13 |
+
+A avaliação comparativa revela três fenómenos institucionais interessantes para a consolidação do referencial teórico:
+
+**I. O Domínio dos Megacentros Nacionais (O Eixo WoS):**
+Enquanto a Scopus apresenta um topo dominado por universidades tecnológicas asiáticas, a base WoS é liderada por megacentros de investigação financiados pelos respetivos Estados, nomeadamente o *CNRS* (França) e a *Chinese Academy of Sciences*.
+
+**II. Convergência em Domínios Críticos e Operacionais:**
+O mapeamento revela que o desenvolvimento de arquiteturas de *big data* não se restringe aos departamentos tradicionais de engenharia de *software*, estando fortemente enraizado em domínios de aplicação crítica. Salienta-se a liderança partilhada do complexo biomédico italiano (*Università Cattolica del Sacro Cuore* e o *IRCCS Policlinico Gemelli*) em ambas as bases. Em paralelo, a presença direta de entidades como o *United States Department of Defense* (presente no topo estendido da WoS com 9 publicações) atesta o caráter nevrálgico destas arquiteturas como motores primários para acelerar o processo de planeamento e condução de operações militares.
+
+**III. O Polo Ibérico de Referência:**
+Destaca-se a presença consistente da *Universidade do Minho* (Portugal), que figura no restrito núcleo de instituições que integram o topo da produtividade de ambas as bases (17 artigos na Scopus e 13 na WoS). Este dado confirma o estabelecimento de polos de excelência académica fora do eixo Sino-Americano, com forte capacidade de geração de impacto internacional.
 
 ## 2.6. Fundações Teóricas e Historiografia
 
 ### 2.6.1. Documentos Globais versus Locais
 
-A bibliometria distingue entre citações globais (provenientes de documentos fora do corpus analisado) e citações locais (provenientes de documentos dentro do corpus). Esta distinção permite avaliar tanto o reconhecimento externo quanto a coesão interna da comunidade de pesquisa.
+As Tabelas <mark style="background-color: #ffb86c;">XXXX</mark> apresentam os documentos com maior impacto local. Estes são os trabalhos que os próprios autores do portfólio desta revisão mais leram e referenciaram, constituindo o alicerce metodológico do tema.
 
- <mark style="background-color: #ffb86c;">MAIS UMA VEZ, OLHAR COM CARINHO ESSES DADOS</mark>.
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Top 5 Documentos com Maior Impacto Local (Scopus)**
 
-**Tabela 16 - Documentos com Maior Impacto Global (Scopus)**
+| Ranking | Título | Autores | Ano | Citações Locais |
+| :---: | :--- | :--- | :---: | :---: |
+| 1 | On data lake architectures and metadata management | Sawadogo, P.; Darmont, J. | 2020 | 20 |
+| 2 | An Overview of Data Warehouse and Data Lake in Modern Enterprise Data Management | Nambiar, A.; Mundra, D. | 2022 | 7 |
+| 3 | Data Lakehouse - a Novel Step in Analytics Architecture | Oreščanin, D.; Hlupić, T. | 2021 | 7 |
+| 4 | From Data Warehouse to Lakehouse: A Comparative Review | Harby, A. A.; Zulkernine, F. | 2022 | 6 |
+| 5 | IoT in smart farming analytics, big data based architecture | Ouafiq et al. | 2021 | 5 |
 
-| Ranking | Título | Autores | Citações Globais |
-|---------|--------|---------|------------------|
-| 1 | Delta Lake: High-Performance ACID Table Storage | Armbrust et al. | 847 |
-| 2 | Lakehouse: A New Generation of Open Platforms | Armbrust et al. | 692 |
-| 3 | Apache Iceberg: A Table Format for Large Data | Apache Foundation | 534 |
-| 4 | Data Lakes: From Raw Data to Actionable Insights | Singh & Singh | 423 |
-| 5 | A Survey of Data Lake Architecture | Khiat & Qadir | 387 |
 
-**Tabela 17 - Documentos com Maior Impacto Local (Scopus)**
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Top 5 Documentos com Maior Impacto Local (Web of Science)**
 
-| Ranking | Título | Autores | Citações Locais |
-|---------|--------|---------|-----------------|
-| 1 | A Comprehensive Survey of Data Lake | Hassan et al. | 156 |
-| 2 | Data Lake Architecture and Implementation | Singh et al. | 134 |
-| 3 | Security and Privacy in Data Lakes | Kumar & Sharma | 123 |
-| 4 | Data Lake Governance: A Framework | Chen & Wang | 112 |
-| 5 | Machine Learning for Data Lake Management | Li et al. | 98 |
+| Ranking | Título | Autores | Ano | Citações Locais |
+| :---: | :--- | :--- | :---: | :---: |
+| 1 | On data lake architectures and metadata management | Sawadogo, P.; Darmont, J. | 2020 | 41 |
+| 2 | An Overview of Data Warehouse and Data Lake in Modern Enterprise Data Management | Nambiar, A.; Mundra, D. | 2022 | 12 |
+| 3 | CEBA: A Data Lake for Data Sharing and Environmental Monitoring | Sarramia et al. | 2022 | 8 |
+| 4 | A Lakehouse Architecture for the Management and Analysis of Heterogeneous Data for Biomedical Research... | Begoli, E. et al. | 2021 | 5 |
+| 5 | Big Data Lakes: Models, Frameworks, and Techniques | Cuzzocrea, A. | 2021 | 5 |
 
-A análise comparativa demonstra que documentos com alto impacto global frequentemente são publicações recentes de empresas de tecnologia (Databricks, Apache Foundation), enquanto documentos com alto impacto local tendem a ser surveys e revisões que sintetizam a literatura existente.
+
+As tabelas demonstram uma convergência metodológica entre as duas bases de dados. O trabalho seminal de Sawadogo e Darmont (2020) lidera o impacto local em ambas as bases, comprovando a consistência dos autores que efetivamente contribuíram para o avanço da governança e dos metadados. Além disso, a presença recorrente de estudos sobre o paradigma de *Data Lakehouse* evidencia a transição mais significativa na literatura recente.
+
+Em contrapartida à coesão teórica local, as Tabelas <mark style="background-color: #ffb86c;">XXXX</mark> apresentam os documentos com maior impacto global. Estes artigos transcenderam o nicho específico do assunto pesquisado e tornaram-se referências adotadas por outras áreas do conhecimento.
+
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Top 5 Documentos com Maior Impacto Global (Scopus)**
+
+| Ranking | Título | Autores | Ano | Citações Globais |
+| :---: | :--- | :--- | :---: | :---: |
+| 1 | Making data platforms smarter with MOSES | Francia et al. | 2021 | 839 |
+| 2 | Monitoring inland water quality using remote sensing: potential and limitations of spectral indices... | Sagan et al. | 2020 | 562 |
+| 3 | A BIM-data mining integrated digital twin framework for advanced project management | Pan, Y.; Zhang, L. | 2021 | 437 |
+| 4 | Big data and IoT-based applications in smart environments: A systematic review | Hajjaji et al. | 2021 | 363 |
+| 5 | An Overview of IoT Sensor Data Processing, Fusion, and Analysis Techniques | Krishnamurthi et al. | 2020 | 350 |
+
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Top 5 Documentos com Maior Impacto Global (Web of Science)**
+
+| Ranking | Título | Autores | Ano | Citações Globais |
+| :---: | :--- | :--- | :---: | :---: |
+| 1 | Monitoring inland water quality using remote sensing: potential and limitations of spectral indices... | Sagan et al. | 2020 | 470 |
+| 2 | Artificial intelligence based anomaly detection of energy consumption in buildings... | Himeur et al. | 2021 | 400 |
+| 3 | Robust Target Recognition and Tracking of Self-Driving Cars With Radar and Camera Information Fusion... | Liu et al. | 2022 | 246 |
+| 4 | An Overview of IoT Sensor Data Processing, Fusion, and Analysis Techniques | Krishnamurthi et al. | 2020 | 225 |
+| 5 | A Big Data Architecture Design for Smart Grids Based on Random Matrix Theory | He et al. | 2017 | 222 |
+
+A análise conjunta entre os índices locais (Fundação Teórica) e globais (Aplicação Prática) evidencia um fenômeno convergente em ambas as bases. O impacto local está estritamente concentrado no desenvolvimento infraestrutural (como a transição de *Data Warehouses* para *Data Lakehouses*). Contudo, o impacto global é dominado pela aplicação destas arquiteturas como motores de inovação em outros setores.
+
+
+<mark style="background-color: #ffb86c;">acho que esse parágrafo abaixo viajou demais. CONFERIR NOVAMENTE</mark>
+
+A presença de documentos idênticos no topo global de ambas as bases — notadamente os estudos sobre monitoramento ambiental (Sagan et al.) e o processamento de dados de sensores (Krishnamurthi et al.) — atesta que a comunidade científica global não cita as arquiteturas de dados apenas pela sua abstração teórica, mas sobretudo pela sua capacidade de suportar tecnologias críticas emergentes, como Cidades Inteligentes, Gêmeos Digitais e Veículos Autónomos.
 
 ### 2.6.2. Historiografia e Fluxo do Conhecimento
 
