@@ -669,57 +669,177 @@ Segundo, o centro de gravidade da inovação deslocou-se integralmente para a ca
 
 ### 2.7.3. Tendências de Palavras-chave
 
-A análise de tendências revela a evolução temporal dos interesses de pesquisa. A Figura 14 apresenta as tendências identificadas.
+A### Tópicos de Tendência (*Trend Topics*): A Cronologia da Inovação
 
-![Figura 14 - Tendências de Palavras-chave](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig15_topicos_tendencia.png)
+A análise de *Trend Topics* expande o mapeamento temático ao introduzir a dimensão cronológica. O algoritmo posiciona os temas de maior relevância de acordo com o seu "Ano Mediano" (*Year Median*), indicando o ponto de saturação ou o momento de maior discussão de um conceito na comunidade científica. O cruzamento cronológico das bases Scopus e *Web of Science* (WoS) parece evidenciar uma convergência histórica, pautada por três ciclos evolutivos demarcados.
 
-**Tabela 19 - Evolução Temporal das Tendências**
+As Tabelas <mark style="background-color: #ffb86c;">XXXX</mark>, assim como os gráficos <mark style="background-color: #ffb86c;">XXXX</mark> apresentam a evolução cronológica dos principais termos na literatura, categorizados pelo seu momento de pico investigativo.
 
-| Período | Tendência Principal | Palavras-Chave Emergentes |
-|---------|---------------------|---------------------------|
-| 2016-2018 | Infraestrutura básica | Hadoop, MapReduce, Data Storage |
-| 2019-2021 | Consolidação e governança | Data Governance, Data Quality, Catalog |
-| 2021-2023 | Data Lakehouse | Delta Lake, Iceberg, Lakehouse |
-| 2023-2026 | IA e aplicações | Machine Learning, Real-time, Edge |
 
-A transição do paradigma de Data Lake para Data Lakehouse representa a tendência mais significativa do período recente. Esta evolução reflete a necessidade de combinar a flexibilidade do Data Lake com a estrutura e governança do Data Warehouse, habilitando aplicações analíticas avançadas e machine learning em escala.
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig15_topicos_tendencia.png" width="450">
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Evolução dos temas de pesquisa - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig15_topicos_tendencia.png" width="450">
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Evolução dos temas de pesquisa - base WoS</figcaption>
+  </figure>
+</div>
+
+
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Evolução Cronológica dos Temas de Pesquisa (Scopus)**
+
+| Ciclo Evolutivo | Período (Mediana) | Principais Tópicos de Tendência |
+| :--- | :---: | :--- |
+| **I. Infraestrutura Primária** | 2016 – 2019 | *Fast data, Map-reduce, Hadoop, Semantic web.* |
+| **II. Maturação Arquitetural** | 2020 – 2022 | *Data architectures, Big data, Lakes, Digital storage, Data lake.* |
+| **III. Era do Apoio à Decisão** | 2023 – 2026 | *Metadata, Internet of things, Decision making, Data fusion, Artificial intelligence, Explainable AI (XAI).* |
+
+
+
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Evolução Cronológica dos Temas de Pesquisa (Web of Science)**
+
+| Ciclo Evolutivo | Período (Mediana) | Principais Tópicos de Tendência |
+| :--- | :---: | :--- |
+| **I. Infraestrutura Primária** | 2016 – 2018 | *Fast data, Hadoop, Access control, Mapreduce.* |
+| **II. Maturação Arquitetural** | 2019 – 2022 | *Business intelligence, Big data architecture, Data lake, Data warehouse, Cloud computing.* |
+| **III. Era da Simulação Tática** | 2023 – 2025 | *Data integration, Machine learning, Data fusion, Artificial intelligence, Digital twin, Deep learning.* |
+
+
+A análise conjunta destas linhas temporais comprova o salto estrutural na área de tecnologias de informação. O primeiro ciclo (2016–2019) refletiu uma era onde a comunidade científica parecia estar estritamente focada no "como processar" (lidar com o volume massivo através do ecossistema *Hadoop/MapReduce*). O segundo ciclo (2019–2022) marca a fase onde a arquitetura de retenção — destacadamente o paradigma de *Data Lake* e *Cloud Computing* — atingiu a sua maturidade e estabilização metodológica, consolidando a forma "como armazenar e arquitetar".
+
+Contudo, a descoberta mais interessante reside no ciclo atual (2023 até o presente). Ambas as bases de dados registam o total desaparecimento de ferramentas de armazenamento na vanguarda das tendências investigativas, sendo categoricamente substituídas por tecnologias aplicadas: Tomada de Decisão (*Decision Making*), Fusão de Dados (*Data Fusion*), Inteligência Artificial (*AI/XAI*) e Gêmeos Digitais (*Digital Twins*).
+
+Este comportamento cronológico endossa a premissa de que a engenharia de dados consolidou o *Data Lake* como uma tecnologia transversal estabilizada. O esforço intelectual da vanguarda atual não reside em aperfeiçoar o "repositório", mas sim em aplicar esses dados governados para alimentar, em tempo real, modelos de predição e simulação de alto desempenho.
 
 ### 2.7.4. Palavras-chave Mais Frequentes
 
-A análise das palavras-chave mais frequentes oferece insight direto sobre os temas predominantes. A Figura 15 apresenta as palavras-chave mais comuns.
+A contagem de frequência absoluta das palavras-chave constitui a métrica mais direta para identificar a essência temática de um campo de pesquisa. A análise das palavras mais frequentes nas bases Scopus e *Web of Science* (WoS) parece confirmar quantitativamente a natureza quase inseparável entre a engenharia de dados e os ecossistemas de inteligência aplicada.
 
-![Figura 15 - Palavras-chave Mais Frequentes](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig12_palavras_mais_frequentes.png)
+A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> e os Gráficos <mark style="background-color: #ffb86c;">XXXX</mark> apresenta as 10 palavras mais frequentes de cada base de dados, expurgando ruídos de indexação, revelando os pilares de discussão da literatura.
 
-**Tabela 20 - Top 20 Palavras-chave (Scopus)**
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Palavras-chave Mais Frequentes: Scopus *vs.* Web of Science**
 
-| Ranking | Palavra-chave | Ocorrências |
-|---------|---------------|--------------|
-| 1 | Data Lake | 1.234 |
-| 2 | Big Data | 987 |
-| 3 | Data Warehouse | 765 |
-| 4 | Machine Learning | 654 |
-| 5 | Cloud Computing | 543 |
-| 6 | Data Integration | 432 |
-| 7 | Data Management | 398 |
-| 8 | Apache Spark | 367 |
-| 9 | Hadoop | 345 |
-| 10 | Data Quality | 312 |
-| 11 | ETL | 298 |
-| 12 | Business Intelligence | 276 |
-| 13 | Analytics | 254 |
-| 14 | Data Governance | 234 |
-| 15 | Artificial Intelligence | 223 |
-| 16 | Deep Learning | 198 |
-| 17 | Metadata | 187 |
-| 18 | Data Architecture | 176 |
-| 19 | IoT | 165 |
-| 20 | Real-time Processing | 154 |
+| Posição | Palavra-chave (Scopus) | Ocorrências | | Palavra-chave (WoS) | Ocorrências |
+| :---: | :--- | :---: | :---: | :--- | :---: |
+| **1º** | Decision making | 986 | | Big data | 323 |
+| **2º** | Big data | 949 | | Data lake | 139 |
+| **3º** | Data integration | 806 | | Machine learning | 84 |
+| **4º** | Information management | 534 | | Artificial intelligence | 74 |
+| **5º** | Artificial intelligence | 350 | | Data fusion | 74 |
+| **6º** | Machine learning | 333 | | Digital twin | 64 |
+| **7º** | Digital storage | 322 | | Internet | 63 |
+| **8º** | Data architectures | 316 | | Management | 61 |
+| **9º** | Data handling | 276 | | Challenges | 51 |
+| **10º** | Learning systems | 265 | | Deep learning | 51 |
 
-A convergência entre as palavras-chave mais frequentes nas bases Scopus e WoS é notável. **Data Lake**, **Big Data** e **Data Warehouse** dominam ambas as listas, confirmando a consistência dos achados. A presença de **Machine Learning** e **Artificial Intelligence** entre as dez primeiras indica a forte conexão entre arquiteturas de dados e aplicações de inteligência artificial.
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig12_palavras_mais_frequentes.png" width="450">
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Palavras mais frequentes - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig12_palavras_mais_frequentes.png" width="450">
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Palavras mais frequentes- base WoS</figcaption>
+  </figure>
+</div>
 
-## 2.8. Convergência entre as Bases de Dados
+A avaliação comparativa atesta uma convergência metodológica. Em ambas as bases, o vocabulário fundacional (como *Big Data*, *Data architectures*, *Digital storage* e *Data Lake*) divide equitativamente o topo da tabela com o vocabulário de aplicação avançada (como *Artificial intelligence*, *Machine learning*, *Deep learning* e *Digital twin*).
 
-### 2.8.1. Análise Comparativa Scopus versus Web of Science
+O aspeto mais revelador desta extração reside na coabitação direta entre o vocabulário fundacional e o de aplicação analítica. O termo *Big data* consolida-se como o denominador comum transversal à área, liderando as ocorrências na base WoS (323) e ocupando a segunda posição na Scopus (949). Contudo, a presença simultânea e volumosa de *Decision making* (que atinge o topo na Scopus com 986 ocorrências), em conjunto com a elevada frequência de *Data integration* e *Data fusion* em ambas as bases, reflete a dupla prioridade dos investigadores.
+
+Esta dinâmica lexical consolida a conclusão de que o amadurecimento das arquiteturas de dados contemporâneas não se esgota na modernização do armazenamento. Pelo contrário, o esforço da literatura evidencia uma transição clara: estruturar o grande volume de informação (*Big Data* / *Data Lake*) com o propósito específico de fundir dados heterogéneos em tempo real, fornecendo os alicerces necessários para modelação preditiva, simulação de Gêmeos Digitais e apoio avançado à tomada de decisão.
+
+## 2.8. Análise de Acoplamento e Cocitação
+
+### 2.8.1. Acoplamento Bibliográfico: Mapeamento das Frentes de Investigação
+
+A técnica de Acoplamento Bibliográfico (*Bibliographic Coupling*) agrupa publicações recentes com base na sobreposição das suas listas de referências, permitindo identificar os "colégios invisíveis" ou as frentes de pesquisa mais ativas na atualidade. A métrica avalia cada *cluster* pela sua Frequência (volume de artigos), Centralidade (grau de interligação com outras subáreas) e Impacto (influência das publicações no ecossistema de citações).
+
+A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> e os Gráficos <mark style="background-color: #ffb86c;">XXXX</mark> sumarizam as principais frentes de pesquisa identificadas na base Scopus e Web of Science, respectivamente.
+
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Frentes de Pesquisa por Acoplamento Bibliográfico (Scopus)**
+
+| Frente de Pesquisa (*Cluster*) | Foco Temático Principal | Artigos | Centralidade | Impacto |
+| :--- | :--- | :---: | :---: | :---: |
+| **Cluster 8** | *Data Lake, Big Data* | 64 | 0.47 | 5.37 |
+| **Cluster 2** | *Data Lakehouse, Big Data* | 33 | 0.46 | 2.42 |
+| **Cluster 3** | *Data Lake, Big Data* | 35 | 0.42 | 2.35 |
+| **Cluster 12** | *Data Lake, Metadata, Big Data* | 17 | 0.38 | 1.62 |
+| **Cluster 1** | *Big Data Architecture, Analytics* | 24 | 0.30 | 1.46 |
+| **Cluster 9** | *Deep Learning, Artificial Intelligence* | 15 | 0.35 | 1.00 |
+
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Frentes de Pesquisa por Acoplamento Bibliográfico (WoS)**
+
+| Frente de Pesquisa (*Cluster*) | Foco Temático Principal | Artigos | Centralidade | Impacto |
+| :--- | :--- | :---: | :---: | :---: |
+| **Cluster 4** | *Data Lake, Big Data* | 124 | 0.49 | 4.64 |
+| **Cluster 2** | *Big Data, Analytics, Data Lake* | 75 | 0.26 | 3.38 |
+| **Cluster 1** | *Digital Twin, Industry 4.0* | 42 | 0.39 | 1.45 |
+| **Cluster 3** | *Deep Learning, Agricultural Automation* | 9 | 0.19 | 1.00 |
+
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/Fig17_mapa_coupling_scopus.png" width="450">
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Análise de acoplamento - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig17_mapa_coupling_wos.png" width="450">
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Análise de acoplamento- base WoS</figcaption>
+  </figure>
+</div>
+
+O cruzamento do Acoplamento Bibliográfico das duas bases evidencia que o núcleo formador da comunidade permanece inabalável: o *cluster* fundacional (*Data Lake* e *Big Data*) lidera em volume, centralidade e impacto tanto na Scopus (Impacto: 5.37) quanto na WoS (Impacto: 4.64). Contudo, a periferia destas redes releva a bifurcação dos esforços de inovação.
+
+Na Scopus, a frente de pesquisa evolui numa vertente **arquitetural e de governança**. Destaca-se o surgimento de um *cluster* maduro focado na transição para o modelo de *Data Lakehouse* (Cluster 2) e um agrupamento dedicado exclusivamente ao tratamento de *Metadata* (Cluster 12), confirmando que a eliminação de *data swamps* permanece como um desafio ativo de engenharia de dados.
+
+Por outro lado, a WoS destaca uma vertente de pesquisa focada na aplicação prática na indústria. Observa-se que os autores utilizam a literatura base de arquitetura de dados para desenvolver soluções voltadas para a Indústria 4.0 e Gêmeos Digitais (Digital Twins, Cluster 1), o que lhes confere uma alta centralidade (0.39) nas discussões da rede.
+
+Esta análise atesta uma dupla convergência sistémica na literatura atual: enquanto um grupo de pesquisadores se especializa no refinamento tecnológico e estrutural do repositório (a mudança entre *Lake* e *Lakehouse*), outro grupo apropria-se destas infraestruturas para viabilizar simulações complexas de inteligência artificial em ambientes do mundo real, o que vai ao encontro das demandas atuais por arquiteturas de dados de alto desempenho.
+
+Ademais, a topologia gerada pelo Acoplamento Bibliográfico permite identificar quais são os autores e publicações que exercem maior influência sobre as frentes de pesquisa atuais. Através da métrica de Impacto Local Normalizado (*Normalized Local Citation Score* - NLCS), o algoritmo destaca os artigos com maior centralidade na formação dos "colégios invisíveis" do presente.
+
+A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> apresenta os documentos de maior impacto global nas redes de acoplamento de ambas as bases de dados.
+
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Autores com Maior Impacto na Rede de Acoplamento Bibliográfico (NLCS)**
+
+| Base de Dados | Documento (Autor, Ano, Periódico) | NLCS Global | Perfil de Atuação na Rede |
+| :--- | :--- | :---: | :--- |
+| **Scopus** | HAI, R. (2016). *Proc. ACM SIGMOD* | 21.10 | Fundação (Arquitetura Inteligente) |
+| **Scopus** | SAWADOGO, P. (2021). *J. Intell. Inform. Syst.* | 16.56 | Maturação (Metadados) |
+| **Scopus** | HAI, R. (2023). *IEEE Trans. Knowl. Data Eng.* | 15.01 | Vanguarda (*Lakehouse*) |
+| **Scopus** | ALSERAFI, A. (2016). *IEEE Int. Conf. Data Mining* | 10.26 | Fundação (Perfilamento de Dados) |
+| | | | |
+| **Web of Science**| SAWADOGO, P. (2021). *J. Intell. Inf. Syst.* | 24.50 | Maturação (Metadados) |
+| **Web of Science**| RAVAT, F. (2019). *Lect. Notes Comput. Sc.* | 12.05 | Fundação (Perspetivas de *Lakes*) |
+| **Web of Science**| GIEBLER, C. (2019). *Lect. Notes Comput. Sc.* | 10.12 | Fundação (Desafios do *Data Lake*) |
+| **Web of Science**| HAI, R. (2023). *IEEE Trans. Knowl. Data Eng.* | 9.81 | Vanguarda (*Lakehouse*) |
+
+
+A análise dos líderes de impacto no acoplamento bibliográfico revela um ecossistema de pesquisa guiado por uma dualidade temporal. Por um lado, as redes atuais ainda orbitam fortemente em torno dos trabalhos fundacionais. O artigo seminal de R. Hai (2016) na Scopus e o trabalho de consolidação de Sawadogo e Darmont (2021) — que atinge o topo na base WoS com um NLCS de 24.50 — provam que a estruturação de metadados e a governação de *Data Lakes* continuam a ser o referencial teórico obrigatório para os novos pesquisadores da área.
+
+Contudo, o aspeto mais promissor desta extração é a ascensão da publicação relativamente recente de R. Hai (2023). Apresentando um impacto normalizado de 15.01 na Scopus e 9.81 na WoS, este estudo focado nas novas funções dos sistemas de *Data Lakes* (e na transição para os *Lakehouses*) já se estabeleceu como o principal motor da vanguarda tecnológica. A presença de um artigo tão recente no topo geral da rede atesta que a literatura está adotando rapidamente novos paradigmas de infraestrutura, indicando o pesquisador R. Hai aparenta como um dos principais na área de arquiteturas de dados de alto desempenho desta década.
+
+### 2.8.2. Rede de Co-citação: As Raízes Intelectuais e Fundacionais
+
+Diferente do Acoplamento Bibliográfico — que mapeia a vanguarda e as tendências futuras —, a análise de Co-citação (*Co-citation Network*) atua numa perspetiva retrospetiva. O seu objetivo é identificar quais publicações clássicas do passado são frequentemente citadas em conjunto pela literatura atual. Este método permite reconstituir as "raízes intelectuais" ou a matriz teórica sobre a qual o campo de pesquisa contemporâneo está alicerçado.
+
+A avaliação das redes de co-citação nas bases Scopus e *Web of Science* (WoS) revela uma convergência interessante. Ambas as bases demonstram que a área não deriva de uma única linha de pensamento, mas sim da fusão de três grandes "escolas" teóricas distintas, conforme resumido na Tabela <mark style="background-color: #ffb86c;">XXXX</mark>.
+
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Matriz Teórica da Literatura (Análise de Co-citação Scopus e WoS)**
+
+| Escola Teórica / Foco | Autores Fundacionais Principais | Impacto e Significado |
+| :--- | :--- | :--- |
+| **I. Paradigmas de *Big Data* e Processamento** | Dean (2004), Gandomi (2015), Chen (2014), Marz (2015). | Representam os clássicos de processamento paralelo e armazenamento massivo. Forneceram a teoria matemática e estrutural (como o *MapReduce*) necessária para lidar com volume e variedade. |
+| **II. Definição e Governança de *Data Lakes*** | Dixon (2010), Fang (2015), Hai (2016), Sawadogo (2021). | A base estrutural específica deste estudo. Agrupa desde a primeira menção comercial do conceito (*Pentaho*/Dixon) até às propostas maduras de arquitetura inteligente e governação de metadados. |
+| **III. Simulação Cibernética e Indústria 4.0** | Grieves (2014), Kritzinger (2018), Tao (2019), Fuller (2020). | A raiz aplicada. Demonstra que a literatura de infraestrutura procura na engenharia de produção (Indústria 4.0) a sua base teórica para viabilizar os Gêmeos Digitais. |
+
+A análise conjunta destas raízes comprova que a base teórica das arquiteturas modernas é multidisciplinar. Fica evidente que as soluções atuais de dados não foram desenvolvidas exclusivamente por cientistas da computação focados apenas em armazenamento. Pelo contrário, a arquitetura atual nasceu da fusão entre o alto poder de processamento (Big Data, Escola I) e a necessidade das engenharias aplicadas de simular o mundo físico (Digital Twins, Escola III).
+
+## 2.9. Comparação final entre as bases de dados
+
+### 2.9.1. Análise Comparativa Scopus versus Web of Science
 
 A síntese comparativa das análises bibliométricas revela alto grau de convergência entre os resultados obtidos nas bases Scopus e Web of Science. A Tabela 21 apresenta a comparação sistemática.
 
@@ -735,7 +855,7 @@ A síntese comparativa das análises bibliométricas revela alto grau de converg
 | Tendência Principal | Data Lakehouse | Data Lakehouse | **Alta** |
 | Cluster Central | Data Lakehouse (71,4%) | Data Lakehouse (68,2%) | **Alta** |
 
-### 2.8.2. Pontos de Convergência
+### 2.9.2. Pontos de Convergência
 
 Os principais pontos de convergência entre as bases de dados são:
 
@@ -751,7 +871,7 @@ China, Estados Unidos e Índia lideram a produção científica em ambas as base
 **4. Fontes de Publicação:**
 Conferências IEEE (Big Data, Cloud Computing) e periódicos especializados (Journal of Big Data) são consistentemente as fontes mais produtivas em ambas as bases.
 
-### 2.8.3. Divergências Identificadas
+### 2.9.3. Divergências Identificadas
 
 Apesar da alta convergência, algumas divergências devem ser registradas:
 
@@ -764,7 +884,7 @@ O Brasil aparece em posição mais alta no Scopus (4º lugar, 8,1%) comparado ao
 **3. Média de Citações:**
 A média de citações por documento apresenta variações, com o WoSShowing valores ligeiramente superiores, possivelmente devido aoviés de seleção para periódicos de maior impacto.
 
-### 2.8.4. Implicações para o Projeto
+### 2.9.4. Implicações para o Projeto
 
 A convergência dos resultados bibliométricos oferece forte validação para a proposta de arquitetura de Data Lake do presente projeto de mestrado. Os achados confirmam que:
 
@@ -776,7 +896,7 @@ A convergência dos resultados bibliométricos oferece forte validação para a 
 
 4. **Autores como HAI RH, QUIX C e DARMONT J constituem referências teóricas essenciais** para a fundamentação do projeto.
 
-### 2.9. Funil de Seleção PRISMA
+### 2.10. Funil de Seleção PRISMA
 
 O processo de seleção seguiu o modelo PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses), documentando a progressiva refinamento do corpus de documentos analisados.
 
@@ -799,7 +919,7 @@ O processo de seleção seguiu o modelo PRISMA (Preferred Reporting Items for Sy
 - Scopus: 2.902 documentos (após refinamentos específicos da base)
 - Web of Science: 1.166 documentos
 
-### 2.10. Sugestões de Filtros para o Estágio 3
+### 2.11. Sugestões de Filtros para o Estágio 3
 
 Com base nos achados bibliométricos, sugerem-se os seguintes filtros para o Estágio 3 da metodologia TEMAC:
 
