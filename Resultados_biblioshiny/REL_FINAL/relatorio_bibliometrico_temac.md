@@ -85,9 +85,9 @@ A Tabela 1 apresenta a síntese dos resultados obtidos nas consultas iniciais à
 **Tabela 1 - Resultados Iniciais das Consultas por Base de Dados**
 
 | Base de Dados | Total de Registros Retornados | Período |
-|---------------|-------------------------------|---------|
-| Scopus        | 2.902                         | 2016-2026|
-| Web of Science| 1.166                         | 2016-2026|
+| ------------- | ----------------------------- | ------- |
+| Scopus        | 2.902                         | 2016-2026 |
+| Web of Science| 1.166                         | 2016-2026 |
 
 A diferença quantitativa entre as bases de dados reflete, provavelmente, as distintas políticas de indexação e cobertura de cada plataforma. Cabe destacar que a base SCOPUS tinha mais *Conference Papers* do que artigos, diferente da *Web of Science* que tinha uma base mais balanceada.
 
@@ -120,6 +120,7 @@ A construção das strings de busca seguiu os princípios da metodologia TEMAC, 
 ### 1.3.1. Eixos Temáticos e Termos Utilizados
 
 **Eixo 1 - Arquiteturas de Dados:**
+
 - Data Lake
 - Data Warehouse
 - Data Lakehouse
@@ -130,6 +131,7 @@ A construção das strings de busca seguiu os princípios da metodologia TEMAC, 
 - Data Management
 
 **Eixo 2 - Suporte para Decisão:**
+
 - Artificial Intelligence
 - Machine Learning
 - Deep Learning
@@ -138,6 +140,7 @@ A construção das strings de busca seguiu os princípios da metodologia TEMAC, 
 - Data Science
 
 **Eixo 3 - Comando e Controle:**
+
 - Command and Control
 - C2
 - Military Operations
@@ -164,7 +167,7 @@ A identificação de fontes alternativas de defesa (NATO C2COE, ICCRTS, MORS) de
 
 ---
 
-# Estágio 2: Síntese Comparativa da Análise Bibliométrica
+## Estágio 2: Síntese Comparativa da Análise Bibliométrica
 
 ## 2.1. Software para análise bibliométrica
 
@@ -237,7 +240,7 @@ A análise de *Citations* (citações) revela o impacto científico dos trabalho
 <div align="center">
   <figure>
     <img src="graficos_combinados/fig2_med_cit_anual_combinada.png" width="500">
-    <figcaption>Gráfico XXX. Quantidade média de citações por ano </figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Quantidade média de citações por ano </figcaption>
   </figure>
 </div>
 
@@ -308,22 +311,22 @@ A análise das fontes mais relevantes revela os principais veículos de publica�
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig3_fontes_mais_relevantes.png" width="450">
-    <figcaption>Gráfico Z. Fontes mais relevantes - base Scopus</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Fontes mais relevantes - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig3_fontes_mais_relevantes.png" width="450">
-    <figcaption>Gráfico W. Fontes mais relevantes - base WoS</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Fontes mais relevantes - base WoS</figcaption>
   </figure>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig16_impacto_fontes.png" width="450">
-    <figcaption>Gráfico X. Fontes mais impactantes - base Scopus</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Fontes mais impactantes - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig16_impacto_fontes.png" width="450">
-    <figcaption>Gráfico Y. Fontes mais impactantes - base WoS</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Fontes mais impactantes - base WoS</figcaption>
   </figure>
 </div>
 
@@ -349,22 +352,22 @@ A análise de relevância e impacto focada nos autores revela a dinâmica de aut
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 10px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig4_autores_mais_relevantes.png" width="450">
-    <figcaption>Gráfico Z. Autores mais produtivos - base Scopus</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais produtivos - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig4_autores_mais_relevantes.png" width="450">
-    <figcaption>Gráfico W. Autores mais produtivos - base WoS</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais produtivos - base WoS</figcaption>
   </figure>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig5_autores_mais_citados.png" width="450">
-    <figcaption>Gráfico Z. Autores mais citados localmente - base Scopus</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais citados localmente - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig5_autores_mais_citados.png" width="450">
-    <figcaption>Gráfico Y. Autores mais citados localmente - base WoS</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais citados localmente - base WoS</figcaption>
   </figure>
 </div>
 
@@ -372,11 +375,11 @@ A análise de relevância e impacto focada nos autores revela a dinâmica de aut
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig6_impacto_local_autores.png" width="450">
-    <figcaption>Gráfico X. Autores mais impactantes - base Scopus</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais impactantes - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig6_impacto_local_autores.png" width="450">
-    <figcaption>Gráfico Y. Autores mais impactantes - base WoS</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais impactantes - base WoS</figcaption>
   </figure>
 </div>
 
@@ -402,14 +405,14 @@ A Figura <mark style="background-color: #ffb86c;">XXXX</mark> apresentam a rede 
 <div align="center">
   <figure>
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig19_CollabNet_scopus.png" width="500">
-    <figcaption>Gráfico XXXX. Produção científica anual - base Scopus</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Produção científica anual - base Scopus</figcaption>
   </figure>
 </div>
 
 <div align="center">
   <figure>
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig23_colab_network_wos.png" width="500">
-    <figcaption>Gráfico YYYY. Produção científica anual - base WoS</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Produção científica anual - base WoS</figcaption>
   </figure>
 </div>
 
@@ -427,11 +430,11 @@ A distribuição geográfica da produção científica revela a liderança de de
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig8_paises_mais_produtivos.png" width="450">
-    <figcaption>Gráfico X. Produção por país - base Scopus</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Produção por país - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig8_paises_mais_produtivos.png" width="450">
-    <figcaption>Gráfico Y. Produção por país - base WoS</figcaption>
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Produção por país - base WoS</figcaption>
   </figure>
 </div>
 
@@ -530,9 +533,9 @@ As Tabelas <mark style="background-color: #ffb86c;">XXXX</mark> apresentam os do
 | 5 | Big Data Lakes: Models, Frameworks, and Techniques | Cuzzocrea, A. | 2021 | 5 |
 
 
-As tabelas demonstram uma convergência metodológica entre as duas bases de dados. O trabalho seminal de Sawadogo e Darmont (2020) lidera o impacto local em ambas as bases, comprovando a consistência dos autores que efetivamente contribuíram para o avanço da governança e dos metadados. Além disso, a presença recorrente de estudos sobre o paradigma de *Data Lakehouse* evidencia a transição mais significativa na literatura recente.
+As tabelas demonstram uma convergência metodológica entre as duas bases de dados. O trabalho seminal de Sawadogo e Darmont (2020) lidera o impacto local em ambas as bases, comprovando a consistência dos autores que efetivamente contribuíram para o avanço da governança e dos metadados. Além disso, a presença recorrente de estudos sobre o paradigma de *Data Lakehouse* evidencia a transição do conceito (*Data Lake*) na literatura recente.
 
-Em contrapartida à coesão teórica local, as Tabelas <mark style="background-color: #ffb86c;">XXXX</mark> apresentam os documentos com maior impacto global. Estes artigos transcenderam o nicho específico do assunto pesquisado e tornaram-se referências adotadas por outras áreas do conhecimento.
+Em contrapartida à coesão teórica local, as Tabelas <mark style="background-color: #ffb86c;">XXXX</mark> apresentam os documentos com maior impacto global. Estes artigos superam o nicho específico do assunto pesquisado e geralmente tornaram-se referências adotadas por outras áreas do conhecimento.
 
 **Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Top 5 Documentos com Maior Impacto Global (Scopus)**
 
@@ -563,53 +566,106 @@ A presença de documentos idênticos no topo global de ambas as bases — notada
 
 ### 2.6.2. Historiografia e Fluxo do Conhecimento
 
-A análise historiográfica permite visualizar a evolução temporal do campo e identificar os "clássicos" que influenciaram o desenvolvimento da pesquisa. A Figura 11 apresenta o mapa historiográfico.
+A análise historiográfica gerada pela técnica de mapeamento científico (Historiograph) permite reconstituir a linha do tempo e a evolução dos paradigmas intelectuais que formam um campo de pesquisa. Ao invés de analisar publicações isoladas, esta métrica identifica os "caminhos evolutivos", mapeando os artigos que serviram de alicerce teórico sequencial uns para os outros.
+Os Gráficos <mark style="background-color: #ffb86c;">XXXX e YYYY</mark>, mostram como o *Bibliometrix* montou o grafo para cada uma das bases de dados de estudo:
 
-![Figura 11 - Historiografia](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig22_Historiograph_scopus.png)
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig22_Historiograph_scopus.png" width="450">
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Grafo historiográfico - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig21_historiograph_wos.png" width="450">
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Grafo historiográfico - base WoS</figcaption>
+  </figure>
+</div>
 
-A historiografia revela uma progressão lógica no campo:
+A avaliação cronológica dos dados extraídos da Scopus e da *Web of Science* (WoS) evidencia uma convergência no percurso evolutivo das arquiteturas de dados, que pode ser categorizado em três marcos fundamentais:
 
-**Período Fundacional (2015-2017):**
-Trabalhos como os de HAI RH (2015) e FANG (2015) estabeleceram os conceitos básicos de Data Lake, definindo o paradigma como repositório centralizado de dados brutos em seu formato nativo.
+**I. A Fase Fundacional e o Desafio da Governança (2016)**
+O marco zero com relevância de impacto local no portfólio analisado ocorre em 2016. Em ambas as bases, o artigo seminal de R. Hai (*Constance: An Intelligent Data Lake System*) lidera a proposição de protótipos de sistemas de retenção de dados brutos. Simultaneamente, trabalhos pioneiros na Scopus (como o de A. Alserafi) e na WoS (como o de N. Miloslavskaya) evidenciaram a primeira grande "dor" da área: a constatação de que o armazenamento massivo e heterogéneo geraria os chamados "pântanos de dados" (*data swamps*) caso não fossem implementados modelos rigorosos de segurança e de perfilamento de metadados.
 
-**Período de Consolidação (2018-2020):**
-A pesquisa expandiu-se para questões de governança, qualidade de dados e integração. Autores como DARMONT J e QUIX C contribuíram significativamente para a sistematização do conhecimento.
+**II. A Fase Estrutural e a Adoção pela Indústria (2017 - 2019)**
+No biênio seguinte, o caminho evolutivo afasta-se da experimentação abstrata e concentra-se no delineamento de arquiteturas operacionais. A historiografia da WoS capta a transição do conceito para a indústria de larga escala, evidenciada pela documentação de arquiteturas hiperescaláveis globais, como a plataforma *Azure Data Lake* (Ramakrishnan et al., 2017). A literatura deste período reflete um esforço massivo na modelagem estrutural. Autores como Beheshti (2018) introduzem o conceito de *Knowledge Lakes* integrando grafos de conhecimento, enquanto pesquisadores como C. Giebler e F. Ravat (2019) assumem o papel de mapear e sintetizar o estado da arte e as perspetivas das camadas de gestão (Data Vaults e modelos de *ingestion*).
 
-**Período de Evolução (2021-2026):**
-O paradigma de Data Lakehouse emergiu como síntese entre Data Lake e Data Warehouse, incorporando capacidades analíticas avançadas. Os trabalhos de Armbrust et al. (2020, 2021) definiram esta nova abordagem.
+**III. A Consolidação Arquitetural e a Era do *Lakehouse* (2021 - Atualidade)**
+A trajetória histórica atinge o seu clímax metodológico atual no ano de 2021. Em ambas as bases, o caminho evolutivo converge de forma unânime para o trabalho de Sawadogo e Darmont (*On data lake architectures and metadata management*), que encapsula as discussões dos anos anteriores, validando o papel imprescindível dos metadados como o núcleo operacional da infraestrutura. Simultaneamente, este ano marca uma rutura evolutiva definitiva no percurso de publicações: a consolidação do conceito de *Data Lakehouse* (registado no historiograma da Scopus pelo trabalho de D. Oreščanin), que inaugura o novo paradigma de integração entre a flexibilidade dos *lakes* e o desempenho transacional dos armazéns de dados tradicionais.
 
 ## 2.7. Temática, Evolução de Palavras-chave e Tendências
 
 ### 2.7.1. Estruturação Temática pelos Clusters
 
-A análise de clusters permite identificar as principais temáticas abordadas na literatura e sua organização. O mapa de co-ocorrência de palavras (Co-Word Analysis) revela as relações entre termos e conceitos.
+### Estruturação Temática: Análise de Redes de Coocorrência de Palavras
 
-![Figura 12 - Mapa de Co-Word](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig21_CoWordNet_scopus.png)
+A análise de coocorrência de palavras (*keyword co-occurrence*) revela a estrutura conceitual do campo de pesquisa, permitindo identificar os principais subtemas e as suas interligações. Através de algoritmos de centralidade e agrupamento, as palavras são divididas em *clusters* (comunidades temáticas) que representam as frentes de investigação consolidadas na literatura.
 
-**Tabela 18 - Clusters Temáticos Identificados**
+A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> apresenta os *clusters* temáticos gerados a partir da base Scopus, evidenciando as 10 palavras-chave com maior centralidade na rede.
 
-| Cluster | Tema Central | Palavras-Chave | Documentos |
-|---------|--------------|----------------|------------|
-| 1 | Data Lakehouse | Data Lakehouse, Lakehouse, Delta Lake | 71,4% centralidade |
-| 2 | Big Data Analytics | Analytics, Hadoop, Spark, Processing | 64,2% centralidade |
-| 3 | Data Governance | Governance, Quality, Metadata, Catalog | 58,7% centralidade |
-| 4 | Cloud Computing | Cloud, AWS, Azure, Serverless | 52,3% centralidade |
-| 5 | Machine Learning | ML, Deep Learning, AI, Training Data | 48,6% centralidade |
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark>  – Estruturação Temática por *Clusters* (Scopus)**
 
-O cluster de **Data Lakehouse** apresenta a maior centralidade (71,4%), indicando que este paradigma representa a direção predominante da pesquisa atual. A convergência entre Data Lake, analytics e machine learning é evidente, sugerindo que a aplicação de inteligência artificial a dados massivos é um driver fundamental da evolução do campo.
+| Cluster | Foco Temático | Principais Palavras-chave |
+| :---: | :--- | :--- |
+| **1** | Aplicação Analítica e Decisão | *Decision making, Data integration, Machine learning, Artificial intelligence, Learning systems, Internet of things, Deep learning, Data fusion.* |
+| **2** | Infraestrutura e Gestão | *Big data, Information management, Digital storage, Data architectures, Data analytics, Lakes, Data handling, Data lake, Metadata, Data mining.* |
+
+A Tabela <mark style="background-color: #ffb86c;">XXXX</mark>  detalha a topologia conceitual da base *Web of Science* (WoS), demonstrando uma maior granularidade nas frentes de pesquisa em periódicos tradicionais.
+
+**Tabela <mark style="background-color: #ffb86c;">XXXX</mark>  – Estruturação Temática por *Clusters* (Web of Science)**
+
+| Cluster | Foco Temático | Principais Palavras-chave |
+| :---: | :--- | :--- |
+| **1** | Núcleo Arquitetural | *Big data, Data lake, Analytics, Data warehouse, Data management, Data architecture, Hadoop, Metadata, Big data analytics.* |
+| **2** | Modelação e Sensores | *Machine learning, Artificial intelligence, Data fusion, Deep learning, Digital twins, Sensors, Data models, Prediction.* |
+| **3** | Integração Industrial | *Management, Challenges, Framework, Digital twin, Architecture, Data integration, Industry 4.0, Systems.* |
+| **4** | Nuvem e Tempo Real | *Internet, Internet of things, Cloud computing, Real-time systems, Data analytics, Blockchain, Cloud.* |
+
+A partir dos resultados, pode-se perceber que houve uma convergência arquitetural entre ambas as bases de dados.
+
+Na base Scopus, a rede organiza-se de forma assumidamente bimodal, evidenciando a relação de causa e efeito da engenharia de dados: a **Infraestrutura** (Cluster 2: armazenamento, *data lakes* e metadados) construída para sustentar a **Inteligência** (Cluster 1: tomada de decisão, fusão de dados e *machine learning*).
+
+A base WoS, refletindo a maturação empírica dos estudos em periódicos consolidados, desdobra esta mesma premissa em quatro nichos especializados. O Núcleo Arquitetural (Cluster 1) permanece isolado como disciplina fundacional, mas a camada de aplicação fragmenta-se em necessidades específicas do mercado atual: (i) modelos de predição e fusão de dados em sensores (Cluster 2); (ii) a construção de *frameworks* organizacionais para a Indústria 4.0 e Gêmeos Digitais (Cluster 3); e (iii) os desafios de latência e processamento periférico em ecossistemas *IoT/Cloud* em tempo real (Cluster 4). 
+
+Portanto, a Scopus apresenta o paradigma em macro-nível: a separação entre a infraestrutura de dados (o Data Lake) e a camada de tomada de decisão. A Web of Science confirma exatamente este mesmo paradigma, mas detalha a camada de decisão. O núcleo do Data Lake permanece isolado como a fonte primária (Cluster 1 da WoS), enquanto a camada de tomada de decisão é destrinchada nas suas frentes de aplicação tática: processamento de sensores, integração de sistemas e análise em tempo real. Ambas as bases provam que a literatura trata a arquitetura de dados estritamente como a base sustentadora (o combustível) para operações inteligentes.
 
 ### 2.7.2. Mapa Temático Estratégico
 
-O mapa temático estratégico permite visualizar a distribuição dos temas em termos de desenvolvimento (eixo X) e densidade (eixo Y). A Figura 13 apresenta o mapa temático.
+A análise do Mapa Temático permite extrapolar a simples frequência de palavras e categorizar as frentes de pesquisa consoante a sua maturidade e relevância. A métrica divide o campo conceitual em quatro quadrantes: Temas Motores (Q1 - topo direito), Temas de Nicho (Q2 - topo esquerdo), Temas Emergentes ou em Declínio (Q3 - base esquerda) e Temas Básicos ou Transversais (Q4 - base direita).
 
-![Figura 13 - Mapa Temático](Resultados_biblioshiny/SCOPUS/analise_vs2/graficos_scopus_vs2/fig23_thematicmap_scopus.png)
+O mapa gerado pela base Scopus divide a literatura em 4 clusters que se distribuem perfeitamente pelos quatro quadrantes do plano:
 
-Os temas são classificados em quatro quadrantes:
+<div align="center">
+  <figure>
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig23_thematicmap_scopus.png" width="500">
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Mapa Temático - base Scopus</figcaption>
+  </figure>
+</div>
 
-- **Quadrante Superior Direito (Motor Themes):** Temas bem desenvolvidos e importantes para o campo (ex: Data Lake, Big Data)
-- **Quadrante Superior Esquerdo (Niche Themes):** Temas bem desenvolvidos mas isolados (ex: Metadata Management)
-- **Quadrante Inferior Direito (Emerging Themes):** Temas em desenvolvimento e promissores (ex: Data Lakehouse, Edge Computing)
-- **Quadrante Inferior Esquerdo (Declining Themes):** Temas em declínio ou transversais (ex: ETL tradicional)
+
+* **Temas Motores (Q1 - Alta Centralidade e Alta Densidade):** O *cluster* formado por *decision making*, *machine learning* e *learning systems* posiciona-se no núcleo de maior desenvolvimento. Isto comprova que a pesquisa de ponta já não se concentra apenas na ingestão de dados, mas sim no desenho de arquiteturas que acelerem ativamente os sistemas de recomendação.
+* **Temas de Nicho (Q2 - Baixa Centralidade e Alta Densidade):** O agrupamento focado em *artificial intelligence*, *human* e *decision support systems*. Por estar neste quadrante, conclui-se que o estudo do fator humano integrado à IA possui um altíssimo nível de desenvolvimento interno, mas opera num "silo" (nicho) isolado do resto da arquitetura geral de dados.
+* **Temas Emergentes (Q3 - Baixa Centralidade e Baixa Densidade):** O *cluster* que contém *data integration* e *digital twin* surge com indicadores mais brandos, evidenciando os primeiros sinais (ainda pouco densos na Scopus) de uma transição para, talvez, simulações cibernéticas.
+* **Temas Básicos/Transversais (Q4 - Alta Centralidade e Baixa Densidade):** O núcleo estrutural de *big data* e *information management*. São temas incontornáveis. Já não constituem uma novidade a ser desbravada, representando a tecnologia de base estabelecida.
+
+A base WoS captura um cenário com 5 *clusters*, refletindo uma especialização mais profunda da literatura:
+
+<div align="center">
+  <figure>
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig22_mapa_tematico_wos.png" width="500">
+    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Mapa Temático - base Scopus</figcaption>
+  </figure>
+</div>
+
+
+* **Temas Motores (Q1):** Os Gêmeos Digitais (*digital twin*, *data integration*) e a Modelação Algorítmica (*machine learning*, *artificial intelligence*). O conceito de Gêmeo Digital, que na Scopus era emergente, assumiu plenamente aqui o papel de motor primário das publicações.
+* **Temas de Nicho (Q2):** O 5º cluster identificado — caracterizado pelas palavras-chave impact, neural network e behavior — atinge a densidade máxima da base (23.57), mas a menor centralidade (0.21). Isto atesta a existência de pesquisas altamente especializadas que correlacionam redes neurais a análises de comportamento e impacto. Contudo, devido à sua baixíssima centralidade, as descobertas deste nicho metodológico operam à margem da literatura core de infraestruturas, não influenciando o desenho estrutural dos Data Lakes e Lakehouses.
+* **Temas Emergentes/Declínio (Q3):** Termos fundacionais como *big data*, *data lake* e *big data architecture* transitaram para o quadrante de baixa centralidade e densidade. Esta queda topológica evidencia o "efeito de saturação metodológica": a comunidade científica validou e estabilizou a construção do *Data Lake*, redirecionando o foco de inovação.
+* **Temas Básicos (Q4):** O cluster de *internet* e conectividade *IoT* consolida-se como o elemento transversal obrigatório que garante a captação ininterrupta de telemetria.
+
+O cruzamento das topologias temáticas nas duas bases de dados parece atestar o amadurecimento das infraestruturas analíticas. Verifica-se uma dupla convergência estrutural:
+
+Primeiro, a retenção isolada de dados puros (*Big Data* / *Data Lakes*) deslocou-se para os quadrantes inferiores (Básicos e em Declínio), cristalizando-se como "tecnologia resolvida". A comunidade parou de discutir *como armazenar* de forma genérica.
+
+Segundo, o centro de gravidade da inovação deslocou-se integralmente para a camada superior da infraestrutura. A presença dominante de sistemas focados na Tomada de Decisão e nos Gêmeos Digitais nos quadrantes Motores (Q1) — enquanto a IA puramente humana e comportamental se isolou nos Nichos (Q2) — indica que a eficácia de uma arquitetura atual é avaliada pela sua capacidade de suportar sistemas avançados de apoio à decisão
 
 ### 2.7.3. Tendências de Palavras-chave
 
