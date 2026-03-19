@@ -18,8 +18,6 @@ Este relatório está organizado em conformidade com a metodologia TEMAC (Techni
 
 A seleção das fontes de dados para a revisão sistemática da literatura fundamentou-se em critérios de abrangência, qualidade e adequação temática. Foram escolhidas duas bases de dados consolidadas no cenário acadêmico internacional: **Scopus** e **Web of Science (WoS)**. Esta escolha justifica-se por múltiplos fatores que garantem a robustez e a credibilidade dos resultados obtidos. Cabe observar que houve uma entativa inicial de se usar a base de dados **IEEE Xplore**, porém, como ela não disponibilizava a lista de referências, sua análise foi cancelada.
 
-<mark style="background-color: #ffb86c;">verificar essas explicacoes sobre cada base de dados</mark>
-
 O **Scopus**, mantido pela Elsevier, constitui a maior base de dados de citações e resumos de literatura revisada por pares, abrangendo mais de 24.000 títulos de periódicos científicos, milhões de artigos de conferências e milhões de patentes. A plataforma oferece cobertura multidisciplinar e permite acesso a métricas de citação detalhadas, sendo reconhecida como referência global para avaliação de produção científica.
 
 O **Web of Science**, gerenciado pela Clarivate Analytics, representa outra fonte primordial de metadados bibliográficos, com cobertura que abrange as coleções mais prestigiadas de periódicos científicos, incluindo o Science Citation Index Expanded (SCIE), o Social Sciences Citation Index (SSCI) e o Arts & Humanities Citation Index (AHCI). A plataforma é amplamente utilizada em estudos bibliométricos devido à qualidade de seus registros e à profundidade histórica de sua indexação.
@@ -53,15 +51,13 @@ A diferença quantitativa entre as bases de dados reflete, provavelmente, as dis
 
 **ICCRTS (International Command and Control Research and Technology Symposium)**: Os anais do ICCRTS representam uma fonte significativa de pesquisas no domínio de C2, com publicações que abordam diretamente a interseção entre tecnologia da informação e operações militares. Os metadados foram processados parcialmente, tendo em vista algunas inconsistências no formato de exportação.
 
-**MORS (Military Operations Research Society)**: A sociedade americana de pesquisa operacional militar pubrica estudos relevantes para o planejamento militar assistido por computador, embora a indexação seja limitada.
+**MORS (Military Operations Research Society)**: A sociedade americana de pesquisa operacional militar publica estudos relevantes para o planejamento militar assistido por computador, embora a indexação seja limitada.
 
-**Journal of Strategic Studies**: Periódico especializado em estudos estratégicos que публикует artigos relevantes para o contexto de Comando e Controle, embora a temática de Data Lake seja marginal nesta publicação.
+**Journal of Strategic Studies**: Periódico especializado em estudos estratégicos que publica artigos relevantes para o contexto de Comando e Controle, embora a temática de Data Lake seja marginal nesta publicação.
 
 **IEEE Xplore**: A base de dados IEEE Xplore foi consultada paralelamente, retornando um volume expressivo de artigos técnicos. No entanto, os metadados desta base apresentaram limitações para a análise bibliométrica completa, particularmente no que se refere às referências cited by.
 
 A não inclusão dessas fontes na análise bibliométrica quantitativa não invalida sua importância para o presente estudo. Elas servem como referência qualitativa e contextual, fortalecendo a fundamentação teórica e garantindo que a revisão sistemática considere também a literatura técnico-militar que, por suas características editoriais, não está presente nas bases de dados acadêmicas tradicionais.
-
-<mark style="background-color: #ffb86c;">Ler melhor sobre o detalhamento dessas bases depois</mark>
 
 ## 1.3. Estratégia de Busca: Palavras-Chave e Strings de Consulta
 
@@ -102,7 +98,7 @@ A construção das strings de busca seguiu os princípios da metodologia TEMAC, 
 
 O Apêndice A apresenta as strings de consulta utilizadas assim como a quantidade de trabalhos retornados tanto da base de dados *SCOPUS* quanto da base *Web of Science*.
 
-### 1.3.4. Critérios de Exclusão
+### 1.3.3. Critérios de Exclusão
 
 Como critério de exclusão, decidiu-se por trabalhos a partir de 2016. Para a base de dados *SCOPUS*, também retirou-se os livros, pois após uma avaliação prévia utilizando as ferramentas do Bibliometrix, percebeu-se que, nesta base de dados, tinha livros sem o devido referenciamento dos autores e que atrapalhava os resultados das análises.
 
@@ -146,7 +142,7 @@ A diferença quantitativa entre as bases de dados reflete, provavelmente, as dis
 
 ### 2.2.2. Evolução da Produção Científica
 
-A análise temporal da produção científica revela um crescimento sustentado e consistente no interesse pelo tema de Data Lakes ao longo do período analisado. Os Gráficos <mark style="background-color: #ffb86c;">XXXX</mark> ilustram a evolução da produção científica anual.
+A análise temporal da produção científica revela um crescimento sustentado e consistente no interesse pelo tema de Data Lakes ao longo do período analisado. O Gráfico 1 ilustra a evolução da produção científica anual.
 
 
 <div align="center">
@@ -165,13 +161,13 @@ Observa-se três fases distintas na evolução da produção:
 
 **Fase 3 (2022-2026) - Maturação e Especialização:** O período mais recente demonstra uma especialização crescente, com aplicações específicas em contextos como Comando e Controle militar, Internet das Coisas (IoT), edge computing e aplicações de Inteligência Artificial em tempo real. Esta fase é caracterizada pela integração de Data Lakes com tecnologias de machine learning e a emergence de arquiteturas distribuídas.
 
-<mark style="background-color: #ffb86c;">FAZER REFERENCIA AO HISTORIOGRAPH</mark>
+A análise historiográfica detalhada, que confirma e aprofunda estes três períodos evolutivos, é apresentada na Seção 2.6.2.
 
 ### 2.2.3. Impacto das Citações
 
 A análise de *Citations* (citações) revela o impacto científico dos trabalhos publicados. A diferença fundamental entre as métricas reside no escopo da base de dados considerada para a contagem: enquanto as citações globais representam o impacto total de um artigo em toda a plataforma de origem (como Web of Science ou Scopus), as citações locais contabilizam apenas as referências feitas por outros documentos que pertencem estritamente à sua amostra de pesquisa. Assim, as citações globais indicam o prestígio de uma obra na ciência em geral, enquanto as locais revelam quais trabalhos são as verdadeiras referências centrais e influentes dentro do nicho específico que você está analisando.
 
-Os gráficos <mark style="background-color: #ffb86c;">XXXX</mark> apresentam a distribuição de citações por ano.
+O Gráfico 2 apresenta a distribuição de citações por ano.
 
 <!-- <div align="center">
   <figure>
@@ -192,7 +188,7 @@ Os gráficos <mark style="background-color: #ffb86c;">XXXX</mark> apresentam a d
 <div align="center">
   <figure>
     <img src="graficos_combinados/fig2_med_cit_anual_combinada.png" width="500">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Quantidade média de citações por ano </figcaption>
+    <figcaption>Gráfico 2. Quantidade média de citações por ano </figcaption>
   </figure>
 </div>
 
@@ -259,28 +255,28 @@ Analisando as Zonas 2 e 3, nota-se um forte comportamento de assimetria à direi
 
 ### 2.3.2. Fontes Mais Relevantes com Maior Impacto
 
-A análise das fontes mais relevantes revela os principais veículos de publicação no campo de Data Lakes e arquiteturas de dados. O Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> apresenta as fontes mais produtivas.
+A análise das fontes mais relevantes revela os principais veículos de publicação no campo de Data Lakes e arquiteturas de dados. Os Gráficos 3, 4, 5 e 6 apresentam as fontes mais produtivas e mais impactantes.
 
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig3_fontes_mais_relevantes.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Fontes mais relevantes - base Scopus</figcaption>
+    <figcaption>Gráfico 3. Fontes mais relevantes - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig3_fontes_mais_relevantes.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Fontes mais relevantes - base WoS</figcaption>
+    <figcaption>Gráfico 4. Fontes mais relevantes - base WoS</figcaption>
   </figure>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig16_impacto_fontes.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Fontes mais impactantes - base Scopus</figcaption>
+    <figcaption>Gráfico 5. Fontes mais impactantes - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig16_impacto_fontes.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Fontes mais impactantes - base WoS</figcaption>
+    <figcaption>Gráfico 6. Fontes mais impactantes - base WoS</figcaption>
   </figure>
 </div>
 
@@ -294,7 +290,7 @@ Em contrapartida, a base *Web of Science* (WoS) demonstra um perfil mais conserv
 A tabela abaixo, apresenta a comparação entre as fontes de maiores impactos e as de maiores citações para cada base de dados.
 
 
-Tabela <mark style="background-color: #ffb86c;">XXXX</mark> - Comparação entre as fontes por quantidade de publicações, total de citações e impacto - Scopus.
+Tabela 7 - Comparação entre as fontes por quantidade de publicações, total de citações e impacto - Scopus.
 
 | Fonte | Artigos | Total Citações | h-index | Critérios de Impacto |
 | :---- | :---- | :---- | :---- | :---- |
@@ -305,7 +301,7 @@ Tabela <mark style="background-color: #ffb86c;">XXXX</mark> - Comparação entre
 | Sensors | 24 | 273 | 9 | Alto impacto |
 | Sustainability | 16 | 391 | 9 | Alto impacto |
 
-Tabela <mark style="background-color: #ffb86c;">XXXX</mark> - Comparação entre as fontes por quantidade de publicações, total de citações e impacto - WoS.
+Tabela 8 - Comparação entre as fontes por quantidade de publicações, total de citações e impacto - WoS.
 
 | Fonte | Artigos | Total Citações | h-index | Critérios de Impacto |
 | :---- | :---- | :---- | :---- | :---- |
@@ -329,22 +325,22 @@ A análise de relevância e impacto focada nos autores revela a dinâmica de aut
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 10px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig4_autores_mais_relevantes.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais produtivos - base Scopus</figcaption>
+    <figcaption>Gráfico 7. Autores mais produtivos - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig4_autores_mais_relevantes.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais produtivos - base WoS</figcaption>
+    <figcaption>Gráfico 8. Autores mais produtivos - base WoS</figcaption>
   </figure>
 </div>
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig5_autores_mais_citados.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais citados localmente - base Scopus</figcaption>
+    <figcaption>Gráfico 9. Autores mais citados localmente - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig5_autores_mais_citados.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais citados localmente - base WoS</figcaption>
+    <figcaption>Gráfico 10. Autores mais citados localmente - base WoS</figcaption>
   </figure>
 </div>
 
@@ -352,11 +348,11 @@ A análise de relevância e impacto focada nos autores revela a dinâmica de aut
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig6_impacto_local_autores.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais impactantes - base Scopus</figcaption>
+    <figcaption>Gráfico 11. Autores mais impactantes - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig6_impacto_local_autores.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Autores mais impactantes - base WoS</figcaption>
+    <figcaption>Gráfico 12. Autores mais impactantes - base WoS</figcaption>
   </figure>
 </div>
 
@@ -370,10 +366,27 @@ Destaca-se, em especial, o pesquisador **J. Darmont**, que na base WoS figura si
 
 Para a condução do presente trabalho, esta convergência entre as bases atua como um validador de qualidade metodológica da pesquisa TEMAC. Recomenda-se que as obras destes autores centrais (Quix, Hai e Darmont) sejam consideradas leitura obrigatória e leitura basilar (*seminal papers*) para a construção do referencial teórico desta dissertação.
 
-Para finalizar, cabe destacar também - com relação à base de dados WoS -, a importância de CHONG AYL, com publicações nas áreas de "Quality and Supply Management", "Sustainable Supply Chain Management", "Technology adoption and user behaviour", "Digital Marketing and Social Media" e "Costumer Service Quality and Loyalty", sendo considerado um autor impactante (h=4) com 321 citações.
+Para finalizar, cabe destacar uma anomalia identificada na base de dados WoS: a presença de **CHONG AYL** com 321 citações e h-index local igual a 4. Suas áreas de atuação — "Quality and Supply Management", "Sustainable Supply Chain Management", "Technology adoption and user behaviour", "Digital Marketing and Social Media" e "Customer Service Quality and Loyalty" — não possuem relação direta com o tema central de Data Lakes. Sua presença na rede é provavelmente um artefato da metodologia de busca: a string de consulta capturou artigos de coautores brasileiros que, por sua vez, citaram obras de CHONG AYL em contextos de gestão e adoção de tecnologia. Recomenda-se interpretar sua posição na rede com ressalva metodológica, uma vez que não constitui referência central para a fundamentação teórica desta dissertação.
 
 
-### 2.4.2. Redes de Colaboração
+### 2.4.2. Lei de Lotka: Distribuição da Produtividade dos Autores
+
+A Lei de Lotka descreve a relação inversa entre produtividade e quantidade de autores: poucos autores publicam muitos trabalhos, enquanto a maioria publica poucos. A lei original prediz que o número de autores com *n* publicações é proporcional a 1/*n*², de modo que aproximadamente 6% dos autores respondem por metade da produção de um campo.
+
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig13_lei_lotka.png" width="450">
+    <figcaption>Gráfico 27. Lei de Lotka - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig13_lei_lotka.png" width="450">
+    <figcaption>Gráfico 28. Lei de Lotka - base WoS</figcaption>
+  </figure>
+</div>
+
+Em ambas as bases, a distribuição da produtividade dos autores segue o padrão previsto pela lei. A grande maioria dos pesquisadores (superior a 80%) contribuiu com apenas 1 ou 2 publicações no período analisado, enquanto um grupo restrito de autores altamente produtivos (como ZHANG Y e QUIX C) concentram dezenas de trabalhos. Esta assimetria confirma a existência de uma elite científica reduzida que ancora o campo — achado coerente com os resultados da seção 2.4.1, onde os autores de alto impacto local se concentram em poucos nomes convergentes entre as duas bases.
+
+### 2.4.3. Redes de Colaboração
 
 A visualização das redes de coautoria foi estruturada com base na Teoria dos Grafos e na extração de matrizes de coocorrência a partir dos metadados bibliográficos. Nestas representações, os autores (pesquisadores) são modelados como vértices (nós) de um grafo não direcionado. A dimensão de cada nó é diretamente proporcional à produtividade absoluta do autor, refletindo o número total de artigos de sua autoria presentes no portfólio de análise.
 
@@ -381,19 +394,19 @@ As relações de colaboração científica são representadas pelas arestas (lin
 
 
 
-As Figuras <mark style="background-color: #ffb86c;">XXXX</mark> apresentam as redes de colaboração para as bases Scopus e WoS, respectivamente.
+Os Gráficos 13 e 14 apresentam as redes de colaboração para as bases Scopus e WoS, respectivamente.
 
 <div align="center">
   <figure>
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig19_CollabNet_scopus.png" width="500">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Produção científica anual - base Scopus</figcaption>
+    <figcaption>Gráfico 13. Rede de colaboração - base Scopus</figcaption>
   </figure>
 </div>
 
 <div align="center">
   <figure>
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig23_colab_network_wos.png" width="500">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Produção científica anual - base WoS</figcaption>
+    <figcaption>Gráfico 14. Rede de colaboração - base WoS</figcaption>
   </figure>
 </div>
 
@@ -401,9 +414,9 @@ A análise visual dos grafos revela uma divergência topológica entre elas. Na 
 
 Em contrapartida, a rede gerada a partir da Web of Science (WoS) apresenta-se altamente fragmentada. Ao priorizar periódicos tradicionais de alto rigor e filtrar a maior parte dos anais de eventos, a WoS pode estar removendo as "pontes" colaborativas temporárias. Esse fenômeno evidencia que a pesquisa consolidada e de longa maturação na área de estudo ainda ocorre de forma compartimentada.
 
-Longe de ser uma mera inferência visual, este comportamento de fragmentação em silos isolados (Gráfico <mark style="background-color: #ffb86c;">XXXX</mark>) é comprovado matematicamente pela análise estrutural da rede (Tabela <mark style="background-color: #ffb86c;">XXXX</mark>). A métrica de centralidade de intermediação (Betweenness), que indica o grau em que um pesquisador atua como ponte entre diferentes grupos, é igual a zero para 94,7% dos nós principais (36 de 38 autores). Os únicos nós com Betweenness maior que zero (Zhao Y e Wang S) atuam como pontes exclusivamente dentro do seu próprio agrupamento (Cluster 4). A ausência total de pontes inter-clusters comprova que não há coautoria cruzando as diferentes comunidades.
+Longe de ser uma mera inferência visual, este comportamento de fragmentação em silos isolados (Gráfico 14) é comprovado matematicamente pela análise estrutural da rede (Tabela 9). A métrica de centralidade de intermediação (Betweenness), que indica o grau em que um pesquisador atua como ponte entre diferentes grupos, é igual a zero para 94,7% dos nós principais (36 de 38 autores). Os únicos nós com Betweenness maior que zero (Zhao Y e Wang S) atuam como pontes exclusivamente dentro do seu próprio agrupamento (Cluster 4). A ausência total de pontes inter-clusters comprova que não há coautoria cruzando as diferentes comunidades.
 
-Tabela <mark style="background-color: #ffb86c;">XXXX</mark> - Estatísticas de rede para WoS.
+Tabela 9 - Estatísticas de rede para WoS.
 
 | Node | Cluster | Betweenness | Closeness | PageRank |
 | :---- | :---- | :---- | :---- | :---- |
@@ -462,16 +475,16 @@ Por fim, vale ressaltar que, apesar do isolamento em relação ao panorama globa
 
 ### 2.5.1. Países Dominantes
 
-A distribuição geográfica da produção científica revela a liderança de determinados países no campo de estudo. A Figura  <mark style="background-color: #ffb86c;">XXXX</mark> apresenta os países mais produtivos.
+A distribuição geográfica da produção científica revela a liderança de determinados países no campo de estudo. Os Gráficos 15 e 16 apresentam os países mais produtivos.
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig8_paises_mais_produtivos.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Produção por país - base Scopus</figcaption>
+    <figcaption>Gráfico 15. Produção por país - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig8_paises_mais_produtivos.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Produção por país - base WoS</figcaption>
+    <figcaption>Gráfico 16. Produção por país - base WoS</figcaption>
   </figure>
 </div>
 
@@ -483,10 +496,10 @@ A presença do **Brasil** entre os treze primeiros países, em ambas as bases, p
 
 A análise do impacto científico distribuído geograficamente permite compreender a geopolítica do desenvolvimento do assunto em estudo. A avaliação das bases Scopus e *Web of Science* (WoS) evidencia uma clara convergência no que tange aos polos de liderança mundial em pesquisa, ao mesmo tempo que reforça o paradoxo entre volume produtivo e efetividade científica.
 
-A Tabela <mark style="background-color: #ffb86c;">XXXX</mark>  consolida os indicadores de impacto geográfico, contrastando o Total de Citações (TC) acumuladas pelo país e a Média de Citações por Artigo, métrica que revela o impacto real (qualitativo) da produção de cada nação.
+A Tabela 10 consolida os indicadores de impacto geográfico, contrastando o Total de Citações (TC) acumuladas pelo país e a Média de Citações por Artigo, métrica que revela o impacto real (qualitativo) da produção de cada nação.
 
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark>  – Impacto Científico por País: Scopus *vs.* Web of Science**
+**Tabela 10 – Impacto Científico por País: Scopus *vs.* Web of Science**
 
 | País | Total de Citações <br> (Scopus) | Média por Artigo <br> (Scopus) | Total de Citações <br> (WoS) | Média por Artigo <br> (WoS) |
 | :--- | :---: | :---: | :---: | :---: |
@@ -507,7 +520,7 @@ Ao analisar os dados, constata-se uma convergência no eixo de volume: em ambas 
 
 A verdadeira convergência de impacto metodológico (qualitativo) concentra-se no eixo Estados Unidos, Europa e Oceania. Países como a Austrália (média de 33,9 na Scopus e 23,3 na WoS), Espanha e Reino Unido apresentam uma produção absoluta menor, mas com índices de citação por trabalho expressivos. Isso demonstra que as publicações advindas destas nações aparentam ser mais maduras, consolidadas e frequentemente utilizadas como base do assunto em estudo.
 
-Por fim, destaca-se o fenômeno bibliométrico da base WoS no tocante ao **Catar**. A presença deste país com uma média anômala de 203,0 citações por artigo é indicativa da presença de *seminal papers* ou macro-colaborações internacionais, na qual a publicação de um conjunto muito reduzido de trabalhos de altíssimo impacto distorce a média estatística nacional, evidenciando como publicações isoladas podem influenciar a percepção de impacto geográfico numa revisão sistemática <mark style="background-color: #ffb86c;">EU NAO CONSEGUI ACHAR ESSE TRABALHO. COMO POSSO FAZER A ENGENHARIA INVERSA E DESCOBRIR?</mark.
+Por fim, destaca-se o fenômeno bibliométrico da base WoS no tocante ao **Catar**. A presença deste país com uma média anômala de 203,0 citações por artigo é indicativa da presença de *seminal papers* ou macro-colaborações internacionais, na qual a publicação de um conjunto muito reduzido de trabalhos de altíssimo impacto distorce a média estatística nacional, evidenciando como publicações isoladas podem influenciar a percepção de impacto geográfico numa revisão sistemática. A identificação precisa deste(s) documento(s) constitui uma limitação dos dados exportados; recomenda-se consulta direta à base WoS com filtro de afiliação "Qatar" ordenado por citações decrescentes para identificação futura.
 
 ### 2.5.3. Panorama das Contribuições Brasileiras
 
@@ -542,6 +555,8 @@ Destaca-se a forte coesão e predominância da **PUCRS** entre os autores brasil
 
 **Documentos Mais Citados Globalmente**
 
+> **Nota metodológica**: A listagem abaixo representa os documentos mais citados globalmente dentre aqueles cujos autores possuem afiliação brasileira na amostra coletada. Alguns registros (ex: SIDHU N e BRITO-ZERÓN P) pertencem a domínios não relacionados ao tema central — sensoriamento remoto e reumatologia, respectivamente — o que indica que a busca por afiliação capturou co-autores brasileiros em artigos multidisciplinares. Esses registros não devem ser incorporados ao referencial teórico da dissertação.
+
 | Referência (Paper) | DOI | Total Citações (TC) | TC por Ano | TC Norm. |
 | :--- | :--- | :---: | :---: | :---: |
 | SIDHU N, 2018, EUROPEAN J REMOTE SENS | `10.1080/22797254.2018.1451782` | 187 | 20.78 | 2.06 |
@@ -573,9 +588,9 @@ A análise das palavras-chave mais frequentes revela que as pesquisas estão for
 
 A análise das afiliações institucionais permite rastrear os principais centros de desenvolvimento e aplicação prática das arquiteturas de dados a nível global. O cruzamento dos dados provenientes da Scopus e da *Web of Science* (WoS) evidencia a transição entre ambientes universitários de experimentação e grandes consórcios nacionais de investigação validada.
 
-A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> apresenta as dez instituições mais produtivas em cada base de dados, expurgando ruídos de extração metodológica (como registos "Not Reported" ou nomes de departamentos genéricos).
+A Tabela 11 apresenta as dez instituições mais produtivas em cada base de dados, expurgando ruídos de extração metodológica (como registos "Not Reported" ou nomes de departamentos genéricos).
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Instituições mais produtivas: Scopus *vs.* Web of Science**
+**Tabela 11 – Instituições mais produtivas: Scopus *vs.* Web of Science**
 
 | Posição | Afiliação (Scopus) | Artigos | | Afiliação (WoS) | Artigos |
 | :---: | :--- | :---: | :---: | :--- | :---: |
@@ -605,9 +620,9 @@ Destaca-se a presença consistente da *Universidade do Minho* (Portugal), que fi
 
 ### 2.6.1. Documentos Globais versus Locais
 
-As Tabelas <mark style="background-color: #ffb86c;">XXXX</mark> apresentam os documentos com maior impacto local. Estes são os trabalhos que os próprios autores do portfólio desta revisão mais leram e referenciaram, constituindo o alicerce metodológico do tema.
+As Tabelas 12 e 13 apresentam os documentos com maior impacto local. Estes são os trabalhos que os próprios autores do portfólio desta revisão mais leram e referenciaram, constituindo o alicerce metodológico do tema.
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Top 5 Documentos com Maior Impacto Local (Scopus)**
+**Tabela 12 – Top 5 Documentos com Maior Impacto Local (Scopus)**
 
 | Ranking | Título | Autores | Ano | Citações Locais |
 | :---: | :--- | :--- | :---: | :---: |
@@ -618,7 +633,7 @@ As Tabelas <mark style="background-color: #ffb86c;">XXXX</mark> apresentam os do
 | 5 | IoT in smart farming analytics, big data based architecture | Ouafiq et al. | 2021 | 5 |
 
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Top 5 Documentos com Maior Impacto Local (Web of Science)**
+**Tabela 13 – Top 5 Documentos com Maior Impacto Local (Web of Science)**
 
 | Ranking | Título | Autores | Ano | Citações Locais |
 | :---: | :--- | :--- | :---: | :---: |
@@ -629,11 +644,24 @@ As Tabelas <mark style="background-color: #ffb86c;">XXXX</mark> apresentam os do
 | 5 | Big Data Lakes: Models, Frameworks, and Techniques | Cuzzocrea, A. | 2021 | 5 |
 
 
-As tabelas demonstram uma convergência metodológica entre as duas bases de dados. O trabalho seminal de Sawadogo e Darmont (2020) lidera o impacto local em ambas as bases, comprovando a consistência dos autores que efetivamente contribuíram para o avanço da governança e dos metadados. Além disso, a presença recorrente de estudos sobre o paradigma de *Data Lakehouse* evidencia a transição do conceito (*Data Lake*) na literatura recente.
+Os Gráficos 29 e 30 complementam as tabelas ao visualizar a distribuição completa das referências locais mais citadas, permitindo identificar a "cauda longa" dos documentos de suporte ao campo.
 
-Em contrapartida à coesão teórica local, as Tabelas <mark style="background-color: #ffb86c;">XXXX</mark> apresentam os documentos com maior impacto global. Estes artigos superam o nicho específico do assunto pesquisado e geralmente tornaram-se referências adotadas por outras áreas do conhecimento.
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
+  <figure style="text-align: center; margin: 0;">
+    <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig24_Referencias_Locais_Citadas_Importantes.png" width="450">
+    <figcaption>Gráfico 29. Referências locais mais citadas - base Scopus</figcaption>
+  </figure>
+  <figure style="text-align: center; margin: 0;">
+    <img src="../WoS/analise_vs1/graficos_wos_vs1/fig24_Referencias_Locais_Citadas_Importantes.png" width="450">
+    <figcaption>Gráfico 30. Referências locais mais citadas - base WoS</figcaption>
+  </figure>
+</div>
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Top 5 Documentos com Maior Impacto Global (Scopus)**
+As tabelas e gráficos demonstram uma convergência metodológica entre as duas bases de dados. O trabalho seminal de Sawadogo e Darmont (2020) lidera o impacto local em ambas as bases, comprovando a consistência dos autores que efetivamente contribuíram para o avanço da governança e dos metadados. Além disso, a presença recorrente de estudos sobre o paradigma de *Data Lakehouse* evidencia a transição do conceito (*Data Lake*) na literatura recente.
+
+Em contrapartida à coesão teórica local, as Tabelas 14 e 15 apresentam os documentos com maior impacto global. Estes artigos superam o nicho específico do assunto pesquisado e geralmente tornaram-se referências adotadas por outras áreas do conhecimento.
+
+**Tabela 14 – Top 5 Documentos com Maior Impacto Global (Scopus)**
 
 | Ranking | Título | Autores | Ano | Citações Globais |
 | :---: | :--- | :--- | :---: | :---: |
@@ -643,7 +671,7 @@ Em contrapartida à coesão teórica local, as Tabelas <mark style="background-c
 | 4 | Big data and IoT-based applications in smart environments: A systematic review | Hajjaji et al. | 2021 | 363 |
 | 5 | An Overview of IoT Sensor Data Processing, Fusion, and Analysis Techniques | Krishnamurthi et al. | 2020 | 350 |
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Top 5 Documentos com Maior Impacto Global (Web of Science)**
+**Tabela 15 – Top 5 Documentos com Maior Impacto Global (Web of Science)**
 
 | Ranking | Título | Autores | Ano | Citações Globais |
 | :---: | :--- | :--- | :---: | :---: |
@@ -656,9 +684,7 @@ Em contrapartida à coesão teórica local, as Tabelas <mark style="background-c
 A análise conjunta entre os índices locais (Fundação Teórica) e globais (Aplicação Prática) evidencia um fenômeno convergente em ambas as bases. O impacto local está estritamente concentrado no desenvolvimento infraestrutural (como a transição de *Data Warehouses* para *Data Lakehouses*). Contudo, o impacto global é dominado pela aplicação destas arquiteturas como motores de inovação em outros setores.
 
 
-<mark style="background-color: #ffb86c;">acho que esse parágrafo abaixo viajou demais. CONFERIR NOVAMENTE</mark>
-
-A presença de documentos idênticos no topo global de ambas as bases — notadamente os estudos sobre monitoramento ambiental (Sagan et al.) e o processamento de dados de sensores (Krishnamurthi et al.) — atesta que a comunidade científica global não cita as arquiteturas de dados apenas pela sua abstração teórica, mas sobretudo pela sua capacidade de suportar tecnologias críticas emergentes, como Cidades Inteligentes, Gêmeos Digitais e Veículos Autónomos.
+A convergência observada entre as duas bases — com estudos aplicados de alta citação global, como os de monitoramento ambiental (Sagan et al.) e processamento de dados de sensores IoT (Krishnamurthi et al.) — evidencia que arquiteturas de dados são valorizadas pela comunidade científica não apenas como abstração infraestrutural, mas como habilitadoras de tecnologias emergentes, incluindo Cidades Inteligentes e Gêmeos Digitais.
 
 ### 2.6.2. Historiografia e Fluxo do Conhecimento
 
@@ -666,16 +692,16 @@ A análise historiográfica gerada pela técnica de mapeamento científico (Hist
 
 O grafo histórico foi construído utilizando exclusivamente os dados de citações locais diretas. Isso significa que uma aresta (linha) só é traçada se um documento da nossa amostra cita diretamente outro documento também presente na amostra. A topologia do grafo baseia-se na precedência de ano, estruturando os nós (artigos) em um eixo horizontal cronológico da esquerda para a direita. A intensidade e a relevância de cada trabalho são representadas graficamente pelo tamanho dos nós: vértices maiores possuem um maior Local Citation Score (LCS), indicando que são os trabalhos mais lidos e referenciados pela própria comunidade que pesquisa o tema.
 
-Os Gráficos <mark style="background-color: #ffb86c;">XXXX e YYYY</mark> mostram como o grafo foi montado para cada uma das bases de dados de estudo:
+Os Gráficos 17 e 18 mostram como o grafo foi montado para cada uma das bases de dados de estudo:
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig22_Historiograph_scopus.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Grafo historiográfico - base Scopus</figcaption>
+    <figcaption>Gráfico 17. Grafo historiográfico - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig21_historiograph_wos.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Grafo historiográfico - base WoS</figcaption>
+    <figcaption>Gráfico 18. Grafo historiográfico - base WoS</figcaption>
   </figure>
 </div>
 
@@ -695,18 +721,18 @@ Sua relevância qualitativa explica esse fenômeno numérico: trabalhos pioneiro
 
 A análise de coocorrência de palavras-chave (keyword co-occurrence) revela a estrutura conceitual do campo de pesquisa, evidenciando que a área não é homogênea, mas organiza-se em grandes agrupamentos (clusters) temáticos interdependentes. Através de algoritmos de centralidade, as palavras são divididas em comunidades que representam as frentes de investigação consolidadas na literatura.
 
-A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> apresenta os clusters temáticos gerados a partir da base Scopus, evidenciando as palavras-chave com maior centralidade na rede.
+A Tabela 16 apresenta os clusters temáticos gerados a partir da base Scopus, evidenciando as palavras-chave com maior centralidade na rede.
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark>  – Estruturação Temática por *Clusters* (Scopus)**
+**Tabela 16 – Estruturação Temática por *Clusters* (Scopus)**
 
 | Cluster | Foco Temático | Principais Palavras-chave |
 | :---: | :--- | :--- |
 | **1** | Aplicação Analítica e Decisão | *Decision making, Data integration, Machine learning, Artificial intelligence, Learning systems, Internet of things, Deep learning, Data fusion.* |
 | **2** | Infraestrutura e Gestão | *Big data, Information management, Digital storage, Data architectures, Data analytics, Lakes, Data handling, Data lake, Metadata, Data mining.* |
 
-A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> detalha a topologia conceitual da base Web of Science (WoS), demonstrando uma maior granularidade nas frentes de pesquisa dentro de periódicos tradicionais.
+A Tabela 17 detalha a topologia conceitual da base Web of Science (WoS), demonstrando uma maior granularidade nas frentes de pesquisa dentro de periódicos tradicionais.
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark>  – Estruturação Temática por *Clusters* (Web of Science)**
+**Tabela 17 – Estruturação Temática por *Clusters* (Web of Science)**
 
 | Cluster | Foco Temático | Principais Palavras-chave |
 | :---: | :--- | :--- |
@@ -748,7 +774,7 @@ O mapa gerado pela base Scopus divide a literatura em 4 clusters que se distribu
 <div align="center">
   <figure>
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig23_thematicmap_scopus.png" width="500">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Mapa Temático - base Scopus</figcaption>
+    <figcaption>Gráfico 19. Mapa Temático - base Scopus</figcaption>
   </figure>
 </div>
 
@@ -763,7 +789,7 @@ A base WoS captura um cenário com 5 *clusters*, refletindo uma especialização
 <div align="center">
   <figure>
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig22_mapa_tematico_wos.png" width="500">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Mapa Temático - base Scopus</figcaption>
+    <figcaption>Gráfico 20. Mapa Temático - base WoS</figcaption>
   </figure>
 </div>
 
@@ -783,22 +809,22 @@ Segundo, o centro de gravidade da inovação deslocou-se integralmente para a ca
 
 A análise de Trend Topics expande o mapeamento temático ao introduzir a dimensão cronológica. O algoritmo posiciona os temas de maior relevância de acordo com o seu "Ano Mediano" (Year Median), indicando o ponto de saturação ou o momento de maior discussão de um conceito na comunidade científica. O cruzamento cronológico das bases Scopus e Web of Science (WoS) evidencia uma convergência histórica, impulsionada por marcos tecnológicos, amadurecimento do mercado e o avanço da capacidade computacional.
 
-As Tabelas <mark style="background-color: #ffb86c;">XXXX e YYYY</mark>, assim como os Gráficos <mark style="background-color: #ffb86c;">XXXX e YYYY</mark>, apresentam a evolução cronológica dos principais termos na literatura, categorizados pelo seu momento de pico investigativo.
+As Tabelas 18 e 19, assim como os Gráficos 21 e 22, apresentam a evolução cronológica dos principais termos na literatura, categorizados pelo seu momento de pico investigativo.
 
 
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig15_topicos_tendencia.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Evolução dos temas de pesquisa - base Scopus</figcaption>
+    <figcaption>Gráfico 21. Evolução dos temas de pesquisa - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig15_topicos_tendencia.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Evolução dos temas de pesquisa - base WoS</figcaption>
+    <figcaption>Gráfico 22. Evolução dos temas de pesquisa - base WoS</figcaption>
   </figure>
 </div>
 
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Evolução Cronológica dos Temas de Pesquisa (Scopus)**
+**Tabela 18 – Evolução Cronológica dos Temas de Pesquisa (Scopus)**
 
 | Ciclo Evolutivo | Período (Mediana) | Principais Tópicos de Tendência |
 | :--- | :---: | :--- |
@@ -808,7 +834,7 @@ As Tabelas <mark style="background-color: #ffb86c;">XXXX e YYYY</mark>, assim co
 
 
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Evolução Cronológica dos Temas de Pesquisa (Web of Science)**
+**Tabela 19 – Evolução Cronológica dos Temas de Pesquisa (Web of Science)**
 
 | Ciclo Evolutivo | Período (Mediana) | Principais Tópicos de Tendência |
 | :--- | :---: | :--- |
@@ -830,9 +856,9 @@ Este comportamento cronológico endossa a premissa de que a engenharia de dados 
 
 A contagem de frequência absoluta das palavras-chave constitui a métrica mais direta para identificar a essência temática de um campo de pesquisa. A análise das palavras mais frequentes nas bases Scopus e *Web of Science* (WoS) parece confirmar quantitativamente a natureza quase inseparável entre a engenharia de dados e os ecossistemas de inteligência aplicada.
 
-A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> e os Gráficos <mark style="background-color: #ffb86c;">XXXX</mark> apresenta as 10 palavras mais frequentes de cada base de dados, expurgando ruídos de indexação, revelando os pilares de discussão da literatura.
+A Tabela 20 e os Gráficos 23 e 24 apresentam as 10 palavras mais frequentes de cada base de dados, expurgando ruídos de indexação, revelando os pilares de discussão da literatura.
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Palavras-chave Mais Frequentes: Scopus *vs.* Web of Science**
+**Tabela 20 – Palavras-chave Mais Frequentes: Scopus *vs.* Web of Science**
 
 | Posição | Palavra-chave (Scopus) | Ocorrências | | Palavra-chave (WoS) | Ocorrências |
 | :---: | :--- | :---: | :---: | :--- | :---: |
@@ -850,11 +876,11 @@ A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> e os Gráficos <ma
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/fig12_palavras_mais_frequentes.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Palavras mais frequentes - base Scopus</figcaption>
+    <figcaption>Gráfico 23. Palavras mais frequentes - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig12_palavras_mais_frequentes.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Palavras mais frequentes- base WoS</figcaption>
+    <figcaption>Gráfico 24. Palavras mais frequentes - base WoS</figcaption>
   </figure>
 </div>
 
@@ -870,9 +896,9 @@ Esta dinâmica lexical consolida a conclusão de que o amadurecimento das arquit
 
 A técnica de Acoplamento Bibliográfico (*Bibliographic Coupling*) agrupa publicações recentes com base na sobreposição das suas listas de referências, permitindo identificar os "colégios invisíveis" ou as frentes de pesquisa mais ativas na atualidade. A métrica avalia cada *cluster* pela sua Frequência (volume de artigos), Centralidade (grau de interligação com outras subáreas) e Impacto (influência das publicações no ecossistema de citações).
 
-A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> e os Gráficos <mark style="background-color: #ffb86c;">XXXX</mark> sumarizam as principais frentes de pesquisa identificadas na base Scopus e Web of Science, respectivamente.
+As Tabelas 21 e 22 e os Gráficos 25 e 26 sumarizam as principais frentes de pesquisa identificadas na base Scopus e Web of Science, respectivamente.
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Frentes de Pesquisa por Acoplamento Bibliográfico (Scopus)**
+**Tabela 21 – Frentes de Pesquisa por Acoplamento Bibliográfico (Scopus)**
 
 | Frente de Pesquisa (*Cluster*) | Foco Temático Principal | Artigos | Centralidade | Impacto |
 | :--- | :--- | :---: | :---: | :---: |
@@ -883,7 +909,7 @@ A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> e os Gráficos <ma
 | **Cluster 1** | *Big Data Architecture, Analytics* | 24 | 0.30 | 1.46 |
 | **Cluster 9** | *Deep Learning, Artificial Intelligence* | 15 | 0.35 | 1.00 |
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Frentes de Pesquisa por Acoplamento Bibliográfico (WoS)**
+**Tabela 22 – Frentes de Pesquisa por Acoplamento Bibliográfico (WoS)**
 
 | Frente de Pesquisa (*Cluster*) | Foco Temático Principal | Artigos | Centralidade | Impacto |
 | :--- | :--- | :---: | :---: | :---: |
@@ -895,11 +921,11 @@ A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> e os Gráficos <ma
 <div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">
   <figure style="text-align: center; margin: 0;">
     <img src="../SCOPUS/analise_vs2/graficos_scopus_vs2/Fig17_mapa_coupling_scopus.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Análise de acoplamento - base Scopus</figcaption>
+    <figcaption>Gráfico 25. Análise de acoplamento - base Scopus</figcaption>
   </figure>
   <figure style="text-align: center; margin: 0;">
     <img src="../WoS/analise_vs1/graficos_wos_vs1/fig17_mapa_coupling_wos.png" width="450">
-    <figcaption>Gráfico <mark style="background-color: #ffb86c;">XXXX</mark> . Análise de acoplamento- base WoS</figcaption>
+    <figcaption>Gráfico 26. Análise de acoplamento - base WoS</figcaption>
   </figure>
 </div>
 
@@ -913,9 +939,9 @@ Esta análise atesta uma dupla convergência sistémica na literatura atual: enq
 
 Ademais, a topologia gerada pelo Acoplamento Bibliográfico permite identificar quais são os autores e publicações que exercem maior influência sobre as frentes de pesquisa atuais. Através da métrica de Impacto Local Normalizado (*Normalized Local Citation Score* - NLCS), o algoritmo destaca os artigos com maior centralidade na formação dos "colégios invisíveis" do presente.
 
-A Tabela <mark style="background-color: #ffb86c;">XXXX</mark> apresenta os documentos de maior impacto global nas redes de acoplamento de ambas as bases de dados.
+A Tabela 23 apresenta os documentos de maior impacto global nas redes de acoplamento de ambas as bases de dados.
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Autores com Maior Impacto na Rede de Acoplamento Bibliográfico (NLCS)**
+**Tabela 23 – Autores com Maior Impacto na Rede de Acoplamento Bibliográfico (NLCS)**
 
 | Base de Dados | Documento (Autor, Ano, Periódico) | NLCS Global | Perfil de Atuação na Rede |
 | :--- | :--- | :---: | :--- |
@@ -938,9 +964,9 @@ Contudo, o aspeto mais promissor desta extração é a ascensão da publicação
 
 Diferente do Acoplamento Bibliográfico — que mapeia a vanguarda e as tendências futuras —, a análise de Co-citação (*Co-citation Network*) atua numa perspetiva retrospetiva. O seu objetivo é identificar quais publicações clássicas do passado são frequentemente citadas em conjunto pela literatura atual. Este método permite reconstituir as "raízes intelectuais" ou a matriz teórica sobre a qual o campo de pesquisa contemporâneo está alicerçado.
 
-A avaliação das redes de co-citação nas bases Scopus e *Web of Science* (WoS) revela uma convergência interessante. Ambas as bases demonstram que a área não deriva de uma única linha de pensamento, mas sim da fusão de três grandes "escolas" teóricas distintas, conforme resumido na Tabela <mark style="background-color: #ffb86c;">XXXX</mark>.
+A avaliação das redes de co-citação nas bases Scopus e *Web of Science* (WoS) revela uma convergência interessante. Ambas as bases demonstram que a área não deriva de uma única linha de pensamento, mas sim da fusão de três grandes "escolas" teóricas distintas, conforme resumido na Tabela 24.
 
-**Tabela <mark style="background-color: #ffb86c;">XXXX</mark> – Matriz Teórica da Literatura (Análise de Co-citação Scopus e WoS)**
+**Tabela 24 – Matriz Teórica da Literatura (Análise de Co-citação Scopus e WoS)**
 
 | Escola Teórica / Foco | Autores Fundacionais Principais | Impacto e Significado |
 | :--- | :--- | :--- |
