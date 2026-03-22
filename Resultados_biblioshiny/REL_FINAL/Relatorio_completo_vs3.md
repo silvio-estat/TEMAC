@@ -1295,3 +1295,72 @@ Essa leitura de seleção não constitui ainda a leitura integral preconizada pe
 4. **Impacto local e autoria**: preferência por trabalhos dos autores âncora identificados no Estágio 2 (Sawadogo P., Darmont J., Quix C., Hai R., Giebler C., Ravat F.) e pelos documentos seminais referenciados com maior frequência no corpus.
 
 O resultado desta leitura de seleção será o **portfólio final de 15 artigos** que comporão o objeto de análise do Estágio 3, consolidando a transição da revisão bibliométrica quantitativa para a análise de conteúdo qualitativa, conforme previsto pela metodologia TEMAC (MARIANO; ROCHA SANTOS, 2017).
+
+---
+
+## 2.12. Portfólio Final — Resultado da Leitura de Seleção
+
+### 2.12.1. Processo de Leitura de Seleção
+
+Com o corpus de 44 artigos obtidos na Fase 4, procedeu-se à **leitura de seleção**: uma leitura rápida e diagonal de resumos, introduções e conclusões de cada documento, sem aprofundamento no corpo do texto. O objetivo desta etapa não é analisar o conteúdo, mas sim identificar quais trabalhos oferecem contribuições mais diretamente aplicáveis ao objeto de pesquisa — a proposta de arquitetura de *Data Lake* para o Processo de Planejamento Militar (PPM). A seleção priorizou os critérios enunciados na Seção 2.11, com especial atenção a: (1) contribuição arquitetural transferível para o contexto de C2; (2) profundidade no tratamento de metadados e governança; e (3) articulação explícita entre infraestrutura de dados e suporte à decisão ou contexto operacional/militar.
+
+### 2.12.2. Artigos Selecionados para o Estágio 3
+
+A Tabela abaixo apresenta os **15 artigos selecionados** para leitura integral no Estágio 3, com a justificativa sucinta de inclusão derivada da leitura de seleção.
+
+| # | Artigo | Justificativa de Inclusão |
+| :---: | :--- | :--- |
+| 1 | SAWADOGO, P.; DARMONT, J. On data lake architectures and metadata management. *Journal of Intelligent Information Systems*, 2021. ★ | Survey mais abrangente sobre arquiteturas e gestão de metadados em *Data Lakes*. Referência central do campo — propõe nova tipologia arquitetural e classifica sistemas de metadados. Leitura obrigatória para fundamentar o Capítulo de Fundamentação Teórica. |
+| 2 | HAI, R. et al. Data lakes: A survey of functions and systems. *IEEE Transactions on Knowledge and Data Engineering*, 2023. ★ | Survey mais recente e completo sobre funções e sistemas de *Data Lakes*. Classifica as soluções por camadas funcionais (ingestão, manutenção, exploração) — estrutura diretamente utilizável para mapear os requisitos do PPM. |
+| 3 | GIEBLER, C. et al. The data lake architecture framework: A foundation for building a comprehensive data lake architecture. *Datenbank-Spektrum*, 2021. ★ | Propõe o DLAF (*Data Lake Architecture Framework*), com nove aspectos arquiteturais e metodologia de instanciação. Principal referência normativa para a proposta arquitetural do presente projeto. |
+| 4 | HAI, R.; GEISLER, S.; QUIX, C. Constance: An intelligent data lake system. *SIGMOD*, 2016. ★ | Sistema seminal de *Data Lake* com gerenciamento sofisticado de metadados estruturais e semânticos. Introduz o conceito de *data swamp* e a solução via metadados — fundamento conceitual essencial. |
+| 5 | FANG, H. Managing data lakes in big data era. *IEEE CYBER*, 2015. ★ | Paper fundador do conceito de *Data Lake* no ecossistema de gerenciamento de dados. Contexto histórico e motivação do paradigma *schema-on-read*. Referência obrigatória na introdução. |
+| 6 | NAMBIAR, A.; MUNDRA, D. An overview of data warehouse and data lake in modern enterprise data management. *Big Data and Cognitive Computing*, 2022. ★ | Visão geral comparativa entre *Data Warehouse* e *Data Lake*, com análise de arquiteturas e desafios atuais. Útil para fundamentar a transição DW→DL no contexto do PPM. |
+| 7 | GIEBLER, C. et al. A zone reference model for enterprise-grade data lake management. *IEEE BigData*, 2021. | Desenvolve um modelo de referência por zonas para gerenciamento de *Data Lake* em escala industrial, validado em caso real na Robert Bosch. Diretamente aplicável à estrutura zonal da arquitetura proposta. |
+| 8 | EICHLER, R. et al. HANDLE — A generic metadata model for data lakes. *DaWaK*, 2020. | Apresenta o HANDLE, modelo de metadados genérico capaz de representar qualquer caso de uso de gestão de metadados em *Data Lakes*, incluindo versionamento e *data lineage*. Mais abrangente que GEMMS e MEDAL. |
+| 9 | QUIX, C.; HAI, R.; VATOV, I. GEMMS: A generic and extensible metadata management system for data lakes. *CAiSE Forum*, 2016. | Sistema de gerenciamento de metadados extensível para *Data Lakes*. Precursor do HANDLE — apresenta o metamodelo estrutural e semântico que influenciou os trabalhos subsequentes. |
+| 10 | SAWADOGO, P. N. et al. Metadata systems for data lakes: Models and features. *ADBIS Workshops*, 2019. | Propõe o modelo MEDAL e um conjunto de critérios de avaliação para sistemas de metadados em *Data Lakes*. Referência para a camada de governança de metadados da arquitetura proposta. |
+| 11 | GIEBLER, C. et al. Leveraging the data lake: Current state and challenges. *DaWaK*, 2019. | Sistematiza o estado da arte e identifica lacunas de pesquisa em três eixos: arquitetura, governança e estratégia de realização. Útil para posicionar a contribuição do presente projeto no campo. |
+| 12 | GIEBLER, C. et al. Modeling data lakes with data vault: Practical experiences, assessment, and lessons learned. *ER*, 2019. | Avalia o *Data Vault* como técnica de modelagem em *Data Lakes* com base em experiência industrial real. Relevante para a camada de modelagem de dados da arquitetura proposta. |
+| 13 | PALADIN, Z. et al. Maritime information sharing environment deployment using the advanced multilayered data lake capabilities: EFFECTOR project case study. *Pomorstvo*, 2022. | Único artigo do corpus que descreve uma arquitetura de *Data Lake* multicamadas implantada em ambiente operacional de vigilância marítima com Comando, Controle e Coordenação (C3i). Prova de conceito mais próxima do contexto do presente projeto. |
+| 14 | GUO, L. et al. Battlefield situation recognition technology and application trend based on data lake. *IOP Conference Series*, 2021. | Propõe uma arquitetura de reconhecimento de situação de campo de batalha baseada em *Data Lake* com *Machine Learning*. Artigo de menor maturidade metodológica, mas com relevância temática direta ao domínio do PPM. |
+| 15 | ZEMMOURI, M. et al. Seamless decision-making in the big data era: A modular approach to integrating IoT, cloud computing, and data lakes. *IEEE Access*, 2024. | Propõe uma camada de decisão modular sobre fontes heterogêneas tratadas como *Data Lake*, sem necessidade de alteração do ambiente existente. Abordagem transferível para o contexto do PPM, onde sistemas legados militares não podem ser modificados. |
+
+### 2.12.3. Artigos Não Selecionados — Justificativas Sucintas
+
+Os 29 artigos obtidos na Fase 4 que não integraram o portfólio final foram excluídos pela leitura de seleção pelos motivos indicados a seguir. As exclusões refletem o juízo de relevância temática para o objeto específico da pesquisa, não um julgamento de qualidade dos trabalhos.
+
+| Artigo | Motivo da Não Seleção |
+| :--- | :--- |
+| HAI, R. et al. *Data Lakes: A Survey... (Extended abstract)*. 2023. | Versão resumida do artigo #2 (selecionado). Redundante. |
+| DIOUAN, A. et al. *About Relationships in Data Lakes*. IDEAS 2024. | Extensão muito específica do goldMEDAL para tipologia de relacionamentos. Contribuição coberta pelos artigos #8 e #10. |
+| SCHOLLY, É. et al. *Coining goldMEDAL*. BDA, 2021. | Generalização do modelo MEDAL. Contribuição de metadados coberta pelo artigo #10 (MEDAL original) e #8 (HANDLE). |
+| MEGDICHE, I.; RAVAT, F.; ZHAO, Y. *A use case of data lake metadata management*. 2019. | Caso de uso em ambiente hospitalar (CHU de Toulouse). Domínio médico sem contribuição arquitetural transferível. |
+| NOGUEIRA, I. D. et al. *Modeling data lake metadata with a data vault*. 2021. | Contribuição de modelagem de metadados com *Data Vault*. Tema coberto pelo artigo #12 (Giebler, com experiência industrial mais ampla). |
+| STACH, C. et al. *Demand-Driven Data Provisioning in Data Lakes (BARENTS)*. iiWAS, 2021. | Sistema de provisionamento sob demanda para zonas de preparação de dados, com estudo de caso em análise de alimentos. Muito específico. |
+| OUKHOUYA, L. et al. *DLMF: Healthcare Data Management Using Data Lake, Data Mesh, and Data Fabric*. 2024. | Arquitetura integrada para saúde. O domínio médico e a ênfase em *Data Mesh/Fabric* (não *Data Lake* puro) tornam a transferência parcial para C2 pouco direta. |
+| AIT ERRAMI, S. et al. *Spatial big data architecture: From DW to LakeHouse*. 2023. | Foco em dados espaciais e GIS. Arquitetura de *Lakehouse* para dados geoespaciais; domínio de aplicação sem alinhamento direto ao PPM. |
+| WIBOWO, M. et al. *Machine learning in data lake for combining data silos*. 2021. | Abordagem de ML para consolidar silos de dados em *Data Lake*. Contribuição técnica pontual, sem profundidade arquitetural para fundamentar a proposta. |
+| SREEPATHY, H. V. et al. *Data Ingestions as a Service (DIaaS)*. 2023. | Interface unificada de ingestão de dados heterogêneos. Contribuição operacional de ingestão coberta de forma mais ampla pelos artigos de arquitetura selecionados. |
+| BEGOLI, E. et al. *A Lakehouse Architecture for Heterogeneous Data for Biomedical Research*. 2021. | Arquitetura *Lakehouse* para pesquisa biomédica e biobanco. Domínio médico sem contribuição arquitetural direta para C2. |
+| AZEROUAL, O. et al. *Combining Data Lake and Data Wrangling for Ensuring Data Quality in CRIS*. 2022. | Integração de *Data Lake* com *data wrangling* em sistemas CRIS (pesquisa bibliográfica). Domínio específico sem transferibilidade. |
+| ALIMARDANOVA, R. et al. *Data Lakes vs. Data Warehouses in Library Analytics*. 2024. | Comparação DW/DL no domínio de bibliotecas. Sem contribuição arquitetural relevante para o presente projeto. |
+| HERNÁNDEZ, J. L. et al. *Building a Data Lake for Smart Building Data*. 2023. | *Data Lake* para *smart buildings* com foco em qualidade e interoperabilidade. Domínio de automação predial sem transferência para C2. |
+| LIU, P. et al. *ArchaeoDAL: A Data Lake for Archaeological Data Management*. 2022. | *Data Lake* para dados arqueológicos. Domínio sem relação com o presente projeto. |
+| DARMONT, J. et al. *Data lakes for digital humanities*. 2021. | *Data Lake* para humanidades digitais. Domínio sem relevância para o presente projeto. |
+| SAWADOGO, P. N. *Textual Data Analysis from Data Lakes*. 2020. | Análise de dados textuais em *Data Lakes*. Contribuição muito específica para um tipo de dado; não aborda arquitetura. |
+| SAWADOGO, P. N. et al. *Metadata management for textual documents in data lakes*. 2021. | Extensão do MEDAL para documentos textuais. Muito específico; coberto pelo artigo #10 em nível conceitual. |
+| SAWADOGO, P. et al. *Joint Management of Textual Docs and Tabular Data: AUDAL*. 2021. | Sistema AUDAL para gestão conjunta de dados textuais e tabulares. Muito específico para um tipo de *Data Lake*. |
+| SAWADOGO, P.; DARMONT, J. *Benchmarking Data Lakes: DLBench*. 2021. | *Benchmark* para *Data Lakes* com dados estruturados e não estruturados. Contribuição de avaliação de desempenho, não arquitetural. |
+| HAI, R. et al. *Relaxed functional dependency discovery in heterogeneous data lakes*. 2023. | Descoberta de dependências funcionais relaxadas. Contribuição de manutenção/descoberta de dados, não de arquitetura. |
+| HAI, R. et al. *LLM-PQA: LLM-enhanced Prediction Query Answering*. CIKM, 2024. | Resposta a consultas de predição com LLMs integrados a *Data Lakes* e repositórios de modelos. Periférico ao tema arquitetural. |
+| HAI, R.; QUIX, C.; ZHOU, C. *Query Rewriting for Heterogeneous Data Lakes*. 2023. | *Query rewriting* sobre *Data Lakes* heterogêneos. Contribuição de consulta, não de arquitetura de ingestão ou organização. |
+| SALEM, R.; BOUSSAÏD, O.; DARMONT, J. *Active XML-based Web data integration*. 2013. | Integração de dados Web baseada em XML e regras ativas. Trabalho anterior ao paradigma de *Data Lake*, sem contribuição direta ao tema. |
+| CHEN, J. *Leveraging Scalable Cloud Infrastructure for Autonomous Driving Data Lakes*. 2024. | *Data Lake* em nuvem para veículos autônomos. Domínio de mobilidade sem alinhamento ao contexto de C2. |
+| LI, Z. et al. *LLM-PQA* (duplicate entry) | Já listado acima. |
+| WREMBEL, R. *Still Open Problems in Data Warehouse and Data Lake Research*. 2023. | Artigo de posicionamento sobre problemas em aberto. Muito curto e genérico para compor o portfólio do Estágio 3. |
+| WREMBEL, R. *Data Integration Revitalized: From DW Through DL to Data Mesh*. 2023. | Visão geral da evolução DW→DL→Data Mesh. Artigo de posicionamento sem profundidade técnica suficiente. |
+| ZHAO, Y. et al. *A Zone-Based Data Lake Architecture for IoT, Small and Big Data*. 2022. | Arquitetura zonal para IoT. Contribuição coberta de forma mais completa e referenciada pelo artigo #7 (Zone Reference Model de Giebler). |
+| MEGDICHE, I. et al. *Metadata Management on Data Processing in Data Lakes*. 2019. | Gestão de metadados no processamento de dados. Contribuição coberta de forma mais ampla pelos artigos #8, #9 e o survey #1. |
+
+> **Nota**: Os artigos #16 e #17 da listagem da Fase 3 do relatório bibliométrico — "*Architecture of data lakes*" (Chihoub et al.), "*A survey on semantic data management...*" (Hoseini, Lipp, Quix) — não foram obtidos na Fase 4 (indisponíveis para acesso), conforme registrado na Seção 2.10.6, e portanto não integraram a presente leitura de seleção.
