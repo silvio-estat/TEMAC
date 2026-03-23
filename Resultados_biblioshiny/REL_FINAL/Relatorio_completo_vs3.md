@@ -102,7 +102,6 @@ O Apêndice A apresenta as strings de consulta utilizadas assim como a quantidad
 
 Como critério de exclusão, decidiu-se por trabalhos a partir de 2016. Para a base de dados *SCOPUS*, também retirou-se os livros, pois após uma avaliação prévia utilizando as ferramentas do Bibliometrix, percebeu-se que, nesta base de dados, tinha livros sem o devido referenciamento dos autores e que atrapalhava os resultados das análises.
 
-
 ## 1.4. Síntese do Estágio 1
 
 O Estágio 1 da metodologia TEMAC estabeleceu as bases para a análise bibliométrica sistemática. A escolha do Scopus e do Web of Science como fontes primárias justifica-se pela credibilidade, abrangência e qualidade dos metadados disponibilizados, essenciais para a realização de análises quantitativas robustas.
@@ -144,14 +143,12 @@ A diferença quantitativa entre as bases de dados reflete, provavelmente, as dis
 
 A análise temporal da produção científica revela um crescimento sustentado e consistente no interesse pelo tema de Data Lakes ao longo do período analisado. O Gráfico 1 ilustra a evolução da produção científica anual.
 
-
 <div align="center">
   <figure>
     <img src="graficos_combinados/fig1_prod_cient_anual_combinada.png" width="500">
     <figcaption>Gráfico 1. Produção científica anual </figcaption>
   </figure>
 </div>
-
 
 Observa-se três fases distintas na evolução da produção:
 
