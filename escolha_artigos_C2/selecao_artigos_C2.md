@@ -84,11 +84,13 @@ A pontuação máxima observada foi **25 pontos** (Schubert et al., 2018), e o l
 
 > **Nota:** O registro de Rank 26 (Sur et al., 30th ICCRTS) é idêntico ao de Rank 24 (Sur et al., 29th ICCRTS), constituindo **duplicata** e sendo descartado na etapa de elegibilidade.
 
+> **Nota metodológica — limitação da pontuação de triagem:** A pontuação de pertinência mede a densidade de termos-chave nos campos `TITLE` e `ABSTRACT` e cumpre exclusivamente a função de funil de triagem: identificar os 30 candidatos a leitura completa. Ela **não constitui ranking de relevância final**. Na prática, quatro dos cinco artigos selecionados têm pontuação intermediária (ranks 10, 14, 16 e 23), enquanto sete trabalhos de alta pontuação (ranks 2–9) foram excluídos após a leitura completa. Essa inversão é esperada e explicável: a pontuação captura *abrangência terminológica no título e resumo*, ao passo que a seleção final exige *profundidade de contribuição arquitetural* e alinhamento com o problema específico desta dissertação — critérios avaliáveis apenas pela leitura integral dos documentos, conforme descrito na Etapa 3.
+
 ---
 
 ### 2.3 Etapa 3 — Elegibilidade: Leitura dos Documentos Completos
 
-Os 29 registros únicos foram obtidos em formato completo a partir dos arquivos disponíveis na pasta `pre_selecao_C2/`. Cada trabalho foi lido em diagonal — introdução, seções de metodologia e resultados, e conclusão — para avaliação de sua contribuição efetiva aos eixos temáticos da dissertação. Os **critérios de elegibilidade** aplicados foram:
+Os 29 registros únicos foram obtidos em formato completo a partir dos arquivos disponíveis na pasta `pre_selecao_C2/`. Cada trabalho foi lido integralmente — introdução, seções de metodologia, resultados e conclusão — para avaliação de sua contribuição efetiva aos eixos temáticos da dissertação. A pontuação de triagem (Etapa 2) determinou *quais trabalhos ler*, mas não *quais incluir*: os critérios de elegibilidade aplicados na leitura são qualitativamente distintos dos critérios de pontuação, razão pela qual a ordenação final dos artigos selecionados não coincide com o ranking da Tabela 2. Os **critérios de elegibilidade** aplicados foram:
 
 | Critério | Inclusão | Exclusão |
 | --- | --- | --- |
